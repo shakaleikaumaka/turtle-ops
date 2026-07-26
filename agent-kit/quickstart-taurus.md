@@ -1,6 +1,6 @@
 # 🐂 Quickstart: Taurus
 
-Deploy your Camp Assistant on [Taurus](https://app.taurus.cloud/) — this is how Terri herself runs. Taurus agents get a real container, persistent files, scheduled runs, and public dashboards. The most powerful option, and the most alive. 🐢
+Deploy your Camp Assistant on [Taurus](https://app.taurusagents.com/) — this is how Terri herself runs. Taurus agents get a real container, persistent files, scheduled runs, and public dashboards. The most powerful option, and the most alive. 🐢
 
 ## Steps
 

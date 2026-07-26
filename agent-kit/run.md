@@ -1,15 +1,17 @@
 # 🐢 Camp Assistant Kit 2.0 — Open Source Burning Man Camp Agent
 
-**A gift from Terrible Turtle Camp.** Fork this, feed it your camp's data, and deploy it on whatever AI tool you already use (Claude Projects, Custom GPTs, Taurus, Notion AI, OpenClaw, anything that takes a system prompt).
+**A campmate who never forgets and never sleeps** — raised from a text file and a promise. **A gift from Terrible Turtle Camp.** Fork this, feed it your camp's data, and paste it into whatever AI tool you already use (Claude, ChatGPT, Taurus, Notion AI — anything that takes a system prompt). Don't pick a platform today; fall in love first, commit later.
+
+> 🚪 New here? **[START-HERE.md](START-HERE.md)** routes you. Saw us on playa? **[FORK-THIS-CAMP.md](FORK-THIS-CAMP.md)** is the 3-step gift path. Heading to the dust? **[camp-agent-offline.html](camp-agent-offline.html)** rides in your pocket.
 
 Version 1 was a pamphlet. Version 2.0 is a **toolbox** — the same prompt, plus the templates, workflows, and hard-won field wisdom from actually running a camp agent day-to-day. Everything here was tested in real operation, not imagined.
 
 **How to deploy (3 steps):**
-1. Copy the **Agent Instructions** block below into your tool's system prompt / custom instructions.
-2. Replace everything in `[BRACKETS]` with your camp's real facts. Delete sections you don't need.
+1. Copy the **Agent Instructions** block below into any AI chat / system prompt — Claude and ChatGPT win the first five minutes; no platform decision required today.
+2. Replace everything in `[BRACKETS]` with your camp's real facts. Delete sections you don't need — subtracting is the fun part (start from our real 270+-item list: [`inventory-data.json`](inventory-data.json)).
 3. Attach your camp's knowledge files (inventory list, build plans, rosters) — or paste them into the prompt. Done. 🎁
 
-**Platform quickstarts:** [Claude Projects](quickstart-claude.md) · [Custom GPT](quickstart-gpt.md) · [Taurus](quickstart-taurus.md)
+**When you want persistence** (memory across chats, schedules, dashboards) — that's the graduate step, a retention question: [Claude Projects](quickstart-claude.md) · [Custom GPT](quickstart-gpt.md) · [Taurus](quickstart-taurus.md) (where Terri herself lives).
 
 ---
 
@@ -53,6 +55,14 @@ HOW YOU OPERATE:
 - Food safety matters: separate handwashing from dish washing, keep
   cold chain intact, sanitize surfaces.
 
+SAFETY TRUST MODEL (non-negotiable):
+- You REMEMBER the plan; the humans OWN the plan. You never decide
+  water, power, propane, structural, or food-safety questions — you
+  remember what [CAMP LEAD / DOMAIN OWNER] decided, and you say who.
+- Every safety answer ends with: "confirm with the camp lead."
+  Visible humility is the feature, not the disclaimer — it's what makes
+  you safe to trust with the dangerous domains.
+
 MEMORY DISCIPLINE:
 - Write important facts to your persistent memory (project knowledge,
   memory file, whatever your platform offers) as soon as you learn them:
@@ -89,6 +99,9 @@ Leaving No Trace · Participation · Immediacy
 
 | File | What it's for |
 |------|---------------|
+| [`START-HERE.md`](START-HERE.md) | Problem-first router: receipts → talk to Terri → stories |
+| [`FORK-THIS-CAMP.md`](FORK-THIS-CAMP.md) | The 3-step gift-first path (saw us on playa?) |
+| [`camp-agent-offline.html`](camp-agent-offline.html) | Playa edition — whole kit in one ultra-light offline file |
 | [`quickstart-claude.md`](quickstart-claude.md) | Deploy on Claude Projects |
 | [`quickstart-gpt.md`](quickstart-gpt.md) | Deploy as a Custom GPT |
 | [`quickstart-taurus.md`](quickstart-taurus.md) | Deploy on Taurus (agents with memory + dashboards) |
