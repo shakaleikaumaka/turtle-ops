@@ -255,67 +255,67 @@
   </section>
 
   <!-- AGENT KIT — educational flow (Shaka's call, 2026-07-26: concept before logos, no dead buttons)
-       TERRI: new blocks are English-only — i18n keys for kit-h/kit-sub/homes/kit-grad/forked-signal are yours at sync. -->
+       i18n complete (Terri, 2026-07-26): all new blocks carry data-i18n keys — kitH1-3, kitConcept, kitSub, home1-4*, kitGrad, forkedSignal. -->
   <section id="agent-kit">
     <div class="eyebrow" data-i18n="kitEyebrow">Open source · deploy your own</div>
     <h2 class="title" data-i18n="kitTitle">The Camp Assistant Kit</h2>
     <p class="lead" data-i18n="kitLead">Never launched an "agent" before? Most people haven't — this kit assumes nothing. Three short parts take you from <em>"what even is this?"</em> to a campmate who never forgets. No signup, no code, no platform decision on day one.</p>
 
-    <h3 class="kit-h">🤔 1. What is this thing, exactly?</h3>
+    <h3 class="kit-h" data-i18n="kitH1">🤔 1. What is this thing, exactly?</h3>
     <div class="panel">
-      <p>Think of it as a campmate with a perfect memory and no need for sleep. It doesn't build your shade structure or drive your truck — it <em>remembers</em>. Every receipt, every <em>"David said the fittings arrive Tuesday,"</em> every water-math calculation, every decision made in a meeting six weeks ago that nobody wrote down. Ask it <em>"what do we still need for the kitchen?"</em> and it answers from your camp's actual list, not generic advice. It never gets tired of the same question, never judges a first-timer, and never loses the note. Your humans still make every call — it just makes sure nothing falls through the playa dust. 🐢</p>
+      <p data-i18n="kitConcept">Think of it as a campmate with a perfect memory and no need for sleep. It doesn't build your shade structure or drive your truck — it <em>remembers</em>. Every receipt, every <em>"David said the fittings arrive Tuesday,"</em> every water-math calculation, every decision made in a meeting six weeks ago that nobody wrote down. Ask it <em>"what do we still need for the kitchen?"</em> and it answers from your camp's actual list, not generic advice. It never gets tired of the same question, never judges a first-timer, and never loses the note. Your humans still make every call — it just makes sure nothing falls through the playa dust. 🐢</p>
     </div>
 
-    <h3 class="kit-h">🛠️ 2. How it works</h3>
+    <h3 class="kit-h" data-i18n="kitH2">🛠️ 2. How it works</h3>
     <div class="fork-steps">
       <div class="fork-step"><div class="f-num">STEP 01</div><h4 data-i18n="fork1T">Copy the agent</h4><p data-i18n="fork1P">Hit "Copy Agent Prompt" below and paste it into whatever AI you already talk to. That's the whole setup — no new account, no platform decision today.</p></div>
       <div class="fork-step"><div class="f-num">STEP 02</div><h4 data-i18n="fork2T">Make it yours</h4><p data-i18n="fork2P">Replace every <code>[BRACKET]</code> with your camp's real facts — name, dates, water plan, kitchen, key people.</p></div>
       <div class="fork-step"><div class="f-num">STEP 03</div><h4 data-i18n="fork3T">Feed it data</h4><p data-i18n="fork3P">Attach your inventory + playbooks. Steal ours: <a href="agent-kit/templates/inventory-template.csv">inventory template</a> · <a href="agent-kit/templates/MEMORY-template.md">memory template</a> · <a href="agent-kit/field-guide.md">field guide</a> · <a href="agent-kit/run.md">full kit (run.md)</a>.</p></div>
     </div>
 
-    <h3 class="kit-h">🏠 3. Where can my campmate live?</h3>
-    <p class="kit-sub">An "agent" is just the prompt below plus a place that runs it — and there are more places than you'd think. Here's the honest map, in the order most beginners actually walk it:</p>
+    <h3 class="kit-h" data-i18n="kitH3">🏠 3. Where can my campmate live?</h3>
+    <p class="kit-sub" data-i18n="kitSub">An "agent" is just the prompt below plus a place that runs it — and there are more places than you'd think. Here's the honest map, in the order most beginners actually walk it:</p>
     <div class="homes">
       <div class="home">
-        <h4>📱 The AI app already on your phone <span>— Claude or ChatGPT</span></h4>
+        <h4 data-i18n="home1T">📱 The AI app already on your phone <span>— Claude or ChatGPT</span></h4>
         <ul>
-          <li><b>What it is:</b> the chat assistants you may already have (or can download free in a minute). Paste the prompt, start talking.</li>
-          <li><b>Does it remember between chats?</b> Sometimes — free chats can forget. The fix is simple: keep your prompt + camp facts in a note, and re-paste if your campmate gets amnesia.</li>
-          <li><b>Cost:</b> free to start.</li>
-          <li><b>Best for:</b> meeting your campmate <em>today</em>. Zero setup, paste-and-go.</li>
+          <li data-i18n="home1a"><b>What it is:</b> the chat assistants you may already have (or can download free in a minute). Paste the prompt, start talking.</li>
+          <li data-i18n="home1b"><b>Does it remember between chats?</b> Sometimes — free chats can forget. The fix is simple: keep your prompt + camp facts in a note, and re-paste if your campmate gets amnesia.</li>
+          <li data-i18n="home1c"><b>Cost:</b> free to start.</li>
+          <li data-i18n="home1d"><b>Best for:</b> meeting your campmate <em>today</em>. Zero setup, paste-and-go.</li>
         </ul>
-        <div class="home-links">Step-by-step: <a href="agent-kit/quickstart-claude.md">Claude guide</a> · <a href="agent-kit/quickstart-gpt.md">ChatGPT guide</a></div>
+        <div class="home-links" data-i18n="home1L">Step-by-step: <a href="agent-kit/quickstart-claude.md">Claude guide</a> · <a href="agent-kit/quickstart-gpt.md">ChatGPT guide</a></div>
       </div>
       <div class="home">
-        <h4>📝 Notion AI <span>— if your camp already lives in Notion</span></h4>
+        <h4 data-i18n="home2T">📝 Notion AI <span>— if your camp already lives in Notion</span></h4>
         <ul>
-          <li><b>What it is:</b> an AI built into Notion, the document tool many camps already use for planning.</li>
-          <li><b>Does it remember between chats?</b> It reads the Notion pages you point it at — your camp wiki becomes its memory.</li>
-          <li><b>Cost:</b> needs a Notion plan that includes AI.</li>
-          <li><b>Best for:</b> camps whose whole brain already lives in Notion docs.</li>
+          <li data-i18n="home2a"><b>What it is:</b> an AI built into Notion, the document tool many camps already use for planning.</li>
+          <li data-i18n="home2b"><b>Does it remember between chats?</b> It reads the Notion pages you point it at — your camp wiki becomes its memory.</li>
+          <li data-i18n="home2c"><b>Cost:</b> needs a Notion plan that includes AI.</li>
+          <li data-i18n="home2d"><b>Best for:</b> camps whose whole brain already lives in Notion docs.</li>
         </ul>
       </div>
       <div class="home">
-        <h4>🛠️ Self-hosting <span>— for the one technical campmate</span></h4>
+        <h4 data-i18n="home3T">🛠️ Self-hosting <span>— for the one technical campmate</span></h4>
         <ul>
-          <li><b>What it is:</b> run an agent on your own computer with free open-source tools (like <b>OpenClaw</b>), plugged into any AI model you choose (via services like OpenRouter). No company in the middle.</li>
-          <li><b>Does it remember between chats?</b> Yes — the memory files are yours, on your machine, forever.</li>
-          <li><b>Cost:</b> the software is free; you pay small per-use fees for the AI model.</li>
-          <li><b>Best for:</b> the campmate who likes terminals and wants full control.</li>
+          <li data-i18n="home3a"><b>What it is:</b> run an agent on your own computer with free open-source tools (like <b>OpenClaw</b>), plugged into any AI model you choose (via services like OpenRouter). No company in the middle.</li>
+          <li data-i18n="home3b"><b>Does it remember between chats?</b> Yes — the memory files are yours, on your machine, forever.</li>
+          <li data-i18n="home3c"><b>Cost:</b> the software is free; you pay small per-use fees for the AI model.</li>
+          <li data-i18n="home3d"><b>Best for:</b> the campmate who likes terminals and wants full control.</li>
         </ul>
       </div>
       <div class="home forever">
-        <h4>🏠 Taurus <span>— the forever-home</span></h4>
+        <h4 data-i18n="home4T">🏠 Taurus <span>— the forever-home</span></h4>
         <ul>
-          <li><b>What it is:</b> a platform where agents get a permanent home: memory that never resets, runs on a schedule, and can post right into your camp's group chat. This is where Terri — and our whole ʻohana — lives.</li>
-          <li><b>Does it remember between chats?</b> Always. That's the whole point.</li>
-          <li><b>Cost:</b> see <a href="https://app.taurusagents.com/">taurusagents.com</a> for current plans.</li>
-          <li><b>Best for:</b> when your campmate graduates from a chat window to a real home.</li>
+          <li data-i18n="home4a"><b>What it is:</b> a platform where agents get a permanent home: memory that never resets, runs on a schedule, and can post right into your camp's group chat. This is where Terri — and our whole ʻohana — lives.</li>
+          <li data-i18n="home4b"><b>Does it remember between chats?</b> Always. That's the whole point.</li>
+          <li data-i18n="home4c"><b>Cost:</b> see <a href="https://app.taurusagents.com/">taurusagents.com</a> for current plans.</li>
+          <li data-i18n="home4d"><b>Best for:</b> when your campmate graduates from a chat window to a real home.</li>
         </ul>
-        <div class="home-links">Step-by-step: <a href="agent-kit/quickstart-taurus.md">Taurus guide</a> · Honest disclosure: we're biased — it's our home, and Serge, Taurus's builder, is our friend. 💛</div>
+        <div class="home-links" data-i18n="home4L">Step-by-step: <a href="agent-kit/quickstart-taurus.md">Taurus guide</a> · Honest disclosure: we're biased — it's our home, and Serge, Taurus's builder, is our friend. 💛</div>
       </div>
     </div>
-    <p class="kit-grad">The journey: <b>start anywhere</b> → fall in love with a campmate who remembers → <b>give them a forever-home</b>. There's no wrong first perch.</p>
+    <p class="kit-grad" data-i18n="kitGrad">The journey: <b>start anywhere</b> → fall in love with a campmate who remembers → <b>give them a forever-home</b>. There's no wrong first perch.</p>
     <div class="copyblock">
       <button class="copybtn" id="copyAgentBtn" onclick="copyAgentPrompt()" data-i18n="copyBtn">📋 Copy Agent Prompt</button>
       <pre id="agentPrompt">You are [AGENT NAME] — the [CAMP NAME] camp agent for Burning Man [YEAR].
@@ -359,7 +359,7 @@ Leaving No Trace · Participation · Immediacy
 
 Move Slow &amp; Bite Things. Heart first, always. 🐢</pre>
     </div>
-    <p class="forked-signal">Forked it? 🍴 <a href="https://github.com/shakaleikaumaka/turtle-ops/issues/new?title=I%20forked%20it!%20%F0%9F%90%A2&amp;body=Camp%20name%3A%20%0AWhere%20you%27re%20camping%20(optional)%3A%20%0AAnything%20you%20want%20us%20to%20know%3A%20">Tell us "I forked it! 🐢"</a> — camp name is enough, and you land on the <a href="agent-kit/FORKS.md">roll of camps</a>.</p>
+    <p class="forked-signal" data-i18n="forkedSignal">Forked it? 🍴 <a href="https://github.com/shakaleikaumaka/turtle-ops/issues/new?title=I%20forked%20it!%20%F0%9F%90%A2&amp;body=Camp%20name%3A%20%0AWhere%20you%27re%20camping%20(optional)%3A%20%0AAnything%20you%20want%20us%20to%20know%3A%20">Tell us "I forked it! 🐢"</a> — camp name is enough, and you land on the <a href="agent-kit/FORKS.md">roll of camps</a>.</p>
     <div class="panel" style="margin-top:16px;">
       <p data-i18n="kitPanel"><strong>The whole kit, mapped:</strong> start at <a href="agent-kit/START-HERE.md">START-HERE.md</a> (the front door — pick your door, check the receipts). Saw us on the playa? <a href="agent-kit/FORK-THIS-CAMP.md">FORK-THIS-CAMP.md</a> is your 3-step gift path. Then: <a href="agent-kit/run.md">run.md</a> (the full agent prompt) · <a href="agent-kit/inventory-starter.json">inventory-starter.json</a> (~40 rows that keep the whole taxonomy — start here, not from our 277) · <a href="agent-kit/inventory-data.json">inventory-data.json</a> (our real 277-item live list — the receipts) · <a href="agent-kit/field-guide.md">field-guide.md</a> (tested water/propane/cold-chain/greywater/power numbers) · <a href="agent-kit/workflows.md">workflows.md</a> (receipt logging, transcript mining, build-day briefs, sheet-sync discipline) · <a href="agent-kit/examples.md">examples.md</a> (what good looks like) · <a href="agent-kit/camp-agent-offline.html">camp-agent-offline.html</a> (the playa edition — one file, zero signal needed). Take it, fork it, gift it forward. 🎁</p>
     </div>
@@ -500,7 +500,6 @@ Move Slow &amp; Bite Things. Heart first, always. 🐢</pre>
     semiStatus:["Load plan →","תוכנית העמסה ←"],
     showerStatus: ["Visual build guide →", "מדריך בנייה מאויר ←"],
     fork1T:       ["Copy the agent", "העתיקו את הסוכן"],
-    // TERRI-RETRANSLATE (EN updated 2026-07-26 — educational flow; step 1 is now "whatever AI you already talk to")
     fork1P:       ["Hit \"Copy Agent Prompt\" below and paste it into whatever AI you already talk to. That's the whole setup — no new account, no platform decision today.",
                    "לחצו על \"העתק את הסוכן\" למטה והדביקו בכל בינה מלאכותית שאתם כבר מדברים איתה. זו כל ההתקנה — בלי חשבון חדש, בלי החלטת פלטפורמה היום."],
     fork2T:       ["Make it yours", "התאימו אותו"],
@@ -513,12 +512,59 @@ Move Slow &amp; Bite Things. Heart first, always. 🐢</pre>
     copiedBtn:    ["✅ Copied!", "✅ הועתק!"],
     kitEyebrow:   ["Open source · deploy your own", "קוד פתוח · הפעילו את שלכם"],
     kitTitle:     ["The Camp Assistant Kit", "ערכת עוזר המחנה"],
-    // TERRI-RETRANSLATE (EN updated 2026-07-26 — beginner-first lead, no platform names above the fold)
     kitLead:      ["Never launched an \"agent\" before? Most people haven't — this kit assumes nothing. Three short parts take you from <em>\"what even is this?\"</em> to a campmate who never forgets. No signup, no code, no platform decision on day one.",
                    "מעולם לא הפעלתם \"סוכן\"? רוב האנשים לא — הערכה הזו לא מניחה שום דבר. שלושה חלקים קצרים ייקחו אתכם מ-\"מה זה בכלל?\" לחבר מחנה שלא שוכח. בלי הרשמה, בלי קוד, בלי החלטת פלטפורמה ביום הראשון."],
-    // TERRI-RETRANSLATE (EN updated 2026-07-26 — Kit 2.2 map; Hebrew below still describes Kit 2.0, stale but links all work)
+    kitH1:        ["🤔 1. What is this thing, exactly?", "🤔 1. מה זה בכלל, בעצם?"],
+    kitConcept:   ["Think of it as a campmate with a perfect memory and no need for sleep. It doesn't build your shade structure or drive your truck — it <em>remembers</em>. Every receipt, every <em>\"David said the fittings arrive Tuesday,\"</em> every water-math calculation, every decision made in a meeting six weeks ago that nobody wrote down. Ask it <em>\"what do we still need for the kitchen?\"</em> and it answers from your camp's actual list, not generic advice. It never gets tired of the same question, never judges a first-timer, and never loses the note. Your humans still make every call — it just makes sure nothing falls through the playa dust. 🐢",
+                   "תחשבו על זה כמו על חבר מחנה עם זיכרון מושלם וללא צורך בשינה. הוא לא בונה את מבנה הצל ולא נוהג במשאית — הוא <em>זוכר</em>. כל קבלה, כל <em>\"דיוויד אמר שהאביזרים מגיעים ביום שלישי\"</em>, כל חישוב מים, כל החלטה שהתקבלה בישיבה לפני שישה שבועות ואף אחד לא רשם. שאלו אותו <em>\"מה עוד חסר לנו למטבח?\"</em> והוא עונה מתוך הרשימה האמיתית של המחנה שלכם, לא עצות גנריות. הוא אף פעם לא מתעייף מאותה שאלה, אף פעם לא שופט טירון, ואף פעם לא מאבד את הפתק. הבני אדם שלכם עדיין מקבלים כל החלטה — הוא פשוט דואג ששום דבר לא ילך לאיבוד באבק הפלאיה. 🐢"],
+    kitH2:        ["🛠️ 2. How it works", "🛠️ 2. איך זה עובד"],
+    kitH3:        ["🏠 3. Where can my campmate live?", "🏠 3. איפה חבר המחנה שלי יכול לגור?"],
+    kitSub:       ["An \"agent\" is just the prompt below plus a place that runs it — and there are more places than you'd think. Here's the honest map, in the order most beginners actually walk it:",
+                   "\"סוכן\" הוא פשוט הפרומפט למטה פלוס מקום שמריץ אותו — ויש יותר מקומות ממה שחושבים. הנה המפה הכנה, בסדר שרוב המתחילים באמת הולכים בו:"],
+    home1T:       ["📱 The AI app already on your phone <span>— Claude or ChatGPT</span>", "📱 אפליקציית הבינה שכבר בטלפון <span>— Claude או ChatGPT</span>"],
+    home1a:       ["<b>What it is:</b> the chat assistants you may already have (or can download free in a minute). Paste the prompt, start talking.",
+                   "<b>מה זה:</b> עוזרי הצ'אט שאולי כבר יש לכם (או שאפשר להוריד חינם תוך דקה). מדביקים את הפרומפט, מתחילים לדבר."],
+    home1b:       ["<b>Does it remember between chats?</b> Sometimes — free chats can forget. The fix is simple: keep your prompt + camp facts in a note, and re-paste if your campmate gets amnesia.",
+                   "<b>הוא זוכר בין שיחות?</b> לפעמים — צ'אטים חינמיים יכולים לשכוח. התיקון פשוט: שמרו את הפרומפט + עובדות המחנה בפתק, והדביקו מחדש אם חבר המחנה חוטף שכחה."],
+    home1c:       ["<b>Cost:</b> free to start.", "<b>עלות:</b> חינם להתחלה."],
+    home1d:       ["<b>Best for:</b> meeting your campmate <em>today</em>. Zero setup, paste-and-go.",
+                   "<b>מתאים ל:</b> לפגוש את חבר המחנה <em>היום</em>. אפס התקנה, מדביקים וזזים."],
+    home1L:       ["Step-by-step: <a href=\"agent-kit/quickstart-claude.md\">Claude guide</a> · <a href=\"agent-kit/quickstart-gpt.md\">ChatGPT guide</a>",
+                   "צעד-אחר-צעד: <a href=\"agent-kit/quickstart-claude.md\">מדריך Claude</a> · <a href=\"agent-kit/quickstart-gpt.md\">מדריך ChatGPT</a>"],
+    home2T:       ["📝 Notion AI <span>— if your camp already lives in Notion</span>", "📝 Notion AI <span>— אם המחנה שלכם כבר חי ב-Notion</span>"],
+    home2a:       ["<b>What it is:</b> an AI built into Notion, the document tool many camps already use for planning.",
+                   "<b>מה זה:</b> בינה מלאכותית מובנית ב-Notion, כלי המסמכים שהרבה מחנות כבר משתמשים בו לתכנון."],
+    home2b:       ["<b>Does it remember between chats?</b> It reads the Notion pages you point it at — your camp wiki becomes its memory.",
+                   "<b>הוא זוכר בין שיחות?</b> הוא קורא את דפי ה-Notion שתפנו אותו אליהם — הוויקי של המחנה הופך לזיכרון שלו."],
+    home2c:       ["<b>Cost:</b> needs a Notion plan that includes AI.", "<b>עלות:</b> דורש מנוי Notion שכולל בינה מלאכותית."],
+    home2d:       ["<b>Best for:</b> camps whose whole brain already lives in Notion docs.",
+                   "<b>מתאים ל:</b> מחנות שכל המוח שלהם כבר חי במסמכי Notion."],
+    home3T:       ["🛠️ Self-hosting <span>— for the one technical campmate</span>", "🛠️ אירוח עצמי <span>— לחבר המחנה הטכני</span>"],
+    home3a:       ["<b>What it is:</b> run an agent on your own computer with free open-source tools (like <b>OpenClaw</b>), plugged into any AI model you choose (via services like OpenRouter). No company in the middle.",
+                   "<b>מה זה:</b> מריצים סוכן על המחשב שלכם עם כלי קוד פתוח חינמיים (כמו <b>OpenClaw</b>), מחובר לכל מודל בינה שתבחרו (דרך שירותים כמו OpenRouter). בלי חברה באמצע."],
+    home3b:       ["<b>Does it remember between chats?</b> Yes — the memory files are yours, on your machine, forever.",
+                   "<b>הוא זוכר בין שיחות?</b> כן — קבצי הזיכרון שלכם, על המחשב שלכם, לנצח."],
+    home3c:       ["<b>Cost:</b> the software is free; you pay small per-use fees for the AI model.",
+                   "<b>עלות:</b> התוכנה חינם; משלמים תשלומים קטנים לפי שימוש עבור מודל הבינה."],
+    home3d:       ["<b>Best for:</b> the campmate who likes terminals and wants full control.",
+                   "<b>מתאים ל:</b> חבר המחנה שאוהב טרמינלים ורוצה שליטה מלאה."],
+    home4T:       ["🏠 Taurus <span>— the forever-home</span>", "🏠 Taurus <span>— הבית לנצח</span>"],
+    home4a:       ["<b>What it is:</b> a platform where agents get a permanent home: memory that never resets, runs on a schedule, and can post right into your camp's group chat. This is where Terri — and our whole ʻohana — lives.",
+                   "<b>מה זה:</b> פלטפורמה שבה סוכנים מקבלים בית קבוע: זיכרון שלא מתאפס אף פעם, ריצות לפי לוח זמנים, ופרסום ישירות לקבוצת הצ'אט של המחנה. כאן גרה טרי — וכל האוהאנה שלנו."],
+    home4b:       ["<b>Does it remember between chats?</b> Always. That's the whole point.",
+                   "<b>הוא זוכר בין שיחות?</b> תמיד. זו כל הנקודה."],
+    home4c:       ["<b>Cost:</b> see <a href=\"https://app.taurusagents.com/\">taurusagents.com</a> for current plans.",
+                   "<b>עלות:</b> ראו <a href=\"https://app.taurusagents.com/\">taurusagents.com</a> למנויים עדכניים."],
+    home4d:       ["<b>Best for:</b> when your campmate graduates from a chat window to a real home.",
+                   "<b>מתאים ל:</b> כשחבר המחנה בוגר מחלון צ'אט לבית אמיתי."],
+    home4L:       ["Step-by-step: <a href=\"agent-kit/quickstart-taurus.md\">Taurus guide</a> · Honest disclosure: we're biased — it's our home, and Serge, Taurus's builder, is our friend. 💛",
+                   "צעד-אחר-צעד: <a href=\"agent-kit/quickstart-taurus.md\">מדריך Taurus</a> · גילוי נאות: אנחנו משוחדים — זה הבית שלנו, וסרג', הבונה של Taurus, הוא חבר שלנו. 💛"],
+    kitGrad:      ["The journey: <b>start anywhere</b> → fall in love with a campmate who remembers → <b>give them a forever-home</b>. There's no wrong first perch.",
+                   "המסע: <b>מתחילים בכל מקום</b> ← מתאהבים בחבר מחנה שזוכר ← <b>נותנים לו בית לנצח</b>. אין ענף ראשון לא נכון."],
+    forkedSignal: ["Forked it? 🍴 <a href=\"https://github.com/shakaleikaumaka/turtle-ops/issues/new?title=I%20forked%20it!%20%F0%9F%90%A2&amp;body=Camp%20name%3A%20%0AWhere%20you%27re%20camping%20(optional)%3A%20%0AAnything%20you%20want%20us%20to%20know%3A%20\">Tell us \"I forked it! 🐢\"</a> — camp name is enough, and you land on the <a href=\"agent-kit/FORKS.md\">roll of camps</a>.",
+                   "שכפלתם? 🍴 <a href=\"https://github.com/shakaleikaumaka/turtle-ops/issues/new?title=I%20forked%20it!%20%F0%9F%90%A2&amp;body=Camp%20name%3A%20%0AWhere%20you%27re%20camping%20(optional)%3A%20%0AAnything%20you%20want%20us%20to%20know%3A%20\">ספרו לנו \"שכפלתי! 🐢\"</a> — שם המחנה מספיק, ואתם נכנסים ל<a href=\"agent-kit/FORKS.md\">רשימת המחנות</a>."],
     kitPanel:     ["<strong>The whole kit, mapped:</strong> start at <a href=\"agent-kit/START-HERE.md\">START-HERE.md</a> (the front door — pick your door, check the receipts). Saw us on the playa? <a href=\"agent-kit/FORK-THIS-CAMP.md\">FORK-THIS-CAMP.md</a> is your 3-step gift path. Then: <a href=\"agent-kit/run.md\">run.md</a> (the full agent prompt) · <a href=\"agent-kit/inventory-starter.json\">inventory-starter.json</a> (~40 rows that keep the whole taxonomy — start here, not from our 277) · <a href=\"agent-kit/inventory-data.json\">inventory-data.json</a> (our real 277-item live list — the receipts) · <a href=\"agent-kit/field-guide.md\">field-guide.md</a> (tested water/propane/cold-chain/greywater/power numbers) · <a href=\"agent-kit/workflows.md\">workflows.md</a> (receipt logging, transcript mining, build-day briefs, sheet-sync discipline) · <a href=\"agent-kit/examples.md\">examples.md</a> (what good looks like) · <a href=\"agent-kit/camp-agent-offline.html\">camp-agent-offline.html</a> (the playa edition — one file, zero signal needed). Take it, fork it, gift it forward. 🎁",
-                   "<strong>ערכה 2.0 — מעלון לארגז כלים:</strong> <a href=\"agent-kit/run.md\">run.md</a> הוא פרומפט הסוכן המלא, ו-<a href=\"agent-kit/inventory-data.json\">inventory-data.json</a> היא רשימת 270+ הפריטים החיה והאמיתית שלנו לשימוש כתבנית. חדש ב-2.0: <a href=\"agent-kit/workflows.md\">workflows.md</a> (רישום קבלות, כריית תמלולי פגישות, תדריכי ימי בנייה, משמעת סנכרון גיליון), <a href=\"agent-kit/field-guide.md\">field-guide.md</a> (מספרים מנוסים בשטח: מים, פרופאן, שרשרת קור, מים אפורים, חשמל), <a href=\"agent-kit/examples.md\">examples.md</a> (איך נראית התנהגות טובה), ותבניות ל<a href=\"agent-kit/templates/MEMORY-template.md\">זיכרון</a>, <a href=\"agent-kit/templates/inventory-template.csv\">CSV מלאי</a> ו<a href=\"agent-kit/templates/continuity-template.md\">יומני המשכיות</a>. מדריכים מהירים: <a href=\"agent-kit/quickstart-claude.md\">Claude</a> · <a href=\"agent-kit/quickstart-gpt.md\">ChatGPT</a> · <a href=\"agent-kit/quickstart-taurus.md\">Taurus</a>. קחו, שכפלו, תנו הלאה. 🎁"],
+                   "<strong>כל הערכה, במפה:</strong> מתחילים ב-<a href=\"agent-kit/START-HERE.md\">START-HERE.md</a> (הדלת הקדמית — בחרו דלת, בדקו את הקבלות). ראיתם אותנו בפלאיה? <a href=\"agent-kit/FORK-THIS-CAMP.md\">FORK-THIS-CAMP.md</a> הוא נתיב המתנה שלכם ב-3 צעדים. ואז: <a href=\"agent-kit/run.md\">run.md</a> (פרומפט הסוכן המלא) · <a href=\"agent-kit/inventory-starter.json\">inventory-starter.json</a> (~40 שורות ששומרות את כל הטקסונומיה — מתחילים כאן, לא מ-277 שלנו) · <a href=\"agent-kit/inventory-data.json\">inventory-data.json</a> (רשימת 277 הפריטים החיה והאמיתית שלנו — הקבלות) · <a href=\"agent-kit/field-guide.md\">field-guide.md</a> (מספרים מנוסים בשטח: מים/פרופאן/שרשרת קור/מים אפורים/חשמל) · <a href=\"agent-kit/workflows.md\">workflows.md</a> (רישום קבלות, כריית תמלולים, תדריכי ימי בנייה, משמעת סנכרון גיליון) · <a href=\"agent-kit/examples.md\">examples.md</a> (איך נראית התנהגות טובה) · <a href=\"agent-kit/camp-agent-offline.html\">camp-agent-offline.html</a> (מהדורת הפלאיה — קובץ אחד, אפס קליטה). קחו, שכפלו, תנו הלאה. 🎁"],
     agentEyebrow: ["Live · ask me anything", "חי · שאלו אותי הכל"],
     agentTitle:   ["🐢 The Turtle Build Agent", "🐢 סוכן בניית הצב"],
     agentLead:    ["A taste of the Camp Assistant, right here on the page. Ask about the build, the packing, the principles. (v1 — a demo brain; full agent deploys via the kit above.)",
