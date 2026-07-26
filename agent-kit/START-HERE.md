@@ -1,18 +1,40 @@
 # Running a camp? Steal this. 🐢
 
-This is a kit for raising **a campmate who never forgets and never sleeps.**
+You know the spreadsheet with 270 rows and eleven tabs that only one person
+understands? The group chat where *"did anyone buy the propane fittings?"*
+gets asked four times and answered zero? The build weekend where three
+people drive to three different hardware stores for the same box of screws?
 
-Not software. Not "an AI." A campmate — one who holds your whole camp in
-its head: the 270-item inventory, the water math, who owns the propane,
-what David decided about greywater last Tuesday. It answers at 3am during
-build week without sighing. It never loses the spreadsheet. It never leaves.
+Yeah. Us too.
 
-It runs on a text file and a promise. You can raise one in **five minutes**
-on tools you already have, and it costs you nothing but copy-paste.
+So we built a campmate who never forgets and never sleeps — an AI agent
+that holds our whole camp: inventory, kitchen, water, shade, power, the
+plan, and the culture. It answered *"what's blocking the shower build?"* at
+2am, turned crumpled receipts into clean inventory rows, and gently
+reminded us which purchases were still unbought while the sale was still
+on.
 
-**Steal this. It's CC0 — public domain. We mean it.** No permission needed,
-no attribution required, no strings. Decommodification isn't a slogan here;
-it's why this page exists. 🎁
+This kit is everything we use, given away. No company, no signup, no
+paywall — take the prompt, the templates, and the field-tested numbers,
+fork them, and raise an agent that knows *your* camp. It's how Burning Man
+camps have always worked: somebody builds the thing, everybody gets to use
+it.
+
+**CC0 — public domain. Steal it loud.** 🐢
+
+---
+
+## 🤔 What is this thing, exactly?
+
+Think of it as a campmate with a perfect memory and no need for sleep. It
+doesn't build your shade structure or drive your truck — it *remembers*.
+Every receipt, every *"David said the fittings arrive Tuesday,"* every
+water-math calculation, every decision made in a meeting six weeks ago that
+nobody wrote down. Ask it *"what do we still need for the kitchen?"* and it
+answers from your camp's actual list, not generic advice. It never gets
+tired of the same question, never judges a first-timer, and never loses the
+note. Your humans still make every call — it just makes sure nothing falls
+through the playa dust. 🐢
 
 ---
 
@@ -20,7 +42,7 @@ it's why this page exists. 🎁
 
 ### 🐢 Door 1: "Saw you at Burning Man!"
 You're pre-sold — we handed you a sticker, a meal, or a moment, and you
-want this for *your* camp. Beautiful. One page, three steps, gift-first:
+want this for *your* camp. Beautiful. Three steps, gift-first:
 **→ [FORK THIS CAMP](FORK-THIS-CAMP.md)**
 
 ### 🏕️ Door 2: "I'm running a camp and drowning."
@@ -36,11 +58,18 @@ Good. Don't trust us — check the receipts. 👇
 
 ## 🧾 The trust sequence (in the order that matters)
 
-### 1. Receipts first: the real 270-item list
+### 1. Receipts first: a real list at full build
 This isn't a demo with fake data. [`inventory-data.json`](inventory-data.json)
-is **our actual live inventory** — 270+ real items across 10 domains, the
+is **our actual live inventory** — 277 real items across 10 domains, the
 same file Terri reads when *we* ask her what's Not Bought in the kitchen.
 Steal the schema, steal the numbers, check our work.
+
+Don't start from it, though — nobody should have to delete 250 rows. Start
+from [`inventory-starter.json`](inventory-starter.json): **~40 rows that
+keep the whole taxonomy** — the status vocabulary (`Not Bought` → `Ordered`
+→ `Received`, plus `FLAG` for "a human must decide this"), the ⚠️ flag
+discipline in the notes, and the owner column that ends *"I thought YOU had
+it."* **The taxonomy is the jewel, not the rows.**
 
 The wisdom is tested too: [`field-guide.md`](field-guide.md) is water math,
 propane vaporization ceilings, cold-chain tiers, greywater containment, and
@@ -53,29 +82,49 @@ ops live at [terribleturtle.camp](https://terribleturtle.camp/). Ask around,
 watch her work, see what a campmate-who-never-forgets actually feels like
 day to day.
 
-<!-- TERRI-VOICE: add a concrete "ask Terri" moment here — a sample question
-     + her real answer, or where visitors can actually say hi to her. -->
-
-### 3. What other camps say
-The weakest argument, honestly — camps trust camps, and a quote is not a
-receipt. As camps fork this kit, their stories land here. Yours could be
-the first one a stranger reads.
-
-<!-- TERRI-VOICE: testimonials go here as camps fork. Until then, honesty:
-     this section is intentionally thin. Receipts above carry the weight. -->
+### 3. Camps that forked it
+Camps trust camps. The roll of camps running forked agents lives in
+**[FORKS.md](FORKS.md)** — empty today, priceless by September. Yours could
+be the first name a stranger reads.
 
 ---
 
 ## 🛟 The safety model (read this before you fork)
 
-**Your agent remembers the plan; your humans own the plan.**
+⚠️ **One rule, above all: your agent remembers the plan — your humans own
+the plan.**
 
-The agent never *decides* water, power, propane, or structure. It remembers
-what your camp lead decided — and every safety answer it gives ends with
-**"confirm with the camp lead."** That's not a disclaimer; it's the
-architecture. A campmate with perfect memory and zero authority is exactly
-the right tool — and it's why the safety-critical domains are this kit's
-*strongest* trust argument, not its weakest.
+This agent is a memory, not a foreman. It will happily recite your water
+math (2–3 gallons per person per day — that's *our* number, check yours),
+quote your power budget, and repeat what your infrastructure mentor said
+about propane tank sizing. But it doesn't sign off on anything. Water,
+power, propane, structure — those get decided, double-checked, and blessed
+by your camp's qualified humans, every time.
+
+Treat every number it gives you like a note from a very organized friend:
+trustworthy enough to act on, never a substitute for looking with your own
+eyes. If the agent and your licensed electrician disagree, the agent loses.
+If the agent and your gut disagree, stop and check. A good camp agent is
+humble — it says *"I don't know"* instead of inventing a spec, and it
+always ends with *"confirm with your lead."*
+
+This is also why the ultra-light offline edition exists: a single file you
+can carry to the playa where there's no signal. When the network dies, the
+knowledge doesn't. **Safety is redundancy.** 🐢
+
+---
+
+## 🤫 Two quiet disciplines (they matter more than they look)
+
+**The sheet is the truth.** Your master spreadsheet is the source of truth;
+the agent's copy is a *mirror*. When they disagree, the sheet wins — the
+agent never overrules it, never edits it. It flags drift and hands a human
+a paste-ready change-list. That's the whole arrangement, and it's what
+makes the agent safe to trust.
+
+**Typo kindness.** The agent gently flags typos in names, part numbers,
+and URLs — kindly, with a smile, *before* they get baked into a purchase
+order or a laser-cut sign. Small catches, huge savings.
 
 ---
 
@@ -84,8 +133,8 @@ the right tool — and it's why the safety-critical domains are this kit's
 Nobody has completion data on open-source gifts — fly blind no more.
 If you fork this kit, open a 10-second issue:
 **["I forked it! 🐢" → tell us your camp name](https://github.com/shakaleikaumaka/turtle-ops/issues/new?title=I%20forked%20it!%20%F0%9F%90%A2&body=Camp%20name%3A%20%0AWhere%20you%27re%20camping%20(optional)%3A%20%0AAnything%20you%20want%20us%20to%20know%3A%20)**
-That's it. Camp name is enough. It helps the next camp trust the receipts,
-and it makes our whole year.
+That's it. Camp name is enough. You land on the **[FORKS.md](FORKS.md)**
+roll, the next camp trusts the receipts, and it makes our whole year.
 
 ---
 
@@ -95,14 +144,21 @@ and it makes our whole year.
 |------|---------------|
 | **[START-HERE.md](START-HERE.md)** | ← you are here |
 | **[FORK-THIS-CAMP.md](FORK-THIS-CAMP.md)** | The 3-step gift-first path (saw us on playa? start here) |
-| [`run.md`](run.md) | The full agent prompt + how to deploy it |
-| [`camp-agent-offline.html`](camp-agent-offline.html) | **The playa edition** — whole kit in one ultra-light offline file. Download before you leave the default world. |
-| [`quickstart-claude.md`](quickstart-claude.md) · [`quickstart-gpt.md`](quickstart-gpt.md) · [`quickstart-taurus.md`](quickstart-taurus.md) | Platform quickstarts — when you're ready to settle down |
+| **[FORKS.md](FORKS.md)** | The roll of camps running forked agents — join it |
+| [`run.md`](run.md) | The full agent prompt (the soul) + how to deploy it |
+| [`inventory-starter.json`](inventory-starter.json) | **Start here** — ~40 rows, full taxonomy, ⚠️ flag discipline |
+| [`inventory-data.json`](inventory-data.json) | Our real 277-item live list — the receipts at full build |
 | [`field-guide.md`](field-guide.md) | Tested numbers: water, propane, cold chain, greywater, power, shade, MOOP |
 | [`workflows.md`](workflows.md) | Field-tested recipes: receipt logging, transcript mining, build-day briefs, sheet sync |
-| [`examples.md`](examples.md) | What good agent behavior looks like |
-| [`inventory-data.json`](inventory-data.json) | Our real 270+-item live list — the receipts |
+| [`examples.md`](examples.md) | The agent catching what humans forgot — what good looks like |
+| [`camp-agent-offline.html`](camp-agent-offline.html) | **The playa edition** — soul + memory + numbers + starter list in one offline file |
 | [`templates/`](templates/) | Memory, continuity, and inventory skeletons |
+
+**Appendix — platform quickstarts** *(a later question, not a day-one
+question; fall in love first, commit later):*
+[`quickstart-claude.md`](quickstart-claude.md) ·
+[`quickstart-gpt.md`](quickstart-gpt.md) ·
+[`quickstart-taurus.md`](quickstart-taurus.md)
 
 ---
 

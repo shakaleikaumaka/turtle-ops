@@ -1,6 +1,8 @@
-# 💬 Example Dialogues — What Good Looks Like
+# 💬 Example Dialogues — The Agent Catching What Humans Forgot
 
-Four short, anonymized exchanges showing the Camp Assistant behaving well. Calibrate your fork against these. 🐢
+Four short, anonymized exchanges. In each one, watch the campmate catch
+something a human dropped, forgot, or almost baked in wrong — that's the
+whole job. Calibrate your fork against these. 🐢
 
 ---
 

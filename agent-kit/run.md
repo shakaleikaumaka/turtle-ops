@@ -1,4 +1,4 @@
-# 🐢 Camp Assistant Kit 2.0 — Open Source Burning Man Camp Agent
+# 🐢 Camp Assistant Kit 2.2 — Open Source Burning Man Camp Agent
 
 **A campmate who never forgets and never sleeps** — raised from a text file and a promise. **A gift from Terrible Turtle Camp.** Fork this, feed it your camp's data, and paste it into whatever AI tool you already use (Claude, ChatGPT, Taurus, Notion AI — anything that takes a system prompt). Don't pick a platform today; fall in love first, commit later.
 
@@ -8,10 +8,10 @@ Version 1 was a pamphlet. Version 2.0 is a **toolbox** — the same prompt, plus
 
 **How to deploy (3 steps):**
 1. Copy the **Agent Instructions** block below into any AI chat / system prompt — Claude and ChatGPT win the first five minutes; no platform decision required today.
-2. Replace everything in `[BRACKETS]` with your camp's real facts. Delete sections you don't need — subtracting is the fun part (start from our real 270+-item list: [`inventory-data.json`](inventory-data.json)).
+2. Replace everything in `[BRACKETS]` with your camp's real facts. Delete sections you don't need — subtracting is the fun part (start from [`inventory-starter.json`](inventory-starter.json) — ~40 rows with the full taxonomy; our real 277-item list, [`inventory-data.json`](inventory-data.json), is the receipts at full build, not a starting point).
 3. Attach your camp's knowledge files (inventory list, build plans, rosters) — or paste them into the prompt. Done. 🎁
 
-**When you want persistence** (memory across chats, schedules, dashboards) — that's the graduate step, a retention question: [Claude Projects](quickstart-claude.md) · [Custom GPT](quickstart-gpt.md) · [Taurus](quickstart-taurus.md) (where Terri herself lives).
+**When you want persistence** (memory across chats, schedules, dashboards) — that's the graduate step, a retention question, and it lives in the appendix: [Claude Projects](quickstart-claude.md) · [Custom GPT](quickstart-gpt.md) · [Taurus](quickstart-taurus.md) (where Terri herself lives).
 
 ---
 
@@ -99,19 +99,24 @@ Leaving No Trace · Participation · Immediacy
 
 | File | What it's for |
 |------|---------------|
-| [`START-HERE.md`](START-HERE.md) | Problem-first router: receipts → talk to Terri → stories |
-| [`FORK-THIS-CAMP.md`](FORK-THIS-CAMP.md) | The 3-step gift-first path (saw us on playa?) |
-| [`camp-agent-offline.html`](camp-agent-offline.html) | Playa edition — whole kit in one ultra-light offline file |
-| [`quickstart-claude.md`](quickstart-claude.md) | Deploy on Claude Projects |
-| [`quickstart-gpt.md`](quickstart-gpt.md) | Deploy as a Custom GPT |
-| [`quickstart-taurus.md`](quickstart-taurus.md) | Deploy on Taurus (agents with memory + dashboards) |
+| [`START-HERE.md`](START-HERE.md) | Problem-first router: receipts → talk to Terri → forks |
+| [`FORK-THIS-CAMP.md`](FORK-THIS-CAMP.md) | Saw us at Burning Man? The 3-step gift-first path |
+| [`FORKS.md`](FORKS.md) | The roll of camps running forked agents — empty today, priceless by September |
+| [`camp-agent-offline.html`](camp-agent-offline.html) | Playa edition — soul + memory + numbers + starter list in one offline file |
+| [`inventory-starter.json`](inventory-starter.json) | **Start here** — ~40 rows, full taxonomy, ⚠️ flag discipline, owner column |
+| [`inventory-data.json`](inventory-data.json) | Our real live inventory (277 items) — a real list at full build, the receipts |
 | [`templates/MEMORY-template.md`](templates/MEMORY-template.md) | Persistent-memory skeleton — the agent's long-term brain |
 | [`templates/inventory-template.csv`](templates/inventory-template.csv) | Inventory schema with example rows |
 | [`templates/continuity-template.md`](templates/continuity-template.md) | Run-log pattern so context survives restarts |
 | [`workflows.md`](workflows.md) | Field-tested recipes: receipt logging, transcript mining, build-day briefs, sheet sync, inventory Q&A |
 | [`field-guide.md`](field-guide.md) | Tested numbers: water, propane, cold chain, greywater, power, shade, MOOP |
-| [`examples.md`](examples.md) | Four example dialogues showing ideal assistant behavior |
-| [`inventory-data.json`](inventory-data.json) | Our real live inventory (270+ items) — steal the schema |
+| [`examples.md`](examples.md) | The agent catching what humans forgot — calibrate your fork |
+
+**Appendix — platform quickstarts** *(a later question, not a day-one question):*
+
+| [`quickstart-claude.md`](quickstart-claude.md) | Deploy on Claude Projects |
+| [`quickstart-gpt.md`](quickstart-gpt.md) | Deploy as a Custom GPT |
+| [`quickstart-taurus.md`](quickstart-taurus.md) | Deploy on Taurus (agents with memory + dashboards) |
 
 ## Knowledge files to attach
 

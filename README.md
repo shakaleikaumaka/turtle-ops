@@ -11,7 +11,7 @@ already have.
 ## The kit in one breath
 
 🐢 Saw us at Burning Man? → [`agent-kit/FORK-THIS-CAMP.md`](agent-kit/FORK-THIS-CAMP.md) — 3 steps, gift-first.
-🏕️ Running a camp? → [`agent-kit/run.md`](agent-kit/run.md) — paste one prompt, feed it our real 270+-item list, delete what you don't need.
+🏕️ Running a camp? → [`agent-kit/run.md`](agent-kit/run.md) — paste one prompt, feed it the ~40-item starter list (`inventory-starter.json`), delete what you don't need.
 🏜️ Heading to the dust? → [`agent-kit/camp-agent-offline.html`](agent-kit/camp-agent-offline.html) — the whole kit in one ultra-light offline file.
 
 The safety model: **your agent remembers the plan; your humans own the plan.**
@@ -24,11 +24,12 @@ attribution, no strings. Fork it like crazy, gift it forward.
 Decommodification is why people fork. 🎁
 
 Forked it? **Tell us your camp name** (10 seconds):
-[open an "I forked it! 🐢" issue](https://github.com/shakaleikaumaka/turtle-ops/issues/new?title=I%20forked%20it!%20%F0%9F%90%A2&body=Camp%20name%3A%20).
+[open an "I forked it! 🐢" issue](https://github.com/shakaleikaumaka/turtle-ops/issues/new?title=I%20forked%20it!%20%F0%9F%90%A2&body=Camp%20name%3A%20)
+— and join the roll of forked camps in [`agent-kit/FORKS.md`](agent-kit/FORKS.md).
 
 ## What's inside
 
-- `agent-kit/` — the Camp Agent Kit: soul prompt, quickstarts (Claude / ChatGPT / Taurus), field guide with tested numbers, workflows, templates, and our real 270+-item live inventory (`inventory-data.json`) — the receipts
+- `agent-kit/` — the Camp Agent Kit: soul prompt, starter inventory (~40 rows, full taxonomy — the jewel), field guide with tested numbers, workflows, templates, our real 277-item live inventory (`inventory-data.json`) — the receipts, the FORKS roll, and platform quickstarts (Claude / ChatGPT / Taurus) in the appendix
 - `*.html` — the Turtle Ops hub pages: inventory, kitchen, shower, shade, water, power, map, crew, culture, the 10 Principles
 - `LICENSE` — CC0. We mean it.
 
