@@ -77,10 +77,13 @@ propane vaporization ceilings, cold-chain tiers, greywater containment, and
 big-camp infrastructure mentor.
 
 ### 2. Talk to Terri
-Terri is the agent this kit forks from — she runs Terrible Turtle Camp's
-ops live at [terribleturtle.camp](https://terribleturtle.camp/). Ask around,
-watch her work, see what a campmate-who-never-forgets actually feels like
-day to day.
+Terri is the agent this kit forks from — meet the camp at
+[terribleturtle.camp](https://terribleturtle.camp/), and watch her actual
+work on the live ops hub at
+[shakaleikaumaka.com/turtles](https://shakaleikaumaka.com/turtles) (the
+inventory page is her reading the same `inventory-data.json` in this repo).
+Ask around, see what a campmate-who-never-forgets actually feels like day
+to day.
 
 ### 3. Camps that forked it
 Camps trust camps. The roll of camps running forked agents lives in
