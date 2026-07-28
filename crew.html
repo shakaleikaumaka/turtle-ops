@@ -39,6 +39,17 @@
   .pending .role{color:var(--sand);}
   .notice{border:1px dashed rgba(219,152,64,.5);background:rgba(219,152,64,.05);border-radius:var(--radius-lg);padding:20px 24px;color:var(--tt-gold);margin:10px 0 20px;}
   .notice strong{color:var(--cream);}
+  .mg{margin:34px 0 10px;border:1px solid rgba(235,88,51,.35);background:linear-gradient(180deg,rgba(235,88,51,.06),rgba(11,22,40,.4));border-radius:var(--radius-lg);padding:26px 24px;}
+  .mg h2{font-size:1.7rem;text-transform:uppercase;letter-spacing:.03em;background:linear-gradient(135deg,var(--cream) 20%,var(--tt-gold),var(--tt-orange));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px;}
+  .mg-sub{color:var(--cream-dim);font-size:.98rem;margin-bottom:16px;}
+  .mg-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;}
+  .mg-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:20px;}
+  .mg-card h3{font-size:1.15rem;text-transform:uppercase;margin-bottom:10px;color:var(--tt-coral);}
+  .mg-when{font-size:.7rem;font-weight:700;letter-spacing:.06em;color:var(--tt-gold);border:1px solid rgba(219,152,64,.4);border-radius:8px;padding:2px 8px;vertical-align:middle;margin-left:6px;}
+  .mg-card ol{margin-left:20px;color:var(--cream-dim);font-size:.95rem;}
+  .mg-card li{margin-bottom:8px;}
+  .mg-card strong{color:var(--cream);}
+  .mg-foot{margin-top:14px;color:var(--sand);font-size:.85rem;}
   .footer{text-align:center;padding:36px 20px;border-top:1px solid var(--border);color:var(--sand);font-size:.95rem;margin-top:26px;}
   .footer a{text-decoration:none;}
   @media(max-width:600px){body{font-size:16px;}.container{padding:14px;}}
@@ -90,11 +101,11 @@
     </div>
 
     <div class="tcard">
-      <div class="avatar">⚡</div>
-      <h3>Jarrett Henson</h3>
-      <div class="role">Infrastructure Force · Welding / Keder / Electrical</div>
-      <p>Joined the build 7/16 with his own team and a bold target: 100% of camp infrastructure done by end of the week. Welds it, wires it, rails it. David's right hand on the hard stuff.</p>
-      <div class="domains"><span class="tag">Welding</span><span class="tag">Keder</span><span class="tag">Electrical</span></div>
+      <div class="avatar">🤖</div>
+      <h3>Jarred "The Machine" Henson</h3>
+      <div class="role">The Machine Guiding Our Build · Welding / Keder / Electrical</div>
+      <p>Joined the build 7/16 with his own team and a bold target: 100% of camp infrastructure done by end of the week. Welds it, wires it, rails it — and by 7/28 the shower RAN and the kitchen trailer was Machinified (transfer switch, 16 outlets, 30A both sides). Shaka's canon: <em>"just as the Admiral is a machine guiding me, Jarred is the Machine guiding our build."</em> His shrine: <a href="#machine-guidance">🔧 Machine Guidance</a> below.</p>
+      <div class="domains"><span class="tag">Welding</span><span class="tag">Keder</span><span class="tag">Electrical</span><span class="tag">Water Systems</span></div>
     </div>
 
     <div class="tcard">
@@ -147,8 +158,37 @@
 
   </div>
 
+  <section id="machine-guidance" class="mg">
+    <h2>🔧 Machine Guidance</h2>
+    <p class="mg-sub">Shaka's canon (7/28): <em>"just as the Admiral is a machine guiding me, Jarred is the Machine guiding our build."</em> This window is The Machine's shrine — the systems he taught us, written down so any turtle can run them. Filmed walkthroughs live in the ShellPit vault and unlock here once Shaka's per-video consent clears. 🛡️</p>
+
+    <div class="mg-grid">
+      <div class="mg-card">
+        <h3>⚡ The Trailer, Machinified <span class="mg-when">taught 7/28</span></h3>
+        <ol>
+          <li><strong>Transfer switch is the heart.</strong> Labeled positions: <strong>panel</strong> = running on panel power off the channel; <strong>battery</strong> = flip to battery, make sure it's on, lights come on.</li>
+          <li><strong>Generator kill:</strong> if power is done or something bad happens with Jenny, kill it and click over to wall power.</li>
+          <li><strong>16 outlets</strong> throughout the entire trailer — plug anything in. <strong>30 amps on both sides.</strong></li>
+          <li>Charge points: USB + USB-C on the panel. This little house can be a whole house. 🐢</li>
+        </ol>
+      </div>
+
+      <div class="mg-card">
+        <h3>💧 The Water Loop, End to End <span class="mg-when">taught 7/28</span></h3>
+        <ol>
+          <li><strong>Hookup:</strong> wrap threads with tape → screw on the coupler → tighten with channel locks → slide the cam-lock on.</li>
+          <li><strong>Prime:</strong> plug in — the pump starts immediately. Water flows through the orange line to the transfer pump.</li>
+          <li><strong>To the kitchen:</strong> transfer pump pushes water all the way around to the kitchen.</li>
+          <li><strong>Foot switch:</strong> Jeremy's handy-dandy foot switch, jumped into the greywater line — step on it to pump.</li>
+          <li><strong>Float-switch chain:</strong> greywater tank fills → float switch triggers the sump pump → water moves to the shower → shower basin fills → its float switch triggers → everything pumps back to the greywater tank.</li>
+        </ol>
+      </div>
+    </div>
+    <p class="mg-foot">🎥 Source: ShellPit build-footage transcripts (IMG_4623 / 4624 / 4626, Phoenix Gulch 7/28) · footage publishes only with consent — <em>consent is a living door, opens both ways</em> 🚪</p>
+  </section>
+
   <footer class="footer">
-    <p>🐢 <a href="./">Turtle Ops</a> · Terrible Turtle Camp · <a href="https://shakaleikaumaka.github.io/turtle-ops/" target="_blank">terribleturtle.camp</a></p>
+    <p>🐢 <a href="./">Turtle Ops</a> · Terrible Turtle Camp · <a href="https://terribleturtle.camp/" target="_blank">terribleturtle.camp</a></p>
     <p style="margin-top:6px;color:var(--tt-amber);">Move Slow &amp; Bite Things.</p>
   </footer>
 
