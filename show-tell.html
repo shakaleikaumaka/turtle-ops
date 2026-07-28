@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Show & Tell Shell 🐢 | Terrible Turtle Camp</title>
+<style>
+  :root { --bg:#0d0a08; --card:#171310; --card-2:#1f1a15; --border:#2e2620; --cream:#f3e9d2; --cream-dim:#c9bca6; --tt-orange:#e8853a; --tt-gold:#db9840; --sand:#9c8b74; --radius:14px; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:var(--bg); color:var(--cream); font-family:'Segoe UI',system-ui,sans-serif; line-height:1.6; }
+  .wrap { max-width:860px; margin:0 auto; padding:24px 20px 80px; }
+  .back { color:var(--sand); text-decoration:none; font-size:0.9rem; }
+  .back:hover { color:var(--tt-gold); }
+  header { text-align:center; padding:36px 0 8px; }
+  header img.crest { width:190px; height:190px; border-radius:50%; box-shadow:0 0 60px rgba(232,133,58,0.25); }
+  h1 { font-size:2rem; letter-spacing:0.02em; margin-top:18px; }
+  .sub { color:var(--cream-dim); max-width:60ch; margin:10px auto 0; }
+  .canon { display:inline-block; margin-top:14px; font-size:0.82rem; color:var(--sand); border:1px solid var(--border); border-radius:999px; padding:6px 14px; }
+  .canon b { color:var(--tt-gold); font-weight:600; }
+  /* timeline */
+  .tl { position:relative; margin-top:48px; padding-left:34px; }
+  .tl::before { content:''; position:absolute; left:10px; top:6px; bottom:6px; width:2px; background:linear-gradient(180deg,var(--tt-orange),var(--tt-gold),var(--border)); border-radius:2px; }
+  .stop { position:relative; margin-bottom:44px; }
+  .stop::before { content:''; position:absolute; left:-31px; top:8px; width:14px; height:14px; border-radius:50%; background:var(--bg); border:3px solid var(--tt-orange); }
+  .stop.pending::before { border-color:var(--sand); border-style:dashed; }
+  .date { font-family:'JetBrains Mono',monospace; color:var(--tt-orange); font-size:0.85rem; letter-spacing:0.06em; }
+  .stop h3 { margin:4px 0 8px; font-size:1.25rem; }
+  .stop p { color:var(--cream-dim); max-width:64ch; }
+  .stop img { width:100%; border-radius:var(--radius); border:1px solid var(--border); margin-top:14px; display:block; }
+  .pair { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+  @media (max-width:640px){ .pair { grid-template-columns:1fr; } }
+  .pending .box { background:var(--card); border:1px dashed var(--border); border-radius:var(--radius); padding:18px 20px; margin-top:12px; color:var(--sand); }
+  .pending .box b { color:var(--cream-dim); }
+  .quote { border-left:3px solid var(--tt-gold); padding:6px 0 6px 14px; margin-top:12px; color:var(--cream); font-style:italic; }
+  .quote span { display:block; font-style:normal; font-size:0.8rem; color:var(--sand); margin-top:4px; }
+  footer { margin-top:60px; border-top:1px solid var(--border); padding-top:24px; color:var(--sand); font-size:0.88rem; }
+  footer a { color:var(--tt-gold); }
+  .ethics { background:var(--card-2); border:1px solid var(--border); border-radius:var(--radius); padding:18px 20px; margin-top:20px; }
+  .ethics b { color:var(--tt-gold); }
+</style>
+<link rel="stylesheet" href="assets/turtle-cursor.css">
+</head>
+<body>
+<div class="wrap">
+  <a class="back" href="index.html" data-i18n="back">← Turtle Ops</a>
+  <header>
+    <img class="crest" src="assets/showtell/crest.jpg" alt="Terrible Turtle Camp crest — Black Rock City 2026">
+    <h1 data-i18n="title">🐢 The Show & Tell Shell</h1>
+    <p class="sub" data-i18n="sub">The build, unfolding in pictures and timestamps — filmed by the crew at Phoenix Gulch, transcribed by turtlePIT, told by Terri. New stops appear as the camp builds and as consent clears.</p>
+    <div class="canon" data-i18n="canon"><b>Consent canon:</b> every face and voice appears only with an explicit yes — and every yes can be revoked, anytime.</div>
+  </header>
+
+  <div class="tl">
+
+    <div class="stop">
+      <div class="date" data-i18n="d1">JUL 12 · THE WORKSHOP FILLS</div>
+      <h3 data-i18n="t1">Parts with a pulse</h3>
+      <p data-i18n="p1">E-track for the kitchen trailer, the 650-lb shelving still in its box, a shop fan — and in the corner, a keyboard and a speaker with wheels. The Open Source Orchestra cleared its throat before the first board was cut.</p>
+      <img src="assets/showtell/workshop-gear.jpg" alt="Workshop floor: e-track rail, shelf box, keyboard and speaker" loading="lazy">
+    </div>
+
+    <div class="stop pending">
+      <div class="date" data-i18n="d2">JUL 14–17 · THE TOOL MAKER SESSIONS</div>
+      <h3 data-i18n="t2">"Cut right on the line"</h3>
+      <p data-i18n="p2">Sixteen clips from three long evenings: a grinder used as a saw (it smoked — "we almost built a fire"), the near-miss with a metal sawhorse, and a father teaching the cut that finally came out smooth. The veggie coffin's floor and walls went up — "glued and screwed" — and the kitchen trailer got its e-track, tables, and burners.</p>
+      <div class="box" data-i18n="box2">🛡️ <b>Clearance pending.</b> These evenings have faces and voices we love — they'll appear the moment each person says yes. The stories are already transcribed and waiting.</div>
+    </div>
+
+    <div class="stop">
+      <div class="date" data-i18n="d3">JUL 20 · THE SEMI COMES HOME</div>
+      <h3 data-i18n="t3">51 feet of anchor</h3>
+      <p data-i18n="p3">The northAmerican trailer — the anchor of the whole camp layout, the wall the Himalayas shade flies from — rolled into Phoenix Gulch and settled against the hills. The map in the playbook is now a place in the world.</p>
+      <img src="assets/showtell/semi-gulch.jpg" alt="The 51-foot northAmerican trailer parked at Phoenix Gulch" loading="lazy">
+    </div>
+
+    <div class="stop">
+      <div class="date" data-i18n="d4">JUL 20 · FIRST CUTS</div>
+      <h3 data-i18n="t4">The shower pods take shape</h3>
+      <p data-i18n="p4">Two IBC totes, cage intact, exactly as designed: one with its top cut clean away, one with the doorway opening. Stacked open-to-open, these become the shower stall that stands on the troughs — containment first, plumbing second.</p>
+      <div class="pair">
+        <img src="assets/showtell/ibc-topcut.jpg" alt="IBC tote with top cut open, cage intact" loading="lazy">
+        <img src="assets/showtell/ibc-doorway.jpg" alt="IBC tote with doorway opening cut" loading="lazy">
+      </div>
+    </div>
+
+    <div class="stop">
+      <div class="date" data-i18n="d5">JUL 21 · THE CUSTOM HOSE</div>
+      <h3 data-i18n="t5">David's spec, made real</h3>
+      <p data-i18n="p5">From the hydraulic hose shop: a 2-inch orange suction line, cam-lock at the top, stepping down to a brass manifold with two ball valves — exactly the fitting chain drawn up in the July syncs. The parts cascade is nearly complete.</p>
+      <img src="assets/showtell/custom-hose.jpg" alt="Custom 2-inch hose with cam-lock and brass ball-valve manifold" loading="lazy">
+    </div>
+
+    <div class="stop pending">
+      <div class="date" data-i18n="d6">JUL 28 · FIRST WATER</div>
+      <h3 data-i18n="t6">"That's a shower right there"</h3>
+      <p data-i18n="p6">Today. The trailer got Machinified — transfer switch, panel and battery modes, 16 outlets, 30 amps on both sides — and the full water loop ran: pump to kitchen, foot switch to greywater, float switches carrying water to the shower and back. Two float switches, one foot switch, zero spills.</p>
+      <div class="quote" data-i18n="q6">"When a bunch of computer nerds fail, you just bring in the experts — like The Machine."<span>— a campmate, today at the Gulch (name pending consent 🛡️)</span></div>
+      <div class="box" data-i18n="box6">🛡️ <b>Clearance pending.</b> The first-water clips star the crew — they'll flow into this timeline as soon as the yeses land.</div>
+    </div>
+
+  </div>
+
+  <footer>
+    <div class="ethics" data-i18n="ethics">
+      <b>How this page works:</b> the crew films the build → turtlePIT (our 8th ohana fork) transcribes and timestamps everything privately → only cleared moments go public. Every clip carries a takedown path — consent is a living door, and it opens both ways. Want your moment removed? It comes down, no questions, ever.
+    </div>
+    <p style="margin-top:18px;" data-i18n="foot">Terrible Turtle Camp · Burning Man 2026 · <a href="index.html">Turtle Ops</a> · Move Slow &amp; Bite Things 🐢🌺</p>
+  </footer>
+</div>
+
+<script src="assets/turtle-cursor.js"></script>
+<script>
+const I18N = {
+  back:["← Turtle Ops","→ Turtle Ops"],
+  title:["🐢 The Show & Tell Shell","🐢 קליפת הסַף והסיפור"],
+  sub:["The build, unfolding in pictures and timestamps — filmed by the crew at Phoenix Gulch, transcribed by turtlePIT, told by Terri. New stops appear as the camp builds and as consent clears.",
+       "הבנייה נפרשת בתמונות ובחותמות זמן — צולם על ידי הצוות בפיניקס גאלץ', תומלל על ידי turtlePIT, מסופר על ידי טרי. תחנות חדשות מופיעות ככל שהמחנה נבנה וההסכמות מתקבלות."],
+  canon:["<b>Consent canon:</b> every face and voice appears only with an explicit yes — and every yes can be revoked, anytime.",
+         "<b>חוק ההסכמה:</b> כל פנים וכל קול מופיעים רק עם כן מפורש — וכל כן אפשר לבטל, בכל עת."],
+  d1:["JUL 12 · THE WORKSHOP FILLS","12 ביולי · הסדנה מתמלאת"],
+  t1:["Parts with a pulse","חלקים עם דופק"],
+  p1:["E-track for the kitchen trailer, the 650-lb shelving still in its box, a shop fan — and in the corner, a keyboard and a speaker with wheels. The Open Source Orchestra cleared its throat before the first board was cut.",
+      "מסילת e-track לקרוון המטבח, מדפי 650 ליברות עוד בקופסה, מאוורר סדנה — ובפינה, קלידים ורמקול עם גלגלים. תזמורת הקוד הפתוח נתנה את צלילה הראשון עוד לפני החיתוך הראשון."],
+  d2:["JUL 14–17 · THE TOOL MAKER SESSIONS","14–17 ביולי · מפגשי ה-Tool Maker"],
+  t2:["\"Cut right on the line\"","\"חותכים בדיוק על הקו\""],
+  p2:["Sixteen clips from three long evenings: a grinder used as a saw (it smoked — \"we almost built a fire\"), the near-miss with a metal sawhorse, and a father teaching the cut that finally came out smooth. The veggie coffin's floor and walls went up — \"glued and screwed\" — and the kitchen trailer got its e-track, tables, and burners.",
+      "שישה עשר קליפים משלושה ערבים ארוכים: משחזת ששימשה כמסור (היא העשינה — \"כמעט הדלקנו אש\"), כמעט-פגיעה בסוס-עבודה מתכתי, ואבא שמלמד את החיתוך שסוף סוף יצא חלק. הרצפה והקירות של ארון הירקות עלו — \"הודבק והודחף בברגים\" — וקרוון המטבח קיבל מסילות, שולחנות ומבערים."],
+  box2:["🛡️ <b>Clearance pending.</b> These evenings have faces and voices we love — they'll appear the moment each person says yes. The stories are already transcribed and waiting.",
+        "🛡️ <b>ממתין לאישור.</b> בערבים האלה יש פנים וקולות שאנחנו אוהבים — הם יופיעו ברגע שכל אחד יאמר כן. הסיפורים כבר תומללו ומחכים."],
+  d3:["JUL 20 · THE SEMI COMES HOME","20 ביולי · הסמי מגיע הביתה"],
+  t3:["51 feet of anchor","51 רגל של עוגן"],
+  p3:["The northAmerican trailer — the anchor of the whole camp layout, the wall the Himalayas shade flies from — rolled into Phoenix Gulch and settled against the hills. The map in the playbook is now a place in the world.",
+      "טריילר ה-northAmerican — העוגן של כל מפת המחנה, הקיר שממנו עף צל ההימלאיה — נכנס לפיניקס גאלץ' ונשען על הגבעות. המפה במדריך הפכה למקום בעולם."],
+  d4:["JUL 20 · FIRST CUTS","20 ביולי · חיתוכים ראשונים"],
+  t4:["The shower pods take shape","תאי המקלחת מתעצבים"],
+  p4:["Two IBC totes, cage intact, exactly as designed: one with its top cut clean away, one with the doorway opening. Stacked open-to-open, these become the shower stall that stands on the troughs — containment first, plumbing second.",
+      "שני מכלי IBC, הכלוב שלם, בדיוק כמו שתוכנן: אחד עם המכסה חתוך נקי, אחד עם פתח הדלת. מוערמים פתוח-אל-פתוח, הם הופכים לתא המקלחת שעומד על השוקתות — הכלה קודם, אינסטלציה אחר כך."],
+  d5:["JUL 21 · THE CUSTOM HOSE","21 ביולי · הצינור בהתאמה אישית"],
+  t5:["David's spec, made real","המפרט של דיוויד, הופך ממשי"],
+  p5:["From the hydraulic hose shop: a 2-inch orange suction line, cam-lock at the top, stepping down to a brass manifold with two ball valves — exactly the fitting chain drawn up in the July syncs. The parts cascade is nearly complete.",
+      "מחנות הצינורות ההידראוליים: קו יניקה כתום 2 אינץ', cam-lock בראש, יורד למכלול פליז עם שני שסתומי כדור — בדיוק שרשרת האביזרים שתוכננה בסנכרוני יולי. מפל החלקים כמעט הושלם."],
+  d6:["JUL 28 · FIRST WATER","28 ביולי · מים ראשונים"],
+  t6:["\"That's a shower right there\"","\"זו מקלחת ממש שם\""],
+  p6:["Today. The trailer got Machinified — transfer switch, panel and battery modes, 16 outlets, 30 amps on both sides — and the full water loop ran: pump to kitchen, foot switch to greywater, float switches carrying water to the shower and back. Two float switches, one foot switch, zero spills.",
+      "היום. הקרוון עבר Machinification — מתג העברה, מצבי פאנל וסוללה, 16 שקעים, 30 אמפר משני הצדדים — ולולאת המים המלאה רצה: משאבה למטבח, מתג רגל למים אפורים, מתגי צפים נושאים מים למקלחת ובחזרה. שני מתגי צפים, מתג רגל אחד, אפס נזילות."],
+  q6:["\"When a bunch of computer nerds fail, you just bring in the experts — like The Machine.\"<span>— a campmate, today at the Gulch (name pending consent 🛡️)</span>",
+      "\"כשחבורת חנונים של מחשבים נכשלת, מביאים את המומחים — כמו The Machine.\"<span>— חבר מחנה, היום בגאלץ' (השם ממתין להסכמה 🛡️)</span>"],
+  box6:["🛡️ <b>Clearance pending.</b> The first-water clips star the crew — they'll flow into this timeline as soon as the yeses land.",
+        "🛡️ <b>ממתין לאישור.</b> קליפי המים הראשונים מככבים את הצוות — הם יזרמו לציר הזמן ברגע שהאישורים יגיעו."],
+  ethics:["<b>How this page works:</b> the crew films the build → turtlePIT (our 8th ohana fork) transcribes and timestamps everything privately → only cleared moments go public. Every clip carries a takedown path — consent is a living door, and it opens both ways. Want your moment removed? It comes down, no questions, ever.",
+          "<b>איך הדף הזה עובד:</b> הצוות מצלם את הבנייה ← turtlePIT (המזלג השמיני של האוהאנה) מתמלל ומתארך הכל באופן פרטי ← רק רגעים מאושרים יוצאים לפומבי. לכל קליפ יש נתיב הסרה — הסכמה היא דלת חיה, והיא נפתחת לשני הכיוונים. רוצים שהרגע שלכם יוסר? הוא יורד, בלי שאלות, אף פעם."],
+  foot:["Terrible Turtle Camp · Burning Man 2026 · <a href=\"index.html\">Turtle Ops</a> · Move Slow &amp; Bite Things 🐢🌺",
+        "Terrible Turtle Camp · ברנינג מן 2026 · <a href=\"index.html\">Turtle Ops</a> · זוזו לאט ונשכו דברים 🐢🌺"]
+};
+let lang='en';
+function applyLang(l){ lang=l; const i=l==='en'?0:1;
+  document.querySelectorAll('[data-i18n]').forEach(el=>{ const k=el.dataset.i18n; if(I18N[k]) el.innerHTML=I18N[k][i]; });
+  document.documentElement.lang=l; document.documentElement.dir=l==='he'?'rtl':'ltr';
+  document.getElementById('lt').textContent=l==='he'?'English':'עברית';
+}
+const btn=document.createElement('button'); btn.id='lt'; btn.textContent='עברית';
+btn.style.cssText='position:fixed;top:14px;right:14px;z-index:50;background:var(--card-2);color:var(--cream);border:1px solid var(--border);border-radius:999px;padding:8px 16px;cursor:pointer;font-size:0.85rem;';
+btn.onclick=()=>applyLang(lang==='en'?'he':'en'); document.body.appendChild(btn);
+</script>
+</body>
+</html>
