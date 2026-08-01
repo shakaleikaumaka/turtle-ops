@@ -1387,5 +1387,201 @@
   "speakers": [],
   "silent": false,
   "note": "New arrival — party-eve session 8/1 (consent consensus)"
+ },
+ {
+  "id": "1o0ty7GUcdHD3DEHSEEqtbrnPAf9Sjond",
+  "slug": "IMG_4721",
+  "title": "🚰 \"The nicest sink of any sink in Burning Man\" — valves, pump, hot water",
+  "date": "2026-07-31",
+  "week": null,
+  "domain": null,
+  "source": "Phoenix Gulch · party-eve build session · 2026-08-01",
+  "media": [
+   {
+    "id": "1o0ty7GUcdHD3DEHSEEqtbrnPAf9Sjond",
+    "kind": "video",
+    "size": 395481365,
+    "stream": true,
+    "preview": "alive"
+   }
+  ],
+  "transcript": "transcripts/IMG_4721.txt",
+  "duration": "05:42",
+  "duration_s": 342.3,
+  "words": 801,
+  "quality": "ok",
+  "transponder": false,
+  "consent": "granted",
+  "speakers": [],
+  "silent": false,
+  "note": "New arrival — party-eve session 8/1 (consent consensus)"
+ },
+ {
+  "id": "1H4_sSR_ovl-JqIJtidVBmFFQl2YIJpip",
+  "slug": "IMG_4722",
+  "title": "🧽 Greywater Discipline — the bucket stays in the greywater",
+  "date": "2026-07-31",
+  "week": null,
+  "domain": null,
+  "source": "Phoenix Gulch · party-eve build session · 2026-08-01",
+  "media": [
+   {
+    "id": "1H4_sSR_ovl-JqIJtidVBmFFQl2YIJpip",
+    "kind": "video",
+    "size": 239472917,
+    "stream": true,
+    "preview": "alive"
+   }
+  ],
+  "transcript": "transcripts/IMG_4722.txt",
+  "duration": "03:26",
+  "duration_s": 206.1,
+  "words": 398,
+  "quality": "ok",
+  "transponder": false,
+  "consent": "granted",
+  "speakers": [],
+  "silent": false,
+  "note": "New arrival — party-eve session 8/1 (consent consensus)"
+ },
+ {
+  "id": "1gcSg2I-2vaTl8gEcwv7Q2tcbkbnaxWS8",
+  "slug": "IMG_4723",
+  "title": "🔇 blink-clip (1s)",
+  "date": "2026-07-31",
+  "week": null,
+  "domain": null,
+  "source": "Phoenix Gulch · party-eve build session · 2026-08-01",
+  "media": [
+   {
+    "id": "1gcSg2I-2vaTl8gEcwv7Q2tcbkbnaxWS8",
+    "kind": "video",
+    "size": 1497723,
+    "stream": true,
+    "preview": "alive"
+   }
+  ],
+  "transcript": "transcripts/IMG_4723.txt",
+  "duration": "00:01",
+  "duration_s": 1.0,
+  "words": 0,
+  "quality": "ok",
+  "transponder": false,
+  "consent": "granted",
+  "speakers": [],
+  "silent": true,
+  "note": "New arrival — party-eve session 8/1 (consent consensus)"
+ },
+ {
+  "id": "1mpHsMxN8bzCel4mx_eH79a753AaZyEln",
+  "slug": "IMG_4725",
+  "title": "🔇 silent — party-eve b-roll (33s)",
+  "date": "2026-07-31",
+  "week": null,
+  "domain": null,
+  "source": "Phoenix Gulch · party-eve build session · 2026-08-01",
+  "media": [
+   {
+    "id": "1mpHsMxN8bzCel4mx_eH79a753AaZyEln",
+    "kind": "video",
+    "size": 63089709,
+    "stream": true,
+    "preview": "alive"
+   }
+  ],
+  "transcript": "transcripts/IMG_4725.txt",
+  "duration": "00:33",
+  "duration_s": 33.3,
+  "words": 0,
+  "quality": "ok",
+  "transponder": false,
+  "consent": "granted",
+  "speakers": [],
+  "silent": true,
+  "note": "New arrival — party-eve session 8/1 (consent consensus)"
+ },
+ {
+  "id": "1zX4zJK7C7KuWZjOkgyVuRUi9e_Fk1-7X",
+  "slug": "IMG_4726",
+  "title": "Micro-clip: \"yeah, it's in hardware\"",
+  "date": "2026-07-31",
+  "week": null,
+  "domain": null,
+  "source": "Phoenix Gulch · party-eve build session · 2026-08-01",
+  "media": [
+   {
+    "id": "1zX4zJK7C7KuWZjOkgyVuRUi9e_Fk1-7X",
+    "kind": "video",
+    "size": 6762938,
+    "stream": true,
+    "preview": "alive"
+   }
+  ],
+  "transcript": "transcripts/IMG_4726.txt",
+  "duration": "00:05",
+  "duration_s": 5.5,
+  "words": 4,
+  "quality": "ok",
+  "transponder": false,
+  "consent": "granted",
+  "speakers": [],
+  "silent": false,
+  "note": "New arrival — party-eve session 8/1 (consent consensus)"
+ },
+ {
+  "id": "1Od7eJPQogOoHOIdFfOeOM8Q0kCHlopcw",
+  "slug": "IMG_4727",
+  "title": "🐍 \"Watch out for rattlesnakes\" — the Gulch walk (6.7 min, mostly ambient)",
+  "date": "2026-07-31",
+  "week": null,
+  "domain": null,
+  "source": "Phoenix Gulch · party-eve build session · 2026-08-01",
+  "media": [
+   {
+    "id": "1Od7eJPQogOoHOIdFfOeOM8Q0kCHlopcw",
+    "kind": "video",
+    "size": 347322169,
+    "stream": true,
+    "preview": "alive"
+   }
+  ],
+  "transcript": "transcripts/IMG_4727.txt",
+  "duration": "06:41",
+  "duration_s": 401.1,
+  "words": 8,
+  "quality": "ok",
+  "transponder": false,
+  "consent": "granted",
+  "speakers": [],
+  "silent": false,
+  "note": "New arrival — party-eve session 8/1 (consent consensus)"
+ },
+ {
+  "id": "1U5K08NuIeIR1SIRqCcjHlxHsZEo5pDsW",
+  "slug": "IMG_4728",
+  "title": "🥬 Veggie Coffin: AC platform + brackets + hinges — feat. Victor (\"Yo Victory!\")",
+  "date": "2026-07-31",
+  "week": null,
+  "domain": null,
+  "source": "Phoenix Gulch · party-eve build session · 2026-08-01",
+  "media": [
+   {
+    "id": "1U5K08NuIeIR1SIRqCcjHlxHsZEo5pDsW",
+    "kind": "video",
+    "size": 266554248,
+    "stream": true,
+    "preview": "alive"
+   }
+  ],
+  "transcript": "transcripts/IMG_4728.txt",
+  "duration": "03:22",
+  "duration_s": 202.4,
+  "words": 509,
+  "quality": "ok",
+  "transponder": false,
+  "consent": "granted",
+  "speakers": [],
+  "silent": false,
+  "note": "New arrival — party-eve session 8/1 (consent consensus)"
  }
 ]
