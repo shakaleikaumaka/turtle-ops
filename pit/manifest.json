@@ -960,6 +960,244 @@
           "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
         }
       ]
+    },
+    {
+      "video": "IMG_4703.MOV",
+      "transcript": "video-transcripts/IMG_4703.md",
+      "recorded": "2026-07-30T22:12:25.000000Z",
+      "duration_s": 16.9,
+      "word_count": 7,
+      "silent": false,
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy. Same folder = same consensus scope. Revocation always open: consent@publicinform.com."
+        }
+      ]
+    },
+    {
+      "video": "IMG_4704.MOV",
+      "transcript": "video-transcripts/IMG_4704.md",
+      "recorded": "2026-07-31T00:32:57.000000Z",
+      "duration_s": 105.2,
+      "word_count": 0,
+      "silent": true,
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy. Same folder = same consensus scope. Revocation always open: consent@publicinform.com."
+        }
+      ]
+    },
+    {
+      "video": "IMG_4705.MOV",
+      "transcript": "video-transcripts/IMG_4705.md",
+      "recorded": "2026-07-31T00:38:20.000000Z",
+      "duration_s": 66.4,
+      "word_count": 124,
+      "silent": false,
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy. Same folder = same consensus scope. Revocation always open: consent@publicinform.com."
+        }
+      ]
+    },
+    {
+      "video": "IMG_4709.MOV",
+      "transcript": "video-transcripts/IMG_4709.md",
+      "recorded": "2026-07-31T18:57:08.000000Z",
+      "duration_s": 126.8,
+      "word_count": 260,
+      "silent": false,
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy. Same folder = same consensus scope. Revocation always open: consent@publicinform.com."
+        }
+      ]
+    },
+    {
+      "video": "IMG_4710.MOV",
+      "transcript": "video-transcripts/IMG_4710.md",
+      "recorded": "2026-07-31T18:59:27.000000Z",
+      "duration_s": 415.1,
+      "word_count": 879,
+      "silent": false,
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy. Same folder = same consensus scope. Revocation always open: consent@publicinform.com."
+        }
+      ]
+    },
+    {
+      "video": "IMG_4711.MOV",
+      "transcript": "video-transcripts/IMG_4711.md",
+      "recorded": "2026-07-31T19:06:43.000000Z",
+      "duration_s": 161.9,
+      "word_count": 389,
+      "silent": false,
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy. Same folder = same consensus scope. Revocation always open: consent@publicinform.com."
+        }
+      ]
+    },
+    {
+      "video": "IMG_4712.MOV",
+      "transcript": "video-transcripts/IMG_4712.md",
+      "recorded": "2026-07-31T19:09:27.000000Z",
+      "duration_s": 1.5,
+      "word_count": 5,
+      "silent": false,
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy. Same folder = same consensus scope. Revocation always open: consent@publicinform.com."
+        }
+      ]
+    },
+    {
+      "video": "IMG_4713.MOV",
+      "transcript": "video-transcripts/IMG_4713.md",
+      "recorded": "2026-07-31T19:09:29.000000Z",
+      "duration_s": 1.9,
+      "word_count": 1,
+      "silent": false,
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy. Same folder = same consensus scope. Revocation always open: consent@publicinform.com."
+        }
+      ]
+    },
+    {
+      "video": "IMG_4714.MOV",
+      "transcript": "video-transcripts/IMG_4714.md",
+      "recorded": "2026-07-31T19:09:33.000000Z",
+      "duration_s": 2.3,
+      "word_count": 6,
+      "silent": false,
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy. Same folder = same consensus scope. Revocation always open: consent@publicinform.com."
+        }
+      ]
+    },
+    {
+      "video": "IMG_4715.MOV",
+      "transcript": "video-transcripts/IMG_4715.md",
+      "recorded": "2026-07-31T19:09:36.000000Z",
+      "duration_s": 66.7,
+      "word_count": 161,
+      "silent": false,
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy. Same folder = same consensus scope. Revocation always open: consent@publicinform.com."
+        }
+      ]
+    },
+    {
+      "video": "IMG_4716.MOV",
+      "transcript": "video-transcripts/IMG_4716.md",
+      "recorded": "2026-07-31T19:10:59.000000Z",
+      "duration_s": 18.4,
+      "word_count": 37,
+      "silent": false,
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy. Same folder = same consensus scope. Revocation always open: consent@publicinform.com."
+        }
+      ]
+    },
+    {
+      "video": "IMG_4717.MOV",
+      "transcript": "video-transcripts/IMG_4717.md",
+      "recorded": "2026-07-31T19:12:06.000000Z",
+      "duration_s": 572.2,
+      "word_count": 1520,
+      "silent": false,
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy. Same folder = same consensus scope. Revocation always open: consent@publicinform.com."
+        }
+      ]
+    },
+    {
+      "video": "IMG_4719.MOV",
+      "transcript": "video-transcripts/IMG_4719.md",
+      "recorded": "2026-07-31T19:38:17.000000Z",
+      "duration_s": 183.0,
+      "word_count": 508,
+      "silent": false,
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy. Same folder = same consensus scope. Revocation always open: consent@publicinform.com."
+        }
+      ]
+    },
+    {
+      "video": "IMG_4720.MOV",
+      "transcript": "video-transcripts/IMG_4720.md",
+      "recorded": "2026-07-31T19:42:01.000000Z",
+      "duration_s": 253.9,
+      "word_count": 578,
+      "silent": false,
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy. Same folder = same consensus scope. Revocation always open: consent@publicinform.com."
+        }
+      ]
     }
   ],
   "photos": [

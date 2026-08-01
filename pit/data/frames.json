@@ -1,8 +1,8 @@
 {
  "package": "shellpit-frames",
- "generated_by": "PIT BULL \ud83d\udc02 (frame-stills lane, $0.00 pure Drive\u2192ffmpeg)",
+ "generated_by": "PIT BULL 🐂 (frame-stills lane, $0.00 pure Drive→ffmpeg)",
  "generated": "2026-07-28T21:36:11Z",
- "consent_canon": "PRIVATE workbench only \u2014 no public posting until Shaka per-video clearance",
+ "consent_canon": "PRIVATE workbench only — no public posting until Shaka per-video clearance",
  "spec": {
   "visual2": "first-second + mid",
   "machine4": "even spacing 1/8..7/8",
@@ -451,6 +451,384 @@
    "duration_s": 414.74,
    "bytes": 480946936,
    "notes": "dl 15s"
+  },
+  "IMG_4703": {
+   "drive_id": "1tv297I8LQqWk3e2xjR03v2MOA2Iquu1m",
+   "lane": "terri-ffmpeg",
+   "status": "ok",
+   "frames": [
+    {
+     "file": "assets/frames/IMG_4703-1.jpg",
+     "t": 3.38,
+     "bytes": 35642
+    },
+    {
+     "file": "assets/frames/IMG_4703-2.jpg",
+     "t": 6.76,
+     "bytes": 21687
+    },
+    {
+     "file": "assets/frames/IMG_4703-3.jpg",
+     "t": 10.14,
+     "bytes": 29060
+    },
+    {
+     "file": "assets/frames/IMG_4703-4.jpg",
+     "t": 13.52,
+     "bytes": 38118
+    }
+   ]
+  },
+  "IMG_4704": {
+   "drive_id": "1Luj_MX5VHLhaTok3leJo_itzVst8ExWz",
+   "lane": "terri-ffmpeg",
+   "status": "ok",
+   "frames": [
+    {
+     "file": "assets/frames/IMG_4704-1.jpg",
+     "t": 21.04,
+     "bytes": 29420
+    },
+    {
+     "file": "assets/frames/IMG_4704-2.jpg",
+     "t": 42.09,
+     "bytes": 39678
+    },
+    {
+     "file": "assets/frames/IMG_4704-3.jpg",
+     "t": 63.13,
+     "bytes": 26525
+    },
+    {
+     "file": "assets/frames/IMG_4704-4.jpg",
+     "t": 84.17,
+     "bytes": 42088
+    }
+   ]
+  },
+  "IMG_4705": {
+   "drive_id": "1DVzhAyDrU88ZyqJIiKxuhEycl7Gb1p_E",
+   "lane": "terri-ffmpeg",
+   "status": "ok",
+   "frames": [
+    {
+     "file": "assets/frames/IMG_4705-1.jpg",
+     "t": 13.29,
+     "bytes": 140352
+    },
+    {
+     "file": "assets/frames/IMG_4705-2.jpg",
+     "t": 26.58,
+     "bytes": 133600
+    },
+    {
+     "file": "assets/frames/IMG_4705-3.jpg",
+     "t": 39.86,
+     "bytes": 97275
+    },
+    {
+     "file": "assets/frames/IMG_4705-4.jpg",
+     "t": 53.15,
+     "bytes": 47177
+    }
+   ]
+  },
+  "IMG_4709": {
+   "drive_id": "1MH9mGCPYami-7JLdZ55TaC734QqL23TO",
+   "lane": "terri-ffmpeg",
+   "status": "ok",
+   "frames": [
+    {
+     "file": "assets/frames/IMG_4709-1.jpg",
+     "t": 25.36,
+     "bytes": 75133
+    },
+    {
+     "file": "assets/frames/IMG_4709-2.jpg",
+     "t": 50.72,
+     "bytes": 74001
+    },
+    {
+     "file": "assets/frames/IMG_4709-3.jpg",
+     "t": 76.08,
+     "bytes": 65888
+    },
+    {
+     "file": "assets/frames/IMG_4709-4.jpg",
+     "t": 101.44,
+     "bytes": 59386
+    }
+   ]
+  },
+  "IMG_4710": {
+   "drive_id": "1ienPsRvRd_kvJ3ryNTyvMkI9fvczNDGP",
+   "lane": "terri-ffmpeg",
+   "status": "ok",
+   "frames": [
+    {
+     "file": "assets/frames/IMG_4710-1.jpg",
+     "t": 83.03,
+     "bytes": 67731
+    },
+    {
+     "file": "assets/frames/IMG_4710-2.jpg",
+     "t": 166.06,
+     "bytes": 61592
+    },
+    {
+     "file": "assets/frames/IMG_4710-3.jpg",
+     "t": 249.09,
+     "bytes": 34375
+    },
+    {
+     "file": "assets/frames/IMG_4710-4.jpg",
+     "t": 332.11,
+     "bytes": 24342
+    }
+   ]
+  },
+  "IMG_4711": {
+   "drive_id": "1htlI-C6MsEVM-qquuSp8pvf6BT9QpSfA",
+   "lane": "terri-ffmpeg",
+   "status": "ok",
+   "frames": [
+    {
+     "file": "assets/frames/IMG_4711-1.jpg",
+     "t": 32.37,
+     "bytes": 59093
+    },
+    {
+     "file": "assets/frames/IMG_4711-2.jpg",
+     "t": 64.75,
+     "bytes": 25072
+    },
+    {
+     "file": "assets/frames/IMG_4711-3.jpg",
+     "t": 97.12,
+     "bytes": 51571
+    },
+    {
+     "file": "assets/frames/IMG_4711-4.jpg",
+     "t": 129.49,
+     "bytes": 60520
+    }
+   ]
+  },
+  "IMG_4712": {
+   "drive_id": "1mTEuul9PCO6eNPEJxhWrCpvLTjb5DjF5",
+   "lane": "terri-ffmpeg",
+   "status": "ok",
+   "frames": [
+    {
+     "file": "assets/frames/IMG_4712-1.jpg",
+     "t": 0.29,
+     "bytes": 23686
+    },
+    {
+     "file": "assets/frames/IMG_4712-2.jpg",
+     "t": 0.59,
+     "bytes": 21263
+    },
+    {
+     "file": "assets/frames/IMG_4712-3.jpg",
+     "t": 0.88,
+     "bytes": 22521
+    },
+    {
+     "file": "assets/frames/IMG_4712-4.jpg",
+     "t": 1.17,
+     "bytes": 23257
+    }
+   ]
+  },
+  "IMG_4713": {
+   "drive_id": "1N0xju_JjPhU0GNmJLqW0zryI1H7QAkfe",
+   "lane": "terri-ffmpeg",
+   "status": "ok",
+   "frames": [
+    {
+     "file": "assets/frames/IMG_4713-1.jpg",
+     "t": 0.37,
+     "bytes": 17690
+    },
+    {
+     "file": "assets/frames/IMG_4713-2.jpg",
+     "t": 0.75,
+     "bytes": 12762
+    },
+    {
+     "file": "assets/frames/IMG_4713-3.jpg",
+     "t": 1.12,
+     "bytes": 10920
+    },
+    {
+     "file": "assets/frames/IMG_4713-4.jpg",
+     "t": 1.49,
+     "bytes": 14363
+    }
+   ]
+  },
+  "IMG_4714": {
+   "drive_id": "1fl9LURyNBmG0AFRYeYBV2J_xk-xFZ7HG",
+   "lane": "terri-ffmpeg",
+   "status": "ok",
+   "frames": [
+    {
+     "file": "assets/frames/IMG_4714-1.jpg",
+     "t": 0.46,
+     "bytes": 23537
+    },
+    {
+     "file": "assets/frames/IMG_4714-2.jpg",
+     "t": 0.92,
+     "bytes": 33776
+    },
+    {
+     "file": "assets/frames/IMG_4714-3.jpg",
+     "t": 1.38,
+     "bytes": 32285
+    },
+    {
+     "file": "assets/frames/IMG_4714-4.jpg",
+     "t": 1.84,
+     "bytes": 16650
+    }
+   ]
+  },
+  "IMG_4715": {
+   "drive_id": "1Y7dbnGIHiQ4zjWDnF_ybyO2Llua8lLnL",
+   "lane": "terri-ffmpeg",
+   "status": "ok",
+   "frames": [
+    {
+     "file": "assets/frames/IMG_4715-1.jpg",
+     "t": 13.34,
+     "bytes": 23425
+    },
+    {
+     "file": "assets/frames/IMG_4715-2.jpg",
+     "t": 26.68,
+     "bytes": 32807
+    },
+    {
+     "file": "assets/frames/IMG_4715-3.jpg",
+     "t": 40.02,
+     "bytes": 39196
+    },
+    {
+     "file": "assets/frames/IMG_4715-4.jpg",
+     "t": 53.36,
+     "bytes": 40038
+    }
+   ]
+  },
+  "IMG_4716": {
+   "drive_id": "1keQpsoOYKSj2CrD5cGiDdKylbLjcDblW",
+   "lane": "terri-ffmpeg",
+   "status": "ok",
+   "frames": [
+    {
+     "file": "assets/frames/IMG_4716-1.jpg",
+     "t": 3.67,
+     "bytes": 65039
+    },
+    {
+     "file": "assets/frames/IMG_4716-2.jpg",
+     "t": 7.35,
+     "bytes": 28537
+    },
+    {
+     "file": "assets/frames/IMG_4716-3.jpg",
+     "t": 11.02,
+     "bytes": 14619
+    },
+    {
+     "file": "assets/frames/IMG_4716-4.jpg",
+     "t": 14.69,
+     "bytes": 51873
+    }
+   ]
+  },
+  "IMG_4717": {
+   "drive_id": "1tXv6mOGpWrr6Ag2OmhEJDW6Dnsfs8x4A",
+   "lane": "terri-ffmpeg",
+   "status": "ok",
+   "frames": [
+    {
+     "file": "assets/frames/IMG_4717-1.jpg",
+     "t": 114.45,
+     "bytes": 45891
+    },
+    {
+     "file": "assets/frames/IMG_4717-2.jpg",
+     "t": 228.9,
+     "bytes": 42518
+    },
+    {
+     "file": "assets/frames/IMG_4717-3.jpg",
+     "t": 343.35,
+     "bytes": 21193
+    },
+    {
+     "file": "assets/frames/IMG_4717-4.jpg",
+     "t": 457.8,
+     "bytes": 43701
+    }
+   ]
+  },
+  "IMG_4719": {
+   "drive_id": "10ADAhn7JB9Uihkzm-LchIyViqQY1xAdS",
+   "lane": "terri-ffmpeg",
+   "status": "ok",
+   "frames": [
+    {
+     "file": "assets/frames/IMG_4719-1.jpg",
+     "t": 36.61,
+     "bytes": 105379
+    },
+    {
+     "file": "assets/frames/IMG_4719-2.jpg",
+     "t": 73.22,
+     "bytes": 100505
+    },
+    {
+     "file": "assets/frames/IMG_4719-3.jpg",
+     "t": 109.82,
+     "bytes": 123303
+    },
+    {
+     "file": "assets/frames/IMG_4719-4.jpg",
+     "t": 146.43,
+     "bytes": 117538
+    }
+   ]
+  },
+  "IMG_4720": {
+   "drive_id": "1gMjRaAa41XFTzhRTB4Z0iRPYuBuDD8nz",
+   "lane": "terri-ffmpeg",
+   "status": "ok",
+   "frames": [
+    {
+     "file": "assets/frames/IMG_4720-1.jpg",
+     "t": 50.79,
+     "bytes": 64030
+    },
+    {
+     "file": "assets/frames/IMG_4720-2.jpg",
+     "t": 101.58,
+     "bytes": 50654
+    },
+    {
+     "file": "assets/frames/IMG_4720-3.jpg",
+     "t": 152.36,
+     "bytes": 54377
+    },
+    {
+     "file": "assets/frames/IMG_4720-4.jpg",
+     "t": 203.15,
+     "bytes": 46184
+    }
+   ]
   }
  }
 }
