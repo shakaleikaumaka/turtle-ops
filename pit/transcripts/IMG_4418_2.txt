@@ -1,0 +1,16 @@
+# The Tool Maker teaches: “it's going to cut right on the line”
+
+Date: 2026-07-15
+Source video: IMG_4418_2.MOV
+Drive: https://drive.google.com/file/d/1Yr6PTEB3_9c-hu-f7K8N26TCmCrkRjbu/view
+Duration: 00:19
+Transcribed: 2026-07-28 · Terri turtlePIT · faster-whisper (small, int8) · consent: assumed-2026-07-29
+
+---
+
+[00:00] When you put it on there, it's going to cut right on the line.
+[00:03] I'm going to keep that right in there.
+[00:05] It's going to cut right on the line.
+[00:07] So I'm going to take a plant and I'm going to put them on those lines.
+[00:12] And then this all cut right on the line.
+[00:14] I'm going to set this there.

@@ -1,0 +1,11 @@
+# Counting hardware — “there's only 75 of these in there”
+
+Date: 2026-07-14
+Source video: IMG_4359_2.MOV
+Drive: https://drive.google.com/file/d/1gRlmaTqhz1r3z26iDA-28FkPejous9t0/view
+Duration: 00:23
+Transcribed: 2026-07-28 · Terri turtlePIT · faster-whisper (small, int8) · consent: assumed-2026-07-29
+
+---
+
+[00:00] We don't need them and bring them back now there's only 75 of these in there

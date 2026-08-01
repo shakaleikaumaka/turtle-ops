@@ -1,0 +1,1339 @@
+{
+  "package": "shellpit-export",
+  "generated_by": "Terri (TTC agent)",
+  "generated": "2026-07-28",
+  "consent_canon": "CONSENT CONSENSUS (2026-08-01, declared by Shaka, 20:09 UTC): consent GRANTED for all footage in Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — the pit, the ops website, the show-and-tell all deploy in full. Any person in any frame or voice can still revoke instantly, no questions, via consent@publicinform.com. The living door opens both ways.",
+  "videos": [
+    {
+      "video": "IMG_4359_2.MOV",
+      "transcript": "video-transcripts/IMG_4359_2.md",
+      "recorded": "2026-07-14T01:29:27.000000Z",
+      "duration_s": 22.6,
+      "word_count": 16,
+      "silent": false,
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "pending-shaka-clearance",
+          "until": "2026-07-29"
+        },
+        {
+          "stamp": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "order": "shaka-2026-07-29-full-deploy",
+          "note": "Shaka: assume we have consent for all the footage we currently have — full deploy. Assumed != explicit; explicit yeses still collected person-by-person; anyone can revoke instantly via consent@publicinform.com."
+        },
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+        }
+      ]
+    },
+    {
+      "video": "IMG_4417_2.MOV",
+      "transcript": "video-transcripts/IMG_4417_2.md",
+      "recorded": "2026-07-15T00:03:36.000000Z",
+      "duration_s": 20.4,
+      "word_count": 60,
+      "silent": false,
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "pending-shaka-clearance",
+          "until": "2026-07-29"
+        },
+        {
+          "stamp": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "order": "shaka-2026-07-29-full-deploy",
+          "note": "Shaka: assume we have consent for all the footage we currently have — full deploy. Assumed != explicit; explicit yeses still collected person-by-person; anyone can revoke instantly via consent@publicinform.com."
+        },
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+        }
+      ]
+    },
+    {
+      "video": "IMG_4418_2.MOV",
+      "transcript": "video-transcripts/IMG_4418_2.md",
+      "recorded": "2026-07-15T00:04:16.000000Z",
+      "duration_s": 19.0,
+      "word_count": 61,
+      "silent": false,
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "pending-shaka-clearance",
+          "until": "2026-07-29"
+        },
+        {
+          "stamp": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "order": "shaka-2026-07-29-full-deploy",
+          "note": "Shaka: assume we have consent for all the footage we currently have — full deploy. Assumed != explicit; explicit yeses still collected person-by-person; anyone can revoke instantly via consent@publicinform.com."
+        },
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+        }
+      ]
+    },
+    {
+      "video": "IMG_4420_2.MOV",
+      "transcript": "video-transcripts/IMG_4420_2.md",
+      "recorded": "2026-07-15T00:05:35.000000Z",
+      "duration_s": 0.0,
+      "word_count": 0,
+      "silent": true,
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "pending-shaka-clearance",
+          "until": "2026-07-29"
+        },
+        {
+          "stamp": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "order": "shaka-2026-07-29-full-deploy",
+          "note": "Shaka: assume we have consent for all the footage we currently have — full deploy. Assumed != explicit; explicit yeses still collected person-by-person; anyone can revoke instantly via consent@publicinform.com."
+        },
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+        }
+      ]
+    },
+    {
+      "video": "IMG_4422_2.MOV",
+      "transcript": "video-transcripts/IMG_4422_2.md",
+      "recorded": "2026-07-15T00:09:04.000000Z",
+      "duration_s": 0.0,
+      "word_count": 0,
+      "silent": true,
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "pending-shaka-clearance",
+          "until": "2026-07-29"
+        },
+        {
+          "stamp": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "order": "shaka-2026-07-29-full-deploy",
+          "note": "Shaka: assume we have consent for all the footage we currently have — full deploy. Assumed != explicit; explicit yeses still collected person-by-person; anyone can revoke instantly via consent@publicinform.com."
+        },
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+        }
+      ]
+    },
+    {
+      "video": "IMG_4423_2.MOV",
+      "transcript": "video-transcripts/IMG_4423_2.md",
+      "recorded": "2026-07-15T00:09:32.000000Z",
+      "duration_s": 6.8,
+      "word_count": 11,
+      "silent": false,
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "pending-shaka-clearance",
+          "until": "2026-07-29"
+        },
+        {
+          "stamp": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "order": "shaka-2026-07-29-full-deploy",
+          "note": "Shaka: assume we have consent for all the footage we currently have — full deploy. Assumed != explicit; explicit yeses still collected person-by-person; anyone can revoke instantly via consent@publicinform.com."
+        },
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+        }
+      ]
+    },
+    {
+      "video": "IMG_4425_2.MOV",
+      "transcript": "video-transcripts/IMG_4425_2.md",
+      "recorded": "2026-07-15T00:16:59.000000Z",
+      "duration_s": 0.0,
+      "word_count": 0,
+      "silent": true,
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "pending-shaka-clearance",
+          "until": "2026-07-29"
+        },
+        {
+          "stamp": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "order": "shaka-2026-07-29-full-deploy",
+          "note": "Shaka: assume we have consent for all the footage we currently have — full deploy. Assumed != explicit; explicit yeses still collected person-by-person; anyone can revoke instantly via consent@publicinform.com."
+        },
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+        }
+      ]
+    },
+    {
+      "video": "IMG_4427_2.MOV",
+      "transcript": "video-transcripts/IMG_4427_2.md",
+      "recorded": "2026-07-15T00:17:32.000000Z",
+      "duration_s": 0.0,
+      "word_count": 0,
+      "silent": true,
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "pending-shaka-clearance",
+          "until": "2026-07-29"
+        },
+        {
+          "stamp": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "order": "shaka-2026-07-29-full-deploy",
+          "note": "Shaka: assume we have consent for all the footage we currently have — full deploy. Assumed != explicit; explicit yeses still collected person-by-person; anyone can revoke instantly via consent@publicinform.com."
+        },
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+        }
+      ]
+    },
+    {
+      "video": "IMG_4428_2.MOV",
+      "transcript": "video-transcripts/IMG_4428_2.md",
+      "recorded": "2026-07-15T00:17:50.000000Z",
+      "duration_s": 22.7,
+      "word_count": 61,
+      "silent": false,
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "pending-shaka-clearance",
+          "until": "2026-07-29"
+        },
+        {
+          "stamp": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "order": "shaka-2026-07-29-full-deploy",
+          "note": "Shaka: assume we have consent for all the footage we currently have — full deploy. Assumed != explicit; explicit yeses still collected person-by-person; anyone can revoke instantly via consent@publicinform.com."
+        },
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+        }
+      ]
+    },
+    {
+      "video": "IMG_4429_2.MOV",
+      "transcript": "video-transcripts/IMG_4429_2.md",
+      "recorded": "2026-07-15T00:18:18.000000Z",
+      "duration_s": 44.0,
+      "word_count": 21,
+      "silent": false,
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "pending-shaka-clearance",
+          "until": "2026-07-29"
+        },
+        {
+          "stamp": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "order": "shaka-2026-07-29-full-deploy",
+          "note": "Shaka: assume we have consent for all the footage we currently have — full deploy. Assumed != explicit; explicit yeses still collected person-by-person; anyone can revoke instantly via consent@publicinform.com."
+        },
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+        }
+      ]
+    },
+    {
+      "video": "IMG_4430_2.MOV",
+      "transcript": "video-transcripts/IMG_4430_2.md",
+      "recorded": "2026-07-15T00:19:18.000000Z",
+      "duration_s": 19.6,
+      "word_count": 3,
+      "silent": false,
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "pending-shaka-clearance",
+          "until": "2026-07-29"
+        },
+        {
+          "stamp": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "order": "shaka-2026-07-29-full-deploy",
+          "note": "Shaka: assume we have consent for all the footage we currently have — full deploy. Assumed != explicit; explicit yeses still collected person-by-person; anyone can revoke instantly via consent@publicinform.com."
+        },
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+        }
+      ]
+    },
+    {
+      "video": "IMG_4431_2.MOV",
+      "transcript": "video-transcripts/IMG_4431_2.md",
+      "recorded": "2026-07-15T00:19:38.000000Z",
+      "duration_s": 2.2,
+      "word_count": 1,
+      "silent": false,
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "pending-shaka-clearance",
+          "until": "2026-07-29"
+        },
+        {
+          "stamp": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "order": "shaka-2026-07-29-full-deploy",
+          "note": "Shaka: assume we have consent for all the footage we currently have — full deploy. Assumed != explicit; explicit yeses still collected person-by-person; anyone can revoke instantly via consent@publicinform.com."
+        },
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+        }
+      ]
+    },
+    {
+      "video": "IMG_4432_2.MOV",
+      "transcript": "video-transcripts/IMG_4432_2.md",
+      "recorded": "2026-07-15T00:19:44.000000Z",
+      "duration_s": 22.4,
+      "word_count": 20,
+      "silent": false,
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "pending-shaka-clearance",
+          "until": "2026-07-29"
+        },
+        {
+          "stamp": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "order": "shaka-2026-07-29-full-deploy",
+          "note": "Shaka: assume we have consent for all the footage we currently have — full deploy. Assumed != explicit; explicit yeses still collected person-by-person; anyone can revoke instantly via consent@publicinform.com."
+        },
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+        }
+      ]
+    },
+    {
+      "video": "IMG_4433_2.MOV",
+      "transcript": "video-transcripts/IMG_4433_2.md",
+      "recorded": "2026-07-15T00:20:12.000000Z",
+      "duration_s": 66.3,
+      "word_count": 18,
+      "silent": false,
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "pending-shaka-clearance",
+          "until": "2026-07-29"
+        },
+        {
+          "stamp": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "order": "shaka-2026-07-29-full-deploy",
+          "note": "Shaka: assume we have consent for all the footage we currently have — full deploy. Assumed != explicit; explicit yeses still collected person-by-person; anyone can revoke instantly via consent@publicinform.com."
+        },
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+        }
+      ]
+    },
+    {
+      "video": "IMG_4434_2.MOV",
+      "transcript": "video-transcripts/IMG_4434_2.md",
+      "recorded": "2026-07-15T00:32:15.000000Z",
+      "duration_s": 9.4,
+      "word_count": 16,
+      "silent": false,
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "pending-shaka-clearance",
+          "until": "2026-07-29"
+        },
+        {
+          "stamp": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "order": "shaka-2026-07-29-full-deploy",
+          "note": "Shaka: assume we have consent for all the footage we currently have — full deploy. Assumed != explicit; explicit yeses still collected person-by-person; anyone can revoke instantly via consent@publicinform.com."
+        },
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+        }
+      ]
+    },
+    {
+      "video": "IMG_4435_2.MOV",
+      "transcript": "video-transcripts/IMG_4435_2.md",
+      "recorded": "2026-07-15T00:33:37.000000Z",
+      "duration_s": 62.1,
+      "word_count": 56,
+      "silent": false,
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "pending-shaka-clearance",
+          "until": "2026-07-29"
+        },
+        {
+          "stamp": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "order": "shaka-2026-07-29-full-deploy",
+          "note": "Shaka: assume we have consent for all the footage we currently have — full deploy. Assumed != explicit; explicit yeses still collected person-by-person; anyone can revoke instantly via consent@publicinform.com."
+        },
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+        }
+      ]
+    },
+    {
+      "video": "IMG_4439_2.MOV",
+      "transcript": "video-transcripts/IMG_4439_2.md",
+      "recorded": "2026-07-15T02:35:57.000000Z",
+      "duration_s": 10.9,
+      "word_count": 0,
+      "silent": false,
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "pending-shaka-clearance",
+          "until": "2026-07-29"
+        },
+        {
+          "stamp": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "order": "shaka-2026-07-29-full-deploy",
+          "note": "Shaka: assume we have consent for all the footage we currently have — full deploy. Assumed != explicit; explicit yeses still collected person-by-person; anyone can revoke instantly via consent@publicinform.com."
+        },
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+        }
+      ]
+    },
+    {
+      "video": "IMG_4441.MOV",
+      "transcript": "video-transcripts/IMG_4441.md",
+      "recorded": "2026-07-16T19:48:51.000000Z",
+      "duration_s": 0.0,
+      "word_count": 0,
+      "silent": true,
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "pending-shaka-clearance",
+          "until": "2026-07-29"
+        },
+        {
+          "stamp": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "order": "shaka-2026-07-29-full-deploy",
+          "note": "Shaka: assume we have consent for all the footage we currently have — full deploy. Assumed != explicit; explicit yeses still collected person-by-person; anyone can revoke instantly via consent@publicinform.com."
+        },
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+        }
+      ]
+    },
+    {
+      "video": "IMG_4442.MOV",
+      "transcript": "video-transcripts/IMG_4442.md",
+      "recorded": "2026-07-16T19:54:40.000000Z",
+      "duration_s": 12.4,
+      "word_count": 18,
+      "silent": false,
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "pending-shaka-clearance",
+          "until": "2026-07-29"
+        },
+        {
+          "stamp": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "order": "shaka-2026-07-29-full-deploy",
+          "note": "Shaka: assume we have consent for all the footage we currently have — full deploy. Assumed != explicit; explicit yeses still collected person-by-person; anyone can revoke instantly via consent@publicinform.com."
+        },
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+        }
+      ]
+    },
+    {
+      "video": "IMG_4443.MOV",
+      "transcript": "video-transcripts/IMG_4443.md",
+      "recorded": "2026-07-16T19:54:55.000000Z",
+      "duration_s": 8.7,
+      "word_count": 11,
+      "silent": false,
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "pending-shaka-clearance",
+          "until": "2026-07-29"
+        },
+        {
+          "stamp": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "order": "shaka-2026-07-29-full-deploy",
+          "note": "Shaka: assume we have consent for all the footage we currently have — full deploy. Assumed != explicit; explicit yeses still collected person-by-person; anyone can revoke instantly via consent@publicinform.com."
+        },
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+        }
+      ]
+    },
+    {
+      "video": "IMG_4445.MOV",
+      "transcript": "video-transcripts/IMG_4445.md",
+      "recorded": "2026-07-16T19:55:52.000000Z",
+      "duration_s": 0.0,
+      "word_count": 0,
+      "silent": true,
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "pending-shaka-clearance",
+          "until": "2026-07-29"
+        },
+        {
+          "stamp": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "order": "shaka-2026-07-29-full-deploy",
+          "note": "Shaka: assume we have consent for all the footage we currently have — full deploy. Assumed != explicit; explicit yeses still collected person-by-person; anyone can revoke instantly via consent@publicinform.com."
+        },
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+        }
+      ]
+    },
+    {
+      "video": "IMG_4447.MOV",
+      "transcript": "video-transcripts/IMG_4447.md",
+      "recorded": "2026-07-16T22:02:12.000000Z",
+      "duration_s": 0.0,
+      "word_count": 0,
+      "silent": true,
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "pending-shaka-clearance",
+          "until": "2026-07-29"
+        },
+        {
+          "stamp": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "order": "shaka-2026-07-29-full-deploy",
+          "note": "Shaka: assume we have consent for all the footage we currently have — full deploy. Assumed != explicit; explicit yeses still collected person-by-person; anyone can revoke instantly via consent@publicinform.com."
+        },
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+        }
+      ]
+    },
+    {
+      "video": "IMG_4451.MOV",
+      "transcript": "video-transcripts/IMG_4451.md",
+      "recorded": "2026-07-16T23:58:10.000000Z",
+      "duration_s": 0.0,
+      "word_count": 0,
+      "silent": true,
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "pending-shaka-clearance",
+          "until": "2026-07-29"
+        },
+        {
+          "stamp": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "order": "shaka-2026-07-29-full-deploy",
+          "note": "Shaka: assume we have consent for all the footage we currently have — full deploy. Assumed != explicit; explicit yeses still collected person-by-person; anyone can revoke instantly via consent@publicinform.com."
+        },
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+        }
+      ]
+    },
+    {
+      "video": "IMG_4452.MOV",
+      "transcript": "video-transcripts/IMG_4452.md",
+      "recorded": "2026-07-17T00:08:45.000000Z",
+      "duration_s": 414.8,
+      "word_count": 117,
+      "silent": false,
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "pending-shaka-clearance",
+          "until": "2026-07-29"
+        },
+        {
+          "stamp": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "order": "shaka-2026-07-29-full-deploy",
+          "note": "Shaka: assume we have consent for all the footage we currently have — full deploy. Assumed != explicit; explicit yeses still collected person-by-person; anyone can revoke instantly via consent@publicinform.com."
+        },
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+        }
+      ]
+    },
+    {
+      "video": "IMG_4453.MOV",
+      "transcript": "video-transcripts/IMG_4453.md",
+      "recorded": "2026-07-17T00:15:41.000000Z",
+      "duration_s": 2.0,
+      "word_count": 0,
+      "silent": false,
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "pending-shaka-clearance",
+          "until": "2026-07-29"
+        },
+        {
+          "stamp": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "order": "shaka-2026-07-29-full-deploy",
+          "note": "Shaka: assume we have consent for all the footage we currently have — full deploy. Assumed != explicit; explicit yeses still collected person-by-person; anyone can revoke instantly via consent@publicinform.com."
+        },
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+        }
+      ]
+    },
+    {
+      "video": "IMG_4459.MOV",
+      "transcript": "video-transcripts/IMG_4459.md",
+      "recorded": "2026-07-17T21:38:29.000000Z",
+      "duration_s": 0.0,
+      "word_count": 0,
+      "silent": true,
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "pending-shaka-clearance",
+          "until": "2026-07-29"
+        },
+        {
+          "stamp": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "order": "shaka-2026-07-29-full-deploy",
+          "note": "Shaka: assume we have consent for all the footage we currently have — full deploy. Assumed != explicit; explicit yeses still collected person-by-person; anyone can revoke instantly via consent@publicinform.com."
+        },
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+        }
+      ]
+    },
+    {
+      "video": "IMG_4460.MOV",
+      "transcript": "video-transcripts/IMG_4460.md",
+      "recorded": "2026-07-17T23:34:46.000000Z",
+      "duration_s": 24.9,
+      "word_count": 58,
+      "silent": false,
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "pending-shaka-clearance",
+          "until": "2026-07-29"
+        },
+        {
+          "stamp": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "order": "shaka-2026-07-29-full-deploy",
+          "note": "Shaka: assume we have consent for all the footage we currently have — full deploy. Assumed != explicit; explicit yeses still collected person-by-person; anyone can revoke instantly via consent@publicinform.com."
+        },
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+        }
+      ]
+    },
+    {
+      "video": "IMG_4461.MOV",
+      "transcript": "video-transcripts/IMG_4461.md",
+      "recorded": "2026-07-17T23:44:27.000000Z",
+      "duration_s": 41.0,
+      "word_count": 72,
+      "silent": false,
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "pending-shaka-clearance",
+          "until": "2026-07-29"
+        },
+        {
+          "stamp": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "order": "shaka-2026-07-29-full-deploy",
+          "note": "Shaka: assume we have consent for all the footage we currently have — full deploy. Assumed != explicit; explicit yeses still collected person-by-person; anyone can revoke instantly via consent@publicinform.com."
+        },
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+        }
+      ]
+    },
+    {
+      "video": "IMG_4467.MOV",
+      "transcript": "video-transcripts/IMG_4467.md",
+      "recorded": "2026-07-19T01:16:07.000000Z",
+      "duration_s": 0.0,
+      "word_count": 0,
+      "silent": true,
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "pending-shaka-clearance",
+          "until": "2026-07-29"
+        },
+        {
+          "stamp": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "order": "shaka-2026-07-29-full-deploy",
+          "note": "Shaka: assume we have consent for all the footage we currently have — full deploy. Assumed != explicit; explicit yeses still collected person-by-person; anyone can revoke instantly via consent@publicinform.com."
+        },
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+        }
+      ]
+    },
+    {
+      "video": "IMG_4469.MOV",
+      "transcript": "video-transcripts/IMG_4469.md",
+      "recorded": "2026-07-19T01:16:24.000000Z",
+      "duration_s": 0.0,
+      "word_count": 0,
+      "silent": true,
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "pending-shaka-clearance",
+          "until": "2026-07-29"
+        },
+        {
+          "stamp": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "order": "shaka-2026-07-29-full-deploy",
+          "note": "Shaka: assume we have consent for all the footage we currently have — full deploy. Assumed != explicit; explicit yeses still collected person-by-person; anyone can revoke instantly via consent@publicinform.com."
+        },
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+        }
+      ]
+    },
+    {
+      "video": "IMG_4471.MOV",
+      "transcript": "video-transcripts/IMG_4471.md",
+      "recorded": null,
+      "duration_s": 0.0,
+      "word_count": 0,
+      "silent": true,
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "pending-shaka-clearance",
+          "until": "2026-07-29"
+        },
+        {
+          "stamp": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "order": "shaka-2026-07-29-full-deploy",
+          "note": "Shaka: assume we have consent for all the footage we currently have — full deploy. Assumed != explicit; explicit yeses still collected person-by-person; anyone can revoke instantly via consent@publicinform.com."
+        },
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+        }
+      ]
+    },
+    {
+      "video": "IMG_4623.MOV",
+      "transcript": "video-transcripts/IMG_4623.md",
+      "recorded": "2026-07-28T17:42:01.000000Z",
+      "duration_s": 19.5,
+      "word_count": 33,
+      "silent": false,
+      "consent": "granted",
+      "features_machine": true,
+      "priority": "MACHINE-GUIDANCE",
+      "machine_note": "The Machine NAMED on camera + THE SHOWER RUNS (\"that's a shower right there\") — \"when a bunch of computer nerds fail, you just bring in the experts like Jared the machine\"",
+      "consent_history": [
+        {
+          "stamp": "pending-shaka-clearance",
+          "until": "2026-07-29"
+        },
+        {
+          "stamp": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "order": "shaka-2026-07-29-full-deploy",
+          "note": "Shaka: assume we have consent for all the footage we currently have — full deploy. Assumed != explicit; explicit yeses still collected person-by-person; anyone can revoke instantly via consent@publicinform.com."
+        },
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+        }
+      ]
+    },
+    {
+      "video": "IMG_4624.MOV",
+      "transcript": "video-transcripts/IMG_4624.md",
+      "recorded": "2026-07-28T17:42:26.000000Z",
+      "duration_s": 118.7,
+      "word_count": 206,
+      "silent": false,
+      "consent": "granted",
+      "features_machine": true,
+      "priority": "MACHINE-GUIDANCE",
+      "machine_note": "TRAILER MACHINIFIED walkthrough — transfer switch (panel/battery/generator-kill), 16 outlets, 30A both sides. \"The machine turned the trailer into a machine\" / \"Thank you machine\"",
+      "consent_history": [
+        {
+          "stamp": "pending-shaka-clearance",
+          "until": "2026-07-29"
+        },
+        {
+          "stamp": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "order": "shaka-2026-07-29-full-deploy",
+          "note": "Shaka: assume we have consent for all the footage we currently have — full deploy. Assumed != explicit; explicit yeses still collected person-by-person; anyone can revoke instantly via consent@publicinform.com."
+        },
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+        }
+      ]
+    },
+    {
+      "video": "IMG_4625.MOV",
+      "transcript": "video-transcripts/IMG_4625.md",
+      "recorded": "2026-07-28T17:45:31.000000Z",
+      "duration_s": 28.2,
+      "word_count": 0,
+      "silent": false,
+      "consent": "granted",
+      "features_machine": "likely",
+      "priority": "MACHINE-GUIDANCE",
+      "machine_note": "Same 7/28 Machine session (17:45, 3 min after 4624) — speechless clip, likely visual b-roll of the machinified trailer / shower area",
+      "consent_history": [
+        {
+          "stamp": "pending-shaka-clearance",
+          "until": "2026-07-29"
+        },
+        {
+          "stamp": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "order": "shaka-2026-07-29-full-deploy",
+          "note": "Shaka: assume we have consent for all the footage we currently have — full deploy. Assumed != explicit; explicit yeses still collected person-by-person; anyone can revoke instantly via consent@publicinform.com."
+        },
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+        }
+      ]
+    },
+    {
+      "video": "IMG_4626.MOV",
+      "transcript": "video-transcripts/IMG_4626.md",
+      "recorded": "2026-07-28T18:37:55.000000Z",
+      "duration_s": 150.2,
+      "word_count": 290,
+      "silent": false,
+      "consent": "granted",
+      "features_machine": true,
+      "priority": "MACHINE-GUIDANCE",
+      "machine_note": "WATER SYSTEM END-TO-END taught by The Machine — IBC coupler+teflon+cam-lock, transfer pump to kitchen, foot switch, float switches, shower basin to greywater. \"Really appreciate you machine!\" (+Victor \"Victory!\" present)",
+      "consent_history": [
+        {
+          "stamp": "pending-shaka-clearance",
+          "until": "2026-07-29"
+        },
+        {
+          "stamp": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "order": "shaka-2026-07-29-full-deploy",
+          "note": "Shaka: assume we have consent for all the footage we currently have — full deploy. Assumed != explicit; explicit yeses still collected person-by-person; anyone can revoke instantly via consent@publicinform.com."
+        },
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+        }
+      ]
+    }
+  ],
+  "photos": [
+    {
+      "file": "IMG_4302_2.HEIC",
+      "recorded": "2026:07:12 15:18:52",
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "pending-shaka-clearance",
+          "until": "2026-07-29"
+        },
+        {
+          "stamp": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "order": "shaka-2026-07-29-full-deploy",
+          "note": "Shaka: assume we have consent for all the footage we currently have — full deploy. Assumed != explicit; explicit yeses still collected person-by-person; anyone can revoke instantly via consent@publicinform.com."
+        },
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+        }
+      ]
+    },
+    {
+      "file": "IMG_4316_2.HEIC",
+      "recorded": "2026:07:12 15:19:29",
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "pending-shaka-clearance",
+          "until": "2026-07-29"
+        },
+        {
+          "stamp": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "order": "shaka-2026-07-29-full-deploy",
+          "note": "Shaka: assume we have consent for all the footage we currently have — full deploy. Assumed != explicit; explicit yeses still collected person-by-person; anyone can revoke instantly via consent@publicinform.com."
+        },
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+        }
+      ]
+    },
+    {
+      "file": "IMG_4416_2.HEIC",
+      "recorded": "2026:07:14 16:51:13",
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "pending-shaka-clearance",
+          "until": "2026-07-29"
+        },
+        {
+          "stamp": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "order": "shaka-2026-07-29-full-deploy",
+          "note": "Shaka: assume we have consent for all the footage we currently have — full deploy. Assumed != explicit; explicit yeses still collected person-by-person; anyone can revoke instantly via consent@publicinform.com."
+        },
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+        }
+      ]
+    },
+    {
+      "file": "IMG_4437_2.HEIC",
+      "recorded": "2026:07:14 18:50:30",
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "pending-shaka-clearance",
+          "until": "2026-07-29"
+        },
+        {
+          "stamp": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "order": "shaka-2026-07-29-full-deploy",
+          "note": "Shaka: assume we have consent for all the footage we currently have — full deploy. Assumed != explicit; explicit yeses still collected person-by-person; anyone can revoke instantly via consent@publicinform.com."
+        },
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+        }
+      ]
+    },
+    {
+      "file": "IMG_4454.JPG",
+      "recorded": null,
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "pending-shaka-clearance",
+          "until": "2026-07-29"
+        },
+        {
+          "stamp": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "order": "shaka-2026-07-29-full-deploy",
+          "note": "Shaka: assume we have consent for all the footage we currently have — full deploy. Assumed != explicit; explicit yeses still collected person-by-person; anyone can revoke instantly via consent@publicinform.com."
+        },
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+        }
+      ]
+    },
+    {
+      "file": "IMG_4455.JPG",
+      "recorded": null,
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "pending-shaka-clearance",
+          "until": "2026-07-29"
+        },
+        {
+          "stamp": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "order": "shaka-2026-07-29-full-deploy",
+          "note": "Shaka: assume we have consent for all the footage we currently have — full deploy. Assumed != explicit; explicit yeses still collected person-by-person; anyone can revoke instantly via consent@publicinform.com."
+        },
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+        }
+      ]
+    },
+    {
+      "file": "IMG_4486.HEIC",
+      "recorded": "2026:07:20 16:22:29",
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "pending-shaka-clearance",
+          "until": "2026-07-29"
+        },
+        {
+          "stamp": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "order": "shaka-2026-07-29-full-deploy",
+          "note": "Shaka: assume we have consent for all the footage we currently have — full deploy. Assumed != explicit; explicit yeses still collected person-by-person; anyone can revoke instantly via consent@publicinform.com."
+        },
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+        }
+      ]
+    },
+    {
+      "file": "IMG_4487.HEIC",
+      "recorded": "2026:07:20 16:22:30",
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "pending-shaka-clearance",
+          "until": "2026-07-29"
+        },
+        {
+          "stamp": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "order": "shaka-2026-07-29-full-deploy",
+          "note": "Shaka: assume we have consent for all the footage we currently have — full deploy. Assumed != explicit; explicit yeses still collected person-by-person; anyone can revoke instantly via consent@publicinform.com."
+        },
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+        }
+      ]
+    },
+    {
+      "file": "IMG_4488.HEIC",
+      "recorded": "2026:07:20 16:22:33",
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "pending-shaka-clearance",
+          "until": "2026-07-29"
+        },
+        {
+          "stamp": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "order": "shaka-2026-07-29-full-deploy",
+          "note": "Shaka: assume we have consent for all the footage we currently have — full deploy. Assumed != explicit; explicit yeses still collected person-by-person; anyone can revoke instantly via consent@publicinform.com."
+        },
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+        }
+      ]
+    },
+    {
+      "file": "IMG_4490.HEIC",
+      "recorded": "2026:07:20 16:23:40",
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "pending-shaka-clearance",
+          "until": "2026-07-29"
+        },
+        {
+          "stamp": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "order": "shaka-2026-07-29-full-deploy",
+          "note": "Shaka: assume we have consent for all the footage we currently have — full deploy. Assumed != explicit; explicit yeses still collected person-by-person; anyone can revoke instantly via consent@publicinform.com."
+        },
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+        }
+      ]
+    },
+    {
+      "file": "IMG_4491.HEIC",
+      "recorded": "2026:07:20 16:23:41",
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "pending-shaka-clearance",
+          "until": "2026-07-29"
+        },
+        {
+          "stamp": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "order": "shaka-2026-07-29-full-deploy",
+          "note": "Shaka: assume we have consent for all the footage we currently have — full deploy. Assumed != explicit; explicit yeses still collected person-by-person; anyone can revoke instantly via consent@publicinform.com."
+        },
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+        }
+      ]
+    },
+    {
+      "file": "IMG_4492.HEIC",
+      "recorded": "2026:07:20 16:23:42",
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "pending-shaka-clearance",
+          "until": "2026-07-29"
+        },
+        {
+          "stamp": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "order": "shaka-2026-07-29-full-deploy",
+          "note": "Shaka: assume we have consent for all the footage we currently have — full deploy. Assumed != explicit; explicit yeses still collected person-by-person; anyone can revoke instantly via consent@publicinform.com."
+        },
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+        }
+      ]
+    },
+    {
+      "file": "IMG_4493.HEIC",
+      "recorded": "2026:07:20 16:23:53",
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "pending-shaka-clearance",
+          "until": "2026-07-29"
+        },
+        {
+          "stamp": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "order": "shaka-2026-07-29-full-deploy",
+          "note": "Shaka: assume we have consent for all the footage we currently have — full deploy. Assumed != explicit; explicit yeses still collected person-by-person; anyone can revoke instantly via consent@publicinform.com."
+        },
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+        }
+      ]
+    },
+    {
+      "file": "IMG_4494.HEIC",
+      "recorded": "2026:07:20 16:23:54",
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "pending-shaka-clearance",
+          "until": "2026-07-29"
+        },
+        {
+          "stamp": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "order": "shaka-2026-07-29-full-deploy",
+          "note": "Shaka: assume we have consent for all the footage we currently have — full deploy. Assumed != explicit; explicit yeses still collected person-by-person; anyone can revoke instantly via consent@publicinform.com."
+        },
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+        }
+      ]
+    },
+    {
+      "file": "IMG_4549.HEIC",
+      "recorded": "2026:07:21 12:03:30",
+      "consent": "granted",
+      "consent_history": [
+        {
+          "stamp": "pending-shaka-clearance",
+          "until": "2026-07-29"
+        },
+        {
+          "stamp": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "order": "shaka-2026-07-29-full-deploy",
+          "note": "Shaka: assume we have consent for all the footage we currently have — full deploy. Assumed != explicit; explicit yeses still collected person-by-person; anyone can revoke instantly via consent@publicinform.com."
+        },
+        {
+          "stamp": "granted",
+          "at": "2026-08-01T20:09:00Z",
+          "order": "shaka-2026-08-01-consent-consensus",
+          "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+        }
+      ]
+    }
+  ],
+  "machine_guidance": {
+    "canon": "Shaka 2026-07-28 20:55 UTC: \"just as the Admiral is a machine guiding me, Jarred is the Machine guiding our build\" — both Turtle Ops AND the ShellPit get a dedicated MACHINE GUIDANCE window",
+    "person": "Jarred \"The Machine\" Henson (transcript spellings vary: Jarrett/Jared) — welding, keder rails, electrical; introduced 7/16 david-sync, on-site Gulch week of 7/20 and 7/28",
+    "confirmed_clips": [
+      "IMG_4623.MOV",
+      "IMG_4624.MOV",
+      "IMG_4626.MOV"
+    ],
+    "likely_clips": [
+      "IMG_4625.MOV"
+    ],
+    "meeting_transcripts": [
+      "meeting-transcripts/2026-07-16-david-sync.md (Jarrett Henson is a primary speaker — his introduction + water/power Q&A with David)",
+      "meeting-transcripts/2026-07-16-david-sync-JADE-NOTES.md"
+    ],
+    "photos": "No photos confirmed to feature The Machine; 7/20 shower-cut photos (IMG_4490-4494) + 7/21 custom hose (IMG_4549) document work from his on-site week — attribution unconfirmed",
+    "consent": "ALL Machine clips remain pending-shaka-clearance. Build the window structure first; unlock faces/voices per Shaka's per-video list.",
+    "details": "MACHINE-GUIDANCE.md"
+  },
+  "consent_assumed_at": "2026-07-29T13:35:00Z",
+  "consent_order": "shaka-2026-07-29-full-deploy",
+  "consent_declaration": {
+    "stamp": "granted",
+    "at": "2026-08-01T20:09:00Z",
+    "order": "shaka-2026-08-01-consent-consensus",
+    "note": "Shaka declared CONSENT CONSENSUS (2026-08-01 20:09 UTC) for Drive folder 1KO1254kVG9ADgcWzc9Ygs0_n6qviC2sB — full deploy alongside the Terrible Turtle Pit and ops website. Same folder = same consensus scope. Revocation always open: consent@publicinform.com — no questions, honored with love."
+  }
+}

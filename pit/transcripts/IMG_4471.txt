@@ -1,0 +1,10 @@
+# SILENT clip (no audio track) 🔇
+
+Date: 
+Source video: IMG_4471.MOV
+Drive: https://drive.google.com/file/d/1z4jm8oxuXpC1YT11MKqFIXE_gPymDgmh/view
+Duration: 00:00
+Transcribed: 2026-07-28 · Terri turtlePIT · faster-whisper (small, int8) · consent: assumed-2026-07-29
+
+---
+

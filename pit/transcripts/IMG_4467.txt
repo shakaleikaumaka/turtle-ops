@@ -1,0 +1,10 @@
+# Pocket clip 😄 (sub-second accidental capture)
+
+Date: 2026-07-19
+Source video: IMG_4467.MOV
+Drive: https://drive.google.com/file/d/1KP-UhgpLywyVM2EsLq9b0jaLZTOG0T03/view
+Duration: 00:00
+Transcribed: 2026-07-28 · Terri turtlePIT · faster-whisper (small, int8) · consent: assumed-2026-07-29
+
+---
+

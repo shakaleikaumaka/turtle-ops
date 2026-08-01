@@ -1,0 +1,10 @@
+# Build session, night 7/16→17 · coffin work
+
+Date: 2026-07-17
+Source video: IMG_4453.MOV
+Drive: https://drive.google.com/file/d/1xXdIZs1theMAlBMsngvAPlJjLrHiEpxw/view
+Duration: 00:02
+Transcribed: 2026-07-28 · Terri turtlePIT · faster-whisper (small, int8) · consent: assumed-2026-07-29
+
+---
+

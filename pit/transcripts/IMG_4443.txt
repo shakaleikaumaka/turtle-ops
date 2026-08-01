@@ -1,0 +1,12 @@
+# Build session, evening 7/16 · clip 3
+
+Date: 2026-07-16
+Source video: IMG_4443.MOV
+Drive: https://drive.google.com/file/d/1D5vWN90N5bJ7j07RF9yXAaM_poqusZse/view
+Duration: 00:09
+Transcribed: 2026-07-28 · Terri turtlePIT · faster-whisper (small, int8) · consent: assumed-2026-07-29
+
+---
+
+[00:00] [unclear — non-English speech, likely Hebrew; whisper mis-rendered as Arabic]
+[00:03] [unclear — non-English speech, likely Hebrew; whisper mis-rendered as Arabic]

@@ -1,0 +1,10 @@
+# 🔧 The machinified trailer — b-roll (speechless)
+
+Date: 2026-07-28
+Source video: IMG_4625.MOV
+Drive: https://drive.google.com/file/d/1geJzAkSqd_g2uKsP_D_qoUYq_GtfIqKL/view
+Duration: 00:28
+Transcribed: 2026-07-28 · Terri turtlePIT · faster-whisper (small, int8) · consent: assumed-2026-07-29
+
+---
+

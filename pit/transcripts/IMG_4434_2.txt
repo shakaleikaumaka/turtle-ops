@@ -1,0 +1,11 @@
+# “Pretty, but not nearly as smooth as the Tool Maker's”
+
+Date: 2026-07-15
+Source video: IMG_4434_2.MOV
+Drive: https://drive.google.com/file/d/1KsiLBxlJqvvlG0KXJRG8muGNXqZuLAVP/view
+Duration: 00:09
+Transcribed: 2026-07-28 · Terri turtlePIT · faster-whisper (small, int8) · consent: assumed-2026-07-29
+
+---
+
+[00:00] So it's definitely pretty but not nearly as smooth as the tool what the tool maker

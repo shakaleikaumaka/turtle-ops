@@ -1,0 +1,10 @@
+# The Tool Maker session · last cuts
+
+Date: 2026-07-15
+Source video: IMG_4439_2.MOV
+Drive: https://drive.google.com/file/d/19Re2XtEoOouOI39wC2nwdVTm8gUOqSZn/view
+Duration: 00:11
+Transcribed: 2026-07-28 · Terri turtlePIT · faster-whisper (small, int8) · consent: assumed-2026-07-29
+
+---
+

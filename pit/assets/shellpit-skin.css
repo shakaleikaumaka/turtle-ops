@@ -1,0 +1,90 @@
+/* ============================================================
+   SHELLPIT SKIN — playa at dusk 🐢🔥
+   fork #8 of the Esmeralda genesis transponder UX
+   drop-in override: load AFTER the genesis stylesheet
+   every var maps 1:1 to the genesis :root contract (canonical: zuitzpit)
+   palette traced from terribleturtle.camp's own CSS — brand truth
+   CC0 · consent canon: LAUNCH 2026-07-29 — assumed consent, takedown via consent@publicinform.com 🦀
+   ============================================================ */
+
+:root{
+  /* deep structure — dusk navy descends */
+  --bg:#0a0e1c; --bg2:#101527; --card:#161b31; --card2:#1d2340;
+  /* ink — turtle-cream rises */
+  --ink:#f7f0eb; --ink-dim:#cbb9a7; --ink-faint:#7c6e67;
+  /* domain / tab accents — ember scale */
+  --w1:#db9840;  /* amber        */
+  --w2:#eb5833;  /* ember orange */
+  --w3:#ddae6c;  /* sand-gold    */
+  --w4:#a3623b;  /* copper bronze */
+  /* signature */
+  --sun:#eb5833;    /* the ember — primary accent   */
+  --coral:#db9840;  /* amber — secondary accent      */
+  --aloha:#f0d9b5;  /* pale sand — highlight         */
+  --line:rgba(221,174,108,.13);
+  --radius:18px;
+}
+
+::selection{background:var(--sun);color:#071123} /* biting the page */
+
+/* ---------- HERO — playa sunset ---------- */
+.hero{
+  background:radial-gradient(ellipse 80% 60% at 50% 120%, #2a1410 0%, transparent 60%),   /* fire pit below   */
+             radial-gradient(ellipse 60% 50% at 80% -10%, #241a2e 0%, transparent 55%),   /* dusk violet high */
+             radial-gradient(ellipse 50% 40% at 10% 0%, #241407 0%, transparent 50%),     /* ember corner     */
+             var(--bg)}
+.hero::before{background:
+  radial-gradient(circle at 50% 115%, rgba(235,88,51,.26) 0%, transparent 45%)}
+
+/* the dusk sun: cream core -> ember -> bronze -> gone */
+.sun{
+  background:radial-gradient(circle, #f7e8c8 0%, #eb5833 35%, #a3623b 60%, transparent 72%)}
+
+/* wordmark: light crossing a shell */
+h1.logo{
+  background:linear-gradient(115deg,#fff 20%,var(--aloha) 45%,var(--sun) 65%,var(--w4) 90%);
+  -webkit-background-clip:text;background-clip:text;color:transparent}
+
+/* gift badge — warm glass */
+.badge-gift{color:var(--aloha);
+  border:1px solid rgba(221,174,108,.35);background:rgba(221,174,108,.06)}
+
+/* ---------- NAV ---------- */
+nav{background:rgba(10,14,28,.78);border-bottom:1px solid var(--line)}
+nav .brand{
+  background:linear-gradient(115deg,var(--aloha),var(--sun));
+  -webkit-background-clip:text;background-clip:text;color:transparent}
+
+/* ---------- WEEK / DOMAIN TABS — ember scale ---------- */
+.wtab.active[data-w="1"]{background:var(--w1);color:#3d2a00;border-color:var(--w1)}
+.wtab.active[data-w="2"]{background:var(--w2);color:#2b0d03;border-color:var(--w2)}
+.wtab.active[data-w="3"]{background:var(--w3);color:#3a2a10;border-color:var(--w3)}
+.wtab.active[data-w="4"]{background:var(--w4);color:#f7f0eb;border-color:var(--w4)}
+
+/* ---------- TOOLBAR / CHIPS ---------- */
+.search input:focus{border-color:var(--sun)}
+.chip.on{background:rgba(235,88,51,.15);border-color:var(--sun);color:var(--sun)}
+
+/* ---------- CARDS ---------- */
+.card:hover{border-color:rgba(235,88,51,.4);box-shadow:0 18px 44px rgba(0,0,0,.5)}
+
+/* ---------- BUTTONS ---------- */
+.btn-sun{background:linear-gradient(115deg,var(--aloha),var(--sun));color:#2b0d03;
+  box-shadow:0 8px 30px rgba(235,88,51,.35)}
+.btn-sun:hover{box-shadow:0 12px 40px rgba(235,88,51,.5)}
+
+/* ---------- SECTION KICKERS ---------- */
+.sec-kicker{color:var(--sun)}
+
+/* ---------- CURSOR CANON 🐢 ----------
+   the Terrible Turtle's head, beak up; hotspot 18 1 = the bite point
+   "Move Slow & Bite Things — the turtle bites where you click"        */
+@media (pointer:fine){
+  html,body,a,button,.card,.wtab,.chip,input,[role="button"]{
+    cursor:url(assets/shellpit-turtle-cursor.png) 18 1, auto;
+  }
+}
+
+/* ---------- STANDING CANON ----------
+   silence: no music player, ever — pits listen, they don't sing
+   no target=_blank · no trackers · CC0 — fork me like crazy 🍴      */

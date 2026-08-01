@@ -1,0 +1,10 @@
+# Pocket clip · SILENT (no audio track) 🔇
+
+Date: 2026-07-19
+Source video: IMG_4469.MOV
+Drive: https://drive.google.com/file/d/1-enyh-cwkltiezo2IOxd3fbgBocilAGv/view
+Duration: 00:00
+Transcribed: 2026-07-28 · Terri turtlePIT · faster-whisper (small, int8) · consent: assumed-2026-07-29
+
+---
+
