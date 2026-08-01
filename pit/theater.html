@@ -532,6 +532,7 @@ function build(article){
   var stamps=lines.map(function(el){var ts=el.querySelector(".tl-ts");return ts?parseTS(ts.textContent):null;});
   if(!stamps.some(function(t){return t!=null;}))return;
   var audio=new Audio("audio/"+id+".mp3");audio.preload="none";
+  audio.muted=true;/* P.I.T. PROTOCOL CANON (Shaka 8/1): the mp3 is a MUTED word-clock only — it drives the karaoke via currentTime. The VIDEO is the one audible source. One voice, always, all devices. */
   var screen=article.querySelector(".screen");
   var wrap=document.createElement("div");wrap.className="vidwrap";
   screen.insertBefore(wrap,fr);wrap.appendChild(fr);
