@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 100" role="img" aria-label="swimming turtles divider">
+<path d="M0,78 C150,62 300,86 450,74 C600,62 750,86 900,74 C1020,65 1120,80 1200,72" stroke="#db9840" stroke-width="2.5" fill="none" opacity="0.55"/>
+  <g transform="translate(300,40) scale(0.55)" opacity="0.85">
+    <ellipse cx="0" cy="-38" rx="14" ry="17" fill="#3f7d6b"/>
+    <ellipse cx="0" cy="0" rx="42" ry="52" fill="#7c4a1e"/>
+    <polygon points="22.5,13.0 0.0,26.0 -22.5,13.0 -22.5,-13.0 -0.0,-26.0 22.5,-13.0" fill="#db9840" stroke="#5c3317" stroke-width="2"/>
+    <path d="M-40,-14 C-62,-22 -78,-18 -88,-6 C-72,2 -52,4 -40,2 Z" fill="#2e6153"/>
+    <path d="M40,-14 C62,-22 78,-18 88,-6 C72,2 52,4 40,2 Z" fill="#2e6153"/>
+  </g>
+  <g transform="translate(600,40) scale(0.8)" opacity="1.0">
+    <ellipse cx="0" cy="-38" rx="14" ry="17" fill="#3f7d6b"/>
+    <ellipse cx="0" cy="0" rx="42" ry="52" fill="#7c4a1e"/>
+    <polygon points="22.5,13.0 0.0,26.0 -22.5,13.0 -22.5,-13.0 -0.0,-26.0 22.5,-13.0" fill="#db9840" stroke="#5c3317" stroke-width="2"/>
+    <path d="M-40,-14 C-62,-22 -78,-18 -88,-6 C-72,2 -52,4 -40,2 Z" fill="#2e6153"/>
+    <path d="M40,-14 C62,-22 78,-18 88,-6 C72,2 52,4 40,2 Z" fill="#2e6153"/>
+  </g>
+  <g transform="translate(900,40) scale(0.5)" opacity="0.75">
+    <ellipse cx="0" cy="-38" rx="14" ry="17" fill="#3f7d6b"/>
+    <ellipse cx="0" cy="0" rx="42" ry="52" fill="#7c4a1e"/>
+    <polygon points="22.5,13.0 0.0,26.0 -22.5,13.0 -22.5,-13.0 -0.0,-26.0 22.5,-13.0" fill="#db9840" stroke="#5c3317" stroke-width="2"/>
+    <path d="M-40,-14 C-62,-22 -78,-18 -88,-6 C-72,2 -52,4 -40,2 Z" fill="#2e6153"/>
+    <path d="M40,-14 C62,-22 78,-18 88,-6 C72,2 52,4 40,2 Z" fill="#2e6153"/>
+  </g>
+</svg>
