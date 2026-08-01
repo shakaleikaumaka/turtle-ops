@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Turtle Theater 🎬🐢 — the instruction films of The Machine · Terrible Turtle Camp</title>
+<meta name="description" content="The Turtle Theater: Jared 'The Machine' Henson's instruction films, front and center — the naming, the Machinified trailer, the water loop, the power lessons. Art right, karaoke transcript below.">
+<style>
+:root{--bg:#0a0e1c;--card:#161b31;--ink:#f7f0eb;--ink-dim:#cbb9a7;--ink-faint:#7c6e67;--sun:#eb5833;--coral:#db9840;--aloha:#f0d9b5;--line:rgba(221,174,108,.13);--radius:18px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:radial-gradient(ellipse 90% 50% at 50% -10%,#241a2e 0%,var(--bg) 60%);color:var(--ink);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+a{color:var(--coral)}
+.wrap{max-width:1120px;margin:0 auto;padding:0 22px 90px}
+nav{position:sticky;top:0;z-index:50;background:rgba(10,14,28,.85);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;gap:16px;padding:10px 22px;flex-wrap:wrap}
+nav .brand{font-weight:900;background:linear-gradient(115deg,var(--aloha),var(--sun));-webkit-background-clip:text;background-clip:text;color:transparent}
+nav .links{margin-left:auto;display:flex;gap:14px;font-size:.86rem}
+nav .links a{color:var(--ink-dim)}
+header{text-align:center;padding:64px 0 10px}
+.marquee{display:inline-block;border:1px solid rgba(235,88,51,.4);border-radius:14px;padding:14px 30px;background:linear-gradient(180deg,rgba(235,88,51,.10),rgba(235,88,51,.02));box-shadow:0 0 60px rgba(235,88,51,.15), inset 0 0 30px rgba(235,88,51,.06)}
+.marquee h1{font-size:clamp(2.2rem,6vw,3.6rem);font-weight:900;letter-spacing:.02em;background:linear-gradient(115deg,#fff 15%,var(--aloha) 45%,var(--sun) 80%);-webkit-background-clip:text;background-clip:text;color:transparent}
+header .tag{color:var(--coral);font-style:italic;margin-top:14px;font-size:1.1rem}
+header .sub{color:var(--ink-dim);max-width:66ch;margin:10px auto 0;font-size:.95rem}
+.canon{display:inline-block;margin-top:16px;font-size:.8rem;color:var(--ink-faint);border:1px dashed rgba(221,174,108,.35);border-radius:999px;padding:6px 14px}
+.program{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin:30px 0 8px}
+.program a{border:1px solid var(--line);border-radius:999px;padding:7px 15px;font-size:.82rem;color:var(--ink-dim);text-decoration:none;background:var(--card)}
+.program a:hover{border-color:var(--sun);color:var(--aloha)}
+.film{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:28px;margin:44px 0;box-shadow:0 24px 70px rgba(0,0,0,.45)}
+.marq span{display:inline-block;background:rgba(235,88,51,.14);border:1px solid rgba(235,88,51,.4);color:var(--sun);border-radius:999px;padding:3px 13px;font-size:.72rem;font-weight:800;letter-spacing:.1em}
+.film h3{font-size:1.5rem;margin:12px 0 2px}
+.fmeta{color:var(--ink-faint);font-size:.82rem;margin-bottom:18px}
+.stage{display:grid;grid-template-columns:2.2fr 1fr;gap:18px;align-items:stretch}
+.screen iframe{width:100%;aspect-ratio:16/9;border:0;border-radius:14px;background:#000;display:block}
+.art img{width:100%;height:100%;object-fit:cover;border-radius:14px;border:1px solid var(--line);display:block}
+.flede{color:var(--ink-dim);margin:18px 0 6px;max-width:78ch}
+.fquote{font-style:italic;color:var(--aloha);border-left:3px solid var(--coral);padding-left:14px;margin:12px 0 4px;font-size:1.02rem}
+.karaoke{margin-top:18px;background:var(--bg);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.khead{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;padding:10px 16px;font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-faint);border-bottom:1px solid var(--line)}
+.klines{max-height:300px;overflow-y:auto;padding:12px 16px;font-size:.92rem}
+.tl-line{padding:3px 0;color:var(--ink-dim);border-radius:6px}
+.tl-line:hover{color:var(--ink);background:rgba(235,88,51,.07)}
+.tl-ts{color:var(--sun);font-variant-numeric:tabular-nums;font-weight:700;font-size:.78rem;margin-right:12px}
+.shorts{text-align:center;margin-top:50px;color:var(--ink-dim)}
+footer{margin-top:70px;border-top:1px solid var(--line);padding-top:24px;color:var(--ink-faint);font-size:.86rem;text-align:center}
+.divider{display:block;width:min(640px,85%);margin:30px auto;opacity:.9}
+@media(max-width:760px){.stage{grid-template-columns:1fr}.art img{max-height:220px}}
+</style>
+</head>
+<body>
+<nav><div class="wrap">
+  <span class="brand">🎬 Turtle Theater</span>
+  <div class="links">
+    <a href="index.html">🐢🕳️ The ShellPIT</a>
+    <a href="index.html#machine">🔧 Machine Guidance</a>
+    <a href="../crew.html#machine-guidance">Turtle Ops</a>
+  </div>
+</div></nav>
+<div class="wrap">
+<header>
+  <div class="marquee"><h1>🎬 Turtle Theater</h1></div>
+  <div class="tag">The instruction films of The Machine — feature presentations, direct from Phoenix Gulch.</div>
+  <p class="sub">Shaka's canon (2026-08-01): <em>"these REALLY important instruction videos from Jared should be the feature film."</em> So: the big screen for the lessons, turtle art on the right, karaoke transcript below. Every film is a real system any camp can copy. 🔇 Silence canon stands — no soundtrack but the build itself.</p>
+  <div class="canon">🛡️ consent consensus granted 2026-08-01 · takedown: <a href="mailto:consent@publicinform.com">consent@publicinform.com</a>, no questions, honored with love 🦀</div>
+  <div class="program">
+    <a href="#film-IMG_4623">🏷️ The Naming</a>
+    <a href="#film-IMG_4624">⚡ Machinified Trailer</a>
+    <a href="#film-IMG_4626">💧 Water Loop</a>
+    <a href="#film-IMG_4710">🔌 Solar Lesson</a>
+    <a href="#film-IMG_4711">🔌 Three Ways</a>
+    <a href="index.html#trail">🎞️ + the whole Build Trail</a>
+  </div>
+</header>
+
+    <article class="film" id="film-IMG_4623">
+      <div class="marq"><span>FEATURE 1 · THE OPENER</span></div>
+      <h3>🏷️ The Naming — and the shower RUNS</h3>
+      <div class="fmeta">2026-07-28 · 19.5s · Phoenix Gulch</div>
+      <div class="stage">
+        <div class="screen">
+          <iframe src="https://drive.google.com/file/d/1jVeT7I1_auYctnxbYHcnmqp40AVTKvEm/preview" allow="autoplay; fullscreen" allowfullscreen loading="lazy" title="🏷️ The Naming — and the shower RUNS"></iframe>
+        </div>
+        <aside class="art">
+          <img src="assets/art/turtle-epic.svg" alt="Terrible Turtle art" loading="lazy">
+        </aside>
+      </div>
+      <p class="flede">Nineteen seconds of pure victory: water flowing through the shower The Machine plumbed — and the moment the camp gave him his name.</p>
+      <div class="fquote">&quot;When a bunch of computer nerds fail, you just bring in the experts like Jared the Machine.&quot;</div>
+      <div class="karaoke">
+        <div class="khead"><span>🎤 Karaoke transcript</span><span>whisper-synced · read along line by line</span></div>
+        <div class="klines">
+        
+        </div>
+      </div>
+    </article>
+
+    <article class="film" id="film-IMG_4624">
+      <div class="marq"><span>FEATURE 2 · ELECTRICAL</span></div>
+      <h3>⚡ The Trailer, Machinified</h3>
+      <div class="fmeta">2026-07-28 · 118.7s</div>
+      <div class="stage">
+        <div class="screen">
+          <iframe src="https://drive.google.com/file/d/1039Alr6GYvxjopaBR-CvOBdTFZY-kr2a/preview" allow="autoplay; fullscreen" allowfullscreen loading="lazy" title="⚡ The Trailer, Machinified"></iframe>
+        </div>
+        <aside class="art">
+          <img src="assets/art/turtle-fire.jpg" alt="Terrible Turtle art" loading="lazy">
+        </aside>
+      </div>
+      <p class="flede">The electrical walkthrough: transfer switch (panel ↔ battery, generator kill), 16 outlets, 30A on both sides, USB/USB-C charge points.</p>
+      <div class="fquote">&quot;The machine turned the trailer into a machine.&quot;</div>
+      <div class="karaoke">
+        <div class="khead"><span>🎤 Karaoke transcript</span><span>whisper-synced · read along line by line</span></div>
+        <div class="klines">
+        
+        </div>
+      </div>
+    </article>
+
+    <article class="film" id="film-IMG_4626">
+      <div class="marq"><span>FEATURE 3 · WATER</span></div>
+      <h3>💧 The Water Loop, taught end to end</h3>
+      <div class="fmeta">2026-07-28 · 150.2s · feat. Victor ("Victory!")</div>
+      <div class="stage">
+        <div class="screen">
+          <iframe src="https://drive.google.com/file/d/1p0NQlbKC11AF6RyeR5XNJACFCFcE3Gfm/preview" allow="autoplay; fullscreen" allowfullscreen loading="lazy" title="💧 The Water Loop, taught end to end"></iframe>
+        </div>
+        <aside class="art">
+          <img src="assets/art/turtle-epic.svg" alt="Terrible Turtle art" loading="lazy">
+        </aside>
+      </div>
+      <p class="flede">The complete greywater loop in one take: IBC coupler → cam-lock → transfer pump → kitchen → Jeremy's foot switch → float switches → sump → shower basin → greywater tank. Loop closed. ♻️</p>
+      <div class="fquote">&quot;Really appreciate you, Machine!&quot; — &quot;What&#x27;s your name again?&quot; — &quot;Victor!&quot; — &quot;Victory!&quot;</div>
+      <div class="karaoke">
+        <div class="khead"><span>🎤 Karaoke transcript</span><span>whisper-synced · read along line by line</span></div>
+        <div class="klines">
+        
+        </div>
+      </div>
+    </article>
+
+    <article class="film" id="film-IMG_4710">
+      <div class="marq"><span>FEATURE 4 · POWER I</span></div>
+      <h3>🔌 The Solar Generator Lesson</h3>
+      <div class="fmeta">2026-08-01 (party-eve) · 6m 55s</div>
+      <div class="stage">
+        <div class="screen">
+          <iframe src="https://drive.google.com/file/d/1ienPsRvRd_kvJ3ryNTyvMkI9fvczNDGP/preview" allow="autoplay; fullscreen" allowfullscreen loading="lazy" title="🔌 The Solar Generator Lesson"></iframe>
+        </div>
+        <aside class="art">
+          <img src="assets/art/turtle-fire.jpg" alt="Terrible Turtle art" loading="lazy">
+        </aside>
+      </div>
+      <p class="flede">The Anker SOLIX power station meets the trailer: the trailer-to-generator attachment cable, the 4-prong transfer switch, panel power vs battery, main switches — and live troubleshooting, because "this is why we troubleshoot."</p>
+      <div class="fquote">&quot;So this is our solar generator… this generator is going to run this panel.&quot;</div>
+      <div class="karaoke">
+        <div class="khead"><span>🎤 Karaoke transcript</span><span>whisper-synced · read along line by line</span></div>
+        <div class="klines">
+        <div class="tl-line"><span class="tl-ts">0:02</span>battery. Just for the sake of demonstration.</div>
+        <div class="tl-line"><span class="tl-ts">0:07</span>Oh, God!</div>
+        <div class="tl-line"><span class="tl-ts">0:26</span>That worked for demonstration.</div>
+        <div class="tl-line"><span class="tl-ts">0:28</span>Oh, okay.</div>
+        <div class="tl-line"><span class="tl-ts">0:31</span>We got to kind of set up a little bit.</div>
+        <div class="tl-line"><span class="tl-ts">0:35</span>You want to just film it?</div>
+        <div class="tl-line"><span class="tl-ts">0:36</span>Yep.</div>
+        <div class="tl-line"><span class="tl-ts">0:37</span>So this is our solar generator.</div>
+        <div class="tl-line"><span class="tl-ts">0:40</span>This is the ANGER and KER Solix.</div>
+        <div class="tl-line"><span class="tl-ts">0:44</span>This generator is going to run this panel.</div>
+        <div class="tl-line"><span class="tl-ts">0:49</span>We&#x27;re going to go through the process of hooking that up right now.</div>
+        <div class="tl-line"><span class="tl-ts">0:53</span>In addition to that, we have backup power here that&#x27;s run off of the wall battery.</div>
+        <div class="tl-line"><span class="tl-ts">0:57</span>We&#x27;re going to go through that whole operation.</div>
+        <div class="tl-line"><span class="tl-ts">0:59</span>But first we want to make sure that we understand how to hook up our solar generator.</div>
+        <div class="tl-line"><span class="tl-ts">1:04</span>So, let&#x27;s get this outside.</div>
+        <div class="tl-line"><span class="tl-ts">1:09</span>It&#x27;s hurt.</div>
+        <div class="tl-line"><span class="tl-ts">1:14</span>How do you see this waterproof?</div>
+        <div class="tl-line"><span class="tl-ts">1:31</span>Generators?</div>
+        <div class="tl-line"><span class="tl-ts">1:32</span>Yeah.</div>
+        <div class="tl-line"><span class="tl-ts">1:33</span>I believe so.</div>
+        <div class="tl-line"><span class="tl-ts">1:34</span>Most of them from the stand in the elevator pretty well.</div>
+        <div class="tl-line"><span class="tl-ts">1:38</span>Alright.</div>
+        <div class="tl-line"><span class="tl-ts">1:39</span>So, we&#x27;re grabbing this cable right here.</div>
+        <div class="tl-line"><span class="tl-ts">1:51</span>This is our trailer to generator attachment cable.</div>
+        <div class="tl-line"><span class="tl-ts">1:57</span>Okay?</div>
+        <div class="tl-line"><span class="tl-ts">1:58</span>So, come around here.</div>
+        <div class="tl-line"><span class="tl-ts">2:00</span>This is our transfer switch to our trailer.</div>
+        <div class="tl-line"><span class="tl-ts">2:05</span>You can see it&#x27;s got a four-prong.</div>
+        <div class="tl-line"><span class="tl-ts">2:09</span>Four-prong.</div>
+        <div class="tl-line"><span class="tl-ts">2:11</span>All you do is get it into where it goes.</div>
+        <div class="tl-line"><span class="tl-ts">2:14</span>Push it in.</div>
+        <div class="tl-line"><span class="tl-ts">2:16</span>Twist it.</div>
+        <div class="tl-line"><span class="tl-ts">2:18</span>This could stay on for the entirety of camp.</div>
+        <div class="tl-line"><span class="tl-ts">2:22</span>Okay.</div>
+        <div class="tl-line"><span class="tl-ts">2:23</span>You have two ways to hook this up.</div>
+        <div class="tl-line"><span class="tl-ts">2:25</span>Actually, one way to hook this one up.</div>
+        <div class="tl-line"><span class="tl-ts">2:27</span>So, this specific cord is for the anchor.</div>
+        <div class="tl-line"><span class="tl-ts">2:32</span>On the side here, if you look, it&#x27;s got a 30 amp max.</div>
+        <div class="tl-line"><span class="tl-ts">2:40</span>We got to turn this on.</div>
+        <div class="tl-line"><span class="tl-ts">2:46</span>Pull that down to turn it on.</div>
+        <div class="tl-line"><span class="tl-ts">2:48</span>Looks like it&#x27;s thinking.</div>
+        <div class="tl-line"><span class="tl-ts">2:51</span>36%, which is good.</div>
+        <div class="tl-line"><span class="tl-ts">2:53</span>Take that.</div>
+        <div class="tl-line"><span class="tl-ts">2:55</span>Plug our 30 amp in.</div>
+        <div class="tl-line"><span class="tl-ts">2:57</span>And as of right now, when we go inside, that&#x27;s going to have power.</div>
+        <div class="tl-line"><span class="tl-ts">3:02</span>So, let&#x27;s go find out.</div>
+        <div class="tl-line"><span class="tl-ts">3:04</span>Here.</div>
+        <div class="tl-line"><span class="tl-ts">3:06</span>Come to our panel.</div>
+        <div class="tl-line"><span class="tl-ts">3:09</span>This is our panel.</div>
+        <div class="tl-line"><span class="tl-ts">3:10</span>Inside our panel, it has all of our breakers.</div>
+        <div class="tl-line"><span class="tl-ts">3:13</span>Okay?</div>
+        <div class="tl-line"><span class="tl-ts">3:14</span>If I turn them all off, we have no power.</div>
+        <div class="tl-line"><span class="tl-ts">3:19</span>Just like a house.</div>
+        <div class="tl-line"><span class="tl-ts">3:21</span>Down here, this is pretty important.</div>
+        <div class="tl-line"><span class="tl-ts">3:23</span>So, swing down low enough that you can see this.</div>
+        <div class="tl-line"><span class="tl-ts">3:25</span>This is a battery setting.</div>
+        <div class="tl-line"><span class="tl-ts">3:27</span>This is panel.</div>
+        <div class="tl-line"><span class="tl-ts">3:28</span>When it&#x27;s plugged into the generator, have it click to power.</div>
+        <div class="tl-line"><span class="tl-ts">3:31</span>That allows our lights and turn this little switch right here off.</div>
+        <div class="tl-line"><span class="tl-ts">3:36</span>Because we don&#x27;t need the battery right now.</div>
+        <div class="tl-line"><span class="tl-ts">3:38</span>So, now it&#x27;s on panel power.</div>
+        <div class="tl-line"><span class="tl-ts">3:40</span>It has no power.</div>
+        <div class="tl-line"><span class="tl-ts">3:41</span>What do you have with this panel?</div>
+        <div class="tl-line"><span class="tl-ts">3:42</span>Turn that off.</div>
+        <div class="tl-line"><span class="tl-ts">3:43</span>We want to have this off unless we need it for backup.</div>
+        <div class="tl-line"><span class="tl-ts">3:46</span>Okay.</div>
+        <div class="tl-line"><span class="tl-ts">3:47</span>You may not ever use it on the trip.</div>
+        <div class="tl-line"><span class="tl-ts">3:49</span>Okay?</div>
+        <div class="tl-line"><span class="tl-ts">3:50</span>Now we&#x27;re going to use your main switches.</div>
+        <div class="tl-line"><span class="tl-ts">3:52</span>Now, you&#x27;ve got power.</div>
+        <div class="tl-line"><span class="tl-ts">3:54</span>If we leave all of these on, we can close it.</div>
+        <div class="tl-line"><span class="tl-ts">3:59</span>We don&#x27;t have to touch that hardly ever unless you can trip a breaker.</div>
+        <div class="tl-line"><span class="tl-ts">4:02</span>All on.</div>
+        <div class="tl-line"><span class="tl-ts">4:03</span>If I now, because it&#x27;s all on, we should if we&#x27;ve got power at the panel.</div>
+        <div class="tl-line"><span class="tl-ts">4:08</span>Or power from the, oh, yeah, we should have power there.</div>
+        <div class="tl-line"><span class="tl-ts">4:12</span>But we don&#x27;t have power there.</div>
+        <div class="tl-line"><span class="tl-ts">4:13</span>I don&#x27;t know why.</div>
+        <div class="tl-line"><span class="tl-ts">4:16</span>This is why we troubleshoot.</div>
+        <div class="tl-line"><span class="tl-ts">4:18</span>Oh, let&#x27;s see.</div>
+        <div class="tl-line"><span class="tl-ts">4:19</span>Are the lights on?</div>
+        <div class="tl-line"><span class="tl-ts">4:25</span>Can you take a look?</div>
+        <div class="tl-line"><span class="tl-ts">4:26</span>No.</div>
+        <div class="tl-line"><span class="tl-ts">4:30</span>Oh, now they are.</div>
+        <div class="tl-line"><span class="tl-ts">4:31</span>What did you do?</div>
+        <div class="tl-line"><span class="tl-ts">4:32</span>So right here, on this specific generator, you guys got to push the AC outlet button.</div>
+        <div class="tl-line"><span class="tl-ts">4:39</span>So you turn the main switch first, then the AC outlet button.</div>
+        <div class="tl-line"><span class="tl-ts">4:43</span>Okay.</div>
+        <div class="tl-line"><span class="tl-ts">4:44</span>And then everything works.</div>
+        <div class="tl-line"><span class="tl-ts">4:45</span>Now, come in here.</div>
+        <div class="tl-line"><span class="tl-ts">4:49</span>We have power.</div>
+        <div class="tl-line"><span class="tl-ts">4:51</span>Literally everywhere.</div>
+        <div class="tl-line"><span class="tl-ts">4:52</span>Nice.</div>
+        <div class="tl-line"><span class="tl-ts">4:53</span>So we have lights across the top that are controlled by our switch.</div>
+        <div class="tl-line"><span class="tl-ts">4:56</span>We have green light here on our GFCI at our sink.</div>
+        <div class="tl-line"><span class="tl-ts">5:02</span>That&#x27;s how you know.</div>
+        <div class="tl-line"><span class="tl-ts">5:04</span>This gets wet.</div>
+        <div class="tl-line"><span class="tl-ts">5:05</span>It&#x27;ll click.</div>
+        <div class="tl-line"><span class="tl-ts">5:06</span>That&#x27;s like a reset.</div>
+        <div class="tl-line"><span class="tl-ts">5:08</span>There.</div>
+        <div class="tl-line"><span class="tl-ts">5:09</span>Go off.</div>
+        <div class="tl-line"><span class="tl-ts">5:10</span>This, this receptacle is tied to this one.</div>
+        <div class="tl-line"><span class="tl-ts">5:14</span>In case one of these two get wet because they&#x27;re close to a water source.</div>
+        <div class="tl-line"><span class="tl-ts">5:18</span>Okay.</div>
+        <div class="tl-line"><span class="tl-ts">5:19</span>Okay.</div>
+        <div class="tl-line"><span class="tl-ts">5:20</span>Everything else is on right now.</div>
+        <div class="tl-line"><span class="tl-ts">5:23</span>Now, this receptacle, that receptacle, this receptacle here, and this receptacle are all</div>
+        <div class="tl-line"><span class="tl-ts">5:31</span>tied to 15 amps.</div>
+        <div class="tl-line"><span class="tl-ts">5:35</span>We need to label this one, the one at the end, and this one at the end because these are</div>
+        <div class="tl-line"><span class="tl-ts">5:43</span>20 amp receptacles.</div>
+        <div class="tl-line"><span class="tl-ts">5:46</span>You can see it has a little dash on the, on the face.</div>
+        <div class="tl-line"><span class="tl-ts">5:49</span>The reason that matters is because that&#x27;s what we plug a refrigerator into.</div>
+        <div class="tl-line"><span class="tl-ts">5:55</span>That can handle the load of all three refrigerators.</div>
+        <div class="tl-line"><span class="tl-ts">5:58</span>The 15s probably can, but these ones absolutely can&#x27;t.</div>
+        <div class="tl-line"><span class="tl-ts">6:03</span>Can you say that again?</div>
+        <div class="tl-line"><span class="tl-ts">6:04</span>No.</div>
+        <div class="tl-line"><span class="tl-ts">6:05</span>The three refrigerators should be plugged into one of the three 20 amp receptacles that</div>
+        <div class="tl-line"><span class="tl-ts">6:11</span>we have here.</div>
+        <div class="tl-line"><span class="tl-ts">6:12</span>These ones control higher power.</div>
+        <div class="tl-line"><span class="tl-ts">6:13</span>All right.</div>
+        <div class="tl-line"><span class="tl-ts">6:14</span>Two.</div>
+        <div class="tl-line"><span class="tl-ts">6:15</span>And three.</div>
+        <div class="tl-line"><span class="tl-ts">6:16</span>You can tell if they&#x27;re there because you can see the power.</div>
+        <div class="tl-line"><span class="tl-ts">6:17</span>Can all three be plugged into that one?</div>
+        <div class="tl-line"><span class="tl-ts">6:18</span>No.</div>
+        <div class="tl-line"><span class="tl-ts">6:19</span>Ideally, it would be two and one.</div>
+        <div class="tl-line"><span class="tl-ts">6:22</span>Two here.</div>
+        <div class="tl-line"><span class="tl-ts">6:23</span>Two and one.</div>
+        <div class="tl-line"><span class="tl-ts">6:24</span>And one over there.</div>
+        <div class="tl-line"><span class="tl-ts">6:25</span>Just separate them.</div>
+        <div class="tl-line"><span class="tl-ts">6:26</span>Just don&#x27;t put all three on one.</div>
+        <div class="tl-line"><span class="tl-ts">6:27</span>Don&#x27;t put all three.</div>
+        <div class="tl-line"><span class="tl-ts">6:28</span>It doesn&#x27;t matter what the configuration is.</div>
+        <div class="tl-line"><span class="tl-ts">6:30</span>So one can, two, or two there and one there.</div>
+        <div class="tl-line"><span class="tl-ts">6:32</span>Two can go there, one there, two there over there.</div>
+        <div class="tl-line"><span class="tl-ts">6:34</span>I&#x27;d probably do two there, one there.</div>
+        <div class="tl-line"><span class="tl-ts">6:35</span>It depends on if they go across the back wall or they go here.</div>
+        <div class="tl-line"><span class="tl-ts">6:38</span>But either way, that all is functional.</div>
+        <div class="tl-line"><span class="tl-ts">6:40</span>Okay.</div>
+        <div class="tl-line"><span class="tl-ts">6:41</span>Cool.</div>
+        <div class="tl-line"><span class="tl-ts">6:42</span>That right there is how you get power to the trailer.</div>
+        <div class="tl-line"><span class="tl-ts">6:47</span>Using the ANPR, your anchor system.</div>
+        <div class="tl-line"><span class="tl-ts">6:51</span>Okay.</div>
+        <div class="tl-line"><span class="tl-ts">6:52</span>You can kill that one.</div>
+        <div class="tl-line"><span class="tl-ts">6:54</span>Okay.</div>
+        </div>
+      </div>
+    </article>
+
+    <article class="film" id="film-IMG_4711">
+      <div class="marq"><span>FEATURE 5 · POWER II</span></div>
+      <h3>🔌 Three Ways to Power the Trailer</h3>
+      <div class="fmeta">2026-08-01 (party-eve) · 2m 42s</div>
+      <div class="stage">
+        <div class="screen">
+          <iframe src="https://drive.google.com/file/d/1htlI-C6MsEVM-qquuSp8pvf6BT9QpSfA/preview" allow="autoplay; fullscreen" allowfullscreen loading="lazy" title="🔌 Three Ways to Power the Trailer"></iframe>
+        </div>
+        <aside class="art">
+          <img src="assets/art/turtle-epic.svg" alt="Terrible Turtle art" loading="lazy">
+        </aside>
+      </div>
+      <p class="flede">Fallbacks mastered: the Predator gas generator (four-prong twist-lock, red receptacle) and the cable labeled in tape "David power to kitchen" — the camp grid: 70A split into four duplex boxes, straight off a regular plug.</p>
+      <div class="fquote">&quot;You just start it and plug it in. It&#x27;s ready to go.&quot;</div>
+      <div class="karaoke">
+        <div class="khead"><span>🎤 Karaoke transcript</span><span>whisper-synced · read along line by line</span></div>
+        <div class="klines">
+        <div class="tl-line"><span class="tl-ts">0:00</span>Okay, so if we let&#x27;s say we lose power on this we haven&#x27;t charged it we need to use the gas predator generator</div>
+        <div class="tl-line"><span class="tl-ts">0:07</span>Well, you can turn this guy off here. Click. It&#x27;s off green light on the main</div>
+        <div class="tl-line"><span class="tl-ts">0:16</span>transfer switches off</div>
+        <div class="tl-line"><span class="tl-ts">0:18</span>This can live pretty much with this generator</div>
+        <div class="tl-line"><span class="tl-ts">0:21</span>And then this four prong what can go directly to the predator</div>
+        <div class="tl-line"><span class="tl-ts">0:27</span>So once you start the predator up you can plug this four prong directly into its four</div>
+        <div class="tl-line"><span class="tl-ts">0:31</span>The red one the red one and predator works</div>
+        <div class="tl-line"><span class="tl-ts">0:35</span>Twist it it&#x27;s on you don&#x27;t turn on the switches for the predator. You just start it and plug it in. It&#x27;s ready to go</div>
+        <div class="tl-line"><span class="tl-ts">0:40</span>Cool, it&#x27;s that it&#x27;s that simple now</div>
+        <div class="tl-line"><span class="tl-ts">0:43</span>one other way that we could power this thing</div>
+        <div class="tl-line"><span class="tl-ts">0:50</span>We don&#x27;t have generators and we prefer to use oh it&#x27;s in here prefer to use something else</div>
+        <div class="tl-line"><span class="tl-ts">0:58</span>We have this guy so this guy which we made of the tape, but it says David power to kitchen</div>
+        <div class="tl-line"><span class="tl-ts">1:08</span>Because with a camp it offers us the opportunity</div>
+        <div class="tl-line"><span class="tl-ts">1:14</span>To plug directly into</div>
+        <div class="tl-line"><span class="tl-ts">1:16</span>AC power because they&#x27;re gonna be giving us a panel that&#x27;s 70 amps split into four duplex boxes</div>
+        <div class="tl-line"><span class="tl-ts">1:22</span>But this can run off a regular plug. Yeah pretty cool</div>
+        <div class="tl-line"><span class="tl-ts">1:26</span>So to simulate this we&#x27;re going to</div>
+        <div class="tl-line"><span class="tl-ts">1:29</span>Turn on the anchor again instead of using this one</div>
+        <div class="tl-line"><span class="tl-ts">1:37</span>We&#x27;re gonna turn the AC button</div>
+        <div class="tl-line"><span class="tl-ts">1:40</span>And I&#x27;m gonna go right here, so this is 20 amp max all said and done</div>
+        <div class="tl-line"><span class="tl-ts">1:45</span>And you can hear the fan already on you can see the lights are</div>
+        <div class="tl-line"><span class="tl-ts">1:50</span>So the whole thing can run off just that plug too</div>
+        <div class="tl-line"><span class="tl-ts">1:54</span>now the only limitation of doing this is that you cannot</div>
+        <div class="tl-line"><span class="tl-ts">1:58</span>Run all three fridges all the char phone chargers all the things we want to do probably for the whole time</div>
+        <div class="tl-line"><span class="tl-ts">2:06</span>It&#x27;s best to use the higher</div>
+        <div class="tl-line"><span class="tl-ts">2:08</span>amperage</div>
+        <div class="tl-line"><span class="tl-ts">2:10</span>Wire and plugs because it can handle the heavier load</div>
+        <div class="tl-line"><span class="tl-ts">2:14</span>so</div>
+        <div class="tl-line"><span class="tl-ts">2:15</span>first look is go with this 30 amp option or</div>
+        <div class="tl-line"><span class="tl-ts">2:19</span>Twist this into the predator 30 if we can&#x27;t we absolutely can plug this into David&#x27;s</div>
+        <div class="tl-line"><span class="tl-ts">2:25</span>All using a power cord and we would be totally fine</div>
+        <div class="tl-line"><span class="tl-ts">2:28</span>You could serve at night you can prep food you can see it&#x27;s it&#x27;s gonna work really well. All right</div>
+        <div class="tl-line"><span class="tl-ts">2:34</span>So we can let that stay lit right now</div>
+        </div>
+      </div>
+    </article>
+<img class="divider" src="assets/art/turtle-divider.svg" alt="" aria-hidden="true">
+<div class="shorts">
+  🎞️ <b>Also screening:</b> 50+ build clips in <a href="index.html#trail">the Build Trail</a> — the Tool Maker sessions, the veggie coffin, the semi arriving, Mocha the shower dog 🐕 — plus 18 meetings in <a href="index.html#decisions">the Decision Trail</a>.
+</div>
+<footer>
+  🐢 The Turtle Theater · a ShellPIT screen · fork #8 · CC0 — fork me like crazy · consent is a living door 🚪<br>
+  Move slow &amp; bite things. 🐢🔥
+</footer>
+</div>
+</body>
+</html>
