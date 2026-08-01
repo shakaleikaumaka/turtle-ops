@@ -1,34 +1,42 @@
-# IMG_4711.MOV · 161.9s · lang en (0.99)
-[   0.4s →    6.8s] Okay, so if we let's say we lose power on this we haven't charged it we need to use the gas predator generator
-[   7.1s →   15.9s] Well, you can turn this guy off here. Click. It's off green light on the main
-[  16.7s →   18.1s] transfer switches off
-[  18.1s →   21.3s] This can live pretty much with this generator
-[  21.3s →   26.6s] And then this four prong what can go directly to the predator
-[  27.0s →   31.1s] So once you start the predator up you can plug this four prong directly into its four
-[  31.1s →   34.0s] The red one the red one and predator works
-[  35.1s →   40.0s] Twist it it's on you don't turn on the switches for the predator. You just start it and plug it in. It's ready to go
-[  40.0s →   41.9s] Cool, it's that it's that simple now
-[  43.1s →   46.4s] one other way that we could power this thing
-[  50.7s →   57.5s] We don't have generators and we prefer to use oh it's in here prefer to use something else
-[  58.0s →   66.1s] We have this guy so this guy which we made of the tape, but it says David power to kitchen
-[  68.9s →   72.7s] Because with a camp it offers us the opportunity
-[  74.2s →   76.2s] To plug directly into
-[  76.6s →   82.4s] AC power because they're gonna be giving us a panel that's 70 amps split into four duplex boxes
-[  82.4s →   86.1s] But this can run off a regular plug. Yeah pretty cool
-[  86.5s →   88.9s] So to simulate this we're going to
-[  89.5s →   97.1s] Turn on the anchor again instead of using this one
-[  97.6s →   99.6s] We're gonna turn the AC button
-[ 100.8s →  104.7s] And I'm gonna go right here, so this is 20 amp max all said and done
-[ 105.2s →  109.6s] And you can hear the fan already on you can see the lights are
-[ 110.5s →  113.5s] So the whole thing can run off just that plug too
-[ 114.1s →  118.3s] now the only limitation of doing this is that you cannot
-[ 118.8s →  126.0s] Run all three fridges all the char phone chargers all the things we want to do probably for the whole time
-[ 126.3s →  128.3s] It's best to use the higher
-[ 128.7s →  130.1s] amperage
-[ 130.1s →  133.9s] Wire and plugs because it can handle the heavier load
-[ 134.3s →  135.5s] so
-[ 135.5s →  139.1s] first look is go with this 30 amp option or
-[ 139.8s →  144.7s] Twist this into the predator 30 if we can't we absolutely can plug this into David's
-[ 145.4s →  148.2s] All using a power cord and we would be totally fine
-[ 148.7s →  154.1s] You could serve at night you can prep food you can see it's it's gonna work really well. All right
-[ 154.8s →  157.2s] So we can let that stay lit right now
+# 🔌 THREE WAYS TO POWER THE TRAILER
+
+Date: 2026-08-01 (party-eve)
+Source video: IMG_4711.MOV
+Drive: https://drive.google.com/file/d/1NR959A8yc2z0-4LKD0TWR8qKdsggKYTa/view
+Duration: 02:42
+Transcribed: 2026-08-01 · Terri turtlePIT · faster-whisper · consent: granted-2026-08-01 (Shaka canon: Machine instruction films are the feature presentation)
+
+
+[0:00] Okay, so if we let's say we lose power on this we haven't charged it we need to use the gas predator generator
+[0:07] Well, you can turn this guy off here. Click. It's off green light on the main
+[0:16] transfer switches off
+[0:18] This can live pretty much with this generator
+[0:21] And then this four prong what can go directly to the predator
+[0:27] So once you start the predator up you can plug this four prong directly into its four
+[0:31] The red one the red one and predator works
+[0:35] Twist it it's on you don't turn on the switches for the predator. You just start it and plug it in. It's ready to go
+[0:40] Cool, it's that it's that simple now
+[0:43] one other way that we could power this thing
+[0:50] We don't have generators and we prefer to use oh it's in here prefer to use something else
+[0:58] We have this guy so this guy which we made of the tape, but it says David power to kitchen
+[1:08] Because with a camp it offers us the opportunity
+[1:14] To plug directly into
+[1:16] AC power because they're gonna be giving us a panel that's 70 amps split into four duplex boxes
+[1:22] But this can run off a regular plug. Yeah pretty cool
+[1:26] So to simulate this we're going to
+[1:29] Turn on the anchor again instead of using this one
+[1:37] We're gonna turn the AC button
+[1:40] And I'm gonna go right here, so this is 20 amp max all said and done
+[1:45] And you can hear the fan already on you can see the lights are
+[1:50] So the whole thing can run off just that plug too
+[1:54] now the only limitation of doing this is that you cannot
+[1:58] Run all three fridges all the char phone chargers all the things we want to do probably for the whole time
+[2:06] It's best to use the higher
+[2:08] amperage
+[2:10] Wire and plugs because it can handle the heavier load
+[2:14] so
+[2:15] first look is go with this 30 amp option or
+[2:19] Twist this into the predator 30 if we can't we absolutely can plug this into David's
+[2:25] All using a power cord and we would be totally fine
+[2:28] You could serve at night you can prep food you can see it's it's gonna work really well. All right
+[2:34] So we can let that stay lit right now
