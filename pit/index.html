@@ -58,24 +58,24 @@ footer{margin-top:70px;border-top:1px solid var(--line);padding-top:24px;color:v
 .subtitle{position:absolute;left:0;right:0;bottom:0;height:34%;display:flex;align-items:flex-end;justify-content:center;padding:0 12px 3.8em;pointer-events:none;z-index:4;opacity:0;transition:opacity .25s;background:linear-gradient(180deg,transparent 0%,rgba(6,8,18,.15) 45%,rgba(6,8,18,.62) 88%);border-radius:0 0 14px 14px}
 .subtitle.on{opacity:1}
 .flames{position:absolute;inset:0;pointer-events:none;overflow:hidden;border-radius:0 0 14px 14px;z-index:1}
-.flames::before,.flames::after{content:"";position:absolute;inset:-12% -6%;filter:blur(9px)}
+.flames::before,.flames::after{content:"";position:absolute;inset:-14% -7%;filter:blur(7px)}
 .flames::before{background:
-  radial-gradient(ellipse 8% 42% at 8% 100%, rgba(255,220,80,.95), transparent 70%),
-  radial-gradient(ellipse 10% 56% at 22% 100%, rgba(255,198,46,.9), transparent 70%),
-  radial-gradient(ellipse 9% 48% at 38% 100%, rgba(255,224,90,.95), transparent 70%),
-  radial-gradient(ellipse 11% 62% at 55% 100%, rgba(255,190,40,.9), transparent 70%),
-  radial-gradient(ellipse 9% 50% at 72% 100%, rgba(255,224,90,.95), transparent 70%),
-  radial-gradient(ellipse 10% 58% at 88% 100%, rgba(255,198,46,.9), transparent 70%);
-  animation:flick1 1.3s ease-in-out infinite alternate}
+  radial-gradient(ellipse 10% 62% at 8% 100%, rgba(255,238,120,1), rgba(255,200,40,.55) 45%, transparent 72%),
+  radial-gradient(ellipse 12% 78% at 22% 100%, rgba(255,214,60,1), rgba(255,180,30,.5) 45%, transparent 72%),
+  radial-gradient(ellipse 11% 68% at 38% 100%, rgba(255,238,120,1), rgba(255,200,40,.55) 45%, transparent 72%),
+  radial-gradient(ellipse 13% 85% at 55% 100%, rgba(255,206,46,1), rgba(255,170,25,.5) 45%, transparent 72%),
+  radial-gradient(ellipse 11% 70% at 72% 100%, rgba(255,238,120,1), rgba(255,200,40,.55) 45%, transparent 72%),
+  radial-gradient(ellipse 12% 80% at 88% 100%, rgba(255,214,60,1), rgba(255,180,30,.5) 45%, transparent 72%);
+  animation:flick1 1.2s ease-in-out infinite alternate}
 .flames::after{background:
-  radial-gradient(ellipse 9% 50% at 15% 100%, rgba(255,168,30,.85), transparent 70%),
-  radial-gradient(ellipse 8% 44% at 32% 100%, rgba(255,236,130,.8), transparent 70%),
-  radial-gradient(ellipse 10% 58% at 50% 100%, rgba(255,168,30,.85), transparent 70%),
-  radial-gradient(ellipse 8% 46% at 66% 100%, rgba(255,236,130,.8), transparent 70%),
-  radial-gradient(ellipse 9% 52% at 82% 100%, rgba(255,168,30,.85), transparent 70%);
-  animation:flick2 1.7s ease-in-out infinite alternate}
-@keyframes flick1{from{opacity:.5;transform:translateY(5%) scaleY(.9)}to{opacity:.95;transform:translateY(-1%) scaleY(1.08)}}
-@keyframes flick2{from{opacity:.85;transform:translateY(1%) scaleY(1.05)}to{opacity:.45;transform:translateY(6%) scaleY(.88)}}
+  radial-gradient(ellipse 11% 70% at 15% 100%, rgba(255,190,35,.95), transparent 70%),
+  radial-gradient(ellipse 10% 62% at 32% 100%, rgba(255,246,160,.95), transparent 70%),
+  radial-gradient(ellipse 12% 80% at 50% 100%, rgba(255,190,35,.95), transparent 70%),
+  radial-gradient(ellipse 10% 64% at 66% 100%, rgba(255,246,160,.95), transparent 70%),
+  radial-gradient(ellipse 11% 72% at 82% 100%, rgba(255,190,35,.95), transparent 70%);
+  animation:flick2 1.6s ease-in-out infinite alternate}
+@keyframes flick1{from{opacity:.7;transform:translateY(4%) scaleY(.92)}to{opacity:1;transform:translateY(-2%) scaleY(1.1)}}
+@keyframes flick2{from{opacity:1;transform:translateY(0) scaleY(1.08)}to{opacity:.6;transform:translateY(5%) scaleY(.9)}}
 @media (prefers-reduced-motion:reduce){.flames::before,.flames::after,.subtitle span{animation:none}}
 .subtitle span{position:relative;z-index:2;font-weight:900;font-size:1.05rem;line-height:1.4;text-align:center;color:var(--sun);animation:flame 1.8s ease-in-out infinite}
 @keyframes flame{0%,100%{text-shadow:0 1px 2px rgba(0,0,0,.95),0 0 4px rgba(0,0,0,.9),0 0 10px rgba(235,88,51,.85),0 0 22px rgba(235,88,51,.55)}50%{text-shadow:0 1px 3px rgba(0,0,0,.95),0 0 5px rgba(0,0,0,.9),0 0 16px rgba(235,88,51,1),0 0 36px rgba(235,88,51,.75),0 0 64px rgba(219,152,64,.55)}}
