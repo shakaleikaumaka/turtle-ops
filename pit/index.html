@@ -3,660 +3,614 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The ShellPIT 🐢🕳️ — how a village actually gets built · Terrible Turtle Camp P.I.T. (fork #8)</title>
-<meta name="description" content="Move slow & bite things — Terrible Turtle Camp's knowledge, transmitted. A P.I.T. Protocol fork: every build clip, meeting, and armory item, timestamped and forkable.">
-<!-- 🐢 SHELLPIT v1.0.0 — LAUNCH · fork #8 of the Esmeralda genesis · PUBLIC since 2026-07-29 · consent: EXPLICIT by camp consensus 2026-08-01 (whole Terrible Turtle camp agreed; assumed→explicit history kept in data/consent-ledger.json — see consent.html, stamps in manifest.json + data/consent.json) · CC0 · silence canon: no music, ever · no target="_blank" · no trackers · transponders: karaoke glow + tap-to-seek on all 20 voiced clips · takedown: consent@publicinform.com, no questions, honored with love -->
-<link rel="icon" href="assets/shellpit-turtle-cursor.png" type="image/png">
+<title>Turtle Theater 🎬🐢 — the instruction films of The Machine · Terrible Turtle Camp</title>
+<meta name="description" content="The Turtle Theater: Jared 'The Machine' Henson's instruction films, front and center — the naming, the Machinified trailer, the water loop, the hitch lesson, the power curriculum. Art right, karaoke transcript below.">
 <style>
-@media(pointer:fine){body{cursor:url(assets/shellpit-turtle-cursor.png) 18 1,auto}a,button,.card,.chip,.anchip,.dtab,.seekable{cursor:url(assets/shellpit-turtle-cursor.png) 18 1,pointer}}
+@media(pointer:fine){body{cursor:url(assets/shellpit-turtle-cursor.png) 18 1,auto}a,button{cursor:url(assets/shellpit-turtle-cursor.png) 18 1,pointer}}
 
-:root{
-  --bg:#0a0e1c; --bg2:#101527; --card:#161b31; --card2:#1d2340;
-  --ink:#f7f0eb; --ink-dim:#cbb9a7; --ink-faint:#7c6e67;
-  --sun:#eb5833; --coral:#db9840; --aloha:#f0d9b5;
-  --line:rgba(221,174,108,.13); --radius:18px;
-}
+:root{--bg:#0a0e1c;--card:#161b31;--ink:#f7f0eb;--ink-dim:#cbb9a7;--ink-faint:#7c6e67;--sun:#eb5833;--coral:#db9840;--aloha:#f0d9b5;--line:rgba(221,174,108,.13);--radius:18px}
 *{margin:0;padding:0;box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{background:var(--bg);color:var(--ink);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;-webkit-font-smoothing:antialiased}
-a{color:var(--coral);text-decoration:none}
-a:hover{color:var(--aloha)}
-.wrap{max-width:1120px;margin:0 auto;padding:0 22px}
-::selection{background:var(--sun);color:#071123}
-
-/* ---------- NAV ---------- */
-nav{position:sticky;top:0;z-index:50;background:rgba(10,14,28,.82);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
-nav .wrap{display:flex;align-items:center;gap:18px;padding-top:10px;padding-bottom:10px;flex-wrap:wrap}
-nav .brand{font-weight:900;font-size:1.15rem;letter-spacing:.02em;background:linear-gradient(115deg,var(--aloha),var(--sun));-webkit-background-clip:text;background-clip:text;color:transparent}
-nav .links{display:flex;gap:14px;flex-wrap:wrap;margin-left:auto;font-size:.86rem}
+body{background:radial-gradient(ellipse 90% 50% at 50% -10%,#241a2e 0%,var(--bg) 60%);color:var(--ink);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+a{color:var(--coral)}
+.wrap{max-width:1120px;margin:0 auto;padding:0 22px 90px}
+nav{position:sticky;top:0;z-index:50;background:rgba(10,14,28,.85);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;gap:16px;padding:10px 22px;flex-wrap:wrap}
+nav .brand{font-weight:900;background:linear-gradient(115deg,var(--aloha),var(--sun));-webkit-background-clip:text;background-clip:text;color:transparent}
+nav .links{margin-left:auto;display:flex;gap:14px;font-size:.86rem}
 nav .links a{color:var(--ink-dim)}
-nav .links a:hover{color:var(--sun)}
+header{text-align:center;padding:64px 0 10px}
+.marquee{display:inline-block;border:1px solid rgba(235,88,51,.4);border-radius:14px;padding:14px 30px;background:linear-gradient(180deg,rgba(235,88,51,.10),rgba(235,88,51,.02));box-shadow:0 0 60px rgba(235,88,51,.15), inset 0 0 30px rgba(235,88,51,.06)}
+.marquee h1{font-size:clamp(2.2rem,6vw,3.6rem);font-weight:900;letter-spacing:.02em;background:linear-gradient(115deg,#fff 15%,var(--aloha) 45%,var(--sun) 80%);-webkit-background-clip:text;background-clip:text;color:transparent}
+header .tag{color:var(--coral);font-style:italic;margin-top:14px;font-size:1.1rem}
+header .sub{color:var(--ink-dim);max-width:66ch;margin:10px auto 0;font-size:.95rem}
+.canon{display:inline-block;margin-top:16px;font-size:.8rem;color:var(--ink-faint);border:1px dashed rgba(221,174,108,.35);border-radius:999px;padding:6px 14px}
+.program{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin:30px 0 8px}
+.program a{border:1px solid var(--line);border-radius:999px;padding:7px 15px;font-size:.82rem;color:var(--ink-dim);text-decoration:none;background:var(--card)}
+.program a:hover{border-color:var(--sun);color:var(--aloha)}
+.film{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:28px;margin:44px 0;box-shadow:0 24px 70px rgba(0,0,0,.45)}
+.marq span{display:inline-block;background:rgba(235,88,51,.14);border:1px solid rgba(235,88,51,.4);color:var(--sun);border-radius:999px;padding:3px 13px;font-size:.72rem;font-weight:800;letter-spacing:.1em}
+.film h3{font-size:1.5rem;margin:12px 0 2px}
+.fmeta{color:var(--ink-faint);font-size:.82rem;margin-bottom:18px}
+.stage{display:grid;grid-template-columns:2.2fr 1fr;gap:18px;align-items:stretch}
+.screen iframe{width:100%;aspect-ratio:16/9;border:0;border-radius:14px;background:#000;display:block}
+.art img,.art video{width:100%;height:100%;object-fit:cover;border-radius:14px;border:1px solid var(--line);display:block}
+.flede{color:var(--ink-dim);margin:18px 0 6px;max-width:78ch}
+.fquote{font-style:italic;color:var(--aloha);border-left:3px solid var(--coral);padding-left:14px;margin:12px 0 4px;font-size:1.02rem}
+.karaoke{margin-top:18px;background:var(--bg);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.khead{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;padding:10px 16px;font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-faint);border-bottom:1px solid var(--line)}
+.klines{max-height:300px;overflow-y:auto;padding:12px 16px;font-size:.92rem}
+.tl-line{padding:3px 0;color:var(--ink-dim);border-radius:6px}
+.tl-line:hover{color:var(--ink);background:rgba(235,88,51,.07)}
+.tl-ts{color:var(--sun);font-variant-numeric:tabular-nums;font-weight:700;font-size:.78rem;margin-right:12px}
+.shorts{text-align:center;margin-top:50px;color:var(--ink-dim)}
+footer{margin-top:70px;border-top:1px solid var(--line);padding-top:24px;color:var(--ink-faint);font-size:.86rem;text-align:center}
+.divider{display:block;width:min(640px,85%);margin:30px auto;opacity:.9}
+@media(max-width:760px){.stage{grid-template-columns:1fr}.art img,.art video{max-height:220px}}
 
-/* ---------- HERO ---------- */
-.hero{position:relative;overflow:hidden;text-align:center;padding:96px 0 72px;
-  background:radial-gradient(ellipse 80% 60% at 50% 120%, #2a1410 0%, transparent 60%),
-             radial-gradient(ellipse 60% 50% at 80% -10%, #241a2e 0%, transparent 55%),
-             radial-gradient(ellipse 50% 40% at 10% 0%, #241407 0%, transparent 50%), var(--bg)}
-.sun{position:absolute;left:50%;bottom:-180px;width:420px;height:420px;transform:translateX(-50%);border-radius:50%;pointer-events:none;
-  background:radial-gradient(circle, #f7e8c8 0%, #eb5833 35%, #a3623b 60%, transparent 72%);opacity:.5;filter:blur(2px)}
-.badge-gift{display:inline-block;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:var(--aloha);
-  border:1px solid rgba(221,174,108,.35);background:rgba(221,174,108,.06);border-radius:999px;padding:6px 16px;margin-bottom:26px}
-h1.logo{font-size:clamp(3rem,9vw,5.6rem);line-height:.95;font-weight:900;letter-spacing:-.02em;
-  background:linear-gradient(115deg,#fff 20%,var(--aloha) 45%,var(--sun) 65%,#a3623b 90%);-webkit-background-clip:text;background-clip:text;color:transparent}
-.hero .tag{font-style:italic;font-size:clamp(1.1rem,2.6vw,1.5rem);color:var(--coral);margin:18px 0 14px}
-.hero .sub{max-width:640px;margin:0 auto;color:var(--ink-dim);font-size:1.02rem}
-.hero .stats{display:flex;gap:26px;justify-content:center;flex-wrap:wrap;margin-top:34px;font-size:.92rem;color:var(--ink-dim)}
-.hero .stats b{display:block;font-size:1.5rem;color:var(--aloha);font-weight:800}
-.hero .ctas{margin-top:34px;display:flex;gap:14px;justify-content:center;flex-wrap:wrap;position:relative;z-index:2}
-.btn{display:inline-block;border-radius:999px;padding:13px 28px;font-weight:700;font-size:.95rem;border:1px solid transparent;cursor:pointer}
-.btn-sun{background:linear-gradient(115deg,var(--aloha),var(--sun));color:#2b0d03;box-shadow:0 8px 30px rgba(235,88,51,.35)}
-.btn-sun:hover{box-shadow:0 12px 40px rgba(235,88,51,.5);color:#2b0d03}
-.btn-ghost{border-color:var(--line);color:var(--ink-dim)}
-.btn-ghost:hover{border-color:var(--coral);color:var(--aloha)}
-.turtle-mark{width:74px;height:74px;border-radius:50%;object-fit:cover;margin:0 auto 20px;display:block;border:2px solid rgba(221,174,108,.4);box-shadow:0 0 44px rgba(235,88,51,.35)}
-
-/* ---------- SECTIONS ---------- */
-section{padding:72px 0}
-.sec-kicker{font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;color:var(--sun);font-weight:700;margin-bottom:10px}
-h2.sec-title{font-size:clamp(1.7rem,4.4vw,2.6rem);font-weight:900;letter-spacing:-.01em;margin-bottom:14px}
-.sec-lede{color:var(--ink-dim);max-width:720px;margin-bottom:36px}
-section.alt{background:var(--bg2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-
-/* ---------- MACHINE GUIDANCE ---------- */
-.canon-quote{border-left:3px solid var(--sun);padding:16px 22px;background:rgba(235,88,51,.06);border-radius:0 var(--radius) var(--radius) 0;margin:22px 0 34px;font-style:italic;color:var(--aloha);font-size:1.06rem}
-.canon-quote small{display:block;font-style:normal;color:var(--ink-faint);margin-top:8px;font-size:.8rem}
-.person-card{display:flex;gap:20px;align-items:flex-start;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:22px;margin-bottom:36px;flex-wrap:wrap}
-.person-card .who{flex:1;min-width:260px}
-.person-card h3{font-size:1.3rem;margin-bottom:6px}
-.person-card .role{color:var(--coral);font-size:.9rem;margin-bottom:10px}
-.person-card p{color:var(--ink-dim);font-size:.92rem}
-.machine-badge{display:inline-block;background:rgba(235,88,51,.14);border:1px solid rgba(235,88,51,.4);color:var(--sun);border-radius:999px;padding:4px 14px;font-size:.75rem;font-weight:700;letter-spacing:.08em}
-.mg-part{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:26px;margin-bottom:26px}
-.mg-part h3{font-size:1.25rem;margin-bottom:4px}
-.mg-part .meta{color:var(--ink-faint);font-size:.82rem;margin-bottom:14px}
-.mg-part .lede{color:var(--ink-dim);font-size:.95rem;margin-bottom:16px}
-.mg-quote{font-size:1.12rem;font-style:italic;color:var(--aloha);border-left:3px solid var(--coral);padding-left:16px;margin:14px 0}
-.steps{list-style:none;counter-reset:st;margin:16px 0}
-.steps li{counter-increment:st;position:relative;padding:10px 0 10px 44px;color:var(--ink-dim);font-size:.94rem;border-bottom:1px dashed var(--line)}
-.steps li::before{content:counter(st);position:absolute;left:0;top:9px;width:28px;height:28px;border-radius:50%;background:rgba(235,88,51,.14);border:1px solid rgba(235,88,51,.4);color:var(--sun);font-size:.8rem;font-weight:800;display:flex;align-items:center;justify-content:center}
-.steps li b{color:var(--ink)}
-/* consent lock */
-.lock{display:flex;gap:14px;align-items:center;background:rgba(221,174,108,.05);border:1px dashed rgba(221,174,108,.35);border-radius:var(--radius);padding:16px 20px;margin:16px 0;font-size:.88rem;color:var(--ink-dim)}
-.lock .ico{font-size:1.5rem}
-/* transcript viewer */
-.tx{margin-top:16px;background:var(--bg);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px;max-height:340px;overflow-y:auto;font-size:.92rem}
-.tx .line{padding:3px 0;color:var(--ink-dim)}
-.tx .ts{color:var(--sun);font-variant-numeric:tabular-nums;font-weight:700;font-size:.8rem;margin-right:10px;cursor:default}
-.tx .line:hover{color:var(--ink)}
-/* 🎚️ transponder graft (v0.3.0) — karaoke glow + player */
-#wbanner{display:none;position:sticky;top:0;z-index:200;background:linear-gradient(90deg,#3d2a00,#a3623b,#3d2a00);color:#f7e8c8;text-align:center;font-size:.82rem;font-weight:700;letter-spacing:.06em;padding:7px 12px}
-#wbanner.on{display:block}
-.player{margin:16px 0}
-.player audio{width:100%}
-.player .mframe{width:100%;aspect-ratio:16/9;border:0;border-radius:12px;background:#000}
-.tx .line .w{transition:color .15s,text-shadow .15s}
-.tx .line .w.spoken{color:var(--aloha);text-shadow:0 0 14px rgba(235,88,51,.55)}
-.tx .line.active{background:rgba(235,88,51,.09);border-radius:8px}
-.tx .line.seekable{cursor:pointer}
-.tx-head{display:flex;justify-content:space-between;align-items:center;margin-top:18px;font-size:.78rem;color:var(--ink-faint);letter-spacing:.1em;text-transform:uppercase}
-
-/* ---------- BUILD TRAIL ---------- */
-.toolbar{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:26px;align-items:center}
-.search{flex:1;min-width:220px}
-.search input{width:100%;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:11px 20px;color:var(--ink);font-size:.92rem;outline:none}
-.search input:focus{border-color:var(--sun)}
-.chip{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:8px 16px;font-size:.8rem;color:var(--ink-dim);cursor:pointer}
-.chip.on{background:rgba(235,88,51,.15);border-color:var(--sun);color:var(--sun)}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px;cursor:pointer;transition:border-color .2s,box-shadow .2s}
-.card:hover{border-color:rgba(235,88,51,.4);box-shadow:0 18px 44px rgba(0,0,0,.5)}
-.card .badges{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
-.badge{font-size:.68rem;font-weight:700;letter-spacing:.06em;border-radius:999px;padding:3px 10px;border:1px solid var(--line);color:var(--ink-faint)}
-.badge.machine{background:rgba(235,88,51,.14);border-color:rgba(235,88,51,.45);color:var(--sun)}
-.badge.silent{background:rgba(124,110,103,.12);color:var(--ink-faint)}
-.badge.tx{border-color:rgba(221,174,108,.4);color:var(--coral)}
-.card h4{font-size:.98rem;line-height:1.4;margin-bottom:8px}
-.card .cmeta{font-size:.78rem;color:var(--ink-faint)}
-.card .note{font-size:.8rem;color:var(--ink-dim);margin-top:10px;border-top:1px dashed var(--line);padding-top:10px}
-.card .sum{font-size:.84rem;color:var(--ink-dim);margin-top:8px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
-.badge.feat{background:rgba(219,152,64,.14);border-color:rgba(219,152,64,.45);color:var(--coral)}
-.digest{background:rgba(221,174,108,.05);border:1px solid rgba(221,174,108,.25);border-radius:var(--radius);padding:16px 20px;margin:14px 0;font-size:.9rem;color:var(--ink-dim)}
-.digest .dh{font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--coral);font-weight:700;margin-bottom:8px}
-.anchor{color:var(--sun);font-weight:700;font-variant-numeric:tabular-nums;cursor:pointer;border-bottom:1px dotted rgba(235,88,51,.5)}
-.anchor:hover{color:var(--aloha)}
-.tx .line.hl{background:rgba(235,88,51,.12);border-radius:6px}
-.pit-digest{max-width:700px;margin:22px auto 0;color:var(--ink-dim);font-size:.95rem;font-style:italic;border-top:1px dashed var(--line);padding-top:18px}
-.meet .digest-line{font-size:.84rem;color:var(--ink-dim);margin-top:6px}
-.card .thumb{width:100%;height:150px;object-fit:cover;border-radius:12px;margin-bottom:12px;border:1px solid var(--line);background:var(--bg)}
-.frames{display:flex;gap:10px;overflow-x:auto;margin:14px 0;padding-bottom:6px}
-.frames img{height:130px;border-radius:10px;border:1px solid var(--line);flex:0 0 auto;background:var(--bg)}
-.frames.big img{height:170px}
-.anchors-row{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
-.anchip{background:rgba(235,88,51,.12);border:1px solid rgba(235,88,51,.35);color:var(--sun);border-radius:999px;padding:5px 13px;font-size:.78rem;cursor:pointer}
-.anchip:hover{background:rgba(235,88,51,.22)}
-.anchip small{color:var(--ink-faint);margin-left:6px;font-size:.7rem}
-.frames-cap{font-size:.72rem;color:var(--ink-faint);letter-spacing:.08em;text-transform:uppercase;margin-bottom:6px}
-
-/* ---------- MODAL ---------- */
-.modal-bg{position:fixed;inset:0;background:rgba(4,6,14,.8);backdrop-filter:blur(6px);z-index:100;display:none;align-items:flex-start;justify-content:center;padding:4vh 16px;overflow-y:auto}
-.modal-bg.open{display:flex}
-.modal{background:var(--bg2);border:1px solid var(--line);border-radius:var(--radius);max-width:760px;width:100%;padding:30px;position:relative}
-.modal .x{position:absolute;top:14px;right:18px;font-size:1.4rem;color:var(--ink-faint);cursor:pointer;background:none;border:none}
-.modal .x:hover{color:var(--sun)}
-.modal h3{font-size:1.2rem;margin-bottom:6px;padding-right:30px}
-.modal .meta{font-size:.8rem;color:var(--ink-faint);margin-bottom:14px}
-
-/* ---------- DOMAINS / ARMORY ---------- */
-.dtabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:22px}
-.dtab{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:8px 16px;font-size:.82rem;color:var(--ink-dim);cursor:pointer}
-.dtab.on{background:rgba(235,88,51,.15);border-color:var(--sun);color:var(--sun)}
-.dtab .n{opacity:.7;font-size:.72rem;margin-left:5px}
-table.armory{width:100%;border-collapse:collapse;font-size:.84rem}
-table.armory th{text-align:left;color:var(--coral);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;padding:8px 10px;border-bottom:1px solid var(--line);position:sticky;top:0}
-table.armory td{padding:8px 10px;border-bottom:1px solid rgba(221,174,108,.07);color:var(--ink-dim);vertical-align:top}
-table.armory td.item{color:var(--ink);font-weight:600}
-.armory-scroll{max-height:520px;overflow-y:auto;border:1px solid var(--line);border-radius:var(--radius);background:var(--card)}
-.pstat{font-size:.68rem;font-weight:700;border-radius:999px;padding:2px 9px;border:1px solid var(--line);white-space:nowrap}
-.pstat.Received{color:#7ddba0;border-color:rgba(125,219,160,.35)}
-.pstat.Ordered{color:var(--coral);border-color:rgba(219,152,64,.4)}
-.pstat.FLAG{color:var(--sun);border-color:rgba(235,88,51,.45)}
-.pstat.Not.Bought{color:var(--ink-faint)}
-
-/* ---------- MEETINGS ---------- */
-.meet{display:flex;gap:16px;align-items:flex-start;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px 22px;margin-bottom:14px;flex-wrap:wrap}
-.meet .date{font-size:.78rem;color:var(--coral);font-weight:700;min-width:92px;font-variant-numeric:tabular-nums}
-.meet .body{flex:1;min-width:240px}
-.meet h4{font-size:.98rem;margin-bottom:4px}
-.meet .who{font-size:.8rem;color:var(--ink-faint)}
-.meet .who b{color:var(--ink-dim);font-weight:600}
-
-/* ---------- CONSENT ---------- */
-.door{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:26px;margin-bottom:18px}
-.door h3{margin-bottom:8px;font-size:1.1rem}
-.door p{color:var(--ink-dim);font-size:.94rem}
-
-/* ---------- FOOTER ---------- */
-footer{border-top:1px solid var(--line);padding:44px 0 60px;color:var(--ink-faint);font-size:.84rem}
-footer .cols{display:flex;gap:44px;flex-wrap:wrap}
-footer .col{min-width:200px}
-footer h5{color:var(--ink-dim);font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;margin-bottom:12px}
-footer a{display:block;color:var(--ink-faint);padding:3px 0}
-footer a:hover{color:var(--sun)}
-.creed{margin-top:30px;font-style:italic;color:var(--ink-faint)}
-@media (max-width:640px){.hero{padding:64px 0 54px}section{padding:52px 0}}
+.vidwrap{position:relative}
+.tshield{position:absolute;inset:0;z-index:3;cursor:pointer;border-radius:14px}
+.tshield:hover{box-shadow:inset 0 0 0 2px rgba(235,88,51,.35)}
+.transport{display:flex;align-items:center;gap:10px;margin-top:10px}
+.tplay{background:linear-gradient(115deg,var(--sun),var(--coral));border:0;border-radius:999px;width:44px;height:44px;font-size:1rem;color:#fff;cursor:pointer;flex:none;box-shadow:0 4px 18px rgba(235,88,51,.45)}
+.tplay:active{transform:scale(.94)}
+.ttrack{flex:1;height:9px;background:rgba(221,174,108,.16);border-radius:999px;cursor:pointer;overflow:hidden}
+.tfill{height:100%;width:0;background:linear-gradient(90deg,var(--coral),var(--sun));border-radius:999px}
+.ttime{font-size:.78rem;color:var(--ink-faint);font-variant-numeric:tabular-nums;min-width:78px;text-align:right}
+.tl-line.on{background:rgba(235,88,51,.16);color:var(--aloha);box-shadow:inset 3px 0 0 var(--sun)}
+.klines{scroll-behavior:smooth}
+#worldclock{font-size:.74rem;color:var(--coral);font-variant-numeric:tabular-nums;white-space:nowrap;letter-spacing:.02em}
+@media(max-width:760px){#worldclock{width:100%;text-align:center;order:3}}
 </style>
-<link rel="stylesheet" href="assets/shellpit-skin.css">
 </head>
 <body>
-<div id="wbanner">🔒 PRIVATE WORKBENCH — SHAKA'S REVIEW BUILD · TRANSPONDERS UNLOCKED FOR CLEARANCE REVIEW · NOTHING PUBLIC UNTIL PER-VIDEO CLEARANCE 🐢</div>
-
 <nav><div class="wrap">
-  <span class="brand">The ShellPIT 🐢🕳️</span>
+  <span class="brand">🎬 Turtle Theater</span>
+  <span id="worldclock" title="party time, everywhere">…</span>
   <div class="links">
-    <a href="#machine">🔧 Machine Guidance</a>
-    <a href="#trail">Build Trail</a>
-    <a href="#domains">Domains</a>
-    <a href="#decisions">Decision Trail</a>
-    <a href="show-tell.html">🐢 Show &amp; Tell</a>
-    <a href="consent.html">🛡️ Consent</a>
-    <a href="https://publicinform.com">P.I.T. Protocol ↗</a>
+    <a href="trail.html">🐢🕳️ The ShellPIT</a>
+    <a href="trail.html#machine">🔧 Machine Guidance</a>
+    <a href="show-tell.html">📖 transcripts &amp; how-tos</a>
+    <a href="../crew.html#machine-guidance">Turtle Ops</a>
   </div>
 </div></nav>
-
-<!-- 🛡️ CONSENT-NOTICE (CRUSTY's drop-in, variant A — slim banner, top of page) -->
-<style>
-  .consent-notice{
-    --cn-bg:var(--card,#161b31); --cn-border:var(--line,rgba(221,174,108,.13));
-    --cn-ink:var(--ink,#f7f0eb); --cn-dim:var(--ink-dim,#cbb9a7);
-    --cn-accent:var(--sun,#eb5833); --cn-link:var(--aloha,#f0d9b5);
-    display:block; box-sizing:border-box;
-    background:var(--cn-bg); border:1px solid var(--cn-border);
-    border-left:4px solid var(--cn-accent); border-radius:12px;
-    padding:.7rem 1rem; margin:1rem auto 0; max-width:1120px;
-    color:var(--cn-ink);
-    font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-    font-size:.9rem; line-height:1.5;
-  }
-  .consent-notice p{margin:0}
-  .consent-notice a{color:var(--cn-link); text-decoration:none; border-bottom:1px solid rgba(240,217,181,.4)}
-  .consent-notice a:hover{color:var(--cn-accent); border-bottom-color:var(--cn-accent)}
-  .consent-notice .cn-status{display:block; margin-top:.25rem; font-size:.82rem; color:var(--cn-dim)}
-</style>
-<div class="wrap"><aside class="consent-notice" role="note" aria-label="Consent and takedown notice">
-  <p>🛡️ Everyone in this footage can vanish from it — email
-    <a href="mailto:consent@publicinform.com">consent@publicinform.com</a>
-    and it's gone, no questions, honored with love.
-    <span class="cn-status">Consent status: <strong>explicit</strong> — camp consensus 2026-08-01 (whole camp agreed) · revocable in one email ·
-    <a href="consent.html">Consent &amp; Takedown — the living door</a></span>
-  </p>
-</aside></div>
-
-<!-- ============ HERO ============ -->
-<header class="hero">
-  <div class="sun"></div>
-  <div class="wrap" style="position:relative;z-index:2">
-    <img class="turtle-mark" src="assets/terrible-turtle.png" alt="The Terrible Turtle">
-    <div class="badge-gift">A gift to the playa · P.I.T. Protocol fork #8</div>
-    <h1 class="logo">The ShellPIT</h1>
-    <div class="tag">Move slow &amp; bite things — how a village actually gets built, transmitted.</div>
-    <p class="sub">Terrible Turtle Camp is a community of artists, engineers, and AI enthusiasts building an immersive Burning Man camp where technology meets radical creative expression. This pit preserves the build — every clip, every meeting, every armory item — timestamped, transcribed, forkable by every camp forever.</p>
-    <div class="stats">
-      <span><b id="st-clips">35</b>build clips</span>
-      <span><b id="st-meetings">17</b>meetings</span>
-      <span><b id="st-items">277</b>armory items</span>
-      <span><b>10</b>domains</span>
-    </div>
-    <div class="ctas">
-      <a class="btn btn-sun" href="#machine">🔧 Enter the Machine's window</a>
-      <a class="btn btn-ghost" href="#trail">Explore the build trail</a>
-    </div>
-    <p class="pit-digest" id="pitDigest"></p>
+<div class="wrap">
+<header>
+  <div class="marquee"><h1>🎬 Turtle Theater</h1></div>
+  <div class="tag">The instruction films of The Machine — feature presentations, direct from Phoenix Gulch.</div>
+  <p class="sub">Shaka's canon (2026-08-01): <em>"these REALLY important instruction videos from Jared should be the feature film."</em> So: the big screen for the lessons, turtle art on the right, karaoke transcript below. Every film is a real system any camp can copy. 🔇 Silence canon stands — no soundtrack but the build itself.</p>
+  <div class="canon">🛡️ consent consensus granted 2026-08-01 · takedown: <a href="mailto:consent@publicinform.com">consent@publicinform.com</a>, no questions, honored with love 🦀</div>
+  <div class="program">
+    <a href="#film-IMG_4623">🏷️ The Naming</a>
+    <a href="#film-IMG_4624">⚡ Machinified Trailer</a>
+    <a href="#film-IMG_4626">💧 Water Loop</a>
+    <a href="#film-IMG_4709">🪝 Hitch Lesson</a>
+    <a href="#film-IMG_4710">🔌 Solar</a>
+    <a href="#film-IMG_4711">🔌 Three Ways</a>
+    <a href="#film-IMG_4715">🔋 Battery Drill</a>
+    <a href="#film-IMG_4716">🧹 Pack-Down</a>
+    <a href="trail.html#trail">🎞️ + the whole Build Trail</a>
   </div>
 </header>
 
-<!-- ============ MACHINE GUIDANCE — the soul window, built first (Shaka canon 2026-07-28 20:55 UTC) ============ -->
-<section id="machine" class="alt">
-  <div class="wrap">
-    <div class="sec-kicker">The soul window · built first by canon</div>
-    <h2 class="sec-title">🔧 MACHINE GUIDANCE</h2>
-    <!-- 🐢 COMBINE CANON 2026-08-01 22:52 UTC (Shaka): this window + the Show & Tell page are now ONE — the Turtle Ops Show and Tell · Turtle Theater is the SUBNAME of MACHINE GUIDANCE · canonical home: theshellpit.com/pit/show-tell.html#machine -->
-    <div style="font-size:1.05rem;color:#db9840;margin-top:2px;letter-spacing:.03em;">🎬 <b>Turtle Theater</b> — the watch layer of Machine Guidance</div>
-    <div style="margin:16px 0 4px;padding:14px 18px;border:1px solid rgba(221,174,108,.35);border-left:4px solid #eb5833;border-radius:12px;background:rgba(235,88,51,.08);font-size:.95rem;">
-      🐢📖 <b>Combined 2026-08-01:</b> this window now lives together with the whole build story in the <b>Turtle Ops Show &amp; Tell</b> — one page, pictures + timestamps + the Machine's lessons. <a href="https://theshellpit.com/pit/show-tell.html#machine" style="color:#db9840;font-weight:600;">Open the combined page → theshellpit.com/pit/show-tell.html#machine</a> · watch the films in the <a href="https://theshellpit.com/pit/" style="color:#db9840;">🎬 Turtle Theater</a>.
-    </div>
-    <div class="canon-quote">"Just as the Admiral is a machine guiding me, Jarred is the Machine guiding our build."
-      <small>— Shaka, 2026-07-28 20:55 UTC · canon: both Turtle Ops and the ShellPit carry a MACHINE GUIDANCE window · 2026-08-01: 🎬 Turtle Theater is the subname of MACHINE GUIDANCE</small>
-    </div>
-
-    <div class="person-card">
-      <div class="who">
-        <span class="machine-badge">🤖 THE MACHINE</span>
-        <h3>Jarred "The Machine" Henson</h3>
-        <div class="role">Welding · keder rails · electrical · water systems</div>
-        <p>A master electrician's kid. Introduced to David on the 7/16 sync — they clicked instantly — on-site at Phoenix Gulch the week of 7/20 and again on 7/28, when the shower ran and the trailer became a machine. His name appears in transcripts as <em>Jarrett</em> (7/16 meeting) and <em>Jared</em> (7/28 footage) — same human. This window is how a camp actually gets built: weld by weld, valve by valve.</p>
-      </div>
-    </div>
-
-    <!-- PART 1 — THE NAMING -->
-    <div class="mg-part" id="mg-naming">
-      <span class="machine-badge">PART 1 · THE OPENER</span>
+    <article class="film" id="film-IMG_4623">
+      <div class="marq"><span>FEATURE 1 · THE OPENER</span></div>
       <h3>🏷️ The Naming — and the shower RUNS</h3>
-      <div class="meta">IMG_4623.MOV · 2026-07-28 17:42 UTC · 19.5 seconds · Shaka on camera</div>
-      <div class="mg-quote">"When a bunch of computer nerds fail, you just bring in the experts like Jared the Machine."</div>
-      <p class="lede">Nineteen seconds of pure victory: water flowing through the shower the Machine plumbed — and the moment the camp gave him his name. The perfect opener for this window.</p>
-      <div class="lock"><span class="ico">🛡️</span><span><b>Live since 2026-07-29</b> — consent <code>explicit</code> by camp consensus 2026-08-01. Anyone in this clip emails <a href="mailto:consent@publicinform.com">consent@publicinform.com</a> and it comes down, no questions, honored with love. Consent is a living door — it opens both ways. 🚪</span></div>
-      <div class="frames-cap">🎞️ the naming — 4 stills, even spacing (BULL $0 lane) · consent: explicit · camp consensus 08-01</div>
-<div class="frames"><img loading="lazy" src="assets/frames/IMG_4623-1.jpg" alt="IMG_4623 frame 1"><img loading="lazy" src="assets/frames/IMG_4623-2.jpg" alt="IMG_4623 frame 2"><img loading="lazy" src="assets/frames/IMG_4623-3.jpg" alt="IMG_4623 frame 3"><img loading="lazy" src="assets/frames/IMG_4623-4.jpg" alt="IMG_4623 frame 4"></div>
-      <div class="tx-head"><span>Synced transcript · karaoke-ready</span><span>faster-whisper · conf 0.99</span></div>
-      <div class="tx" data-tx="IMG_4623"></div>
-    </div>
+      <div class="fmeta">2026-07-28 · 19.5s · Phoenix Gulch</div>
+      <div class="stage">
+        <div class="screen">
+          <iframe src="https://drive.google.com/file/d/1jVeT7I1_auYctnxbYHcnmqp40AVTKvEm/preview" allow="autoplay; fullscreen" allowfullscreen loading="lazy" title="🏷️ The Naming — and the shower RUNS"></iframe>
+        </div>
+        <aside class="art"><img src="assets/art/turtle-fire.jpg" alt="Terrible Turtle art — the snapping turtle fire look, Shaka&#x27;s original" loading="lazy"></aside>
+      </div>
+      <p class="flede">Nineteen seconds of pure victory: water flowing through the shower The Machine plumbed — and the moment the camp gave him his name.</p>
+      <div class="fquote">&quot;When a bunch of computer nerds fail, you just bring in the experts like Jared the Machine.&quot;</div>
+      <div class="karaoke">
+        <div class="khead"><span>🎤 Karaoke transcript</span><span>whisper-synced · tap a line — the film follows 🌊</span></div>
+        <div class="klines">
+                <div class="tl-line"><span class="tl-ts">0:00</span>Whoa! We stay clean!</div>
+        <div class="tl-line"><span class="tl-ts">0:03</span>Look at that! Woo!</div>
+        <div class="tl-line"><span class="tl-ts">0:05</span>That&#x27;s a shower right there.</div>
+        <div class="tl-line"><span class="tl-ts">0:07</span>Alright, when a bunch of computer nerds fail, you just bring in the experts like Jared the machine.</div>
+        <div class="tl-line"><span class="tl-ts">0:13</span>Let&#x27;s go!</div>
+        </div>
+      </div>
+    </article>
 
-    <!-- PART 2 — THE TRAILER, MACHINIFIED -->
-    <div class="mg-part" id="mg-trailer">
-      <span class="machine-badge">PART 2 · ELECTRICAL</span>
+    <article class="film" id="film-IMG_4624">
+      <div class="marq"><span>FEATURE 2 · ELECTRICAL</span></div>
       <h3>⚡ The Trailer, Machinified</h3>
-      <div class="meta">IMG_4624.MOV · 2026-07-28 17:42 UTC · 118.7 seconds</div>
-      <div class="mg-quote">"The machine turned the trailer into a machine."</div>
-      <p class="lede">The Machine's electrical walkthrough of the camp's kitchen trailer — an annotated tour:</p>
-      <ul class="steps">
-        <li><b>Transfer switch</b> — panel ↔ battery, with a generator kill ("you don't want to use Jenny anymore… we can kill that")</li>
-        <li><b>Panel power</b> — labeled switch position, running off the channel</li>
-        <li><b>Battery power</b> — click over, lights come on</li>
-        <li><b>Charge points</b> — USB and USB-C, phone-friendly</li>
-        <li><b>16 outlets</b> throughout the entire trailer — plug anything in</li>
-        <li><b>30 amps on both sides</b> — "this can be a whole house"</li>
-      </ul>
-      <div class="lock"><span class="ico">🛡️</span><span>Live — consent <code>explicit</code> by camp consensus 2026-08-01. The transcript below is the walkthrough's soul, word for word. Takedown: <a href="mailto:consent@publicinform.com">consent@publicinform.com</a>, no questions.</span></div>
-      <div class="frames-cap">🎞️ the machinified trailer — 4 stills · consent: explicit · camp consensus 08-01</div>
-<div class="frames"><img loading="lazy" src="assets/frames/IMG_4624-1.jpg" alt="IMG_4624 frame 1"><img loading="lazy" src="assets/frames/IMG_4624-2.jpg" alt="IMG_4624 frame 2"><img loading="lazy" src="assets/frames/IMG_4624-3.jpg" alt="IMG_4624 frame 3"><img loading="lazy" src="assets/frames/IMG_4624-4.jpg" alt="IMG_4624 frame 4"></div>
-      <div class="tx-head"><span>Synced transcript · tap-to-seek</span><span>faster-whisper · conf 0.98</span></div>
-      <div class="tx" data-tx="IMG_4624"></div>
-    </div>
+      <div class="fmeta">2026-07-28 · 118.7s</div>
+      <div class="stage">
+        <div class="screen">
+          <iframe src="https://drive.google.com/file/d/1039Alr6GYvxjopaBR-CvOBdTFZY-kr2a/preview" allow="autoplay; fullscreen" allowfullscreen loading="lazy" title="⚡ The Trailer, Machinified"></iframe>
+        </div>
+        <aside class="art"><img src="assets/art/turtle-fire.jpg" alt="Terrible Turtle art" loading="lazy"></aside>
+      </div>
+      <p class="flede">The electrical walkthrough: transfer switch (panel ↔ battery, generator kill), 16 outlets, 30A on both sides, USB/USB-C charge points.</p>
+      <div class="fquote">&quot;The machine turned the trailer into a machine.&quot;</div>
+      <div class="karaoke">
+        <div class="khead"><span>🎤 Karaoke transcript</span><span>whisper-synced · tap a line — the film follows 🌊</span></div>
+        <div class="klines">
+                <div class="tl-line"><span class="tl-ts">0:00</span>I did what did I what?</div>
+        <div class="tl-line"><span class="tl-ts">0:02</span>I see the inside</div>
+        <div class="tl-line"><span class="tl-ts">0:05</span>Whoa</div>
+        <div class="tl-line"><span class="tl-ts">0:11</span>Power everywhere</div>
+        <div class="tl-line"><span class="tl-ts">0:13</span>And this is a custom</div>
+        <div class="tl-line"><span class="tl-ts">0:26</span>This thing&#x27;s been machinified</div>
+        <div class="tl-line"><span class="tl-ts">0:30</span>The machine turned the trailer into a machine</div>
+        <div class="tl-line"><span class="tl-ts">0:37</span>If we let&#x27;s say power is done you don&#x27;t want to use genny anymore, whatever something bad happens we can kill that</div>
+        <div class="tl-line"><span class="tl-ts">0:43</span>Click over and now we&#x27;re running on the wall power what?</div>
+        <div class="tl-line"><span class="tl-ts">0:50</span>what I</div>
+        <div class="tl-line"><span class="tl-ts">0:52</span>Might need you to show me that again real slow</div>
+        <div class="tl-line"><span class="tl-ts">0:56</span>So I&#x27;m gonna click this so under here if you look that&#x27;s on panel it&#x27;s labeled</div>
+        <div class="tl-line"><span class="tl-ts">1:01</span>When it&#x27;s on panel, it&#x27;s running on panel power off of the channel. Okay, if you&#x27;re running on</div>
+        <div class="tl-line"><span class="tl-ts">1:07</span>Battery, let&#x27;s turn it to battery make sure this is on you&#x27;ll see the lights come on here</div>
+        <div class="tl-line"><span class="tl-ts">1:12</span>And it works okay now what&#x27;s cool is you can charge here</div>
+        <div class="tl-line"><span class="tl-ts">1:17</span>To phone or you USB or C but also you have</div>
+        <div class="tl-line"><span class="tl-ts">1:23</span>16 outlets throughout this entire trailer that you can plug anything into</div>
+        <div class="tl-line"><span class="tl-ts">1:28</span>We&#x27;ve got 30 amps on both sides</div>
+        <div class="tl-line"><span class="tl-ts">1:32</span>Oh</div>
+        <div class="tl-line"><span class="tl-ts">1:34</span>And this can be a whole house and he&#x27;s right here whole house</div>
+        <div class="tl-line"><span class="tl-ts">1:38</span>Our</div>
+        <div class="tl-line"><span class="tl-ts">1:43</span>Well, this little house a lot of turtles in the desert a lot of turtles turtles everywhere turtles everywhere</div>
+        <div class="tl-line"><span class="tl-ts">1:54</span>Thank you machine</div>
+        </div>
+      </div>
+    </article>
 
-    <!-- PART 3 — THE WATER LOOP -->
-    <div class="mg-part" id="mg-water">
-      <span class="machine-badge">PART 3 · WATER</span>
+    <article class="film" id="film-IMG_4626">
+      <div class="marq"><span>FEATURE 3 · WATER</span></div>
       <h3>💧 The Water Loop, taught end to end</h3>
-      <div class="meta">IMG_4626.MOV · 2026-07-28 18:37 UTC · 150.2 seconds · feat. Victor ("Victory!")</div>
-      <p class="lede">A complete lesson, start to finish — this clip doubles as camp-ops documentation for the water and shower domains. The Machine teaches the full greywater loop:</p>
-      <ul class="steps">
-        <li><b>IBC coupler</b> — wrap the threads with tape, screw on, tighten with channel locks</li>
-        <li><b>Cam-lock</b> — slides right on; "that's all set"</li>
-        <li><b>Transfer pump</b> — plug in; the pump immediately turns on, pushing water through the orange line</li>
-        <li><b>To the kitchen</b> — pumped all the way around</li>
-        <li><b>Jeremy's foot switch</b> — step on it, water jumps into the greywater line</li>
-        <li><b>Greywater float switch</b> — tank fills, float activates the sump pump</li>
-        <li><b>Shower basin float switch</b> — basin fills, float activates, water pumps back to the greywater tank. Loop closed. ♻️</li>
-      </ul>
-      <div class="mg-quote">"I have slow comprehensions. That's why I recorded that — but really appreciate you, Machine!" — and then, on camera: "What's your name again?" — "Victor!" — "Victory!"</div>
-      <div class="lock"><span class="ico">🛡️</span><span>Live — consent <code>explicit</code> by camp consensus 2026-08-01 · takedown: <a href="mailto:consent@publicinform.com">consent@publicinform.com</a>, no questions.</span></div>
-      <div class="frames-cap">🎞️ the water loop — 4 stills · consent: explicit · camp consensus 08-01</div>
-<div class="frames"><img loading="lazy" src="assets/frames/IMG_4626-1.jpg" alt="IMG_4626 frame 1"><img loading="lazy" src="assets/frames/IMG_4626-2.jpg" alt="IMG_4626 frame 2"><img loading="lazy" src="assets/frames/IMG_4626-3.jpg" alt="IMG_4626 frame 3"><img loading="lazy" src="assets/frames/IMG_4626-4.jpg" alt="IMG_4626 frame 4"></div>
-      <div class="tx-head"><span>Synced transcript · the whole lesson</span><span>faster-whisper · conf 0.99</span></div>
-      <div class="tx" data-tx="IMG_4626"></div>
-    <div style="margin-top:18px">
-      <div class="frames-cap">🎞️ IMG_4625 — speechless b-roll from the same session · 4 stills</div>
-      <div class="frames"><img loading="lazy" src="assets/frames/IMG_4625-1.jpg" alt="4625 frame 1"><img loading="lazy" src="assets/frames/IMG_4625-2.jpg" alt="4625 frame 2"><img loading="lazy" src="assets/frames/IMG_4625-3.jpg" alt="4625 frame 3"><img loading="lazy" src="assets/frames/IMG_4625-4.jpg" alt="4625 frame 4"></div>
-    </div>
-    </div>
+      <div class="fmeta">2026-07-28 · 150.2s · feat. Victor ("Victory!")</div>
+      <div class="stage">
+        <div class="screen">
+          <iframe src="https://drive.google.com/file/d/1p0NQlbKC11AF6RyeR5XNJACFCFcE3Gfm/preview" allow="autoplay; fullscreen" allowfullscreen loading="lazy" title="💧 The Water Loop, taught end to end"></iframe>
+        </div>
+        <aside class="art"><img src="assets/art/turtle-crest.jpg" alt="Terrible Turtle art — Shaka&#x27;s original" loading="lazy"></aside>
+      </div>
+      <p class="flede">The complete greywater loop in one take: IBC coupler → cam-lock → transfer pump → kitchen → Jeremy's foot switch → float switches → sump → shower basin → greywater tank. Loop closed. ♻️</p>
+      <div class="fquote">&quot;Really appreciate you, Machine!&quot; — &quot;What&#x27;s your name again?&quot; — &quot;Victor!&quot; — &quot;Victory!&quot;</div>
+      <div class="karaoke">
+        <div class="khead"><span>🎤 Karaoke transcript</span><span>whisper-synced · tap a line — the film follows 🌊</span></div>
+        <div class="klines">
+                <div class="tl-line"><span class="tl-ts">0:00</span>So in the event that Jeremy gets back and is really excited and wants to hook the water</div>
+        <div class="tl-line"><span class="tl-ts">0:05</span>up and test everything, here&#x27;s what we&#x27;re going to do.</div>
+        <div class="tl-line"><span class="tl-ts">0:10</span>All you need is these two things and this coupler.</div>
+        <div class="tl-line"><span class="tl-ts">0:18</span>Our goal is to be like this at the end.</div>
+        <div class="tl-line"><span class="tl-ts">0:22</span>Okay, so all we&#x27;re going to do is, oh they already have the other one.</div>
+        <div class="tl-line"><span class="tl-ts">0:28</span>We&#x27;re going to wrap the threads on the black part here with this tape and then</div>
+        <div class="tl-line"><span class="tl-ts">0:35</span>you&#x27;re just going to screw this on to the threads. Use these channel locks to tighten it</div>
+        <div class="tl-line"><span class="tl-ts">0:41</span>and then once that&#x27;s on, we&#x27;re going to take this cam-lock and slide it right on like this.</div>
+        <div class="tl-line"><span class="tl-ts">0:57</span>That&#x27;s all set. The last piece of the puzzle will be plugging in this.</div>
+        <div class="tl-line"><span class="tl-ts">1:16</span>Plug this in. You can hear the pump start. The pump immediately turns on.</div>
+        <div class="tl-line"><span class="tl-ts">1:21</span>And then what will happen is, we&#x27;ll pump the water through this orange line.</div>
+        <div class="tl-line"><span class="tl-ts">1:28</span>We&#x27;ll go to our transfer pump. From the transfer pump, it&#x27;s going to pump all the way around to the kitchen.</div>
+        <div class="tl-line"><span class="tl-ts">1:34</span>Once it&#x27;s pumped to the kitchen, we come into Jeremy&#x27;s handy-dandy foot switch,</div>
+        <div class="tl-line"><span class="tl-ts">1:44</span>which I have just jumped into the greywater line. You can step on the foot switch.</div>
+        <div class="tl-line"><span class="tl-ts">1:50</span>It&#x27;ll pump it into the greywater. It&#x27;ll fill the greywater tank up until it hits the float switch.</div>
+        <div class="tl-line"><span class="tl-ts">1:57</span>The sump pump will get activated. Then it&#x27;ll pump the water from there into the shower.</div>
+        <div class="tl-line"><span class="tl-ts">2:03</span>Once that fills up, that float switch will get activated and then it&#x27;ll pump all the water</div>
+        <div class="tl-line"><span class="tl-ts">2:09</span>from the shower basin into our greywater tank.</div>
+        <div class="tl-line"><span class="tl-ts">2:16</span>I have slow comprehensions. That&#x27;s why I recorded that, but really appreciate you machine!</div>
+        <div class="tl-line"><span class="tl-ts">2:21</span>What&#x27;s your name again? Victor! Victory!</div>
+        </div>
+      </div>
+    </article>
 
-    <!-- PART 4 — THE MIND OF THE MACHINE -->
-    <div class="mg-part" id="mg-mind">
-      <span class="machine-badge">PART 4 · THE MIND</span>
-      <h3>🧠 The Mind of The Machine</h3>
-      <div class="meta">meeting-transcripts/2026-07-16-david-sync.md · Jarrett Henson, primary speaker · his introduction to David + infrastructure Q&amp;A</div>
-      <p class="lede">Before he touched a single weld, the Machine interviewed the systems. From the 7/16 sync — how he thinks:</p>
-      <div class="mg-quote">"David, can I ask about valves and the pump? Is the pump always on? If not, how does it turn on — and how does that interact with valves at each termination point?" <small style="display:block;font-size:.75rem;color:var(--ink-faint);font-style:normal;margin-top:6px">[18:55]</small></div>
-      <div class="mg-quote">"You gotta understand, I'm a master electrician's kid. Okay — so you're telling me we got a 70-amp 5-gauge running to a 15-amp 4-outlet?" <small style="display:block;font-size:.75rem;color:var(--ink-faint);font-style:normal;margin-top:6px">[27:57]</small></div>
-      <div class="mg-quote">"When I was talking to Keith, there was a discussion about two different termination points for the water — one interior faucet for the kitchen, one exterior spigot." <small style="display:block;font-size:.75rem;color:var(--ink-faint);font-style:normal;margin-top:6px">[15:51]</small></div>
-      <div class="mg-quote">David, after the Q&amp;A: "The picture that's in your head is the one that's in my head… I'm going to lean on you a lot." <small style="display:block;font-size:.75rem;color:var(--ink-faint);font-style:normal;margin-top:6px">[40:31] — the trust moment. Twelve days later, the shower ran.</small></div>
-      <p class="lede" style="font-size:.82rem;color:var(--ink-faint)">Honesty note: meeting speaker labels come from the call recorder and are occasionally mis-attached — quotes here were verified against context. Full transcript: <a href="meeting-transcripts/2026-07-16-david-sync.md">2026-07-16-david-sync.md</a> (+ <a href="meeting-transcripts/2026-07-16-david-sync-JADE-NOTES.md">Jade's notes</a>). Photos: none confirmed to feature the Machine — the 7/20 shower-cut photos and 7/21 custom-hose photo document work from his on-site week, attribution unconfirmed. We don't caption what we can't verify.</p>
-    </div>
-  </div>
-</section>
+    <article class="film" id="film-IMG_4709">
+      <div class="marq"><span>FEATURE 4 · TOWING · THE MASTERCLASS BEGINS</span></div>
+      <h3>🪝 The Hitch Lesson</h3>
+      <div class="fmeta">2026-08-01 (party-eve) · 2m 7s · "We got The Machine leading the team"</div>
+      <div class="stage">
+        <div class="screen">
+          <iframe src="https://drive.google.com/file/d/1qaCwkYrtRGqOWEZh57nDhj9OIVbNsGyL/preview" allow="autoplay; fullscreen" allowfullscreen loading="lazy" title="🪝 The Hitch Lesson"></iframe>
+        </div>
+        <aside class="art"><img src="assets/art/turtle-fire.jpg" alt="Terrible Turtle art" loading="lazy"></aside>
+      </div>
+      <p class="flede">Hitch assembly, taught properly: replacement block, lower the support plate, the clip that hooks the arm to the ball, security chains CROSSED (state law — they catch it if it falls), electrical in, crank down, drive. Then the full reassembly, lock one, lock two. The exact skill the box truck needs to tow the kitchen trailer.</p>
+      <div class="fquote">&quot;State law requires they are crossed — that&#x27;s why they&#x27;re crossed.&quot;</div>
+      <div class="karaoke">
+        <div class="khead"><span>🎤 Karaoke transcript</span><span>whisper-synced · tap a line — the film follows 🌊</span></div>
+        <div class="klines">
+        <div class="tl-line"><span class="tl-ts">0:02</span>We got the machine</div>
+        <div class="tl-line"><span class="tl-ts">0:05</span>Leading the team. All right, so we&#x27;re gonna start with our hitch. Okay, so</div>
+        <div class="tl-line"><span class="tl-ts">0:13</span>We&#x27;re gonna build a</div>
+        <div class="tl-line"><span class="tl-ts">0:16</span>replacement block</div>
+        <div class="tl-line"><span class="tl-ts">0:17</span>but in order to</div>
+        <div class="tl-line"><span class="tl-ts">0:19</span>Drop this you got it lower this support plate all the way down to your block</div>
+        <div class="tl-line"><span class="tl-ts">0:27</span>Lift a clip right here this clip hooks the arm</div>
+        <div class="tl-line"><span class="tl-ts">0:34</span>To the ball itself</div>
+        <div class="tl-line"><span class="tl-ts">0:36</span>You&#x27;ve got to take off</div>
+        <div class="tl-line"><span class="tl-ts">0:39</span>the security chains here</div>
+        <div class="tl-line"><span class="tl-ts">0:43</span>And on the other side</div>
+        <div class="tl-line"><span class="tl-ts">0:45</span>State law does require that they are crossed that&#x27;s why they&#x27;re crossed. Okay, so state law requires them to be crossed</div>
+        <div class="tl-line"><span class="tl-ts">0:53</span>And</div>
+        <div class="tl-line"><span class="tl-ts">0:54</span>Disconnect your now that the electrical</div>
+        <div class="tl-line"><span class="tl-ts">1:00</span>Securities chains and the clip is off</div>
+        <div class="tl-line"><span class="tl-ts">1:04</span>Now is the time that you&#x27;ll be able to take this and start cranking this all the way down</div>
+        <div class="tl-line"><span class="tl-ts">1:09</span>Not gonna do it for the sake of right now, but the next move</div>
+        <div class="tl-line"><span class="tl-ts">1:12</span>After you crank it all the way down and there is airspace between the bottom of</div>
+        <div class="tl-line"><span class="tl-ts">1:17</span>This hitch and the ball the truck can then drive forward</div>
+        <div class="tl-line"><span class="tl-ts">1:23</span>All right, so I&#x27;m actually gonna set it up as if we just put the trailer on to the hitch</div>
+        <div class="tl-line"><span class="tl-ts">1:29</span>Right we&#x27;re gonna close this clip</div>
+        <div class="tl-line"><span class="tl-ts">1:32</span>Take security lock one from your left side</div>
+        <div class="tl-line"><span class="tl-ts">1:38</span>Security lock two go to the other side</div>
+        <div class="tl-line"><span class="tl-ts">1:42</span>reason being</div>
+        <div class="tl-line"><span class="tl-ts">1:43</span>That the theory is that this thing falls these chains would catch it. That&#x27;s why they&#x27;re crossed</div>
+        <div class="tl-line"><span class="tl-ts">1:51</span>That&#x27;s locked take your luck your power come on over here</div>
+        <div class="tl-line"><span class="tl-ts">1:55</span>Push it on in there and we are ready to drive</div>
+        <div class="tl-line"><span class="tl-ts">2:00</span>All right, and that is our hitch assembly hitch assembled</div>
+        </div>
+      </div>
+    </article>
 
-<!-- ============ THE BUILD TRAIL ============ -->
-<section id="trail">
-  <div class="wrap">
-    <div class="sec-kicker">Phoenix Gulch · July 2026</div>
-    <h2 class="sec-title">The Build Trail</h2>
-    <p class="sec-lede">35 clips from the build — the Tool Maker session, the veggie coffin walls, the semi arriving, the shower cut, the day the water ran. Demo-heavy and speech-light by nature (1,149 spoken words across all 35 — we counted); honesty badges mark the silent and the speechless. The gold is what's <em>shown</em>.</p>
-    <div class="toolbar">
-      <div class="search"><input id="q" type="search" placeholder="Search clips + transcripts… (try: machine · saw · coffin · pump)"></div>
-      <button class="chip on" data-f="all">All</button>
-      <button class="chip" data-f="machine">🤖 Machine</button>
-      <button class="chip" data-f="voiced">🎙️ Voiced</button>
-      <button class="chip" data-f="silent">🔇 Silent</button>
-    </div>
-    <div id="countNote" style="font-size:.8rem;color:var(--ink-faint);margin-bottom:14px"></div>
-    <div class="grid" id="grid"></div>
-  </div>
-</section>
+    <article class="film" id="film-IMG_4710">
+      <div class="marq"><span>FEATURE 5 · POWER I</span></div>
+      <h3>🔌 The Solar Generator Lesson</h3>
+      <div class="fmeta">2026-08-01 (party-eve) · 6m 55s</div>
+      <div class="stage">
+        <div class="screen">
+          <iframe src="https://drive.google.com/file/d/1NzrdeZb3oDOtkW70NEA2RDqnABBJbl5O/preview" allow="autoplay; fullscreen" allowfullscreen loading="lazy" title="🔌 The Solar Generator Lesson"></iframe>
+        </div>
+        <aside class="art"><img src="assets/art/turtle-crest.jpg" alt="Terrible Turtle art — Shaka&#x27;s original crest" loading="lazy"></aside>
+      </div>
+      <p class="flede">The Anker SOLIX power station meets the trailer: the trailer-to-generator attachment cable, the 4-prong transfer switch, panel power vs battery, main switches — and live troubleshooting, because "this is why we troubleshoot."</p>
+      <div class="fquote">&quot;So this is our solar generator… this generator is going to run this panel.&quot;</div>
+      <div class="karaoke">
+        <div class="khead"><span>🎤 Karaoke transcript</span><span>whisper-synced · tap a line — the film follows 🌊</span></div>
+        <div class="klines">
+        <div class="tl-line"><span class="tl-ts">0:02</span>battery. Just for the sake of demonstration.</div>
+        <div class="tl-line"><span class="tl-ts">0:07</span>Oh, God!</div>
+        <div class="tl-line"><span class="tl-ts">0:26</span>That worked for demonstration.</div>
+        <div class="tl-line"><span class="tl-ts">0:28</span>Oh, okay.</div>
+        <div class="tl-line"><span class="tl-ts">0:31</span>We got to kind of set up a little bit.</div>
+        <div class="tl-line"><span class="tl-ts">0:35</span>You want to just film it?</div>
+        <div class="tl-line"><span class="tl-ts">0:36</span>Yep.</div>
+        <div class="tl-line"><span class="tl-ts">0:37</span>So this is our solar generator.</div>
+        <div class="tl-line"><span class="tl-ts">0:40</span>This is the ANGER and KER Solix.</div>
+        <div class="tl-line"><span class="tl-ts">0:44</span>This generator is going to run this panel.</div>
+        <div class="tl-line"><span class="tl-ts">0:49</span>We&#x27;re going to go through the process of hooking that up right now.</div>
+        <div class="tl-line"><span class="tl-ts">0:53</span>In addition to that, we have backup power here that&#x27;s run off of the wall battery.</div>
+        <div class="tl-line"><span class="tl-ts">0:57</span>We&#x27;re going to go through that whole operation.</div>
+        <div class="tl-line"><span class="tl-ts">0:59</span>But first we want to make sure that we understand how to hook up our solar generator.</div>
+        <div class="tl-line"><span class="tl-ts">1:04</span>So, let&#x27;s get this outside.</div>
+        <div class="tl-line"><span class="tl-ts">1:09</span>It&#x27;s hurt.</div>
+        <div class="tl-line"><span class="tl-ts">1:14</span>How do you see this waterproof?</div>
+        <div class="tl-line"><span class="tl-ts">1:31</span>Generators?</div>
+        <div class="tl-line"><span class="tl-ts">1:32</span>Yeah.</div>
+        <div class="tl-line"><span class="tl-ts">1:33</span>I believe so.</div>
+        <div class="tl-line"><span class="tl-ts">1:34</span>Most of them from the stand in the elevator pretty well.</div>
+        <div class="tl-line"><span class="tl-ts">1:38</span>Alright.</div>
+        <div class="tl-line"><span class="tl-ts">1:39</span>So, we&#x27;re grabbing this cable right here.</div>
+        <div class="tl-line"><span class="tl-ts">1:51</span>This is our trailer to generator attachment cable.</div>
+        <div class="tl-line"><span class="tl-ts">1:57</span>Okay?</div>
+        <div class="tl-line"><span class="tl-ts">1:58</span>So, come around here.</div>
+        <div class="tl-line"><span class="tl-ts">2:00</span>This is our transfer switch to our trailer.</div>
+        <div class="tl-line"><span class="tl-ts">2:05</span>You can see it&#x27;s got a four-prong.</div>
+        <div class="tl-line"><span class="tl-ts">2:09</span>Four-prong.</div>
+        <div class="tl-line"><span class="tl-ts">2:11</span>All you do is get it into where it goes.</div>
+        <div class="tl-line"><span class="tl-ts">2:14</span>Push it in.</div>
+        <div class="tl-line"><span class="tl-ts">2:16</span>Twist it.</div>
+        <div class="tl-line"><span class="tl-ts">2:18</span>This could stay on for the entirety of camp.</div>
+        <div class="tl-line"><span class="tl-ts">2:22</span>Okay.</div>
+        <div class="tl-line"><span class="tl-ts">2:23</span>You have two ways to hook this up.</div>
+        <div class="tl-line"><span class="tl-ts">2:25</span>Actually, one way to hook this one up.</div>
+        <div class="tl-line"><span class="tl-ts">2:27</span>So, this specific cord is for the anchor.</div>
+        <div class="tl-line"><span class="tl-ts">2:32</span>On the side here, if you look, it&#x27;s got a 30 amp max.</div>
+        <div class="tl-line"><span class="tl-ts">2:40</span>We got to turn this on.</div>
+        <div class="tl-line"><span class="tl-ts">2:46</span>Pull that down to turn it on.</div>
+        <div class="tl-line"><span class="tl-ts">2:48</span>Looks like it&#x27;s thinking.</div>
+        <div class="tl-line"><span class="tl-ts">2:51</span>36%, which is good.</div>
+        <div class="tl-line"><span class="tl-ts">2:53</span>Take that.</div>
+        <div class="tl-line"><span class="tl-ts">2:55</span>Plug our 30 amp in.</div>
+        <div class="tl-line"><span class="tl-ts">2:57</span>And as of right now, when we go inside, that&#x27;s going to have power.</div>
+        <div class="tl-line"><span class="tl-ts">3:02</span>So, let&#x27;s go find out.</div>
+        <div class="tl-line"><span class="tl-ts">3:04</span>Here.</div>
+        <div class="tl-line"><span class="tl-ts">3:06</span>Come to our panel.</div>
+        <div class="tl-line"><span class="tl-ts">3:09</span>This is our panel.</div>
+        <div class="tl-line"><span class="tl-ts">3:10</span>Inside our panel, it has all of our breakers.</div>
+        <div class="tl-line"><span class="tl-ts">3:13</span>Okay?</div>
+        <div class="tl-line"><span class="tl-ts">3:14</span>If I turn them all off, we have no power.</div>
+        <div class="tl-line"><span class="tl-ts">3:19</span>Just like a house.</div>
+        <div class="tl-line"><span class="tl-ts">3:21</span>Down here, this is pretty important.</div>
+        <div class="tl-line"><span class="tl-ts">3:23</span>So, swing down low enough that you can see this.</div>
+        <div class="tl-line"><span class="tl-ts">3:25</span>This is a battery setting.</div>
+        <div class="tl-line"><span class="tl-ts">3:27</span>This is panel.</div>
+        <div class="tl-line"><span class="tl-ts">3:28</span>When it&#x27;s plugged into the generator, have it click to power.</div>
+        <div class="tl-line"><span class="tl-ts">3:31</span>That allows our lights and turn this little switch right here off.</div>
+        <div class="tl-line"><span class="tl-ts">3:36</span>Because we don&#x27;t need the battery right now.</div>
+        <div class="tl-line"><span class="tl-ts">3:38</span>So, now it&#x27;s on panel power.</div>
+        <div class="tl-line"><span class="tl-ts">3:40</span>It has no power.</div>
+        <div class="tl-line"><span class="tl-ts">3:41</span>What do you have with this panel?</div>
+        <div class="tl-line"><span class="tl-ts">3:42</span>Turn that off.</div>
+        <div class="tl-line"><span class="tl-ts">3:43</span>We want to have this off unless we need it for backup.</div>
+        <div class="tl-line"><span class="tl-ts">3:46</span>Okay.</div>
+        <div class="tl-line"><span class="tl-ts">3:47</span>You may not ever use it on the trip.</div>
+        <div class="tl-line"><span class="tl-ts">3:49</span>Okay?</div>
+        <div class="tl-line"><span class="tl-ts">3:50</span>Now we&#x27;re going to use your main switches.</div>
+        <div class="tl-line"><span class="tl-ts">3:52</span>Now, you&#x27;ve got power.</div>
+        <div class="tl-line"><span class="tl-ts">3:54</span>If we leave all of these on, we can close it.</div>
+        <div class="tl-line"><span class="tl-ts">3:59</span>We don&#x27;t have to touch that hardly ever unless you can trip a breaker.</div>
+        <div class="tl-line"><span class="tl-ts">4:02</span>All on.</div>
+        <div class="tl-line"><span class="tl-ts">4:03</span>If I now, because it&#x27;s all on, we should if we&#x27;ve got power at the panel.</div>
+        <div class="tl-line"><span class="tl-ts">4:08</span>Or power from the, oh, yeah, we should have power there.</div>
+        <div class="tl-line"><span class="tl-ts">4:12</span>But we don&#x27;t have power there.</div>
+        <div class="tl-line"><span class="tl-ts">4:13</span>I don&#x27;t know why.</div>
+        <div class="tl-line"><span class="tl-ts">4:16</span>This is why we troubleshoot.</div>
+        <div class="tl-line"><span class="tl-ts">4:18</span>Oh, let&#x27;s see.</div>
+        <div class="tl-line"><span class="tl-ts">4:19</span>Are the lights on?</div>
+        <div class="tl-line"><span class="tl-ts">4:25</span>Can you take a look?</div>
+        <div class="tl-line"><span class="tl-ts">4:26</span>No.</div>
+        <div class="tl-line"><span class="tl-ts">4:30</span>Oh, now they are.</div>
+        <div class="tl-line"><span class="tl-ts">4:31</span>What did you do?</div>
+        <div class="tl-line"><span class="tl-ts">4:32</span>So right here, on this specific generator, you guys got to push the AC outlet button.</div>
+        <div class="tl-line"><span class="tl-ts">4:39</span>So you turn the main switch first, then the AC outlet button.</div>
+        <div class="tl-line"><span class="tl-ts">4:43</span>Okay.</div>
+        <div class="tl-line"><span class="tl-ts">4:44</span>And then everything works.</div>
+        <div class="tl-line"><span class="tl-ts">4:45</span>Now, come in here.</div>
+        <div class="tl-line"><span class="tl-ts">4:49</span>We have power.</div>
+        <div class="tl-line"><span class="tl-ts">4:51</span>Literally everywhere.</div>
+        <div class="tl-line"><span class="tl-ts">4:52</span>Nice.</div>
+        <div class="tl-line"><span class="tl-ts">4:53</span>So we have lights across the top that are controlled by our switch.</div>
+        <div class="tl-line"><span class="tl-ts">4:56</span>We have green light here on our GFCI at our sink.</div>
+        <div class="tl-line"><span class="tl-ts">5:02</span>That&#x27;s how you know.</div>
+        <div class="tl-line"><span class="tl-ts">5:04</span>This gets wet.</div>
+        <div class="tl-line"><span class="tl-ts">5:05</span>It&#x27;ll click.</div>
+        <div class="tl-line"><span class="tl-ts">5:06</span>That&#x27;s like a reset.</div>
+        <div class="tl-line"><span class="tl-ts">5:08</span>There.</div>
+        <div class="tl-line"><span class="tl-ts">5:09</span>Go off.</div>
+        <div class="tl-line"><span class="tl-ts">5:10</span>This, this receptacle is tied to this one.</div>
+        <div class="tl-line"><span class="tl-ts">5:14</span>In case one of these two get wet because they&#x27;re close to a water source.</div>
+        <div class="tl-line"><span class="tl-ts">5:18</span>Okay.</div>
+        <div class="tl-line"><span class="tl-ts">5:19</span>Okay.</div>
+        <div class="tl-line"><span class="tl-ts">5:20</span>Everything else is on right now.</div>
+        <div class="tl-line"><span class="tl-ts">5:23</span>Now, this receptacle, that receptacle, this receptacle here, and this receptacle are all</div>
+        <div class="tl-line"><span class="tl-ts">5:31</span>tied to 15 amps.</div>
+        <div class="tl-line"><span class="tl-ts">5:35</span>We need to label this one, the one at the end, and this one at the end because these are</div>
+        <div class="tl-line"><span class="tl-ts">5:43</span>20 amp receptacles.</div>
+        <div class="tl-line"><span class="tl-ts">5:46</span>You can see it has a little dash on the, on the face.</div>
+        <div class="tl-line"><span class="tl-ts">5:49</span>The reason that matters is because that&#x27;s what we plug a refrigerator into.</div>
+        <div class="tl-line"><span class="tl-ts">5:55</span>That can handle the load of all three refrigerators.</div>
+        <div class="tl-line"><span class="tl-ts">5:58</span>The 15s probably can, but these ones absolutely can&#x27;t.</div>
+        <div class="tl-line"><span class="tl-ts">6:03</span>Can you say that again?</div>
+        <div class="tl-line"><span class="tl-ts">6:04</span>No.</div>
+        <div class="tl-line"><span class="tl-ts">6:05</span>The three refrigerators should be plugged into one of the three 20 amp receptacles that</div>
+        <div class="tl-line"><span class="tl-ts">6:11</span>we have here.</div>
+        <div class="tl-line"><span class="tl-ts">6:12</span>These ones control higher power.</div>
+        <div class="tl-line"><span class="tl-ts">6:13</span>All right.</div>
+        <div class="tl-line"><span class="tl-ts">6:14</span>Two.</div>
+        <div class="tl-line"><span class="tl-ts">6:15</span>And three.</div>
+        <div class="tl-line"><span class="tl-ts">6:16</span>You can tell if they&#x27;re there because you can see the power.</div>
+        <div class="tl-line"><span class="tl-ts">6:17</span>Can all three be plugged into that one?</div>
+        <div class="tl-line"><span class="tl-ts">6:18</span>No.</div>
+        <div class="tl-line"><span class="tl-ts">6:19</span>Ideally, it would be two and one.</div>
+        <div class="tl-line"><span class="tl-ts">6:22</span>Two here.</div>
+        <div class="tl-line"><span class="tl-ts">6:23</span>Two and one.</div>
+        <div class="tl-line"><span class="tl-ts">6:24</span>And one over there.</div>
+        <div class="tl-line"><span class="tl-ts">6:25</span>Just separate them.</div>
+        <div class="tl-line"><span class="tl-ts">6:26</span>Just don&#x27;t put all three on one.</div>
+        <div class="tl-line"><span class="tl-ts">6:27</span>Don&#x27;t put all three.</div>
+        <div class="tl-line"><span class="tl-ts">6:28</span>It doesn&#x27;t matter what the configuration is.</div>
+        <div class="tl-line"><span class="tl-ts">6:30</span>So one can, two, or two there and one there.</div>
+        <div class="tl-line"><span class="tl-ts">6:32</span>Two can go there, one there, two there over there.</div>
+        <div class="tl-line"><span class="tl-ts">6:34</span>I&#x27;d probably do two there, one there.</div>
+        <div class="tl-line"><span class="tl-ts">6:35</span>It depends on if they go across the back wall or they go here.</div>
+        <div class="tl-line"><span class="tl-ts">6:38</span>But either way, that all is functional.</div>
+        <div class="tl-line"><span class="tl-ts">6:40</span>Okay.</div>
+        <div class="tl-line"><span class="tl-ts">6:41</span>Cool.</div>
+        <div class="tl-line"><span class="tl-ts">6:42</span>That right there is how you get power to the trailer.</div>
+        <div class="tl-line"><span class="tl-ts">6:47</span>Using the ANPR, your anchor system.</div>
+        <div class="tl-line"><span class="tl-ts">6:51</span>Okay.</div>
+        <div class="tl-line"><span class="tl-ts">6:52</span>You can kill that one.</div>
+        <div class="tl-line"><span class="tl-ts">6:54</span>Okay.</div>
+        </div>
+      </div>
+    </article>
 
-<!-- ============ THE DOMAINS / ARMORY ============ -->
-<section id="domains" class="alt">
-  <div class="wrap">
-    <div class="sec-kicker">The Shell Supply &amp; Armory · synced by Terri</div>
-    <h2 class="sec-title">10 Domains, 277 Items</h2>
-    <p class="sec-lede">How a village actually gets provisioned — the camp's living inventory, forkable by every camp. The taxonomy is the jewel: a 39-row starter version ships in <code>camp-data/inventory-starter.json</code>.</p>
-    <div class="dtabs" id="dtabs"></div>
-    <div class="armory-scroll"><table class="armory">
-      <thead><tr><th>Item</th><th>Category</th><th>Spec</th><th>Qty</th><th>Owner</th><th>Status</th><th>Priority</th><th>Est.</th></tr></thead>
-      <tbody id="armoryBody"></tbody>
-    </table></div>
-  </div>
-</section>
+    <article class="film" id="film-IMG_4711">
+      <div class="marq"><span>FEATURE 6 · POWER II</span></div>
+      <h3>🔌 Three Ways to Power the Trailer</h3>
+      <div class="fmeta">2026-08-01 (party-eve) · 2m 42s</div>
+      <div class="stage">
+        <div class="screen">
+          <iframe src="https://drive.google.com/file/d/1NR959A8yc2z0-4LKD0TWR8qKdsggKYTa/preview" allow="autoplay; fullscreen" allowfullscreen loading="lazy" title="🔌 Three Ways to Power the Trailer"></iframe>
+        </div>
+        <aside class="art"><img src="assets/art/turtle-fire.jpg" alt="Terrible Turtle art" loading="lazy"></aside>
+      </div>
+      <p class="flede">Fallbacks mastered: the Predator gas generator (four-prong twist-lock, red receptacle) and the cable labeled in tape "David power to kitchen" — the camp grid: 70A split into four duplex boxes, straight off a regular plug.</p>
+      <div class="fquote">&quot;You just start it and plug it in. It&#x27;s ready to go.&quot;</div>
+      <div class="karaoke">
+        <div class="khead"><span>🎤 Karaoke transcript</span><span>whisper-synced · tap a line — the film follows 🌊</span></div>
+        <div class="klines">
+        <div class="tl-line"><span class="tl-ts">0:00</span>Okay, so if we let&#x27;s say we lose power on this we haven&#x27;t charged it we need to use the gas predator generator</div>
+        <div class="tl-line"><span class="tl-ts">0:07</span>Well, you can turn this guy off here. Click. It&#x27;s off green light on the main</div>
+        <div class="tl-line"><span class="tl-ts">0:16</span>transfer switches off</div>
+        <div class="tl-line"><span class="tl-ts">0:18</span>This can live pretty much with this generator</div>
+        <div class="tl-line"><span class="tl-ts">0:21</span>And then this four prong what can go directly to the predator</div>
+        <div class="tl-line"><span class="tl-ts">0:27</span>So once you start the predator up you can plug this four prong directly into its four</div>
+        <div class="tl-line"><span class="tl-ts">0:31</span>The red one the red one and predator works</div>
+        <div class="tl-line"><span class="tl-ts">0:35</span>Twist it it&#x27;s on you don&#x27;t turn on the switches for the predator. You just start it and plug it in. It&#x27;s ready to go</div>
+        <div class="tl-line"><span class="tl-ts">0:40</span>Cool, it&#x27;s that it&#x27;s that simple now</div>
+        <div class="tl-line"><span class="tl-ts">0:43</span>one other way that we could power this thing</div>
+        <div class="tl-line"><span class="tl-ts">0:50</span>We don&#x27;t have generators and we prefer to use oh it&#x27;s in here prefer to use something else</div>
+        <div class="tl-line"><span class="tl-ts">0:58</span>We have this guy so this guy which we made of the tape, but it says David power to kitchen</div>
+        <div class="tl-line"><span class="tl-ts">1:08</span>Because with a camp it offers us the opportunity</div>
+        <div class="tl-line"><span class="tl-ts">1:14</span>To plug directly into</div>
+        <div class="tl-line"><span class="tl-ts">1:16</span>AC power because they&#x27;re gonna be giving us a panel that&#x27;s 70 amps split into four duplex boxes</div>
+        <div class="tl-line"><span class="tl-ts">1:22</span>But this can run off a regular plug. Yeah pretty cool</div>
+        <div class="tl-line"><span class="tl-ts">1:26</span>So to simulate this we&#x27;re going to</div>
+        <div class="tl-line"><span class="tl-ts">1:29</span>Turn on the anchor again instead of using this one</div>
+        <div class="tl-line"><span class="tl-ts">1:37</span>We&#x27;re gonna turn the AC button</div>
+        <div class="tl-line"><span class="tl-ts">1:40</span>And I&#x27;m gonna go right here, so this is 20 amp max all said and done</div>
+        <div class="tl-line"><span class="tl-ts">1:45</span>And you can hear the fan already on you can see the lights are</div>
+        <div class="tl-line"><span class="tl-ts">1:50</span>So the whole thing can run off just that plug too</div>
+        <div class="tl-line"><span class="tl-ts">1:54</span>now the only limitation of doing this is that you cannot</div>
+        <div class="tl-line"><span class="tl-ts">1:58</span>Run all three fridges all the char phone chargers all the things we want to do probably for the whole time</div>
+        <div class="tl-line"><span class="tl-ts">2:06</span>It&#x27;s best to use the higher</div>
+        <div class="tl-line"><span class="tl-ts">2:08</span>amperage</div>
+        <div class="tl-line"><span class="tl-ts">2:10</span>Wire and plugs because it can handle the heavier load</div>
+        <div class="tl-line"><span class="tl-ts">2:14</span>so</div>
+        <div class="tl-line"><span class="tl-ts">2:15</span>first look is go with this 30 amp option or</div>
+        <div class="tl-line"><span class="tl-ts">2:19</span>Twist this into the predator 30 if we can&#x27;t we absolutely can plug this into David&#x27;s</div>
+        <div class="tl-line"><span class="tl-ts">2:25</span>All using a power cord and we would be totally fine</div>
+        <div class="tl-line"><span class="tl-ts">2:28</span>You could serve at night you can prep food you can see it&#x27;s it&#x27;s gonna work really well. All right</div>
+        <div class="tl-line"><span class="tl-ts">2:34</span>So we can let that stay lit right now</div>
+        </div>
+      </div>
+    </article>
 
-<!-- ============ THE DECISION TRAIL ============ -->
-<section id="decisions">
-  <div class="wrap">
-    <div class="sec-kicker">April → July 2026 · the full decision trail</div>
-    <h2 class="sec-title">18 Meetings</h2>
-    <p class="sec-lede">Every sync that shaped the camp — Shaka × Jade, the David infrastructure calls, coordination, the kitchen trailer, the cold yogis. The Machine speaks in the 7/16 David sync — listen for him there.</p>
-    <div id="meetList"></div>
-  </div>
-</section>
+    <article class="film" id="film-IMG_4715">
+      <div class="marq"><span>FEATURE 7 · POWER III</span></div>
+      <h3>🔋 The Battery Drill — "repeatable systems"</h3>
+      <div class="fmeta">2026-08-01 (party-eve) · 1m 7s</div>
+      <div class="stage">
+        <div class="screen">
+          <iframe src="https://drive.google.com/file/d/1T3U4qCYHzrhOwmWVQsFoE8afbkbOOCLR/preview" allow="autoplay; fullscreen" allowfullscreen loading="lazy" title="🔋 The Battery Drill — &quot;repeatable systems&quot;"></iframe>
+        </div>
+        <aside class="art"><img src="assets/art/turtle-crest.jpg" alt="Terrible Turtle art — Shaka&#x27;s original" loading="lazy"></aside>
+      </div>
+      <p class="flede">Power out? Flip to battery, light comes on, dinner still happens. The philosophy of redundancy, taught in 67 seconds: reserve before you leave, lights that always work, obligations always met.</p>
+      <div class="fquote">&quot;These are repeatable systems — so that we have backups in a worst case… we can still prep food and still meet our obligations to the camp.&quot;</div>
+      <div class="karaoke">
+        <div class="khead"><span>🎤 Karaoke transcript</span><span>whisper-synced · tap a line — the film follows 🌊</span></div>
+        <div class="klines">
+        <div class="tl-line"><span class="tl-ts">0:01</span>Turn this off. Okay, power&#x27;s off. Okay, we have no power. Maybe we ran out of power. Maybe</div>
+        <div class="tl-line"><span class="tl-ts">0:11</span>something happened. Then we come over here and let&#x27;s say we still need to prep food. We have propane,</div>
+        <div class="tl-line"><span class="tl-ts">0:17</span>but we need light. Maybe it&#x27;s for dinner one night. So we turn it to battery,</div>
+        <div class="tl-line"><span class="tl-ts">0:23</span>turn on our battery here. See the light turn on. This can go off. And now we power. We have a</div>
+        <div class="tl-line"><span class="tl-ts">0:31</span>backup system. These are repeatable systems. So that we have backups in a worst case. Maybe the</div>
+        <div class="tl-line"><span class="tl-ts">0:38</span>Plyodus causes something to not work with the generator. The very, very worst. We can charge</div>
+        <div class="tl-line"><span class="tl-ts">0:42</span>our batteries and then make sure we have some reserve before we leave so that these lights</div>
+        <div class="tl-line"><span class="tl-ts">0:48</span>work so that we can still prep food and still kind of meet our obligations to the camp. Good.</div>
+        <div class="tl-line"><span class="tl-ts">0:56</span>Cool. Okay. That is in a nutshell our electrum for getting this thing started. We have no power.</div>
+        </div>
+      </div>
+    </article>
 
-<!-- ============ CONSENT ============ -->
-<section id="consent" class="alt">
-  <div class="wrap">
-    <div class="sec-kicker">The protocol's soul</div>
-    <h2 class="sec-title">🚪 Consent is a living door</h2>
-    <p class="sec-lede">It opens both ways. On <strong>2026-08-01</strong>, the whole Terrible Turtle camp reached <strong>consent consensus</strong> — a collective decision to show &amp; tell the shell to the world. Every stamp in <a href="manifest.json">manifest.json</a> now reads <code>explicit</code>, machine-readable, with the full history kept (assumed → explicit, nothing erased). Be honest about what this is: a <strong>collective camp-consensus grant, not 35 individual per-person signatures</strong> — per-person explicit yeses are still being collected, and any single person can overrule the whole consensus in one email. Kind consent-first letters from Shaka are on their way to Jeremy, Yovel &amp; Jade; new footage still clears per-person before publish.</p>
-    <div class="door"><h3>🛡️ The takedown promise</h3><p>Anyone in this footage — face or voice — emails <a href="mailto:consent@publicinform.com">consent@publicinform.com</a> and they vanish from the archive. Prompt removal, no questions, no forms, honored with love. A one-word email is enough. 🌐 This is the <strong>universal consent window</strong> — one address for every P.I.T. in the universe, takedowns and permission grants through the same door, checked every morning. Full promise: <a href="consent.html">consent.html</a>.</p></div>
-    <div class="door"><h3>📒 The ledger</h3><p>Every stamp, every upgrade from assumed → explicit, every revocation lives in <a href="data/consent-ledger.json">data/consent-ledger.json</a> — machine-readable forever. Nothing is silently erased; the history of every yes and every no stays on the record.</p></div>
-    <div class="door"><h3>↩️ Consent given can be consent withdrawn</h3><p>Forever. The P.I.T. Protocol is building revocable consent as a first-class primitive (see <a href="https://publicinform.com">publicinform.com</a>). The door never locks behind you.</p></div>
-    <div class="door"><h3>🐢 The gift</h3><p>The ShellPit is a gift to the playa: a forkable template so any camp can preserve how <em>their</em> village got built. Move slow &amp; bite things — but bite with permission.</p></div>
-  </div>
-</section>
-
-<footer><div class="wrap">
-  <div class="cols">
-    <div class="col"><h5>The Pit</h5>
-      <a href="#machine">🔧 Machine Guidance</a>
-      <a href="#trail">The Build Trail</a>
-      <a href="#domains">Domains &amp; Armory</a>
-      <a href="#decisions">Decision Trail</a>
-      <a href="show-tell.html">🐢 Show &amp; Tell Shell</a>
-      <a href="consent.html">🛡️ Consent &amp; Takedown</a>
-    </div>
-    <div class="col"><h5>The Protocol</h5>
-      <a href="https://publicinform.com">publicinform.com — P.I.T. Protocol</a>
-      <a href="https://esmeraldapit.com">The Esmeralda P.I.T. (genesis)</a>
-      <a href="https://terribleturtle.camp">terribleturtle.camp</a>
-    </div>
-    <div class="col"><h5>The Canon</h5>
-      <a href="MACHINE-GUIDANCE.md">MACHINE-GUIDANCE.md</a>
-      <a href="README.md">Export README</a>
-      <a href="story/camp-story.md">The camp story</a>
-    </div>
-  </div>
-  <p class="creed">🕳️ The pit provides. · 🔇 Silence canon: this pit listens, it doesn't sing — no music, ever. · 🛡️ Consent: explicit by camp consensus 2026-08-01 — anyone in this footage emails <a href="mailto:consent@publicinform.com">consent@publicinform.com</a> and vanishes, no questions, honored with love. · CC0 — fork me like crazy. · Move slow &amp; bite things. 🐢</p>
-</div></footer>
-
-<!-- ============ MODAL ============ -->
-<div class="modal-bg" id="modalBg"><div class="modal">
-  <button class="x" id="modalX">✕</button>
-  <div id="modalBody"></div>
-</div></div>
+    <article class="film" id="film-IMG_4716">
+      <div class="marq"><span>FEATURE 8 · PACK-DOWN</span></div>
+      <h3>🧹 Grab the Jenny — put-back discipline</h3>
+      <div class="fmeta">2026-08-01 (party-eve) · 18.4s</div>
+      <div class="stage">
+        <div class="screen">
+          <iframe src="https://drive.google.com/file/d/1yY887qa-RaaX39lu_gLue8pUP6slfX5u/preview" allow="autoplay; fullscreen" allowfullscreen loading="lazy" title="🧹 Grab the Jenny — put-back discipline"></iframe>
+        </div>
+        <aside class="art"><img src="assets/art/turtle-fire.jpg" alt="Terrible Turtle art" loading="lazy"></aside>
+      </div>
+      <p class="flede">The shortest lesson and maybe the most Burning Man of all: strike as you go, one at a time, everything back in its place. Leave No Trace starts in the trailer.</p>
+      <div class="fquote">&quot;It&#x27;s easier if we get everything put back as we go.&quot;</div>
+      <div class="karaoke">
+        <div class="khead"><span>🎤 Karaoke transcript</span><span>whisper-synced · tap a line — the film follows 🌊</span></div>
+        <div class="klines">
+        <div class="tl-line"><span class="tl-ts">0:00</span>I really need this. We&#x27;re just going to do them one at a time.</div>
+        <div class="tl-line"><span class="tl-ts">0:05</span>It&#x27;s easier if we get everything put back as we go.</div>
+        <div class="tl-line"><span class="tl-ts">0:08</span>I&#x27;m going to grab the Jenny.</div>
+        <div class="tl-line"><span class="tl-ts">0:13</span>I want to disconnect this here.</div>
+        </div>
+      </div>
+    </article>
+<img class="divider" src="assets/art/turtle-divider.svg" alt="" aria-hidden="true">
+<div class="shorts">
+  🎞️ <b>Also screening:</b> 50+ build clips in <a href="trail.html#trail">the Build Trail</a> — the Tool Maker sessions, the veggie coffin, the semi arriving, Mocha the shower dog 🐕 — plus 18 meetings in <a href="trail.html#decisions">the Decision Trail</a>.<br>
+  <span style="color:var(--ink-faint);font-size:.85rem">More party-eve reels threading into the program as their transcripts hatch 🐢 (IMG_4717 / 4719–4722).</span>
+</div>
+<footer>
+  🐢 The Turtle Theater · a ShellPIT screen · fork #8 · CC0 — fork me like crazy · consent is a living door 🚪<br>
+  Move slow &amp; bite things. 🐢🔥
+</footer>
+</div>
 
 <script>
-const esc = s => (s||'').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&quot;','"':'&quot;',"'":'&#39;'}[c]));
-let CATALOG = [], ARMORY = null, MEETINGS = [], SEARCH_IDX = {}, DIGESTS = null, FRAMES = {}, state = {q:'', f:'all', dom:'all'};
-let GATE = {mode:'launch', cleared:[]}, PA = null, MTX = [];  /* PA = transponder audio · MTX = modal transcript segs */
-
-async function boot(){
-  let framesPkg = null;
-  [CATALOG, ARMORY, MEETINGS, SEARCH_IDX, DIGESTS, framesPkg, GATE] = await Promise.all([
-    fetch('data/catalog.json').then(r=>r.json()),
-    fetch('data/armory.json').then(r=>r.json()),
-    fetch('data/meetings.json').then(r=>r.json()),
-    fetch('data/search-index.json').then(r=>r.json()),
-    fetch('data/digests.json').then(r=>r.json()).catch(()=>null),
-    fetch('data/frames.json').then(r=>r.json()).catch(()=>null),
-    fetch('data/consent.json').then(r=>r.json()).catch(()=>({mode:'launch',cleared:[]})),
-  ]);
-  if(GATE.mode==='workbench') document.getElementById('wbanner').classList.add('on');
-  FRAMES = framesPkg?.slugs || {};
-  if(DIGESTS?.pit_digest) document.getElementById('pitDigest').textContent = '⚡ ' + DIGESTS.pit_digest;
-  document.getElementById('st-clips').textContent = CATALOG.length;
-  document.getElementById('st-meetings').textContent = MEETINGS.length;
-  document.getElementById('st-items').textContent = ARMORY.total;
-  renderGrid(); renderDomains(); renderMeetings();
-  document.querySelectorAll('.tx[data-tx]').forEach(el => loadTx(el.dataset.tx, el));
-}
-
-/* ---------- transcript rendering ---------- */
-const tsSec = m => m[3]!=null ? (+m[1])*3600+(+m[2])*60+(+m[3]) : (+m[1])*60+(+m[2]);
-async function loadTx(slug, el){
-  try{
-    const txt = await fetch(`transcripts/${slug}.txt`).then(r=>r.text());
-    const body = txt.split('\n---\n')[1] || '';
-    const isModal = el.id === 'modalTx';
-    if(isModal) MTX = [];
-    el.innerHTML = body.trim().split('\n').filter(Boolean).map(l=>{
-      const m = l.match(/^\[(\d+):(\d+)(?::(\d+))?\]\s*(.*)$/);
-      if(!m) return `<div class="line">${esc(l)}</div>`;
-      const words = m[4].split(/\s+/).map(w=>`<span class="w">${esc(w)}</span>`).join(' ');
-      if(isModal) MTX.push({t: tsSec(m), lineIdx: MTX.length});
-      return `<div class="line seekable" data-t="${tsSec(m)}"><span class="ts">[${m[1]}:${m[2]}${m[3]?':'+m[3]:''}]</span>${words}</div>`;
-    }).join('') || '<div class="line">(no speech detected — demo footage)</div>';
-    if(isModal) el.querySelectorAll('.line[data-t]').forEach(l=>l.onclick=()=>seekTo(+l.dataset.t));
-  }catch(e){ el.innerHTML = '<div class="line">(transcript unavailable)</div>'; }
-}
-
-/* ---------- 🎚️ transponder engine (karaoke glow + tap-to-seek) ---------- */
-function seekTo(t){ if(PA){ PA.currentTime = t + .01; PA.play(); } }
-function syncGlow(){
-  if(!PA || !MTX.length) return;
-  const ct = PA.currentTime, el = document.getElementById('modalTx'); if(!el) return;
-  const lines = el.querySelectorAll('.line[data-t]');
-  let ai = -1;
-  for(let i=0;i<MTX.length;i++){ if(MTX[i].t<=ct) ai=i; else break; }
-  lines.forEach((ln,i)=>{
-    const t = +ln.dataset.t, end = i+1<MTX.length ? MTX[i+1].t : (PA.duration||t+3);
-    const ws = ln.querySelectorAll('.w');
-    if(i<ai){ ln.classList.remove('active'); ws.forEach(w=>w.classList.add('spoken')); }
-    else if(i===ai){ ln.classList.add('active');
-      const f = Math.min(1,Math.max(0,(ct-t)/Math.max(.5,end-t)));
-      const n = Math.floor(f*ws.length);
-      ws.forEach((w,j)=>w.classList.toggle('spoken',j<=n));
-      ln.scrollIntoView({block:'nearest',behavior:'smooth'});
-    } else { ln.classList.remove('active'); ws.forEach(w=>w.classList.remove('spoken')); }
-  });
-}
-function stopTransponder(){ if(PA){ PA.pause(); PA=null; } MTX=[]; }
-
-/* ---------- build trail ---------- */
-const DRIVE = id => `https://drive.google.com/file/d/${id}/view`;
-function badges(e){
-  const dg = DIGESTS?.videos?.[e.slug];
-  let b = '';
-  if(dg?.featured) b += '<span class="badge feat">⭐ featured</span>';
-  if(e.machine === true) b += '<span class="badge machine">🤖 MACHINE</span>';
-  if(e.machine === 'likely') b += '<span class="badge machine">🤖 MACHINE?</span>';
-  if(e.silent) b += '<span class="badge silent">🔇 silent</span>';
-  if(e.speechless) b += '<span class="badge silent">🎞️ speechless</span>';
-  if(e.transcript) b += '<span class="badge tx">🎙️ transcript</span>';
-  if(dg?.digest) b += '<span class="badge tx">⚡ digest</span>';
-  return b;
-}
-/* ⚡ digest anchors [MM:SS]/[H:MM:SS] → tap scrolls the transcript to that line (media seek unlocks with consent) */
-const linkify = s => esc(s).replace(/\[(\d{1,2}):(\d{2})(?::(\d{2}))?\]/g, (m,a,b,c)=>{
-  const sec = c!=null ? (+a)*3600+(+b)*60+(+c) : (+a)*60+(+b);
-  return `<span class="anchor" data-sec="${sec}">${m}</span>`;
-});
-function anchorTo(sec, txEl){
-  if(!txEl) return;
-  const lines = [...txEl.querySelectorAll('.line')];
-  let best = null, bestD = 1e9;
-  for(const l of lines){
-    const m = l.querySelector('.ts')?.textContent.match(/\[(\d+):(\d+)(?::(\d+))?\]/);
-    if(!m) continue;
-    const s = m[3]!=null ? (+m[1])*3600+(+m[2])*60+(+m[3]) : (+m[1])*60+(+m[2]);
-    const d = Math.abs(s - sec);
-    if(d < bestD){ bestD = d; best = l; }
-  }
-  if(best){ lines.forEach(l=>l.classList.remove('hl')); best.classList.add('hl'); best.scrollIntoView({block:'center',behavior:'smooth'}); }
-  seekTo(sec); /* transponder: anchors ride the audio too */
-}
-function filtered(){
-  return CATALOG.filter(e=>{
-    if(state.f==='machine' && !e.machine) return false;
-    if(state.f==='voiced' && !e.transcript) return false;
-    if(state.f==='silent' && !(e.silent||e.speechless)) return false;
-    if(state.q){
-      const hay = (e.title+' '+(e.note||'')+' '+(e.slug||'')).toLowerCase();
-      const txhay = (SEARCH_IDX[e.slug]||[]).map(s=>s.x).join(' ').toLowerCase();
-      if(!state.q.toLowerCase().split(/\s+/).every(w=>hay.includes(w)||txhay.includes(w))) return false;
+(function(){
+"use strict";
+var PREVIEW=function(id){return "https://drive.google.com/file/d/"+id+"/preview";};
+function parseTS(s){var p=s.trim().split(":"),t=0,i;for(i=0;i<p.length;i++)t=t*60+(parseFloat(p[i])||0);return t;}
+function fmt(t){if(!isFinite(t)||t<0)t=0;var m=Math.floor(t/60),s=Math.floor(t%60);return m+":"+("0"+s).slice(-2);}
+var players=[];
+function build(article){
+  var fr=article.querySelector(".screen iframe");if(!fr)return;
+  var m=/\/d\/([^/]+)\/preview/.exec(fr.getAttribute("src")||"");if(!m)return;
+  var id=m[1];
+  var lines=[].slice.call(article.querySelectorAll(".tl-line"));
+  var stamps=lines.map(function(el){var ts=el.querySelector(".tl-ts");return ts?parseTS(ts.textContent):null;});
+  if(!stamps.some(function(t){return t!=null;}))return;
+  var audio=new Audio("audio/"+id+".mp3");audio.preload="none";
+  audio.muted=true;/* P.I.T. PROTOCOL CANON (Shaka 8/1): the mp3 is a MUTED word-clock only — it drives the karaoke via currentTime. The VIDEO is the one audible source. One voice, always, all devices. */
+  var screen=article.querySelector(".screen");
+  var wrap=document.createElement("div");wrap.className="vidwrap";
+  screen.insertBefore(wrap,fr);wrap.appendChild(fr);
+  var shield=document.createElement("div");shield.className="tshield";
+  shield.title="tap to play / pause · tap low to scrub — the words follow 🌊";
+  wrap.appendChild(shield);
+  var bar=document.createElement("div");bar.className="transport";
+  bar.innerHTML='<button class="tplay" aria-label="play / pause">▶</button>'+
+    '<div class="ttrack"><div class="tfill"></div></div><span class="ttime">0:00</span>';
+  screen.appendChild(bar);
+  var btn=bar.querySelector(".tplay"),track=bar.querySelector(".ttrack"),
+      fill=bar.querySelector(".tfill"),time=bar.querySelector(".ttime");
+  var klines=article.querySelector(".klines");
+  function syncVideo(t){fr.src=PREVIEW(id)+"?autoplay=1&t="+Math.max(0,Math.floor(t||0))+"s";}
+  function pauseVideo(){fr.src=PREVIEW(id);}
+  function stopOthers(){players.forEach(function(p){if(p!==api)p.pause();});}
+  function paint(){
+    var t=audio.currentTime||0;
+    if(isFinite(audio.duration)&&audio.duration>0){
+      fill.style.width=(t/audio.duration*100)+"%";
+      time.textContent=fmt(t)+" / "+fmt(audio.duration);
+    }else time.textContent=fmt(t);
+    var idx=-1,i;
+    for(i=0;i<stamps.length;i++)if(stamps[i]!=null&&stamps[i]<=t+0.15)idx=i;
+    lines.forEach(function(el,j){el.classList.toggle("on",j===idx);});
+    if(idx>=0&&klines&&lines[idx]){
+      var r=lines[idx].getBoundingClientRect(),kr=klines.getBoundingClientRect();
+      if(r.top<kr.top+6||r.bottom>kr.bottom-6)
+        klines.scrollTop+=r.top-kr.top-klines.clientHeight/3;
     }
-    return true;
-  });
-}
-function renderGrid(){
-  const list = filtered();
-  document.getElementById('countNote').textContent = `${list.length} clip${list.length===1?'':'s'} · consent explicit by camp consensus 2026-08-01 · takedown: consent@publicinform.com 🦀`;
-  document.getElementById('grid').innerHTML = list.map(e=>{
-    const dg = DIGESTS?.videos?.[e.slug];
-    return `
-    <div class="card" data-slug="${e.slug}">
-      ${FRAMES[e.slug]?.frames?.length?`<img class="thumb" loading="lazy" src="${FRAMES[e.slug].frames[0].file}" alt="frame still from ${esc(e.slug)} (consent: explicit · camp consensus 08-01)">`:''}
-      <div class="badges">${badges(e)}</div>
-      <h4>${esc(e.title)}</h4>
-      <div class="cmeta">${e.date||'date unrecorded'} · ${e.duration||'—'}${e.words?` · ${e.words} words`:''}${dg?.domain?` · ${esc(dg.domain)}`:''}</div>
-      ${dg?.summary?`<div class="sum">${esc(dg.summary)}</div>`:''}
-      ${e.note?`<div class="note">${esc(e.note)}</div>`:''}
-    </div>`;}).join('');
-  document.querySelectorAll('.card').forEach(c=>c.onclick=()=>openModal(c.dataset.slug));
-}
-async function openModal(slug){
-  const e = CATALOG.find(x=>x.slug===slug); if(!e) return;
-  stopTransponder();
-  const dg = DIGESTS?.videos?.[slug];
-  const unlocked = GATE.mode==='workbench' || GATE.cleared.includes(e.id);
-  const body = document.getElementById('modalBody');
-  body.innerHTML = `
-    <div class="badges" style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px">${badges(e)}</div>
-    <h3>${esc(e.title)}</h3>${dg?.title&&dg.featured?`<div class="meta" style="margin-top:-4px">⚡ digest title: “${esc(dg.title)}”</div>`:''}
-    <div class="meta">${e.slug}.MOV · ${e.date||'date unrecorded'} · ${e.duration||'—'} · consent: ${esc(e.consent)}</div>
-    ${unlocked
-      ? `<div class="player" id="playerSlot"><div style="color:var(--ink-faint);font-size:.85rem">tuning the transponder…</div></div>`
-      : `<div class="lock"><span class="ico">🛡️</span><span>Media sealed — consent revoked or not yet assumed. The living door opens both ways: <a href="mailto:consent@publicinform.com">consent@publicinform.com</a>. 🚪</span></div>`}
-    ${FRAMES[slug]?.frames?.length?`<div class="frames-cap">🎞️ Frame stills · extracted by PIT BULL ($0 lane) · consent: explicit · camp consensus 08-01</div><div class="frames">${FRAMES[slug].frames.map(f=>`<img loading="lazy" src="${f.file}" alt="frame at ${Math.round(f.t)}s" title="frame @ ${Math.round(f.t)}s">`).join('')}</div>`:''}
-    ${dg?.digest?`<div class="digest"><div class="dh">⚡ The digest</div>${linkify(dg.digest)}</div>`:dg?.summary?`<div class="digest"><div class="dh">⚡ The digest</div>${linkify(dg.summary)}</div>`:''}
-    ${dg?.anchors?.length?`<div class="anchors-row">${dg.anchors.map(a=>`<span class="anchip" data-ts="${esc(a.ts)}">▸ ${esc(a.ts)}<small>${esc(a.note)}</small></span>`).join('')}</div>`:''}
-    ${e.note?`<p style="color:var(--ink-dim);font-size:.9rem;margin:10px 0">${esc(e.note)}</p>`:''}
-    ${e.id?`<p style="font-size:.8rem;margin:8px 0"><a href="${DRIVE(e.id)}">↗ source on Google Drive</a> (link-permissioned)</p>`:''}
-    <div class="tx-head"><span>Transcript</span><span>${e.transcript?'faster-whisper · QA by PIT GIRL':'none — visual only'}</span></div>
-    <div class="tx" id="modalTx"></div>`;
-  body.querySelectorAll('.anchor').forEach(a=>a.onclick=()=>anchorTo(+a.dataset.sec, document.getElementById('modalTx')));
-  body.querySelectorAll('.anchip').forEach(a=>a.onclick=()=>{
-    const m = a.dataset.ts.match(/\[(\d+):(\d+)(?::(\d+))?\]/);
-    if(m) anchorTo(m[3]!=null ? (+m[1])*3600+(+m[2])*60+(+m[3]) : (+m[1])*60+(+m[2]), document.getElementById('modalTx'));
-  });
-  document.getElementById('modalBg').classList.add('open');
-  document.body.style.overflow='hidden';
-  if(e.transcript) loadTx(slug, document.getElementById('modalTx'));
-  else document.getElementById('modalTx').innerHTML = '<div class="line">(no speech — this clip is visual only; see the frame stills above)</div>';
-  if(unlocked){
-    fetch(`audio/${e.id}.mp3`,{method:'HEAD'}).then(r=>{
-      if(!r.ok) throw 0;
-      document.getElementById('playerSlot').innerHTML = `<audio id="pa" controls preload="auto" src="audio/${e.id}.mp3"></audio>`;
-      PA = document.getElementById('pa');
-      PA.addEventListener('timeupdate', syncGlow);
-    }).catch(()=>{
-      document.getElementById('playerSlot').innerHTML =
-        `<iframe class="mframe" src="https://drive.google.com/file/d/${e.id}/preview" allow="autoplay"></iframe>
-         <div style="font-size:.75rem;color:var(--ink-faint);margin-top:6px">▶ Drive preview — karaoke glow wakes when this clip's hosted audio lands.</div>`;
-    });
   }
-}
-document.getElementById('modalX').onclick = () => { stopTransponder(); document.getElementById('modalBg').classList.remove('open'); document.body.style.overflow=''; };
-document.getElementById('modalBg').onclick = ev => { if(ev.target.id==='modalBg'){ stopTransponder(); document.getElementById('modalBg').classList.remove('open'); document.body.style.overflow=''; } };
-document.getElementById('q').oninput = ev => { state.q = ev.target.value; renderGrid(); };
-document.querySelectorAll('.chip').forEach(c=>c.onclick=()=>{
-  document.querySelectorAll('.chip').forEach(x=>x.classList.remove('on')); c.classList.add('on');
-  state.f = c.dataset.f; renderGrid();
-});
-
-/* ---------- domains / armory ---------- */
-function renderDomains(){
-  const tabs = document.getElementById('dtabs');
-  tabs.innerHTML = `<button class="dtab on" data-dom="all">All <span class="n">${ARMORY.total}</span></button>` +
-    ARMORY.domains.map(d=>`<button class="dtab" data-dom="${esc(d.name)}">${esc(d.name)} <span class="n">${d.count}</span></button>`).join('');
-  tabs.querySelectorAll('.dtab').forEach(t=>t.onclick=()=>{
-    tabs.querySelectorAll('.dtab').forEach(x=>x.classList.remove('on')); t.classList.add('on');
-    state.dom = t.dataset.dom; renderArmory();
+  function seekPlay(t){stopOthers();audio.currentTime=t;syncVideo(t);audio.play().catch(function(){});paint();}
+  function toggle(){
+    if(audio.paused){stopOthers();syncVideo(audio.currentTime||0);audio.play().catch(function(){});}
+    else{audio.pause();pauseVideo();}
+  }
+  audio.addEventListener("timeupdate",paint);
+  audio.addEventListener("loadedmetadata",paint);
+  audio.addEventListener("play",function(){btn.textContent="⏸";});
+  audio.addEventListener("pause",function(){btn.textContent="▶";});
+  audio.addEventListener("ended",function(){pauseVideo();});
+  btn.addEventListener("click",toggle);
+  shield.addEventListener("click",function(e){
+    var r=shield.getBoundingClientRect();
+    var fy=(e.clientY-r.top)/r.height;
+    if(fy>0.72&&isFinite(audio.duration)&&audio.duration>0){
+      var fx=(e.clientX-r.left)/r.width;
+      seekPlay(Math.max(0,Math.min(audio.duration,fx*audio.duration)));
+    }else toggle();
   });
-  renderArmory();
+  track.addEventListener("click",function(e){
+    if(!isFinite(audio.duration)||!audio.duration)return;
+    var r=track.getBoundingClientRect();
+    seekPlay(audio.duration*Math.min(1,Math.max(0,(e.clientX-r.left)/r.width)));
+  });
+  lines.forEach(function(el,i){
+    if(stamps[i]==null)return;
+    el.style.cursor="pointer";
+    el.addEventListener("click",function(){seekPlay(stamps[i]);});
+  });
+  var api={pause:function(){if(!audio.paused){audio.pause();pauseVideo();}}};
+  players.push(api);
 }
-function renderArmory(){
-  const items = ARMORY.items.filter(i=>state.dom==='all'||(i.domain||'Unsorted')===state.dom);
-  document.getElementById('armoryBody').innerHTML = items.map(i=>`
-    <tr><td class="item">${esc(i.item)}</td><td>${esc(i.category)}</td><td>${esc(i.spec)}</td>
-    <td>${esc(i.qty)}</td><td>${esc(i.owner)}</td>
-    <td><span class="pstat ${esc((i.procurement||'').replace(' ','.'))}">${esc(i.procurement||'—')}</span></td>
-    <td>${esc(i.priority)}</td><td>${esc(i.estTotal)}</td></tr>`).join('');
-}
+[].slice.call(document.querySelectorAll("article.film")).forEach(build);
 
-/* ---------- meetings ---------- */
-function renderMeetings(){
-  document.getElementById('meetList').innerHTML = MEETINGS.map(m=>{
-    const dg = DIGESTS?.meetings?.[m.slug];
-    return `
-    <div class="meet">
-      <span class="date">${esc(m.date)}</span>
-      <div class="body">
-        <h4>${m.machine?'🤖 ':''}${esc(m.title)}${dg?.duplicate_of?` <span class="badge silent">≈ same call as ${esc(dg.duplicate_of)}</span>`:''}</h4>
-        <div class="who">${m.words.toLocaleString()} words · voices: <b>${m.speakers.map(esc).join('</b>, <b>')||'unlabeled'}</b></div>
-        ${dg?.digest?`<div class="digest-line">⚡ ${linkify(dg.digest)}</div>`:''}
-      </div>
-      <a href="${esc(m.file)}" style="font-size:.8rem;white-space:nowrap">transcript ↗</a>
-    </div>`;}).join('');
-  /* meeting anchors are informational (no player yet) — the transcript file is the lane */
+/* world clock — party time, everywhere */
+var clockEl=document.getElementById("worldclock");
+function tick(){
+  if(!clockEl)return;
+  var now=new Date();
+  var f=function(tz){try{return new Intl.DateTimeFormat("en-GB",{hour:"2-digit",minute:"2-digit",timeZone:tz}).format(now);}catch(e){return "--:--";}};
+  clockEl.textContent="🔥 Playa "+f("America/Los_Angeles")+" · 🏜️ Gulch "+f("America/Denver")+" · 🌍 UTC "+f("UTC");
 }
-
-boot();
+tick();setInterval(tick,15000);
+})();
 </script>
 </body>
 </html>
