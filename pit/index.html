@@ -36,11 +36,11 @@ header .sub{color:var(--ink-dim);max-width:66ch;margin:10px auto 0;font-size:.95
 .marq span{display:inline-block;background:rgba(235,88,51,.14);border:1px solid rgba(235,88,51,.4);color:var(--sun);border-radius:999px;padding:3px 13px;font-size:.72rem;font-weight:800;letter-spacing:.1em}
 .film h3{font-size:1.5rem;margin:12px 0 2px}
 .fmeta{color:var(--ink-faint);font-size:.82rem;margin-bottom:18px}
-.stage{display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:center;max-height:480px}
-.screen{background:#000;border-radius:14px;text-align:center;overflow:hidden;max-height:480px}
+.stage{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:24px;align-items:center}
+.screen{background:#000;border-radius:14px;text-align:center;overflow:hidden}
 .screen video{max-width:100%;max-height:480px;border-radius:14px;display:block;margin:0 auto;background:#000}
-.art{max-height:480px;overflow:hidden;border-radius:14px;border:1px solid var(--line)}
-.art img,.art video{width:100%;height:480px;object-fit:cover;display:block}
+.art{height:480px;overflow:hidden;border-radius:14px;border:1px solid var(--line);background:radial-gradient(ellipse 80% 80% at 50% 40%,#1b2138 0%,#0d1120 75%);display:flex;align-items:center;justify-content:center}
+.art img,.art video{width:100%;height:100%;object-fit:contain;display:block;padding:10px}
 .flede{color:var(--ink-dim);margin:18px 0 6px;max-width:78ch}
 .fquote{font-style:italic;color:var(--aloha);border-left:3px solid var(--coral);padding-left:14px;margin:12px 0 4px;font-size:1.02rem}
 .karaoke{margin-top:18px;background:var(--bg);border:1px solid var(--line);border-radius:14px;overflow:hidden}
@@ -52,7 +52,7 @@ header .sub{color:var(--ink-dim);max-width:66ch;margin:10px auto 0;font-size:.95
 .shorts{text-align:center;margin-top:50px;color:var(--ink-dim)}
 footer{margin-top:70px;border-top:1px solid var(--line);padding-top:24px;color:var(--ink-faint);font-size:.86rem;text-align:center}
 .divider{display:block;width:min(640px,85%);margin:30px auto;opacity:.9}
-@media(max-width:760px){.stage{grid-template-columns:1fr}.art img,.art video{max-height:220px}}
+@media(max-width:768px){.stage{grid-template-columns:1fr}}
 
 .vidwrap{position:relative;display:inline-block;max-width:100%}
 .vidwrap video{display:block}
@@ -91,10 +91,10 @@ footer{margin-top:70px;border-top:1px solid var(--line);padding-top:24px;color:v
 .tl-line.on{background:rgba(235,88,51,.16);color:var(--aloha);box-shadow:inset 3px 0 0 var(--sun)}
 .klines{scroll-behavior:smooth}
 #worldclock{font-size:.74rem;color:var(--coral);font-variant-numeric:tabular-nums;white-space:nowrap;letter-spacing:.02em}
-@media(max-width:760px){#worldclock{width:100%;text-align:center;order:3}}
+@media(max-width:768px){#worldclock{width:100%;text-align:center;order:3}}
 
 /* ===== MOBILE UPGRADE (Shaka 8/2: "clearly read transcript + see video") ===== */
-@media(max-width:760px){
+@media(max-width:768px){
   /* compact header — get to the films fast */
   header{padding:32px 0 4px}
   .marquee{padding:10px 20px}
