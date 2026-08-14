@@ -13,7 +13,11 @@ if(document.getElementById('sp-fab'))return; // idempotent
 const HUB='https://chat.theshellpit.com';
 const css=`
 #sp-fab,#sp-chat{--t-amber:#db9840;--t-amber2:#e5a14b;--t-coral:#eb5833;--t-ink:#0a0e1c;--t-ink2:#0b1628;--t-panel:#111b28;--t-line:#1f2a38;--t-paper:#f7f0eb;--t-mut:#8a7d75;--t-mut2:#7c6e67;--t-good:#5dbb63;font-family:'Segoe UI',system-ui,sans-serif}
-#sp-fab{position:fixed;right:22px;bottom:22px;z-index:960;display:flex;align-items:center;gap:9px;background:linear-gradient(135deg,#7fd8a4,#4cb382);color:#0e2a1d;border:none;border-radius:50px;padding:10px 20px 10px 12px;font-weight:700;font-size:.95rem;cursor:pointer;box-shadow:0 6px 24px rgba(76,179,130,.45);animation:spbob 3.2s ease-in-out infinite;transition:transform .18s,box-shadow .18s}
+#sp-fabwrap{position:fixed;right:22px;bottom:88px;z-index:960}
+#sp-fab-x{position:absolute;top:-11px;left:-11px;width:24px;height:24px;border-radius:999px;background:linear-gradient(135deg,#123326,#0a2a1c);border:1px solid rgba(255,255,255,.5);color:#d9f7e9;font-size:.72rem;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0;box-shadow:0 3px 10px rgba(0,0,0,.5);z-index:2}
+#sp-fab-x:hover{transform:scale(1.12)}
+#sp-mini{display:none;position:fixed;right:22px;bottom:88px;z-index:960;width:44px;height:44px;border-radius:999px;background:linear-gradient(135deg,#7fd8a4,#4cb382);border:1px solid rgba(255,255,255,.35);color:#0e2a1d;font-size:1.15rem;cursor:pointer;align-items:center;justify-content:center;padding:0;box-shadow:0 4px 14px rgba(76,179,130,.45)}
+#sp-fab{position:relative;display:flex;align-items:center;gap:9px;background:linear-gradient(135deg,#7fd8a4,#4cb382);color:#0e2a1d;border:none;border-radius:50px;padding:10px 20px 10px 12px;font-weight:700;font-size:.95rem;cursor:pointer;box-shadow:0 6px 24px rgba(76,179,130,.45);animation:spbob 3.2s ease-in-out infinite;transition:transform .18s,box-shadow .18s}
 #sp-fab:hover{transform:translateY(-3px);box-shadow:0 12px 32px rgba(76,179,130,.6)}
 @keyframes spbob{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
 #sp-fab .tfhead{animation:sppeek 4s ease-in-out infinite;transform-origin:30px 18px}
@@ -58,10 +62,11 @@ const css=`
   #sp-log{-webkit-overflow-scrolling:touch}
   #sp-in{font-size:16px}
   #sp-form{padding-bottom:calc(12px + env(safe-area-inset-bottom))}
-  #sp-fab{right:14px;bottom:calc(14px + env(safe-area-inset-bottom))}
+  #sp-fabwrap,#sp-mini{right:14px;bottom:calc(88px + env(safe-area-inset-bottom))}
+  #sp-mini{width:38px;height:38px;font-size:1rem}
 }`;
 const html=`
-<div id="sp-fabwrap"><button id="sp-fab-x" aria-label="Hide the button" title="hide — a tiny ❤️ stays">✕</button><button id="sp-fab" aria-label="Chat with Terri">
+<div id="sp-fabwrap"><button id="sp-fab-x" aria-label="Hide the button" title="hide — a tiny 🐢 stays">✕</button><button id="sp-mini" aria-label="Show the Terri chat" title="Talk to Terri 🐢">🐢</button><button id="sp-fab" aria-label="Chat with Terri">
   <svg width="36" height="30" viewBox="0 0 40 34" aria-hidden="true">
     <circle class="tfbub" cx="34" cy="3" r="1.6" fill="#bdf0d8"/>
     <circle class="tfbub" cx="30" cy="5" r="1.2" fill="#d9f7e9"/>
