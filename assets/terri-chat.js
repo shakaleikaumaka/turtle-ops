@@ -113,6 +113,11 @@ $('sp-form').onsubmit=async e=>{e.preventDefault();const t=$('sp-in').value.trim
 if(/^[A-Z]{3,12}-[A-Z]{2,8}-\d{3,5}$/i.test(t)){add('visitor','🔑 '+t.toUpperCase());try{const r=await fetch(HUB+'/redeem',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({session:sess,code:t})});const d=await r.json();if(d.ok){setMember(d.member);localStorage.setItem('sp_code',t.toUpperCase());if(d.history_session&&d.history_session!==sess){adopt(d.history_session);}note(d.resumed?'🐢 shell recognized you — your whole chat history follows your code, on any device.':'🏕️ camp code accepted — this desk is yours now. Enter the same code on any computer and your history travels with you.');}else{note(d.error||'code not recognized');}}catch(err){note('connection hiccup — try the code again');}return;}
 add('visitor',t);try{const r=await fetch(HUB+'/send',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({session:sess,text:t,name:localStorage.getItem('sp_name')||'guest'})});const d=await r.json();if(d.seq){seen.add(d.seq);if(d.seq>after){after=d.seq;localStorage.setItem('sp_after',String(after));}}}catch(err){note('connection hiccup — message may not have sent');}};
 $('sp-in').addEventListener('keydown',e=>{if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();$('sp-form').requestSubmit();}});
+// 🐢✕ the bow-out: Terri's pill becomes a tiny turtle note (Shaka corner law 2026-08-14)
+(function(){var fx=$('sp-fab-x'),fw=$('sp-fabwrap'),mn=$('sp-mini');if(!fx||!fw||!mn)return;
+fx.onclick=function(e){e.stopPropagation();fw.style.display='none';mn.style.display='flex';try{localStorage.setItem('sp_fab_mini','1');}catch(err){}};
+mn.onclick=function(e){e.stopPropagation();mn.style.display='none';fw.style.display='';try{localStorage.removeItem('sp_fab_mini');}catch(err){}};
+try{if(localStorage.getItem('sp_fab_mini')==='1'){fw.style.display='none';mn.style.display='flex';}}catch(err){}})();
 }
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',boot);else boot();
 })();
