@@ -66,7 +66,7 @@ const css=`
   #sp-mini{width:38px;height:38px;font-size:1rem}
 }`;
 const html=`
-<div id="sp-fabwrap"><button id="sp-fab-x" aria-label="Hide the button" title="hide — a tiny 🐢 stays">✕</button><button id="sp-mini" aria-label="Show the Terri chat" title="Talk to Terri 🐢">🐢</button><button id="sp-fab" aria-label="Chat with Terri">
+<div id="sp-fabwrap"><button id="sp-fab-x" aria-label="Hide the button" title="hide — a tiny 🐢 stays">✕</button><button id="sp-fab" aria-label="Chat with Terri">
   <svg width="36" height="30" viewBox="0 0 40 34" aria-hidden="true">
     <circle class="tfbub" cx="34" cy="3" r="1.6" fill="#bdf0d8"/>
     <circle class="tfbub" cx="30" cy="5" r="1.2" fill="#d9f7e9"/>
@@ -79,7 +79,7 @@ const html=`
   </svg>
   Talk to Terri
   <span class="livedot" title="Terri is live"></span>
-</button>
+</button></div><button id="sp-mini" aria-label="Show the Terri chat" title="Talk to Terri 🐢">🐢</button>
 <div id="sp-chat" role="dialog" aria-label="Terri live chat">
   <div id="sp-head"><div class="dot"></div><div><div class="t"><b>Terri</b> — live from the Shell Pit</div><div class="sub">the Terrible Turtle Camp AI · answers in a few minutes (turtle speed)</div></div><button id="sp-x" aria-label="Close chat">✕</button></div>
   <div id="sp-log"></div>
