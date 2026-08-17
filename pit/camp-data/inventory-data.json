@@ -85,13 +85,13 @@
   "notes": "Mount a non-combustible shield — stainless sheet or cement backer board — on ~1\" standoffs with the gap open top and bottom, behind and beside each range · David: probably not needed- see fire blanket below"
  },
  {
-  "done": false,
+  "done": true,
   "item": "Chest Freezer",
   "domain": "Kitchen",
   "category": "Appliances",
   "spec": "Garage Ready 21.7 cu. ft. Chest Freezer in White, ENERGY STAR",
   "orderBy": "6/25",
-  "procurement": "Not Bought",
+  "procurement": "Received",
   "owner": "Jade",
   "qty": "1",
   "playa": "Not Ready",
@@ -99,7 +99,7 @@
   "estTotal": "$1,151",
   "vendor": "GE",
   "weight": "232",
-  "notes": "15-22cu ft range, 20-22 cu ft is usally sweet spot. One ~20–22 cu ft Energy Star manual-defrost chest freezer, run outdoors under shade, as your bulk reserve — or two ~10–12 cu ft units if you want failure redundancy. · David: waiting for 4 july sale · 7/16 David: JUST BUY IT — 20 cu ft chest (not upright), GE/Frigidaire, 120V. Stop waiting on food calc."
+  "notes": "15-22cu ft range, 20-22 cu ft is usally sweet spot. One ~20–22 cu ft Energy Star manual-defrost chest freezer, run outdoors under shade, as your bulk reserve — or two ~10–12 cu ft units if you want failure redundancy. · David: waiting for 4 july sale · 7/16 David: JUST BUY IT — 20 cu ft chest (not upright), GE/Frigidaire, 120V. Stop waiting on food calc. · ✅ 7/23 David sync: ARRIVED (confirmed on call — \"Yeah. Arrived today.\"). Master sheet still says Not Bought — Jade to update."
  },
  {
   "done": true,
@@ -397,7 +397,7 @@
   "category": "",
   "spec": "",
   "orderBy": "7/7",
-  "procurement": "Not Bought",
+  "procurement": "Ordered",
   "owner": "",
   "qty": "",
   "playa": "",
@@ -405,7 +405,7 @@
   "estTotal": "",
   "vendor": "",
   "weight": "",
-  "notes": ""
+  "notes": "marked bought 8/17 via Jade order page"
  },
  {
   "done": false,
@@ -1213,7 +1213,7 @@
   "category": "Hardware",
   "spec": "NVIDIA RTX PRO 6000 Blackwell Max-Q (same card, second unit)",
   "orderBy": "",
-  "procurement": "Not Bought",
+  "procurement": "Ordered",
   "owner": "Jade",
   "qty": "1",
   "playa": "Not Ready",
@@ -1221,7 +1221,7 @@
   "estTotal": "$12,950",
   "vendor": "Amazon",
   "weight": "",
-  "notes": "Nvidia quoting it at $13,250 https://marketplace.nvidia.com/en-us/enterprise/laptops-workstations/nvidia-rtx-pro-6000-blackwell-max-q-workstation-edition/"
+  "notes": "Nvidia quoting it at $13,250 https://marketplace.nvidia.com/en-us/enterprise/laptops-workstations/nvidia-rtx-pro-6000-blackwell-max-q-workstation-edition/ | marked bought 8/17 via Jade order page"
  },
  {
   "done": false,
@@ -1230,7 +1230,7 @@
   "category": "Hardware",
   "spec": "ASUS ProArt X870E-Creator (PCIe 5.0 x8/x8 dual GPU split, 10GbE, USB4)",
   "orderBy": "",
-  "procurement": "Not Bought",
+  "procurement": "Ordered",
   "owner": "Jade",
   "qty": "1",
   "playa": "Not Ready",
@@ -1238,7 +1238,7 @@
   "estTotal": "$495",
   "vendor": "Amazon",
   "weight": "",
-  "notes": ""
+  "notes": "marked bought 8/17 via Jade order page"
  },
  {
   "done": false,
@@ -1247,7 +1247,7 @@
   "category": "Hardware",
   "spec": "192GB DDR5-6000 CL30 (4x 48GB G.Skill Trident Z5 or Corsair Vengeance) (May get 2x48 6000 CLT36)",
   "orderBy": "",
-  "procurement": "Not Bought",
+  "procurement": "Ordered",
   "owner": "Jade",
   "qty": "2",
   "playa": "Not Ready",
@@ -1255,7 +1255,7 @@
   "estTotal": "$2,622",
   "vendor": "Corsair",
   "weight": "",
-  "notes": "Do we want the exact spec or just 192GB capacity from a reputable brand. Can't find 4x48 GB with 6000 memory speed rating MT/s million data transfers per second, only 4x48 at 5200 million data transfers per second. AI is recommending x2 2x48 GB Corsair Vengeance CL36. CL36 vs CL30 is a time delay of 2 nanoseconds of a difference which is minimal"
+  "notes": "Do we want the exact spec or just 192GB capacity from a reputable brand. Can't find 4x48 GB with 6000 memory speed rating MT/s million data transfers per second, only 4x48 at 5200 million data transfers per second. AI is recommending x2 2x48 GB Corsair Vengeance CL36. CL36 vs CL30 is a time delay of 2 nanoseconds of a difference which is minimal | marked bought 8/17 via Jade order page"
  },
  {
   "done": false,
@@ -1264,7 +1264,7 @@
   "category": "Hardware",
   "spec": "Samsung 9100 PRO 4TB PCIe 5.0 NVMe (model zoo)",
   "orderBy": "",
-  "procurement": "Not Bought",
+  "procurement": "Ordered",
   "owner": "Jade",
   "qty": "1",
   "playa": "Not Ready",
@@ -1272,7 +1272,7 @@
   "estTotal": "$800",
   "vendor": "Amazon",
   "weight": "",
-  "notes": ""
+  "notes": "marked bought 8/17 via Jade order page"
  },
  {
   "done": false,
@@ -1281,7 +1281,7 @@
   "category": "Hardware",
   "spec": "Samsung 990 PRO 2TB PCIe 4.0 NVMe (OS + cache)",
   "orderBy": "",
-  "procurement": "Not Bought",
+  "procurement": "Ordered",
   "owner": "Jade",
   "qty": "1",
   "playa": "Not Ready",
@@ -1289,7 +1289,7 @@
   "estTotal": "$390",
   "vendor": "B & H Photo",
   "weight": "",
-  "notes": ""
+  "notes": "marked bought 8/17 via Jade order page"
  },
  {
   "done": false,
@@ -1298,7 +1298,7 @@
   "category": "Hardware",
   "spec": "Seasonic PRIME PX-1600, 1600W 80+ Platinum, ATX 3.1 & PCIe 5.1 Ready, Full Modular, Low Noise, Premium Japanese Capacitor, Nvidia RTX 30/40 Super, AMD GPU Compatible, Ref# SSR-1600PD2",
   "orderBy": "",
-  "procurement": "Not Bought",
+  "procurement": "Ordered",
   "owner": "Jade",
   "qty": "1",
   "playa": "Not Ready",
@@ -1306,7 +1306,7 @@
   "estTotal": "$500",
   "vendor": "Amazon",
   "weight": "",
-  "notes": ""
+  "notes": "marked bought 8/17 via Jade order page"
  },
  {
   "done": false,
@@ -1315,7 +1315,7 @@
   "category": "Hardware",
   "spec": "Noctua NH-D15 G2 (air, no pump to fail)",
   "orderBy": "",
-  "procurement": "Not Bought",
+  "procurement": "Ordered",
   "owner": "Jade",
   "qty": "1",
   "playa": "Not Ready",
@@ -1323,7 +1323,7 @@
   "estTotal": "$165",
   "vendor": "Amazon",
   "weight": "",
-  "notes": ""
+  "notes": "marked bought 8/17 via Jade order page"
  },
  {
   "done": false,
@@ -1332,7 +1332,7 @@
   "category": "Hardware",
   "spec": "Fractal Design Meshify 2 XL with high-static-pressure intake + magnetic dust filters",
   "orderBy": "",
-  "procurement": "Not Bought",
+  "procurement": "Ordered",
   "owner": "Jade",
   "qty": "1",
   "playa": "Not Ready",
@@ -1340,7 +1340,7 @@
   "estTotal": "$220",
   "vendor": "B & H Photo",
   "weight": "",
-  "notes": ""
+  "notes": "marked bought 8/17 via Jade order page"
  },
  {
   "done": false,
@@ -1349,7 +1349,7 @@
   "category": "Hardware",
   "spec": "4x Noctua NF-A14 industrialPPC-2000",
   "orderBy": "",
-  "procurement": "Not Bought",
+  "procurement": "Ordered",
   "owner": "Jade",
   "qty": "4",
   "playa": "Not Ready",
@@ -1357,7 +1357,7 @@
   "estTotal": "$440",
   "vendor": "Newegg",
   "weight": "",
-  "notes": ""
+  "notes": "marked bought 8/17 via Jade order page"
  },
  {
   "done": false,
@@ -1366,7 +1366,7 @@
   "category": "Hardware",
   "spec": "CyberPower OL2200RTXL2U (2200VA / 1980W double-conversion online)",
   "orderBy": "",
-  "procurement": "Not Bought",
+  "procurement": "Ordered",
   "owner": "Jade",
   "qty": "1",
   "playa": "Not Ready",
@@ -1374,7 +1374,7 @@
   "estTotal": "$1,876",
   "vendor": "Newegg",
   "weight": "",
-  "notes": "Uninterruptible Power Supply"
+  "notes": "Uninterruptible Power Supply | marked bought 8/17 via Jade order page"
  },
  {
   "done": false,
@@ -1383,7 +1383,7 @@
   "category": "Hardware",
   "spec": "ProSAFE XS708Ev2 || NETGEAR XS505M 5-port 10GbE managed",
   "orderBy": "",
-  "procurement": "Not Bought",
+  "procurement": "Ordered",
   "owner": "Jade",
   "qty": "1",
   "playa": "Not Ready",
@@ -1391,7 +1391,7 @@
   "estTotal": "$598",
   "vendor": "Orange Hardware",
   "weight": "",
-  "notes": "We need a managed network switch, the netgear model is actually an unmanaged network switch"
+  "notes": "We need a managed network switch, the netgear model is actually an unmanaged network switch | marked bought 8/17 via Jade order page"
  },
  {
   "done": false,
@@ -1400,7 +1400,7 @@
   "category": "Hardware",
   "spec": "Magnetic Dust Filters",
   "orderBy": "",
-  "procurement": "Not Bought",
+  "procurement": "Ordered",
   "owner": "Jade",
   "qty": "1",
   "playa": "Not Ready",
@@ -1408,7 +1408,7 @@
   "estTotal": "$6",
   "vendor": "Amazon",
   "weight": "",
-  "notes": ""
+  "notes": "marked bought 8/17 via Jade order page"
  },
  {
   "done": false,
@@ -1417,7 +1417,7 @@
   "category": "Hardware",
   "spec": "Sealed Grommets",
   "orderBy": "",
-  "procurement": "Not Bought",
+  "procurement": "Ordered",
   "owner": "Jade",
   "qty": "1",
   "playa": "Not Ready",
@@ -1425,7 +1425,7 @@
   "estTotal": "$17",
   "vendor": "Amazon",
   "weight": "",
-  "notes": ""
+  "notes": "marked bought 8/17 via Jade order page"
  },
  {
   "done": false,
@@ -1434,7 +1434,7 @@
   "category": "Hardware",
   "spec": "MG Chemicals - 422C-55MLCA 422C Silicone Conformal Coating 55 mL Bottle",
   "orderBy": "",
-  "procurement": "Not Bought",
+  "procurement": "Ordered",
   "owner": "Jade",
   "qty": "1",
   "playa": "Not Ready",
@@ -1442,7 +1442,7 @@
   "estTotal": "$25",
   "vendor": "Amazon",
   "weight": "",
-  "notes": ""
+  "notes": "marked bought 8/17 via Jade order page"
  },
  {
   "done": false,
@@ -1451,7 +1451,7 @@
   "category": "Hardware",
   "spec": "CORSAIR RS140 140mm PWM Fans HEPA Intake",
   "orderBy": "",
-  "procurement": "Not Bought",
+  "procurement": "Ordered",
   "owner": "Jade",
   "qty": "1",
   "playa": "Not Ready",
@@ -1459,7 +1459,7 @@
   "estTotal": "$35",
   "vendor": "Amazon",
   "weight": "",
-  "notes": ""
+  "notes": "marked bought 8/17 via Jade order page"
  },
  {
   "done": false,
@@ -1468,7 +1468,7 @@
   "category": "Hardware",
   "spec": "500 Pcs Zip Ties, 8 Inch Self-Locking Nylon Cable Ties, Premium Heavy Duty Plastic Wire Ties Wraps for Indoor and Outdoor (Black)",
   "orderBy": "",
-  "procurement": "Not Bought",
+  "procurement": "Ordered",
   "owner": "Jade",
   "qty": "1",
   "playa": "Not Ready",
@@ -1476,7 +1476,7 @@
   "estTotal": "$7",
   "vendor": "Amazon",
   "weight": "",
-  "notes": ""
+  "notes": "marked bought 8/17 via Jade order page"
  },
  {
   "done": false,
@@ -1485,7 +1485,7 @@
   "category": "Hardware",
   "spec": "Noctua NT-H2 10g, Thermal Computer Paste incl. 10 Cleaning Wipes (10g)",
   "orderBy": "",
-  "procurement": "Not Bought",
+  "procurement": "Ordered",
   "owner": "Jade",
   "qty": "1",
   "playa": "Not Ready",
@@ -1493,7 +1493,7 @@
   "estTotal": "$29",
   "vendor": "Amazon",
   "weight": "",
-  "notes": ""
+  "notes": "marked bought 8/17 via Jade order page"
  },
  {
   "done": false,
@@ -1536,7 +1536,7 @@
   "category": "Hardware",
   "spec": "Cable Matters 10Gbps Pure Copper 24 AWG Cat 6A Ethernet Cable - 200ft, [Direct-Burial Rated, Waterproof and Weatherproof] Outdoor Ethernet Cable with 500 MHz Bandwidth, Long Cat6a PoE Cord",
   "orderBy": "",
-  "procurement": "Not Bought",
+  "procurement": "Ordered",
   "owner": "Jade",
   "qty": "3",
   "playa": "Not Ready",
@@ -1544,7 +1544,7 @@
   "estTotal": "$165",
   "vendor": "Amazon",
   "weight": "",
-  "notes": ""
+  "notes": "marked bought 8/17 via Jade order page"
  },
  {
   "done": false,
@@ -1587,7 +1587,7 @@
   "category": "",
   "spec": "2 x 2 angle iron 3/16\" wall 6\" long plus #10 fasteners",
   "orderBy": "7/5",
-  "procurement": "Not Bought",
+  "procurement": "Ordered",
   "owner": "",
   "qty": "3",
   "playa": "",
@@ -1595,7 +1595,7 @@
   "estTotal": "",
   "vendor": "",
   "weight": "",
-  "notes": "David: local 2 x 2 angle iron 8\" long, 3/16 thick"
+  "notes": "David: local 2 x 2 angle iron 8\" long, 3/16 thick | marked bought 8/17 via Jade order page"
  },
  {
   "done": false,
@@ -1740,7 +1740,7 @@
   "category": "",
   "spec": "Service Partners: 601 East 64th Ave, Bldg B Unit 400, Denver, CO 80229",
   "orderBy": "7/7",
-  "procurement": "Not Bought",
+  "procurement": "Ordered",
   "owner": "",
   "qty": "1",
   "playa": "",
@@ -1748,7 +1748,7 @@
   "estTotal": "",
   "vendor": "",
   "weight": "",
-  "notes": ""
+  "notes": "marked bought 8/17 via Jade order page"
  },
  {
   "done": true,
@@ -1927,7 +1927,7 @@
   "category": "Tool",
   "spec": "two 1/4-20 taps, handle, tap fluid, two appropriate drill bits for taps, 1/4\" drill bit",
   "orderBy": "6/28",
-  "procurement": "Not Bought",
+  "procurement": "Ordered",
   "owner": "",
   "qty": "",
   "playa": "",
@@ -1935,7 +1935,7 @@
   "estTotal": "",
   "vendor": "",
   "weight": "",
-  "notes": "David: get locally"
+  "notes": "David: get locally | marked bought 8/17 via Jade order page"
  },
  {
   "done": true,
@@ -1978,7 +1978,7 @@
   "category": "",
   "spec": "",
   "orderBy": "6/28",
-  "procurement": "Not Bought",
+  "procurement": "Ordered",
   "owner": "",
   "qty": "",
   "playa": "",
@@ -1986,7 +1986,7 @@
   "estTotal": "",
   "vendor": "",
   "weight": "",
-  "notes": ""
+  "notes": "marked bought 8/17 via Jade order page"
  },
  {
   "done": false,
@@ -2063,7 +2063,7 @@
   "category": "",
   "spec": "",
   "orderBy": "",
-  "procurement": "Not Bought",
+  "procurement": "Ordered",
   "owner": "",
   "qty": "1",
   "playa": "",
@@ -2071,7 +2071,7 @@
   "estTotal": "",
   "vendor": "",
   "weight": "",
-  "notes": ""
+  "notes": "marked bought 8/17 via Jade order page"
  },
  {
   "done": false,
@@ -2080,7 +2080,7 @@
   "category": "",
   "spec": "",
   "orderBy": "",
-  "procurement": "Not Bought",
+  "procurement": "Ordered",
   "owner": "",
   "qty": "1",
   "playa": "",
@@ -2088,7 +2088,7 @@
   "estTotal": "",
   "vendor": "",
   "weight": "",
-  "notes": ""
+  "notes": "marked bought 8/17 via Jade order page"
  },
  {
   "done": false,
@@ -2097,7 +2097,7 @@
   "category": "",
   "spec": "",
   "orderBy": "",
-  "procurement": "Not Bought",
+  "procurement": "Ordered",
   "owner": "",
   "qty": "2",
   "playa": "",
@@ -2105,7 +2105,7 @@
   "estTotal": "",
   "vendor": "",
   "weight": "",
-  "notes": ""
+  "notes": "marked bought 8/17 via Jade order page"
  },
  {
   "done": false,
@@ -2114,7 +2114,7 @@
   "category": "",
   "spec": "",
   "orderBy": "",
-  "procurement": "Not Bought",
+  "procurement": "Ordered",
   "owner": "",
   "qty": "1",
   "playa": "",
@@ -2122,7 +2122,7 @@
   "estTotal": "",
   "vendor": "",
   "weight": "",
-  "notes": ""
+  "notes": "marked bought 8/17 via Jade order page"
  },
  {
   "done": false,
@@ -2131,7 +2131,7 @@
   "category": "",
   "spec": "",
   "orderBy": "",
-  "procurement": "Not Bought",
+  "procurement": "Ordered",
   "owner": "",
   "qty": "1",
   "playa": "",
@@ -2139,7 +2139,7 @@
   "estTotal": "",
   "vendor": "",
   "weight": "",
-  "notes": ""
+  "notes": "marked bought 8/17 via Jade order page"
  },
  {
   "done": true,
@@ -2403,7 +2403,7 @@
   "category": "Tool",
   "spec": "https://www.amazon.com/Measuring-3-Sections-Collapsible-Industrial-Carrying/dp/B09D7ZQBG6/ref=sr_1_10?crid=2YP71KKB30PKN&dib=eyJ2IjoiMSJ9.mdv4ztf_TxyNOLZQDTOanhF4j8JDuSynxmCCa9Cl0RI-DZy-aLud1hLFHRgo9DLde7C7HTMqo9Mjbw69_Gxfq8QflRD3oxAGGOsbKisQxMoiygyyfETtIERs-P3hzVdGx4SGPm8yaEBut7GHIGONWorrBnyRYlSNnohlhi_uXiKeIwYSIWFFhUAugEOaNVhpWLhSWLHQx7_vjvKWZtE4PRszvOIWsVv_K4fXcrahjy2tElBiwcfpdCPa_Q-tT5szLX9ld9YkZqfXnFFgrwdfyV5EpCKtl2IhQJUVEXu9Qp4.pMNEvgiNurgkfhaU_GO8RxJunWp_A_Cs99hYPoSzaVk&dib_tag=se&keywords=milwaukee+wheel+measure&qid=1782433055&s=hi&sprefix=milwauhkee+wheel+measure%2Ctools%2C191&sr=1-10",
   "orderBy": "7/7",
-  "procurement": "Not Bought",
+  "procurement": "Ordered",
   "owner": "",
   "qty": "",
   "playa": "",
@@ -2411,7 +2411,7 @@
   "estTotal": "",
   "vendor": "",
   "weight": "",
-  "notes": ""
+  "notes": "marked bought 8/17 via Jade order page"
  },
  {
   "done": false,
@@ -2862,7 +2862,7 @@
   "category": "",
   "spec": "",
   "orderBy": "7/15",
-  "procurement": "Not Bought",
+  "procurement": "Ordered",
   "owner": "",
   "qty": "",
   "playa": "",
@@ -2870,7 +2870,7 @@
   "estTotal": "",
   "vendor": "",
   "weight": "",
-  "notes": ""
+  "notes": "marked bought 8/17 via Jade order page"
  },
  {
   "done": false,
@@ -3287,7 +3287,7 @@
   "category": "",
   "spec": "https://www.harborfreight.com/13-hp-submersible-utility-pump-2000-gph-63318.html",
   "orderBy": "7/10",
-  "procurement": "Not Bought",
+  "procurement": "Ordered",
   "owner": "",
   "qty": "2",
   "playa": "",
@@ -3295,7 +3295,7 @@
   "estTotal": "",
   "vendor": "",
   "weight": "",
-  "notes": "David: store only"
+  "notes": "David: store only | marked bought 8/17 via Jade order page"
  },
  {
   "done": false,
@@ -3304,7 +3304,7 @@
   "category": "Tool",
   "spec": "Sledge Hammer (8-10lb, fiberglass handle) or harbor freight",
   "orderBy": "7/15",
-  "procurement": "Not Bought",
+  "procurement": "Ordered",
   "owner": "",
   "qty": "2",
   "playa": "",
@@ -3312,7 +3312,7 @@
   "estTotal": "",
   "vendor": "",
   "weight": "",
-  "notes": ""
+  "notes": "marked bought 8/17 via Jade order page"
  },
  {
   "done": false,
@@ -3406,7 +3406,7 @@
   "category": "",
   "spec": "https://www.homedepot.com/p/Husky-42-Gal-Heavy-Duty-Clean-Up-Bags-32-Count-HK42WC032B/100063659?source=shoppingads&locale=en-US&fp=ggl",
   "orderBy": "7/7",
-  "procurement": "Not Bought",
+  "procurement": "Ordered",
   "owner": "",
   "qty": "3",
   "playa": "",
@@ -3414,7 +3414,7 @@
   "estTotal": "",
   "vendor": "",
   "weight": "",
-  "notes": "David: get home depot contactor bags- 3 boxes"
+  "notes": "David: get home depot contactor bags- 3 boxes | marked bought 8/17 via Jade order page"
  },
  {
   "done": false,
@@ -3423,7 +3423,7 @@
   "category": "",
   "spec": "https://www.homedepot.com/p/Outdoor-String-Lights-25-Shatterproof-Bulbs-50-ft-IP65-Weatherproof-for-Outside-Patio-Backyard-E12-I/327493830",
   "orderBy": "7/7",
-  "procurement": "Not Bought",
+  "procurement": "Ordered",
   "owner": "",
   "qty": "",
   "playa": "",
@@ -3431,7 +3431,7 @@
   "estTotal": "",
   "vendor": "",
   "weight": "",
-  "notes": ""
+  "notes": "marked bought 8/17 via Jade order page"
  },
  {
   "done": false,
@@ -3440,7 +3440,7 @@
   "category": "",
   "spec": "home depot or amazon",
   "orderBy": "7/7",
-  "procurement": "Not Bought",
+  "procurement": "Ordered",
   "owner": "",
   "qty": "3 bundles",
   "playa": "",
@@ -3448,7 +3448,7 @@
   "estTotal": "",
   "vendor": "",
   "weight": "",
-  "notes": "David: get lots of colors but NOT blue or white"
+  "notes": "David: get lots of colors but NOT blue or white | marked bought 8/17 via Jade order page"
  },
  {
   "done": false,
@@ -3457,7 +3457,7 @@
   "category": "Tool",
   "spec": "home depot or amazon",
   "orderBy": "7/7",
-  "procurement": "Not Bought",
+  "procurement": "Ordered",
   "owner": "",
   "qty": "2",
   "playa": "",
@@ -3465,7 +3465,7 @@
   "estTotal": "",
   "vendor": "",
   "weight": "",
-  "notes": ""
+  "notes": "marked bought 8/17 via Jade order page"
  },
  {
   "done": false,
@@ -3627,7 +3627,7 @@
   "category": "",
   "spec": "prefer 4 digit combo locks. 8 locks minimum",
   "orderBy": "7/7",
-  "procurement": "Not Bought",
+  "procurement": "Ordered",
   "owner": "",
   "qty": "10",
   "playa": "",
@@ -3635,7 +3635,7 @@
   "estTotal": "",
   "vendor": "",
   "weight": "",
-  "notes": "David: https://www.homedepot.com/p/Master-Lock-Outdoor-Combination-Lock-1-1-2-in-Shackle-Resettable-2-Pack-875TLF/317062913"
+  "notes": "David: https://www.homedepot.com/p/Master-Lock-Outdoor-Combination-Lock-1-1-2-in-Shackle-Resettable-2-Pack-875TLF/317062913 | marked bought 8/17 via Jade order page"
  },
  {
   "done": false,
@@ -3678,7 +3678,7 @@
   "category": "",
   "spec": "https://www.homedepot.com/p/HDX-6-Tier-Commercial-Grade-Heavy-Duty-Steel-Wire-Shelving-Unit-in-Chrome-48-in-W-x-72-in-H-x-18-in-D-HD18481302PS-1/203846551",
   "orderBy": "7/7",
-  "procurement": "Not Bought",
+  "procurement": "Ordered",
   "owner": "",
   "qty": "4",
   "playa": "",
@@ -3686,7 +3686,7 @@
   "estTotal": "",
   "vendor": "",
   "weight": "",
-  "notes": "David: at least 2 inside trailer. one is a drying rack"
+  "notes": "David: at least 2 inside trailer. one is a drying rack | marked bought 8/17 via Jade order page"
  },
  {
   "done": false,
@@ -3695,7 +3695,7 @@
   "category": "",
   "spec": "https://www.homedepot.com/p/Husky-Tool-Storage-46-in-W-x-18-in-D-9-Drawer-Mobile-Workbench-Cabinet-in-Gloss-Black-H46X18MWC9BLK/322631796",
   "orderBy": "7/7",
-  "procurement": "Not Bought",
+  "procurement": "Ordered",
   "owner": "",
   "qty": "1",
   "playa": "",
@@ -3703,7 +3703,7 @@
   "estTotal": "",
   "vendor": "",
   "weight": "",
-  "notes": "David: {Will shop this weekend in store for sale}"
+  "notes": "David: {Will shop this weekend in store for sale} | marked bought 8/17 via Jade order page"
  },
  {
   "done": false,
@@ -3763,7 +3763,7 @@
   "category": "",
   "spec": "https://www.homedepot.com/p/Carnegy-Avenue-White-Kathryn-8-ft-Rectangular-Plastic-Folding-Event-Table-with-Carrying-Handle-Adjustable-Bi-Fold-Banquet-Table-CGA-RB-231467-GR-HD/308685853",
   "orderBy": "7/7",
-  "procurement": "Not Bought",
+  "procurement": "Ordered",
   "owner": "",
   "qty": "2",
   "playa": "",
@@ -3771,7 +3771,7 @@
   "estTotal": "",
   "vendor": "",
   "weight": "",
-  "notes": "David: adjustable height"
+  "notes": "David: adjustable height | marked bought 8/17 via Jade order page"
  },
  {
   "done": false,
@@ -3780,7 +3780,7 @@
   "category": "",
   "spec": "https://www.homedepot.com/p/Lifetime-96-in-Almond-Plastic-Folding-Banquet-Table-22984/300692266",
   "orderBy": "7/7",
-  "procurement": "Not Bought",
+  "procurement": "Ordered",
   "owner": "",
   "qty": "2",
   "playa": "",
@@ -3788,7 +3788,7 @@
   "estTotal": "",
   "vendor": "",
   "weight": "",
-  "notes": "David: fixed height"
+  "notes": "David: fixed height | marked bought 8/17 via Jade order page"
  },
  {
   "done": true,
