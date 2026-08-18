@@ -411,6 +411,13 @@ Move Slow &amp; Bite Things. Heart first, always. 🐢</pre>
 #olangp .lb.haw{border-color:rgba(255,158,198,.5);background:rgba(255,158,198,.1)}
 #olangp .gt{margin-top:10px;font-size:11px;color:#9d97c9;text-align:center}
 @media (max-width:700px){#olang{width:42px;height:42px;font-size:19px;top:8px;left:8px}#olangp{top:58px;left:8px}}
+/* OSO Flow radio sits above Terri's chat send button on mobile when chat is open */
+@media (max-width:520px){
+  body:has(#sp-chat.open) #miniplayer,
+  body:has(#sp-chat.open) #blnote { bottom:86px !important; }
+  body:has(#sp-chat.open) #blyrics,
+  body:has(#sp-chat.open) #bldownload { bottom:140px !important; }
+}
 </style>
 <script>
 function otr(lang){
