@@ -11,7 +11,7 @@ Version 1 was a pamphlet. Version 2.0 is a **toolbox** — the same prompt, plus
 2. Replace everything in `[BRACKETS]` with your camp's real facts. Delete sections you don't need — subtracting is the fun part (start from [`inventory-starter.json`](inventory-starter.json) — ~40 rows with the full taxonomy; our real 277-item list, [`inventory-data.json`](inventory-data.json), is the receipts at full build, not a starting point).
 3. Attach your camp's knowledge files (inventory list, build plans, rosters) — or paste them into the prompt. Done. 🎁
 
-**When you want persistence** (memory across chats, schedules, dashboards) — that's the graduate step, a retention question, and it lives in the appendix: [Claude Projects](quickstart-claude.md) · [Custom GPT](quickstart-gpt.md) · [Taurus](quickstart-taurus.md) (where Terri herself lives).
+**When you want persistence** (memory across chats, schedules, dashboards) — that's the graduate step, a retention question, and it lives in the appendix: [Claude Projects](quickstart-claude.md) · [Custom GPT](quickstart-gpt.md) · [Taurus](quickstart-taurus.md) (where Terri herself lives) · [DGX Spark](quickstart-dgx-spark.md) (fully offline, on-playa ⚡🐢).
 
 ---
 
