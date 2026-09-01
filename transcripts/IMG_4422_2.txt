@@ -1,0 +1,10 @@
+# The Tool Maker session · at the saw
+
+Date: 2026-07-15
+Source video: IMG_4422_2.MOV
+Drive: https://drive.google.com/file/d/1egqlxkIHXKhj1CERqEJAx21rHjjyu9vS/view
+Duration: 00:00
+Transcribed: 2026-07-28 · Terri turtlePIT · faster-whisper (small, int8) · consent: assumed-2026-07-29
+
+---
+

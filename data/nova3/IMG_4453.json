@@ -1,0 +1,103 @@
+{
+ "drive_id": "1xXdIZs1theMAlBMsngvAPlJjLrHiEpxw",
+ "slug": "IMG_4453",
+ "filename": "IMG_4453.MOV",
+ "model": "nova-3",
+ "status": "done",
+ "text": "The fabric is synthetic.",
+ "segments": [
+  {
+   "start": 0.4,
+   "end": 1.84,
+   "text": "The fabric is synthetic.",
+   "speaker": 0
+  }
+ ],
+ "words": [
+  {
+   "word": "The",
+   "start": 0.4,
+   "end": 0.64,
+   "confidence": 0.7642,
+   "speaker": 0
+  },
+  {
+   "word": "fabric",
+   "start": 0.64,
+   "end": 1.12,
+   "confidence": 0.5391,
+   "speaker": 0
+  },
+  {
+   "word": "is",
+   "start": 1.12,
+   "end": 1.28,
+   "confidence": 0.7578,
+   "speaker": 0
+  },
+  {
+   "word": "synthetic.",
+   "start": 1.28,
+   "end": 1.84,
+   "confidence": 0.9509,
+   "speaker": 0
+  }
+ ],
+ "utterances": [
+  {
+   "start": 0.39999998,
+   "end": 1.8399999,
+   "confidence": 0.7529907,
+   "channel": 0,
+   "transcript": "The fabric is synthetic.",
+   "words": [
+    {
+     "word": "the",
+     "start": 0.39999998,
+     "end": 0.64,
+     "confidence": 0.76416016,
+     "speaker": 0,
+     "speaker_confidence": 1.0,
+     "punctuated_word": "The"
+    },
+    {
+     "word": "fabric",
+     "start": 0.64,
+     "end": 1.12,
+     "confidence": 0.5390625,
+     "speaker": 0,
+     "speaker_confidence": 1.0,
+     "punctuated_word": "fabric"
+    },
+    {
+     "word": "is",
+     "start": 1.12,
+     "end": 1.28,
+     "confidence": 0.7578125,
+     "speaker": 0,
+     "speaker_confidence": 1.0,
+     "punctuated_word": "is"
+    },
+    {
+     "word": "synthetic",
+     "start": 1.28,
+     "end": 1.8399999,
+     "confidence": 0.95092773,
+     "speaker": 0,
+     "speaker_confidence": 1.0,
+     "punctuated_word": "synthetic."
+    }
+   ],
+   "speaker": 0,
+   "id": "d7dd1740-67e5-47de-b06e-d4032e7338ac"
+  }
+ ],
+ "duration_s": 2.05,
+ "word_count": 4,
+ "avg_confidence": 0.753,
+ "speaker_count": 1,
+ "language": "en",
+ "prev_whisper_words": 0,
+ "harvested": "2026-08-01T20:38:17Z",
+ "note": "re-encoded with -map 0:a:0 (codec-none 2nd stream gotcha)"
+}

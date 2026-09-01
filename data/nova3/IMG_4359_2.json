@@ -1,0 +1,294 @@
+{
+ "drive_id": "1gRlmaTqhz1r3z26iDA-28FkPejous9t0",
+ "slug": "IMG_4359_2",
+ "filename": "IMG_4359 2.MOV",
+ "model": "nova-3",
+ "status": "done",
+ "text": "We don't need them, we'll bring them back. Now there's only 75 of these in there.",
+ "segments": [
+  {
+   "start": 18.781,
+   "end": 22.701,
+   "text": "We don't need them, we'll bring them back. Now there's only 75 of these in there.",
+   "speaker": 0
+  }
+ ],
+ "words": [
+  {
+   "word": "We",
+   "start": 18.781,
+   "end": 19.021,
+   "confidence": 0.6064,
+   "speaker": 0
+  },
+  {
+   "word": "don't",
+   "start": 19.021,
+   "end": 19.261,
+   "confidence": 0.9995,
+   "speaker": 0
+  },
+  {
+   "word": "need",
+   "start": 19.261,
+   "end": 19.421,
+   "confidence": 0.998,
+   "speaker": 0
+  },
+  {
+   "word": "them,",
+   "start": 19.421,
+   "end": 19.661,
+   "confidence": 0.6881,
+   "speaker": 0
+  },
+  {
+   "word": "we'll",
+   "start": 19.661,
+   "end": 19.821,
+   "confidence": 0.6951,
+   "speaker": 0
+  },
+  {
+   "word": "bring",
+   "start": 19.821,
+   "end": 19.981,
+   "confidence": 0.999,
+   "speaker": 0
+  },
+  {
+   "word": "them",
+   "start": 19.981,
+   "end": 20.061,
+   "confidence": 0.9883,
+   "speaker": 0
+  },
+  {
+   "word": "back.",
+   "start": 20.061,
+   "end": 20.541,
+   "confidence": 0.9961,
+   "speaker": 0
+  },
+  {
+   "word": "Now",
+   "start": 20.541,
+   "end": 20.781,
+   "confidence": 0.9463,
+   "speaker": 0
+  },
+  {
+   "word": "there's",
+   "start": 20.781,
+   "end": 21.101,
+   "confidence": 0.9971,
+   "speaker": 0
+  },
+  {
+   "word": "only",
+   "start": 21.101,
+   "end": 21.261,
+   "confidence": 1.0,
+   "speaker": 0
+  },
+  {
+   "word": "75",
+   "start": 21.261,
+   "end": 21.901,
+   "confidence": 1.0,
+   "speaker": 0
+  },
+  {
+   "word": "of",
+   "start": 21.901,
+   "end": 22.141,
+   "confidence": 0.998,
+   "speaker": 0
+  },
+  {
+   "word": "these",
+   "start": 22.141,
+   "end": 22.301,
+   "confidence": 0.998,
+   "speaker": 0
+  },
+  {
+   "word": "in",
+   "start": 22.301,
+   "end": 22.541,
+   "confidence": 0.999,
+   "speaker": 0
+  },
+  {
+   "word": "there.",
+   "start": 22.541,
+   "end": 22.701,
+   "confidence": 0.9292,
+   "speaker": 0
+  }
+ ],
+ "utterances": [
+  {
+   "start": 18.781,
+   "end": 22.701,
+   "confidence": 0.92739105,
+   "channel": 0,
+   "transcript": "We don't need them, we'll bring them back. Now there's only 75 of these in there.",
+   "words": [
+    {
+     "word": "we",
+     "start": 18.781,
+     "end": 19.021,
+     "confidence": 0.6064453,
+     "speaker": 0,
+     "speaker_confidence": 0.9922914,
+     "punctuated_word": "We"
+    },
+    {
+     "word": "don't",
+     "start": 19.021,
+     "end": 19.261,
+     "confidence": 0.9995117,
+     "speaker": 0,
+     "speaker_confidence": 0.9922914,
+     "punctuated_word": "don't"
+    },
+    {
+     "word": "need",
+     "start": 19.261,
+     "end": 19.421,
+     "confidence": 0.9980469,
+     "speaker": 0,
+     "speaker_confidence": 0.9922914,
+     "punctuated_word": "need"
+    },
+    {
+     "word": "them",
+     "start": 19.421,
+     "end": 19.661,
+     "confidence": 0.68811035,
+     "speaker": 0,
+     "speaker_confidence": 0.9922914,
+     "punctuated_word": "them,"
+    },
+    {
+     "word": "we'll",
+     "start": 19.661,
+     "end": 19.821,
+     "confidence": 0.69506836,
+     "speaker": 0,
+     "speaker_confidence": 0.9922914,
+     "punctuated_word": "we'll"
+    },
+    {
+     "word": "bring",
+     "start": 19.821,
+     "end": 19.980999,
+     "confidence": 0.99902344,
+     "speaker": 0,
+     "speaker_confidence": 0.9922914,
+     "punctuated_word": "bring"
+    },
+    {
+     "word": "them",
+     "start": 19.980999,
+     "end": 20.061,
+     "confidence": 0.98828125,
+     "speaker": 0,
+     "speaker_confidence": 0.9922911,
+     "punctuated_word": "them"
+    },
+    {
+     "word": "back",
+     "start": 20.061,
+     "end": 20.541,
+     "confidence": 0.99609375,
+     "speaker": 0,
+     "speaker_confidence": 0.9922911,
+     "punctuated_word": "back."
+    },
+    {
+     "word": "now",
+     "start": 20.541,
+     "end": 20.781,
+     "confidence": 0.94628906,
+     "speaker": 0,
+     "speaker_confidence": 0.9922911,
+     "punctuated_word": "Now"
+    },
+    {
+     "word": "there's",
+     "start": 20.781,
+     "end": 21.101,
+     "confidence": 0.9970703,
+     "speaker": 0,
+     "speaker_confidence": 0.9922911,
+     "punctuated_word": "there's"
+    },
+    {
+     "word": "only",
+     "start": 21.101,
+     "end": 21.261,
+     "confidence": 1.0,
+     "speaker": 0,
+     "speaker_confidence": 0.9922911,
+     "punctuated_word": "only"
+    },
+    {
+     "word": "75",
+     "start": 21.261,
+     "end": 21.901001,
+     "confidence": 1.0,
+     "speaker": 0,
+     "speaker_confidence": 0.9922911,
+     "punctuated_word": "75"
+    },
+    {
+     "word": "of",
+     "start": 21.901001,
+     "end": 22.140999,
+     "confidence": 0.9980469,
+     "speaker": 0,
+     "speaker_confidence": 0.9922911,
+     "punctuated_word": "of"
+    },
+    {
+     "word": "these",
+     "start": 22.140999,
+     "end": 22.300999,
+     "confidence": 0.9980469,
+     "speaker": 0,
+     "speaker_confidence": 0.9922911,
+     "punctuated_word": "these"
+    },
+    {
+     "word": "in",
+     "start": 22.300999,
+     "end": 22.541,
+     "confidence": 0.99902344,
+     "speaker": 0,
+     "speaker_confidence": 0.9922911,
+     "punctuated_word": "in"
+    },
+    {
+     "word": "there",
+     "start": 22.541,
+     "end": 22.701,
+     "confidence": 0.9291992,
+     "speaker": 0,
+     "speaker_confidence": 0.9922911,
+     "punctuated_word": "there."
+    }
+   ],
+   "speaker": 0,
+   "id": "fc84fbc1-4466-42b1-91cb-c87eddf04108"
+  }
+ ],
+ "duration_s": 22.72,
+ "word_count": 16,
+ "avg_confidence": 0.9274,
+ "speaker_count": 1,
+ "language": "en",
+ "prev_whisper_words": 16,
+ "harvested": "2026-08-01T20:14:21Z"
+}

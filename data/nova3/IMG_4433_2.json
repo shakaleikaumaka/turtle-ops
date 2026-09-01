@@ -1,0 +1,343 @@
+{
+ "drive_id": "1l5mYFoTJYQDGowHo1Y2Gxra5CRD2QQS7",
+ "slug": "IMG_4433_2",
+ "filename": "IMG_4433 2.MOV",
+ "model": "nova-3",
+ "status": "done",
+ "text": "Crumble. Maybe we should we kinda did it bad. Should we clean up the one that we did?",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 0.72,
+   "text": "Crumble.",
+   "speaker": 0
+  },
+  {
+   "start": 2.32,
+   "end": 5.52,
+   "text": "Maybe we should we kinda did it bad. Should we clean up the one that we did?",
+   "speaker": 0
+  }
+ ],
+ "words": [
+  {
+   "word": "Crumble.",
+   "start": 0.0,
+   "end": 0.72,
+   "confidence": 0.7442,
+   "speaker": 0
+  },
+  {
+   "word": "Maybe",
+   "start": 2.32,
+   "end": 2.72,
+   "confidence": 0.7003,
+   "speaker": 0
+  },
+  {
+   "word": "we",
+   "start": 2.72,
+   "end": 2.8,
+   "confidence": 0.9883,
+   "speaker": 0
+  },
+  {
+   "word": "should",
+   "start": 2.8,
+   "end": 2.96,
+   "confidence": 0.9942,
+   "speaker": 0
+  },
+  {
+   "word": "we",
+   "start": 3.2,
+   "end": 3.44,
+   "confidence": 0.9988,
+   "speaker": 0
+  },
+  {
+   "word": "kinda",
+   "start": 3.44,
+   "end": 3.68,
+   "confidence": 0.9409,
+   "speaker": 0
+  },
+  {
+   "word": "did",
+   "start": 3.68,
+   "end": 3.84,
+   "confidence": 0.9798,
+   "speaker": 0
+  },
+  {
+   "word": "it",
+   "start": 3.84,
+   "end": 3.92,
+   "confidence": 0.5205,
+   "speaker": 0
+  },
+  {
+   "word": "bad.",
+   "start": 3.92,
+   "end": 4.16,
+   "confidence": 0.9489,
+   "speaker": 0
+  },
+  {
+   "word": "Should",
+   "start": 4.16,
+   "end": 4.32,
+   "confidence": 0.5452,
+   "speaker": 0
+  },
+  {
+   "word": "we",
+   "start": 4.32,
+   "end": 4.48,
+   "confidence": 0.9987,
+   "speaker": 0
+  },
+  {
+   "word": "clean",
+   "start": 4.48,
+   "end": 4.64,
+   "confidence": 0.9945,
+   "speaker": 0
+  },
+  {
+   "word": "up",
+   "start": 4.64,
+   "end": 4.8,
+   "confidence": 0.9994,
+   "speaker": 0
+  },
+  {
+   "word": "the",
+   "start": 4.8,
+   "end": 4.88,
+   "confidence": 0.999,
+   "speaker": 0
+  },
+  {
+   "word": "one",
+   "start": 4.88,
+   "end": 5.04,
+   "confidence": 0.9998,
+   "speaker": 0
+  },
+  {
+   "word": "that",
+   "start": 5.04,
+   "end": 5.2,
+   "confidence": 0.9994,
+   "speaker": 0
+  },
+  {
+   "word": "we",
+   "start": 5.2,
+   "end": 5.36,
+   "confidence": 0.9999,
+   "speaker": 0
+  },
+  {
+   "word": "did?",
+   "start": 5.36,
+   "end": 5.52,
+   "confidence": 0.9978,
+   "speaker": 0
+  }
+ ],
+ "utterances": [
+  {
+   "start": 0.0,
+   "end": 0.71999997,
+   "confidence": 0.7442432,
+   "channel": 0,
+   "transcript": "Crumble.",
+   "words": [
+    {
+     "word": "crumble",
+     "start": 0.0,
+     "end": 0.71999997,
+     "confidence": 0.7442432,
+     "speaker": 0,
+     "speaker_confidence": 0.81885976,
+     "punctuated_word": "Crumble."
+    }
+   ],
+   "speaker": 0,
+   "id": "c0547839-d8ee-4d92-988a-26fd26488439"
+  },
+  {
+   "start": 2.32,
+   "end": 5.52,
+   "confidence": 0.91796106,
+   "channel": 0,
+   "transcript": "Maybe we should we kinda did it bad. Should we clean up the one that we did?",
+   "words": [
+    {
+     "word": "maybe",
+     "start": 2.32,
+     "end": 2.72,
+     "confidence": 0.700274,
+     "speaker": 0,
+     "speaker_confidence": 0.81885976,
+     "punctuated_word": "Maybe"
+    },
+    {
+     "word": "we",
+     "start": 2.72,
+     "end": 2.8,
+     "confidence": 0.9882585,
+     "speaker": 0,
+     "speaker_confidence": 0.81885976,
+     "punctuated_word": "we"
+    },
+    {
+     "word": "should",
+     "start": 2.8,
+     "end": 2.96,
+     "confidence": 0.994218,
+     "speaker": 0,
+     "speaker_confidence": 0.81885976,
+     "punctuated_word": "should"
+    },
+    {
+     "word": "we",
+     "start": 3.1999998,
+     "end": 3.4399998,
+     "confidence": 0.9988213,
+     "speaker": 0,
+     "speaker_confidence": 0.81885976,
+     "punctuated_word": "we"
+    },
+    {
+     "word": "kinda",
+     "start": 3.4399998,
+     "end": 3.6799998,
+     "confidence": 0.94089514,
+     "speaker": 0,
+     "speaker_confidence": 0.81885976,
+     "punctuated_word": "kinda"
+    },
+    {
+     "word": "did",
+     "start": 3.6799998,
+     "end": 3.84,
+     "confidence": 0.9798299,
+     "speaker": 0,
+     "speaker_confidence": 0.81885976,
+     "punctuated_word": "did"
+    },
+    {
+     "word": "it",
+     "start": 3.84,
+     "end": 3.9199998,
+     "confidence": 0.52045494,
+     "speaker": 0,
+     "speaker_confidence": 0.8161646,
+     "punctuated_word": "it"
+    },
+    {
+     "word": "bad",
+     "start": 3.9199998,
+     "end": 4.16,
+     "confidence": 0.9488947,
+     "speaker": 0,
+     "speaker_confidence": 0.8161646,
+     "punctuated_word": "bad."
+    },
+    {
+     "word": "should",
+     "start": 4.16,
+     "end": 4.3199997,
+     "confidence": 0.54521745,
+     "speaker": 0,
+     "speaker_confidence": 0.8161646,
+     "punctuated_word": "Should"
+    },
+    {
+     "word": "we",
+     "start": 4.3199997,
+     "end": 4.48,
+     "confidence": 0.99868995,
+     "speaker": 0,
+     "speaker_confidence": 0.8161646,
+     "punctuated_word": "we"
+    },
+    {
+     "word": "clean",
+     "start": 4.48,
+     "end": 4.64,
+     "confidence": 0.9945104,
+     "speaker": 0,
+     "speaker_confidence": 0.8161646,
+     "punctuated_word": "clean"
+    },
+    {
+     "word": "up",
+     "start": 4.64,
+     "end": 4.7999997,
+     "confidence": 0.9994174,
+     "speaker": 0,
+     "speaker_confidence": 0.8161646,
+     "punctuated_word": "up"
+    },
+    {
+     "word": "the",
+     "start": 4.7999997,
+     "end": 4.88,
+     "confidence": 0.9990319,
+     "speaker": 0,
+     "speaker_confidence": 0.8143108,
+     "punctuated_word": "the"
+    },
+    {
+     "word": "one",
+     "start": 4.88,
+     "end": 5.04,
+     "confidence": 0.99976546,
+     "speaker": 0,
+     "speaker_confidence": 0.8143108,
+     "punctuated_word": "one"
+    },
+    {
+     "word": "that",
+     "start": 5.04,
+     "end": 5.2,
+     "confidence": 0.99941695,
+     "speaker": 0,
+     "speaker_confidence": 0.8143108,
+     "punctuated_word": "that"
+    },
+    {
+     "word": "we",
+     "start": 5.2,
+     "end": 5.3599997,
+     "confidence": 0.9998603,
+     "speaker": 0,
+     "speaker_confidence": 0.8143108,
+     "punctuated_word": "we"
+    },
+    {
+     "word": "did",
+     "start": 5.3599997,
+     "end": 5.52,
+     "confidence": 0.9977805,
+     "speaker": 0,
+     "speaker_confidence": 0.8143108,
+     "punctuated_word": "did?"
+    }
+   ],
+   "speaker": 0,
+   "id": "305e1ac9-ccb3-4fae-9ebe-f89798a67e92"
+  }
+ ],
+ "duration_s": 66.38,
+ "word_count": 18,
+ "avg_confidence": 0.9083,
+ "speaker_count": 1,
+ "language": "en",
+ "prev_whisper_words": 18,
+ "harvested": "2026-08-01T20:15:11Z"
+}

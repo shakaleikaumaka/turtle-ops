@@ -1,0 +1,19 @@
+{
+ "drive_id": "1geJzAkSqd_g2uKsP_D_qoUYq_GtfIqKL",
+ "slug": "IMG_4625",
+ "filename": "IMG_4625.MOV",
+ "model": "nova-3",
+ "status": "done",
+ "text": "",
+ "segments": [],
+ "words": [],
+ "utterances": [],
+ "duration_s": 28.3,
+ "word_count": 0,
+ "avg_confidence": 0.0,
+ "speaker_count": 0,
+ "language": "en",
+ "prev_whisper_words": 0,
+ "harvested": "2026-08-01T20:16:40Z",
+ "cross_check_note": "nova-3 returned empty (verified en/multi/ja). Loud audio present (peak ~0dB) — likely music/ambient camp noise. Groq whisper cross-check hallucinated 'I\\'m going to go.' (classic whisper-on-music artifact). ⚑ treated as no-speech."
+}

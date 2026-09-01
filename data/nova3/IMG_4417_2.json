@@ -1,0 +1,1160 @@
+{
+ "drive_id": "1NfLGVRbPaD6nH22zY3Q3iF-L9jmXO5bQ",
+ "slug": "IMG_4417_2",
+ "filename": "IMG_4417 2.MOV",
+ "model": "nova-3",
+ "status": "done",
+ "text": "Alright. Make it in the water. So we we're here we're here at Turtle Ops with our with our Turtle Ops father, the toolmaker. So Father of the legend. As you saw, Yeobo and I were trying to cut this wood with a grinder earlier as it was smoking, and now we've come here for the expert cut. We almost built the fire. We almost built the fire.",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 5.28,
+   "text": "Alright. Make it in the water. So we we're here we're here at Turtle Ops with our with our Turtle Ops father,",
+   "speaker": 0
+  },
+  {
+   "start": 6.0,
+   "end": 13.535,
+   "text": "the toolmaker. So Father of the legend. As you saw, Yeobo and I were trying to cut this wood with a grinder earlier as it was smoking,",
+   "speaker": 0
+  },
+  {
+   "start": 13.535,
+   "end": 18.575,
+   "text": "and now we've come here for the expert cut. We almost built the fire. We almost built the fire.",
+   "speaker": 0
+  }
+ ],
+ "words": [
+  {
+   "word": "Alright.",
+   "start": 0.0,
+   "end": 0.48,
+   "confidence": 0.7646,
+   "speaker": 0
+  },
+  {
+   "word": "Make",
+   "start": 0.64,
+   "end": 0.72,
+   "confidence": 0.4807,
+   "speaker": 0
+  },
+  {
+   "word": "it",
+   "start": 0.72,
+   "end": 0.8,
+   "confidence": 0.856,
+   "speaker": 0
+  },
+  {
+   "word": "in",
+   "start": 0.8,
+   "end": 0.88,
+   "confidence": 0.9141,
+   "speaker": 0
+  },
+  {
+   "word": "the",
+   "start": 0.88,
+   "end": 1.04,
+   "confidence": 0.9688,
+   "speaker": 0
+  },
+  {
+   "word": "water.",
+   "start": 1.04,
+   "end": 1.2,
+   "confidence": 0.6115,
+   "speaker": 0
+  },
+  {
+   "word": "So",
+   "start": 1.2,
+   "end": 1.28,
+   "confidence": 0.9292,
+   "speaker": 0
+  },
+  {
+   "word": "we",
+   "start": 1.28,
+   "end": 1.44,
+   "confidence": 0.9971,
+   "speaker": 0
+  },
+  {
+   "word": "we're",
+   "start": 1.52,
+   "end": 1.68,
+   "confidence": 0.999,
+   "speaker": 0
+  },
+  {
+   "word": "here",
+   "start": 1.68,
+   "end": 1.76,
+   "confidence": 0.9932,
+   "speaker": 0
+  },
+  {
+   "word": "we're",
+   "start": 1.76,
+   "end": 2.0,
+   "confidence": 0.9951,
+   "speaker": 0
+  },
+  {
+   "word": "here",
+   "start": 2.0,
+   "end": 2.16,
+   "confidence": 0.998,
+   "speaker": 0
+  },
+  {
+   "word": "at",
+   "start": 2.16,
+   "end": 2.4,
+   "confidence": 0.998,
+   "speaker": 0
+  },
+  {
+   "word": "Turtle",
+   "start": 2.4,
+   "end": 2.8,
+   "confidence": 0.9797,
+   "speaker": 0
+  },
+  {
+   "word": "Ops",
+   "start": 2.8,
+   "end": 3.12,
+   "confidence": 0.9607,
+   "speaker": 0
+  },
+  {
+   "word": "with",
+   "start": 3.12,
+   "end": 3.36,
+   "confidence": 0.9854,
+   "speaker": 0
+  },
+  {
+   "word": "our",
+   "start": 3.36,
+   "end": 3.6,
+   "confidence": 1.0,
+   "speaker": 0
+  },
+  {
+   "word": "with",
+   "start": 3.6,
+   "end": 3.84,
+   "confidence": 0.9844,
+   "speaker": 0
+  },
+  {
+   "word": "our",
+   "start": 3.84,
+   "end": 4.0,
+   "confidence": 1.0,
+   "speaker": 0
+  },
+  {
+   "word": "Turtle",
+   "start": 4.0,
+   "end": 4.4,
+   "confidence": 0.9905,
+   "speaker": 0
+  },
+  {
+   "word": "Ops",
+   "start": 4.4,
+   "end": 4.64,
+   "confidence": 1.0,
+   "speaker": 0
+  },
+  {
+   "word": "father,",
+   "start": 4.64,
+   "end": 5.28,
+   "confidence": 0.8154,
+   "speaker": 0
+  },
+  {
+   "word": "the",
+   "start": 6.0,
+   "end": 6.16,
+   "confidence": 0.8394,
+   "speaker": 0
+  },
+  {
+   "word": "toolmaker.",
+   "start": 6.16,
+   "end": 6.88,
+   "confidence": 0.8944,
+   "speaker": 0
+  },
+  {
+   "word": "So",
+   "start": 6.88,
+   "end": 7.2,
+   "confidence": 0.467,
+   "speaker": 0
+  },
+  {
+   "word": "Father",
+   "start": 7.28,
+   "end": 7.76,
+   "confidence": 0.7236,
+   "speaker": 0
+  },
+  {
+   "word": "of",
+   "start": 7.76,
+   "end": 7.92,
+   "confidence": 0.9717,
+   "speaker": 0
+  },
+  {
+   "word": "the",
+   "start": 7.92,
+   "end": 8.08,
+   "confidence": 0.9829,
+   "speaker": 0
+  },
+  {
+   "word": "legend.",
+   "start": 8.08,
+   "end": 8.48,
+   "confidence": 0.6447,
+   "speaker": 0
+  },
+  {
+   "word": "As",
+   "start": 8.48,
+   "end": 8.64,
+   "confidence": 0.8276,
+   "speaker": 0
+  },
+  {
+   "word": "you",
+   "start": 8.64,
+   "end": 8.8,
+   "confidence": 0.9922,
+   "speaker": 0
+  },
+  {
+   "word": "saw,",
+   "start": 8.8,
+   "end": 9.04,
+   "confidence": 0.9861,
+   "speaker": 0
+  },
+  {
+   "word": "Yeobo",
+   "start": 9.04,
+   "end": 9.44,
+   "confidence": 0.4349,
+   "speaker": 0
+  },
+  {
+   "word": "and",
+   "start": 9.44,
+   "end": 9.6,
+   "confidence": 0.9932,
+   "speaker": 0
+  },
+  {
+   "word": "I",
+   "start": 9.6,
+   "end": 9.76,
+   "confidence": 1.0,
+   "speaker": 0
+  },
+  {
+   "word": "were",
+   "start": 9.76,
+   "end": 10.08,
+   "confidence": 0.98,
+   "speaker": 0
+  },
+  {
+   "word": "trying",
+   "start": 10.08,
+   "end": 10.4,
+   "confidence": 1.0,
+   "speaker": 0
+  },
+  {
+   "word": "to",
+   "start": 10.4,
+   "end": 10.56,
+   "confidence": 1.0,
+   "speaker": 0
+  },
+  {
+   "word": "cut",
+   "start": 10.56,
+   "end": 10.72,
+   "confidence": 1.0,
+   "speaker": 0
+  },
+  {
+   "word": "this",
+   "start": 10.72,
+   "end": 10.88,
+   "confidence": 1.0,
+   "speaker": 0
+  },
+  {
+   "word": "wood",
+   "start": 10.88,
+   "end": 11.12,
+   "confidence": 1.0,
+   "speaker": 0
+  },
+  {
+   "word": "with",
+   "start": 11.12,
+   "end": 11.28,
+   "confidence": 1.0,
+   "speaker": 0
+  },
+  {
+   "word": "a",
+   "start": 11.28,
+   "end": 11.44,
+   "confidence": 1.0,
+   "speaker": 0
+  },
+  {
+   "word": "grinder",
+   "start": 11.44,
+   "end": 11.84,
+   "confidence": 1.0,
+   "speaker": 0
+  },
+  {
+   "word": "earlier",
+   "start": 11.84,
+   "end": 12.16,
+   "confidence": 1.0,
+   "speaker": 0
+  },
+  {
+   "word": "as",
+   "start": 12.16,
+   "end": 12.48,
+   "confidence": 0.9961,
+   "speaker": 0
+  },
+  {
+   "word": "it",
+   "start": 12.48,
+   "end": 12.64,
+   "confidence": 0.9912,
+   "speaker": 0
+  },
+  {
+   "word": "was",
+   "start": 12.64,
+   "end": 13.2,
+   "confidence": 1.0,
+   "speaker": 0
+  },
+  {
+   "word": "smoking,",
+   "start": 12.735,
+   "end": 13.535,
+   "confidence": 0.8308,
+   "speaker": 0
+  },
+  {
+   "word": "and",
+   "start": 13.535,
+   "end": 14.015,
+   "confidence": 1.0,
+   "speaker": 0
+  },
+  {
+   "word": "now",
+   "start": 14.095,
+   "end": 14.415,
+   "confidence": 0.9961,
+   "speaker": 0
+  },
+  {
+   "word": "we've",
+   "start": 14.415,
+   "end": 14.655,
+   "confidence": 0.9995,
+   "speaker": 0
+  },
+  {
+   "word": "come",
+   "start": 14.655,
+   "end": 14.735,
+   "confidence": 1.0,
+   "speaker": 0
+  },
+  {
+   "word": "here",
+   "start": 14.735,
+   "end": 14.975,
+   "confidence": 0.999,
+   "speaker": 0
+  },
+  {
+   "word": "for",
+   "start": 14.975,
+   "end": 15.215,
+   "confidence": 0.979,
+   "speaker": 0
+  },
+  {
+   "word": "the",
+   "start": 15.215,
+   "end": 15.455,
+   "confidence": 0.998,
+   "speaker": 0
+  },
+  {
+   "word": "expert",
+   "start": 15.455,
+   "end": 15.775,
+   "confidence": 0.9893,
+   "speaker": 0
+  },
+  {
+   "word": "cut.",
+   "start": 15.775,
+   "end": 16.255,
+   "confidence": 0.9946,
+   "speaker": 0
+  },
+  {
+   "word": "We",
+   "start": 16.255,
+   "end": 16.495,
+   "confidence": 0.9961,
+   "speaker": 0
+  },
+  {
+   "word": "almost",
+   "start": 16.495,
+   "end": 16.815,
+   "confidence": 0.999,
+   "speaker": 0
+  },
+  {
+   "word": "built",
+   "start": 16.815,
+   "end": 17.055,
+   "confidence": 0.896,
+   "speaker": 0
+  },
+  {
+   "word": "the",
+   "start": 17.055,
+   "end": 17.215,
+   "confidence": 0.6162,
+   "speaker": 0
+  },
+  {
+   "word": "fire.",
+   "start": 17.215,
+   "end": 17.695,
+   "confidence": 0.999,
+   "speaker": 0
+  },
+  {
+   "word": "We",
+   "start": 17.695,
+   "end": 17.855,
+   "confidence": 0.98,
+   "speaker": 0
+  },
+  {
+   "word": "almost",
+   "start": 17.855,
+   "end": 18.095,
+   "confidence": 0.999,
+   "speaker": 0
+  },
+  {
+   "word": "built",
+   "start": 18.095,
+   "end": 18.335,
+   "confidence": 0.9971,
+   "speaker": 0
+  },
+  {
+   "word": "the",
+   "start": 18.335,
+   "end": 18.415,
+   "confidence": 0.9893,
+   "speaker": 0
+  },
+  {
+   "word": "fire.",
+   "start": 18.415,
+   "end": 18.575,
+   "confidence": 0.999,
+   "speaker": 0
+  }
+ ],
+ "utterances": [
+  {
+   "start": 0.0,
+   "end": 5.28,
+   "confidence": 0.9191506,
+   "channel": 0,
+   "transcript": "Alright. Make it in the water. So we we're here we're here at Turtle Ops with our with our Turtle Ops father,",
+   "words": [
+    {
+     "word": "alright",
+     "start": 0.0,
+     "end": 0.48,
+     "confidence": 0.76464844,
+     "speaker": 0,
+     "speaker_confidence": 0.1840347,
+     "punctuated_word": "Alright."
+    },
+    {
+     "word": "make",
+     "start": 0.64,
+     "end": 0.71999997,
+     "confidence": 0.4807129,
+     "speaker": 0,
+     "speaker_confidence": 0.1840347,
+     "punctuated_word": "Make"
+    },
+    {
+     "word": "it",
+     "start": 0.71999997,
+     "end": 0.79999995,
+     "confidence": 0.85595703,
+     "speaker": 0,
+     "speaker_confidence": 0.1840347,
+     "punctuated_word": "it"
+    },
+    {
+     "word": "in",
+     "start": 0.79999995,
+     "end": 0.88,
+     "confidence": 0.9140625,
+     "speaker": 0,
+     "speaker_confidence": 0.1840347,
+     "punctuated_word": "in"
+    },
+    {
+     "word": "the",
+     "start": 0.88,
+     "end": 1.04,
+     "confidence": 0.96875,
+     "speaker": 0,
+     "speaker_confidence": 0.0,
+     "punctuated_word": "the"
+    },
+    {
+     "word": "water",
+     "start": 1.04,
+     "end": 1.1999999,
+     "confidence": 0.6114502,
+     "speaker": 0,
+     "speaker_confidence": 0.0,
+     "punctuated_word": "water."
+    },
+    {
+     "word": "so",
+     "start": 1.1999999,
+     "end": 1.28,
+     "confidence": 0.9291992,
+     "speaker": 0,
+     "speaker_confidence": 0.5277002,
+     "punctuated_word": "So"
+    },
+    {
+     "word": "we",
+     "start": 1.28,
+     "end": 1.4399999,
+     "confidence": 0.9970703,
+     "speaker": 0,
+     "speaker_confidence": 0.5277002,
+     "punctuated_word": "we"
+    },
+    {
+     "word": "we're",
+     "start": 1.52,
+     "end": 1.68,
+     "confidence": 0.99902344,
+     "speaker": 0,
+     "speaker_confidence": 0.5277002,
+     "punctuated_word": "we're"
+    },
+    {
+     "word": "here",
+     "start": 1.68,
+     "end": 1.76,
+     "confidence": 0.99316406,
+     "speaker": 0,
+     "speaker_confidence": 0.5277002,
+     "punctuated_word": "here"
+    },
+    {
+     "word": "we're",
+     "start": 1.76,
+     "end": 2.0,
+     "confidence": 0.9951172,
+     "speaker": 0,
+     "speaker_confidence": 0.5277002,
+     "punctuated_word": "we're"
+    },
+    {
+     "word": "here",
+     "start": 2.0,
+     "end": 2.1599998,
+     "confidence": 0.9980469,
+     "speaker": 0,
+     "speaker_confidence": 0.5277002,
+     "punctuated_word": "here"
+    },
+    {
+     "word": "at",
+     "start": 2.1599998,
+     "end": 2.3999999,
+     "confidence": 0.9980469,
+     "speaker": 0,
+     "speaker_confidence": 0.5277002,
+     "punctuated_word": "at"
+    },
+    {
+     "word": "turtle",
+     "start": 2.3999999,
+     "end": 2.8,
+     "confidence": 0.9797363,
+     "speaker": 0,
+     "speaker_confidence": 0.5277002,
+     "punctuated_word": "Turtle"
+    },
+    {
+     "word": "ops",
+     "start": 2.8,
+     "end": 3.12,
+     "confidence": 0.96069336,
+     "speaker": 0,
+     "speaker_confidence": 0.5277002,
+     "punctuated_word": "Ops"
+    },
+    {
+     "word": "with",
+     "start": 3.12,
+     "end": 3.36,
+     "confidence": 0.98535156,
+     "speaker": 0,
+     "speaker_confidence": 0.5277002,
+     "punctuated_word": "with"
+    },
+    {
+     "word": "our",
+     "start": 3.36,
+     "end": 3.6,
+     "confidence": 1.0,
+     "speaker": 0,
+     "speaker_confidence": 0.5277002,
+     "punctuated_word": "our"
+    },
+    {
+     "word": "with",
+     "start": 3.6,
+     "end": 3.84,
+     "confidence": 0.984375,
+     "speaker": 0,
+     "speaker_confidence": 0.5277002,
+     "punctuated_word": "with"
+    },
+    {
+     "word": "our",
+     "start": 3.84,
+     "end": 4.0,
+     "confidence": 1.0,
+     "speaker": 0,
+     "speaker_confidence": 0.5277002,
+     "punctuated_word": "our"
+    },
+    {
+     "word": "turtle",
+     "start": 4.0,
+     "end": 4.4,
+     "confidence": 0.9904785,
+     "speaker": 0,
+     "speaker_confidence": 0.5277002,
+     "punctuated_word": "Turtle"
+    },
+    {
+     "word": "ops",
+     "start": 4.4,
+     "end": 4.64,
+     "confidence": 1.0,
+     "speaker": 0,
+     "speaker_confidence": 0.5277002,
+     "punctuated_word": "Ops"
+    },
+    {
+     "word": "father",
+     "start": 4.64,
+     "end": 5.28,
+     "confidence": 0.8154297,
+     "speaker": 0,
+     "speaker_confidence": 0.5277002,
+     "punctuated_word": "father,"
+    }
+   ],
+   "speaker": 0,
+   "id": "44661d96-d88e-4d57-9242-d68f34a9c623"
+  },
+  {
+   "start": 6.0,
+   "end": 13.534999,
+   "confidence": 0.909472,
+   "channel": 0,
+   "transcript": "the toolmaker. So Father of the legend. As you saw, Yeobo and I were trying to cut this wood with a grinder earlier as it was smoking,",
+   "words": [
+    {
+     "word": "the",
+     "start": 6.0,
+     "end": 6.16,
+     "confidence": 0.83935547,
+     "speaker": 0,
+     "speaker_confidence": 0.5080914,
+     "punctuated_word": "the"
+    },
+    {
+     "word": "toolmaker",
+     "start": 6.16,
+     "end": 6.8799996,
+     "confidence": 0.89436847,
+     "speaker": 0,
+     "speaker_confidence": 0.5080914,
+     "punctuated_word": "toolmaker."
+    },
+    {
+     "word": "so",
+     "start": 6.8799996,
+     "end": 7.2,
+     "confidence": 0.46704102,
+     "speaker": 0,
+     "speaker_confidence": 0.5080914,
+     "punctuated_word": "So"
+    },
+    {
+     "word": "father",
+     "start": 7.2799997,
+     "end": 7.7599998,
+     "confidence": 0.7236328,
+     "speaker": 0,
+     "speaker_confidence": 0.5080914,
+     "punctuated_word": "Father"
+    },
+    {
+     "word": "of",
+     "start": 7.7599998,
+     "end": 7.9199996,
+     "confidence": 0.9716797,
+     "speaker": 0,
+     "speaker_confidence": 0.5080914,
+     "punctuated_word": "of"
+    },
+    {
+     "word": "the",
+     "start": 7.9199996,
+     "end": 8.08,
+     "confidence": 0.98291016,
+     "speaker": 0,
+     "speaker_confidence": 0.5080914,
+     "punctuated_word": "the"
+    },
+    {
+     "word": "legend",
+     "start": 8.08,
+     "end": 8.48,
+     "confidence": 0.6446533,
+     "speaker": 0,
+     "speaker_confidence": 0.5080914,
+     "punctuated_word": "legend."
+    },
+    {
+     "word": "as",
+     "start": 8.48,
+     "end": 8.639999,
+     "confidence": 0.8276367,
+     "speaker": 0,
+     "speaker_confidence": 0.6376227,
+     "punctuated_word": "As"
+    },
+    {
+     "word": "you",
+     "start": 8.639999,
+     "end": 8.8,
+     "confidence": 0.9921875,
+     "speaker": 0,
+     "speaker_confidence": 0.6376227,
+     "punctuated_word": "you"
+    },
+    {
+     "word": "saw",
+     "start": 8.8,
+     "end": 9.04,
+     "confidence": 0.986084,
+     "speaker": 0,
+     "speaker_confidence": 0.6376227,
+     "punctuated_word": "saw,"
+    },
+    {
+     "word": "yeobo",
+     "start": 9.04,
+     "end": 9.44,
+     "confidence": 0.43493652,
+     "speaker": 0,
+     "speaker_confidence": 0.6376227,
+     "punctuated_word": "Yeobo"
+    },
+    {
+     "word": "and",
+     "start": 9.44,
+     "end": 9.599999,
+     "confidence": 0.99316406,
+     "speaker": 0,
+     "speaker_confidence": 0.6376227,
+     "punctuated_word": "and"
+    },
+    {
+     "word": "i",
+     "start": 9.599999,
+     "end": 9.76,
+     "confidence": 1.0,
+     "speaker": 0,
+     "speaker_confidence": 0.6376227,
+     "punctuated_word": "I"
+    },
+    {
+     "word": "were",
+     "start": 9.76,
+     "end": 10.08,
+     "confidence": 0.97998047,
+     "speaker": 0,
+     "speaker_confidence": 0.6376227,
+     "punctuated_word": "were"
+    },
+    {
+     "word": "trying",
+     "start": 10.08,
+     "end": 10.4,
+     "confidence": 1.0,
+     "speaker": 0,
+     "speaker_confidence": 0.6376227,
+     "punctuated_word": "trying"
+    },
+    {
+     "word": "to",
+     "start": 10.4,
+     "end": 10.559999,
+     "confidence": 1.0,
+     "speaker": 0,
+     "speaker_confidence": 0.6376227,
+     "punctuated_word": "to"
+    },
+    {
+     "word": "cut",
+     "start": 10.559999,
+     "end": 10.719999,
+     "confidence": 1.0,
+     "speaker": 0,
+     "speaker_confidence": 0.6376227,
+     "punctuated_word": "cut"
+    },
+    {
+     "word": "this",
+     "start": 10.719999,
+     "end": 10.88,
+     "confidence": 1.0,
+     "speaker": 0,
+     "speaker_confidence": 0.6376227,
+     "punctuated_word": "this"
+    },
+    {
+     "word": "wood",
+     "start": 10.88,
+     "end": 11.12,
+     "confidence": 1.0,
+     "speaker": 0,
+     "speaker_confidence": 0.6376227,
+     "punctuated_word": "wood"
+    },
+    {
+     "word": "with",
+     "start": 11.12,
+     "end": 11.28,
+     "confidence": 1.0,
+     "speaker": 0,
+     "speaker_confidence": 0.6376227,
+     "punctuated_word": "with"
+    },
+    {
+     "word": "a",
+     "start": 11.28,
+     "end": 11.44,
+     "confidence": 1.0,
+     "speaker": 0,
+     "speaker_confidence": 0.61383444,
+     "punctuated_word": "a"
+    },
+    {
+     "word": "grinder",
+     "start": 11.44,
+     "end": 11.84,
+     "confidence": 1.0,
+     "speaker": 0,
+     "speaker_confidence": 0.61383444,
+     "punctuated_word": "grinder"
+    },
+    {
+     "word": "earlier",
+     "start": 11.84,
+     "end": 12.16,
+     "confidence": 1.0,
+     "speaker": 0,
+     "speaker_confidence": 0.61383444,
+     "punctuated_word": "earlier"
+    },
+    {
+     "word": "as",
+     "start": 12.16,
+     "end": 12.48,
+     "confidence": 0.99609375,
+     "speaker": 0,
+     "speaker_confidence": 0.61383444,
+     "punctuated_word": "as"
+    },
+    {
+     "word": "it",
+     "start": 12.48,
+     "end": 12.639999,
+     "confidence": 0.99121094,
+     "speaker": 0,
+     "speaker_confidence": 0.61383444,
+     "punctuated_word": "it"
+    },
+    {
+     "word": "was",
+     "start": 12.639999,
+     "end": 13.2,
+     "confidence": 1.0,
+     "speaker": 0,
+     "speaker_confidence": 0.61383444,
+     "punctuated_word": "was"
+    },
+    {
+     "word": "smoking",
+     "start": 12.735,
+     "end": 13.534999,
+     "confidence": 0.83081055,
+     "speaker": 0,
+     "speaker_confidence": 0.61383444,
+     "punctuated_word": "smoking,"
+    }
+   ],
+   "speaker": 0,
+   "id": "51425d6d-5216-4454-8e09-8cf2a13b3e82"
+  },
+  {
+   "start": 13.535,
+   "end": 18.574999,
+   "confidence": 0.96980363,
+   "channel": 0,
+   "transcript": "and now we've come here for the expert cut. We almost built the fire. We almost built the fire.",
+   "words": [
+    {
+     "word": "and",
+     "start": 13.535,
+     "end": 14.014999,
+     "confidence": 1.0,
+     "speaker": 0,
+     "speaker_confidence": 0.61383444,
+     "punctuated_word": "and"
+    },
+    {
+     "word": "now",
+     "start": 14.094999,
+     "end": 14.415,
+     "confidence": 0.99609375,
+     "speaker": 0,
+     "speaker_confidence": 0.61383444,
+     "punctuated_word": "now"
+    },
+    {
+     "word": "we've",
+     "start": 14.415,
+     "end": 14.655,
+     "confidence": 0.9995117,
+     "speaker": 0,
+     "speaker_confidence": 0.61383444,
+     "punctuated_word": "we've"
+    },
+    {
+     "word": "come",
+     "start": 14.655,
+     "end": 14.735,
+     "confidence": 1.0,
+     "speaker": 0,
+     "speaker_confidence": 0.53412485,
+     "punctuated_word": "come"
+    },
+    {
+     "word": "here",
+     "start": 14.735,
+     "end": 14.974999,
+     "confidence": 0.99902344,
+     "speaker": 0,
+     "speaker_confidence": 0.53412485,
+     "punctuated_word": "here"
+    },
+    {
+     "word": "for",
+     "start": 14.974999,
+     "end": 15.215,
+     "confidence": 0.9790039,
+     "speaker": 0,
+     "speaker_confidence": 0.53412485,
+     "punctuated_word": "for"
+    },
+    {
+     "word": "the",
+     "start": 15.215,
+     "end": 15.455,
+     "confidence": 0.9980469,
+     "speaker": 0,
+     "speaker_confidence": 0.53412485,
+     "punctuated_word": "the"
+    },
+    {
+     "word": "expert",
+     "start": 15.455,
+     "end": 15.775,
+     "confidence": 0.9892578,
+     "speaker": 0,
+     "speaker_confidence": 0.53412485,
+     "punctuated_word": "expert"
+    },
+    {
+     "word": "cut",
+     "start": 15.775,
+     "end": 16.255,
+     "confidence": 0.9946289,
+     "speaker": 0,
+     "speaker_confidence": 0.53412485,
+     "punctuated_word": "cut."
+    },
+    {
+     "word": "we",
+     "start": 16.255,
+     "end": 16.494999,
+     "confidence": 0.99609375,
+     "speaker": 0,
+     "speaker_confidence": 0.53412485,
+     "punctuated_word": "We"
+    },
+    {
+     "word": "almost",
+     "start": 16.494999,
+     "end": 16.814999,
+     "confidence": 0.99902344,
+     "speaker": 0,
+     "speaker_confidence": 0.53412485,
+     "punctuated_word": "almost"
+    },
+    {
+     "word": "built",
+     "start": 16.814999,
+     "end": 17.055,
+     "confidence": 0.8959961,
+     "speaker": 0,
+     "speaker_confidence": 0.53412485,
+     "punctuated_word": "built"
+    },
+    {
+     "word": "the",
+     "start": 17.055,
+     "end": 17.215,
+     "confidence": 0.61621094,
+     "speaker": 0,
+     "speaker_confidence": 0.53412485,
+     "punctuated_word": "the"
+    },
+    {
+     "word": "fire",
+     "start": 17.215,
+     "end": 17.695,
+     "confidence": 0.99902344,
+     "speaker": 0,
+     "speaker_confidence": 0.53412485,
+     "punctuated_word": "fire."
+    },
+    {
+     "word": "we",
+     "start": 17.695,
+     "end": 17.855,
+     "confidence": 0.97998047,
+     "speaker": 0,
+     "speaker_confidence": 0.36126626,
+     "punctuated_word": "We"
+    },
+    {
+     "word": "almost",
+     "start": 17.855,
+     "end": 18.095,
+     "confidence": 0.99902344,
+     "speaker": 0,
+     "speaker_confidence": 0.36126626,
+     "punctuated_word": "almost"
+    },
+    {
+     "word": "built",
+     "start": 18.095,
+     "end": 18.335,
+     "confidence": 0.9970703,
+     "speaker": 0,
+     "speaker_confidence": 0.36126626,
+     "punctuated_word": "built"
+    },
+    {
+     "word": "the",
+     "start": 18.335,
+     "end": 18.414999,
+     "confidence": 0.9892578,
+     "speaker": 0,
+     "speaker_confidence": 0.36126626,
+     "punctuated_word": "the"
+    },
+    {
+     "word": "fire",
+     "start": 18.414999,
+     "end": 18.574999,
+     "confidence": 0.99902344,
+     "speaker": 0,
+     "speaker_confidence": 0.36126626,
+     "punctuated_word": "fire."
+    }
+   ],
+   "speaker": 0,
+   "id": "fb8f77a6-bcc4-43cd-b786-e153d63e4862"
+  }
+ ],
+ "duration_s": 20.52,
+ "word_count": 68,
+ "avg_confidence": 0.9295,
+ "speaker_count": 1,
+ "language": "en",
+ "prev_whisper_words": 60,
+ "harvested": "2026-08-01T20:14:26Z"
+}

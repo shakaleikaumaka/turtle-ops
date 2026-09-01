@@ -1,0 +1,19 @@
+{
+ "drive_id": "1D5vWN90N5bJ7j07RF9yXAaM_poqusZse",
+ "slug": "IMG_4443",
+ "filename": "IMG_4443.MOV",
+ "model": "nova-3",
+ "status": "done",
+ "text": "",
+ "segments": [],
+ "words": [],
+ "utterances": [],
+ "duration_s": 8.82,
+ "word_count": 0,
+ "avg_confidence": 0.0,
+ "speaker_count": 0,
+ "language": "en",
+ "prev_whisper_words": 11,
+ "harvested": "2026-08-01T20:15:37Z",
+ "cross_check_note": "nova-3 empty vs old whisper's 11 words. Quiet clip (RMS -31dB). Groq whisper cross-check produced 'Thank you.' — classic whisper-on-noise hallucination phrase; old 11-word whisper text likely hallucination too. ⚑ treated as no-speech, flagged honestly."
+}

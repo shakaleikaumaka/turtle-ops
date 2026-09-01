@@ -1,0 +1,145 @@
+# IMG_4710.MOV · 415.1s · lang en (0.98)
+[   2.4s →    7.3s] battery. Just for the sake of demonstration.
+[   7.3s →   26.2s] Oh, God!
+[  26.2s →   28.2s] That worked for demonstration.
+[  28.2s →   31.5s] Oh, okay.
+[  31.5s →   35.0s] We got to kind of set up a little bit.
+[  35.0s →   36.0s] You want to just film it?
+[  36.0s →   37.0s] Yep.
+[  37.0s →   40.0s] So this is our solar generator.
+[  40.0s →   44.0s] This is the ANGER and KER Solix.
+[  44.0s →   49.0s] This generator is going to run this panel.
+[  49.0s →   53.0s] We're going to go through the process of hooking that up right now.
+[  53.0s →   57.0s] In addition to that, we have backup power here that's run off of the wall battery.
+[  57.0s →   59.0s] We're going to go through that whole operation.
+[  59.0s →   64.0s] But first we want to make sure that we understand how to hook up our solar generator.
+[  64.0s →   69.0s] So, let's get this outside.
+[  69.0s →   74.6s] It's hurt.
+[  74.6s →   91.0s] How do you see this waterproof?
+[  91.0s →   92.0s] Generators?
+[  92.0s →   93.0s] Yeah.
+[  93.0s →   94.0s] I believe so.
+[  94.0s →   98.0s] Most of them from the stand in the elevator pretty well.
+[  98.0s →   99.0s] Alright.
+[  99.0s →  111.8s] So, we're grabbing this cable right here.
+[ 111.8s →  117.8s] This is our trailer to generator attachment cable.
+[ 117.8s →  118.8s] Okay?
+[ 118.8s →  120.8s] So, come around here.
+[ 120.8s →  125.8s] This is our transfer switch to our trailer.
+[ 125.8s →  129.8s] You can see it's got a four-prong.
+[ 129.8s →  131.8s] Four-prong.
+[ 131.8s →  134.8s] All you do is get it into where it goes.
+[ 134.8s →  136.8s] Push it in.
+[ 136.8s →  138.8s] Twist it.
+[ 138.8s →  142.8s] This could stay on for the entirety of camp.
+[ 142.8s →  143.8s] Okay.
+[ 143.8s →  145.8s] You have two ways to hook this up.
+[ 145.8s →  147.8s] Actually, one way to hook this one up.
+[ 147.8s →  152.8s] So, this specific cord is for the anchor.
+[ 152.8s →  160.8s] On the side here, if you look, it's got a 30 amp max.
+[ 160.8s →  166.0s] We got to turn this on.
+[ 166.0s →  168.0s] Pull that down to turn it on.
+[ 168.0s →  171.0s] Looks like it's thinking.
+[ 171.0s →  173.0s] 36%, which is good.
+[ 173.0s →  175.0s] Take that.
+[ 175.0s →  177.0s] Plug our 30 amp in.
+[ 177.0s →  182.0s] And as of right now, when we go inside, that's going to have power.
+[ 182.0s →  184.0s] So, let's go find out.
+[ 184.0s →  186.5s] Here.
+[ 186.5s →  189.5s] Come to our panel.
+[ 189.5s →  190.5s] This is our panel.
+[ 190.5s →  193.5s] Inside our panel, it has all of our breakers.
+[ 193.5s →  194.5s] Okay?
+[ 194.5s →  199.6s] If I turn them all off, we have no power.
+[ 199.6s →  201.6s] Just like a house.
+[ 201.6s →  203.6s] Down here, this is pretty important.
+[ 203.6s →  205.6s] So, swing down low enough that you can see this.
+[ 205.6s →  207.6s] This is a battery setting.
+[ 207.6s →  208.6s] This is panel.
+[ 208.6s →  211.6s] When it's plugged into the generator, have it click to power.
+[ 211.6s →  216.6s] That allows our lights and turn this little switch right here off.
+[ 216.6s →  218.6s] Because we don't need the battery right now.
+[ 218.6s →  220.6s] So, now it's on panel power.
+[ 220.6s →  221.6s] It has no power.
+[ 221.6s →  222.6s] What do you have with this panel?
+[ 222.6s →  223.6s] Turn that off.
+[ 223.6s →  226.6s] We want to have this off unless we need it for backup.
+[ 226.6s →  227.6s] Okay.
+[ 227.6s →  229.6s] You may not ever use it on the trip.
+[ 229.6s →  230.6s] Okay?
+[ 230.6s →  232.6s] Now we're going to use your main switches.
+[ 232.6s →  234.6s] Now, you've got power.
+[ 234.6s →  239.5s] If we leave all of these on, we can close it.
+[ 239.5s →  242.5s] We don't have to touch that hardly ever unless you can trip a breaker.
+[ 242.5s →  243.5s] All on.
+[ 243.5s →  248.5s] If I now, because it's all on, we should if we've got power at the panel.
+[ 248.5s →  252.5s] Or power from the, oh, yeah, we should have power there.
+[ 252.5s →  253.5s] But we don't have power there.
+[ 253.5s →  256.7s] I don't know why.
+[ 256.7s →  258.7s] This is why we troubleshoot.
+[ 258.7s →  259.7s] Oh, let's see.
+[ 259.7s →  265.8s] Are the lights on?
+[ 265.8s →  266.8s] Can you take a look?
+[ 266.8s →  270.7s] No.
+[ 270.7s →  271.7s] Oh, now they are.
+[ 271.7s →  272.7s] What did you do?
+[ 272.7s →  279.7s] So right here, on this specific generator, you guys got to push the AC outlet button.
+[ 279.7s →  283.7s] So you turn the main switch first, then the AC outlet button.
+[ 283.7s →  284.7s] Okay.
+[ 284.7s →  285.7s] And then everything works.
+[ 285.7s →  289.7s] Now, come in here.
+[ 289.7s →  291.7s] We have power.
+[ 291.7s →  292.7s] Literally everywhere.
+[ 292.7s →  293.7s] Nice.
+[ 293.7s →  296.7s] So we have lights across the top that are controlled by our switch.
+[ 296.7s →  302.2s] We have green light here on our GFCI at our sink.
+[ 302.2s →  304.2s] That's how you know.
+[ 304.2s →  305.2s] This gets wet.
+[ 305.2s →  306.2s] It'll click.
+[ 306.2s →  308.2s] That's like a reset.
+[ 308.2s →  309.2s] There.
+[ 309.2s →  310.2s] Go off.
+[ 310.2s →  314.2s] This, this receptacle is tied to this one.
+[ 314.2s →  318.2s] In case one of these two get wet because they're close to a water source.
+[ 318.2s →  319.2s] Okay.
+[ 319.2s →  320.2s] Okay.
+[ 320.2s →  323.2s] Everything else is on right now.
+[ 323.2s →  331.2s] Now, this receptacle, that receptacle, this receptacle here, and this receptacle are all
+[ 331.2s →  335.2s] tied to 15 amps.
+[ 335.2s →  343.2s] We need to label this one, the one at the end, and this one at the end because these are
+[ 343.2s →  346.2s] 20 amp receptacles.
+[ 346.2s →  349.2s] You can see it has a little dash on the, on the face.
+[ 349.2s →  355.2s] The reason that matters is because that's what we plug a refrigerator into.
+[ 355.2s →  358.2s] That can handle the load of all three refrigerators.
+[ 358.2s →  363.2s] The 15s probably can, but these ones absolutely can't.
+[ 363.2s →  364.2s] Can you say that again?
+[ 364.2s →  365.2s] No.
+[ 365.2s →  371.2s] The three refrigerators should be plugged into one of the three 20 amp receptacles that
+[ 371.2s →  372.2s] we have here.
+[ 372.2s →  373.2s] These ones control higher power.
+[ 373.2s →  374.2s] All right.
+[ 374.2s →  375.2s] Two.
+[ 375.2s →  376.2s] And three.
+[ 376.2s →  377.2s] You can tell if they're there because you can see the power.
+[ 377.2s →  378.2s] Can all three be plugged into that one?
+[ 378.2s →  379.2s] No.
+[ 379.2s →  382.2s] Ideally, it would be two and one.
+[ 382.2s →  383.2s] Two here.
+[ 383.2s →  384.2s] Two and one.
+[ 384.2s →  385.2s] And one over there.
+[ 385.2s →  386.2s] Just separate them.
+[ 386.2s →  387.2s] Just don't put all three on one.
+[ 387.2s →  388.2s] Don't put all three.
+[ 388.2s →  390.2s] It doesn't matter what the configuration is.
+[ 390.2s →  392.2s] So one can, two, or two there and one there.
+[ 392.2s →  394.2s] Two can go there, one there, two there over there.
+[ 394.2s →  395.2s] I'd probably do two there, one there.
+[ 395.2s →  398.2s] It depends on if they go across the back wall or they go here.
+[ 398.2s →  400.2s] But either way, that all is functional.
+[ 400.2s →  401.2s] Okay.
+[ 401.2s →  402.2s] Cool.
+[ 402.2s →  407.2s] That right there is how you get power to the trailer.
+[ 407.2s →  411.2s] Using the ANPR, your anchor system.
+[ 411.2s →  412.2s] Okay.
+[ 412.2s →  414.2s] You can kill that one.
+[ 414.2s →  415.2s] Okay.

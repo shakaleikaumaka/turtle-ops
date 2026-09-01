@@ -1,0 +1,923 @@
+{
+ "drive_id": "1KbXTbaVAQaGFNKlapCNwuKfNBLn3xG8k",
+ "slug": "IMG_4428_2",
+ "filename": "IMG_4428 2.MOV",
+ "model": "nova-3",
+ "status": "done",
+ "text": "Now we're clear. Okay. Now we're clear. Okay. Start here. Let's see. Let's see the blade. How do play? Okay. Don't touch it with your hands. What's your thing? It might be alright. Let's try. Yeah. It's okay. So you can lift this up and get it in the hole.",
+ "segments": [
+  {
+   "start": 0.08,
+   "end": 2.48,
+   "text": "Now we're clear. Okay. Now we're clear.",
+   "speaker": 0
+  },
+  {
+   "start": 3.04,
+   "end": 6.4,
+   "text": "Okay. Start here. Let's see. Let's see the blade.",
+   "speaker": 0
+  },
+  {
+   "start": 7.04,
+   "end": 10.64,
+   "text": "How do play? Okay. Don't touch it with your hands.",
+   "speaker": 0
+  },
+  {
+   "start": 11.44,
+   "end": 12.16,
+   "text": "What's your thing?",
+   "speaker": 0
+  },
+  {
+   "start": 17.087,
+   "end": 19.807,
+   "text": "It might be alright. Let's try. Yeah. It's okay.",
+   "speaker": 0
+  },
+  {
+   "start": 20.127,
+   "end": 22.527,
+   "text": "So you can lift this up and get it in the hole.",
+   "speaker": 0
+  }
+ ],
+ "words": [
+  {
+   "word": "Now",
+   "start": 0.08,
+   "end": 0.32,
+   "confidence": 0.9341,
+   "speaker": 0
+  },
+  {
+   "word": "we're",
+   "start": 0.32,
+   "end": 0.56,
+   "confidence": 0.9966,
+   "speaker": 0
+  },
+  {
+   "word": "clear.",
+   "start": 0.56,
+   "end": 1.04,
+   "confidence": 0.998,
+   "speaker": 0
+  },
+  {
+   "word": "Okay.",
+   "start": 1.04,
+   "end": 1.6,
+   "confidence": 0.9619,
+   "speaker": 0
+  },
+  {
+   "word": "Now",
+   "start": 1.6,
+   "end": 1.76,
+   "confidence": 0.9951,
+   "speaker": 0
+  },
+  {
+   "word": "we're",
+   "start": 1.76,
+   "end": 2.0,
+   "confidence": 0.9878,
+   "speaker": 0
+  },
+  {
+   "word": "clear.",
+   "start": 2.0,
+   "end": 2.48,
+   "confidence": 0.8035,
+   "speaker": 0
+  },
+  {
+   "word": "Okay.",
+   "start": 3.04,
+   "end": 3.52,
+   "confidence": 0.9885,
+   "speaker": 0
+  },
+  {
+   "word": "Start",
+   "start": 3.52,
+   "end": 3.76,
+   "confidence": 0.5142,
+   "speaker": 0
+  },
+  {
+   "word": "here.",
+   "start": 3.76,
+   "end": 4.4,
+   "confidence": 0.7146,
+   "speaker": 0
+  },
+  {
+   "word": "Let's",
+   "start": 4.4,
+   "end": 4.72,
+   "confidence": 0.9824,
+   "speaker": 0
+  },
+  {
+   "word": "see.",
+   "start": 4.72,
+   "end": 4.88,
+   "confidence": 0.8201,
+   "speaker": 0
+  },
+  {
+   "word": "Let's",
+   "start": 4.88,
+   "end": 5.52,
+   "confidence": 0.9519,
+   "speaker": 0
+  },
+  {
+   "word": "see",
+   "start": 5.52,
+   "end": 5.68,
+   "confidence": 0.9932,
+   "speaker": 0
+  },
+  {
+   "word": "the",
+   "start": 5.68,
+   "end": 5.76,
+   "confidence": 0.936,
+   "speaker": 0
+  },
+  {
+   "word": "blade.",
+   "start": 5.76,
+   "end": 6.4,
+   "confidence": 0.7844,
+   "speaker": 0
+  },
+  {
+   "word": "How",
+   "start": 7.04,
+   "end": 7.36,
+   "confidence": 0.1562,
+   "speaker": 0
+  },
+  {
+   "word": "do",
+   "start": 7.36,
+   "end": 7.52,
+   "confidence": 0.2817,
+   "speaker": 0
+  },
+  {
+   "word": "play?",
+   "start": 7.52,
+   "end": 8.0,
+   "confidence": 0.5837,
+   "speaker": 0
+  },
+  {
+   "word": "Okay.",
+   "start": 8.0,
+   "end": 8.48,
+   "confidence": 0.9858,
+   "speaker": 0
+  },
+  {
+   "word": "Don't",
+   "start": 8.48,
+   "end": 8.72,
+   "confidence": 0.9854,
+   "speaker": 0
+  },
+  {
+   "word": "touch",
+   "start": 8.72,
+   "end": 8.96,
+   "confidence": 0.9326,
+   "speaker": 0
+  },
+  {
+   "word": "it",
+   "start": 8.96,
+   "end": 9.04,
+   "confidence": 0.9185,
+   "speaker": 0
+  },
+  {
+   "word": "with",
+   "start": 9.04,
+   "end": 9.2,
+   "confidence": 0.6719,
+   "speaker": 0
+  },
+  {
+   "word": "your",
+   "start": 9.2,
+   "end": 9.76,
+   "confidence": 0.2448,
+   "speaker": 0
+  },
+  {
+   "word": "hands.",
+   "start": 9.84,
+   "end": 10.64,
+   "confidence": 0.8079,
+   "speaker": 0
+  },
+  {
+   "word": "What's",
+   "start": 11.44,
+   "end": 11.84,
+   "confidence": 0.6964,
+   "speaker": 0
+  },
+  {
+   "word": "your",
+   "start": 11.84,
+   "end": 11.92,
+   "confidence": 0.4124,
+   "speaker": 0
+  },
+  {
+   "word": "thing?",
+   "start": 11.92,
+   "end": 12.16,
+   "confidence": 0.6664,
+   "speaker": 0
+  },
+  {
+   "word": "It",
+   "start": 17.087,
+   "end": 17.407,
+   "confidence": 0.2411,
+   "speaker": 0
+  },
+  {
+   "word": "might",
+   "start": 17.407,
+   "end": 17.567,
+   "confidence": 0.9839,
+   "speaker": 0
+  },
+  {
+   "word": "be",
+   "start": 17.567,
+   "end": 17.727,
+   "confidence": 0.999,
+   "speaker": 0
+  },
+  {
+   "word": "alright.",
+   "start": 17.727,
+   "end": 18.047,
+   "confidence": 0.9695,
+   "speaker": 0
+  },
+  {
+   "word": "Let's",
+   "start": 18.047,
+   "end": 18.127,
+   "confidence": 0.9399,
+   "speaker": 0
+  },
+  {
+   "word": "try.",
+   "start": 18.127,
+   "end": 18.607,
+   "confidence": 0.771,
+   "speaker": 0
+  },
+  {
+   "word": "Yeah.",
+   "start": 18.607,
+   "end": 19.007,
+   "confidence": 0.7059,
+   "speaker": 0
+  },
+  {
+   "word": "It's",
+   "start": 19.007,
+   "end": 19.087,
+   "confidence": 0.6388,
+   "speaker": 0
+  },
+  {
+   "word": "okay.",
+   "start": 19.087,
+   "end": 19.807,
+   "confidence": 0.8269,
+   "speaker": 0
+  },
+  {
+   "word": "So",
+   "start": 20.127,
+   "end": 20.447,
+   "confidence": 0.3469,
+   "speaker": 0
+  },
+  {
+   "word": "you",
+   "start": 20.447,
+   "end": 20.607,
+   "confidence": 0.771,
+   "speaker": 0
+  },
+  {
+   "word": "can",
+   "start": 20.607,
+   "end": 20.847,
+   "confidence": 0.4932,
+   "speaker": 0
+  },
+  {
+   "word": "lift",
+   "start": 20.847,
+   "end": 21.247,
+   "confidence": 0.8247,
+   "speaker": 0
+  },
+  {
+   "word": "this",
+   "start": 21.247,
+   "end": 21.407,
+   "confidence": 0.9961,
+   "speaker": 0
+  },
+  {
+   "word": "up",
+   "start": 21.407,
+   "end": 21.727,
+   "confidence": 0.8618,
+   "speaker": 0
+  },
+  {
+   "word": "and",
+   "start": 21.727,
+   "end": 21.887,
+   "confidence": 0.8525,
+   "speaker": 0
+  },
+  {
+   "word": "get",
+   "start": 21.887,
+   "end": 21.967,
+   "confidence": 0.9717,
+   "speaker": 0
+  },
+  {
+   "word": "it",
+   "start": 21.967,
+   "end": 22.127,
+   "confidence": 0.7134,
+   "speaker": 0
+  },
+  {
+   "word": "in",
+   "start": 22.127,
+   "end": 22.207,
+   "confidence": 0.9741,
+   "speaker": 0
+  },
+  {
+   "word": "the",
+   "start": 22.207,
+   "end": 22.367,
+   "confidence": 0.8291,
+   "speaker": 0
+  },
+  {
+   "word": "hole.",
+   "start": 22.367,
+   "end": 22.527,
+   "confidence": 0.9114,
+   "speaker": 0
+  }
+ ],
+ "utterances": [
+  {
+   "start": 0.08,
+   "end": 2.4799998,
+   "confidence": 0.9538574,
+   "channel": 0,
+   "transcript": "Now we're clear. Okay. Now we're clear.",
+   "words": [
+    {
+     "word": "now",
+     "start": 0.08,
+     "end": 0.32,
+     "confidence": 0.93408203,
+     "speaker": 0,
+     "speaker_confidence": 0.40749174,
+     "punctuated_word": "Now"
+    },
+    {
+     "word": "we're",
+     "start": 0.32,
+     "end": 0.56,
+     "confidence": 0.99658203,
+     "speaker": 0,
+     "speaker_confidence": 0.40749174,
+     "punctuated_word": "we're"
+    },
+    {
+     "word": "clear",
+     "start": 0.56,
+     "end": 1.04,
+     "confidence": 0.9980469,
+     "speaker": 0,
+     "speaker_confidence": 0.40749174,
+     "punctuated_word": "clear."
+    },
+    {
+     "word": "okay",
+     "start": 1.04,
+     "end": 1.5999999,
+     "confidence": 0.96191406,
+     "speaker": 0,
+     "speaker_confidence": 0.40749174,
+     "punctuated_word": "Okay."
+    },
+    {
+     "word": "now",
+     "start": 1.5999999,
+     "end": 1.76,
+     "confidence": 0.9951172,
+     "speaker": 0,
+     "speaker_confidence": 0.40749174,
+     "punctuated_word": "Now"
+    },
+    {
+     "word": "we're",
+     "start": 1.76,
+     "end": 2.0,
+     "confidence": 0.98779297,
+     "speaker": 0,
+     "speaker_confidence": 0.40749174,
+     "punctuated_word": "we're"
+    },
+    {
+     "word": "clear",
+     "start": 2.0,
+     "end": 2.4799998,
+     "confidence": 0.8034668,
+     "speaker": 0,
+     "speaker_confidence": 0.40749174,
+     "punctuated_word": "clear."
+    }
+   ],
+   "speaker": 0,
+   "id": "4cbc1f53-9f44-4589-b9e8-81e42e1ca38d"
+  },
+  {
+   "start": 3.04,
+   "end": 6.4,
+   "confidence": 0.85392255,
+   "channel": 0,
+   "transcript": "Okay. Start here. Let's see. Let's see the blade.",
+   "words": [
+    {
+     "word": "okay",
+     "start": 3.04,
+     "end": 3.52,
+     "confidence": 0.9885254,
+     "speaker": 0,
+     "speaker_confidence": 0.5002075,
+     "punctuated_word": "Okay."
+    },
+    {
+     "word": "start",
+     "start": 3.52,
+     "end": 3.76,
+     "confidence": 0.51416016,
+     "speaker": 0,
+     "speaker_confidence": 0.5002075,
+     "punctuated_word": "Start"
+    },
+    {
+     "word": "here",
+     "start": 3.76,
+     "end": 4.4,
+     "confidence": 0.7145996,
+     "speaker": 0,
+     "speaker_confidence": 0.5002075,
+     "punctuated_word": "here."
+    },
+    {
+     "word": "let's",
+     "start": 4.4,
+     "end": 4.72,
+     "confidence": 0.9824219,
+     "speaker": 0,
+     "speaker_confidence": 0.5002075,
+     "punctuated_word": "Let's"
+    },
+    {
+     "word": "see",
+     "start": 4.72,
+     "end": 4.88,
+     "confidence": 0.82006836,
+     "speaker": 0,
+     "speaker_confidence": 0.5002075,
+     "punctuated_word": "see."
+    },
+    {
+     "word": "let's",
+     "start": 4.88,
+     "end": 5.52,
+     "confidence": 0.9519043,
+     "speaker": 0,
+     "speaker_confidence": 0.5002075,
+     "punctuated_word": "Let's"
+    },
+    {
+     "word": "see",
+     "start": 5.52,
+     "end": 5.68,
+     "confidence": 0.99316406,
+     "speaker": 0,
+     "speaker_confidence": 0.5002075,
+     "punctuated_word": "see"
+    },
+    {
+     "word": "the",
+     "start": 5.68,
+     "end": 5.7599998,
+     "confidence": 0.93603516,
+     "speaker": 0,
+     "speaker_confidence": 0.47830367,
+     "punctuated_word": "the"
+    },
+    {
+     "word": "blade",
+     "start": 5.7599998,
+     "end": 6.4,
+     "confidence": 0.7844238,
+     "speaker": 0,
+     "speaker_confidence": 0.47830367,
+     "punctuated_word": "blade."
+    }
+   ],
+   "speaker": 0,
+   "id": "da466634-6182-43cb-8f34-8f9a79580814"
+  },
+  {
+   "start": 7.04,
+   "end": 10.639999,
+   "confidence": 0.65684813,
+   "channel": 0,
+   "transcript": "How do play? Okay. Don't touch it with your hands.",
+   "words": [
+    {
+     "word": "how",
+     "start": 7.04,
+     "end": 7.3599997,
+     "confidence": 0.15625,
+     "speaker": 0,
+     "speaker_confidence": 0.47830367,
+     "punctuated_word": "How"
+    },
+    {
+     "word": "do",
+     "start": 7.3599997,
+     "end": 7.52,
+     "confidence": 0.28173828,
+     "speaker": 0,
+     "speaker_confidence": 0.47830367,
+     "punctuated_word": "do"
+    },
+    {
+     "word": "play",
+     "start": 7.52,
+     "end": 8.0,
+     "confidence": 0.58374023,
+     "speaker": 0,
+     "speaker_confidence": 0.47830367,
+     "punctuated_word": "play?"
+    },
+    {
+     "word": "okay",
+     "start": 8.0,
+     "end": 8.48,
+     "confidence": 0.98583984,
+     "speaker": 0,
+     "speaker_confidence": 0.3932383,
+     "punctuated_word": "Okay."
+    },
+    {
+     "word": "don't",
+     "start": 8.48,
+     "end": 8.72,
+     "confidence": 0.98535156,
+     "speaker": 0,
+     "speaker_confidence": 0.3932383,
+     "punctuated_word": "Don't"
+    },
+    {
+     "word": "touch",
+     "start": 8.72,
+     "end": 8.96,
+     "confidence": 0.9326172,
+     "speaker": 0,
+     "speaker_confidence": 0.3932383,
+     "punctuated_word": "touch"
+    },
+    {
+     "word": "it",
+     "start": 8.96,
+     "end": 9.04,
+     "confidence": 0.91845703,
+     "speaker": 0,
+     "speaker_confidence": 0.3932383,
+     "punctuated_word": "it"
+    },
+    {
+     "word": "with",
+     "start": 9.04,
+     "end": 9.2,
+     "confidence": 0.671875,
+     "speaker": 0,
+     "speaker_confidence": 0.3932383,
+     "punctuated_word": "with"
+    },
+    {
+     "word": "your",
+     "start": 9.2,
+     "end": 9.759999,
+     "confidence": 0.24475098,
+     "speaker": 0,
+     "speaker_confidence": 0.3932383,
+     "punctuated_word": "your"
+    },
+    {
+     "word": "hands",
+     "start": 9.84,
+     "end": 10.639999,
+     "confidence": 0.8078613,
+     "speaker": 0,
+     "speaker_confidence": 0.3932383,
+     "punctuated_word": "hands."
+    }
+   ],
+   "speaker": 0,
+   "id": "3da3def1-2494-4fb1-b5b7-bc8679691956"
+  },
+  {
+   "start": 11.44,
+   "end": 12.16,
+   "confidence": 0.5917155,
+   "channel": 0,
+   "transcript": "What's your thing?",
+   "words": [
+    {
+     "word": "what's",
+     "start": 11.44,
+     "end": 11.84,
+     "confidence": 0.69641113,
+     "speaker": 0,
+     "speaker_confidence": 0.3932383,
+     "punctuated_word": "What's"
+    },
+    {
+     "word": "your",
+     "start": 11.84,
+     "end": 11.92,
+     "confidence": 0.41235352,
+     "speaker": 0,
+     "speaker_confidence": 0.3932383,
+     "punctuated_word": "your"
+    },
+    {
+     "word": "thing",
+     "start": 11.92,
+     "end": 12.16,
+     "confidence": 0.66638184,
+     "speaker": 0,
+     "speaker_confidence": 0.3932383,
+     "punctuated_word": "thing?"
+    }
+   ],
+   "speaker": 0,
+   "id": "b3e5e85b-d262-466c-a673-873afc9839e8"
+  },
+  {
+   "start": 17.087,
+   "end": 19.807,
+   "confidence": 0.78622776,
+   "channel": 0,
+   "transcript": "It might be alright. Let's try. Yeah. It's okay.",
+   "words": [
+    {
+     "word": "it",
+     "start": 17.087,
+     "end": 17.407,
+     "confidence": 0.24108887,
+     "speaker": 0,
+     "speaker_confidence": 0.23165601,
+     "punctuated_word": "It"
+    },
+    {
+     "word": "might",
+     "start": 17.407,
+     "end": 17.567001,
+     "confidence": 0.9838867,
+     "speaker": 0,
+     "speaker_confidence": 0.23165601,
+     "punctuated_word": "might"
+    },
+    {
+     "word": "be",
+     "start": 17.567001,
+     "end": 17.727001,
+     "confidence": 0.99902344,
+     "speaker": 0,
+     "speaker_confidence": 0.23165601,
+     "punctuated_word": "be"
+    },
+    {
+     "word": "alright",
+     "start": 17.727001,
+     "end": 18.047,
+     "confidence": 0.9694824,
+     "speaker": 0,
+     "speaker_confidence": 0.23165601,
+     "punctuated_word": "alright."
+    },
+    {
+     "word": "let's",
+     "start": 18.047,
+     "end": 18.127,
+     "confidence": 0.9399414,
+     "speaker": 0,
+     "speaker_confidence": 0.23165601,
+     "punctuated_word": "Let's"
+    },
+    {
+     "word": "try",
+     "start": 18.127,
+     "end": 18.607,
+     "confidence": 0.7709961,
+     "speaker": 0,
+     "speaker_confidence": 0.16668928,
+     "punctuated_word": "try."
+    },
+    {
+     "word": "yeah",
+     "start": 18.607,
+     "end": 19.007,
+     "confidence": 0.7059326,
+     "speaker": 0,
+     "speaker_confidence": 0.16668928,
+     "punctuated_word": "Yeah."
+    },
+    {
+     "word": "it's",
+     "start": 19.007,
+     "end": 19.087,
+     "confidence": 0.63879395,
+     "speaker": 0,
+     "speaker_confidence": 0.46353036,
+     "punctuated_word": "It's"
+    },
+    {
+     "word": "okay",
+     "start": 19.087,
+     "end": 19.807,
+     "confidence": 0.8269043,
+     "speaker": 0,
+     "speaker_confidence": 0.46353036,
+     "punctuated_word": "okay."
+    }
+   ],
+   "speaker": 0,
+   "id": "55b7383a-ddb3-463c-907e-65d12835feff"
+  },
+  {
+   "start": 20.127,
+   "end": 22.527,
+   "confidence": 0.7954915,
+   "channel": 0,
+   "transcript": "So you can lift this up and get it in the hole.",
+   "words": [
+    {
+     "word": "so",
+     "start": 20.127,
+     "end": 20.447,
+     "confidence": 0.34692383,
+     "speaker": 0,
+     "speaker_confidence": 0.46353036,
+     "punctuated_word": "So"
+    },
+    {
+     "word": "you",
+     "start": 20.447,
+     "end": 20.607,
+     "confidence": 0.7709961,
+     "speaker": 0,
+     "speaker_confidence": 0.46353036,
+     "punctuated_word": "you"
+    },
+    {
+     "word": "can",
+     "start": 20.607,
+     "end": 20.847,
+     "confidence": 0.49316406,
+     "speaker": 0,
+     "speaker_confidence": 0.46353036,
+     "punctuated_word": "can"
+    },
+    {
+     "word": "lift",
+     "start": 20.847,
+     "end": 21.247,
+     "confidence": 0.82470703,
+     "speaker": 0,
+     "speaker_confidence": 0.46353036,
+     "punctuated_word": "lift"
+    },
+    {
+     "word": "this",
+     "start": 21.247,
+     "end": 21.407,
+     "confidence": 0.99609375,
+     "speaker": 0,
+     "speaker_confidence": 0.21795046,
+     "punctuated_word": "this"
+    },
+    {
+     "word": "up",
+     "start": 21.407,
+     "end": 21.727001,
+     "confidence": 0.8618164,
+     "speaker": 0,
+     "speaker_confidence": 0.21795046,
+     "punctuated_word": "up"
+    },
+    {
+     "word": "and",
+     "start": 21.727001,
+     "end": 21.887001,
+     "confidence": 0.85253906,
+     "speaker": 0,
+     "speaker_confidence": 0.21795046,
+     "punctuated_word": "and"
+    },
+    {
+     "word": "get",
+     "start": 21.887001,
+     "end": 21.967,
+     "confidence": 0.9716797,
+     "speaker": 0,
+     "speaker_confidence": 0.21795046,
+     "punctuated_word": "get"
+    },
+    {
+     "word": "it",
+     "start": 21.967,
+     "end": 22.127,
+     "confidence": 0.7133789,
+     "speaker": 0,
+     "speaker_confidence": 0.21795046,
+     "punctuated_word": "it"
+    },
+    {
+     "word": "in",
+     "start": 22.127,
+     "end": 22.207,
+     "confidence": 0.9741211,
+     "speaker": 0,
+     "speaker_confidence": 0.21795046,
+     "punctuated_word": "in"
+    },
+    {
+     "word": "the",
+     "start": 22.207,
+     "end": 22.367,
+     "confidence": 0.82910156,
+     "speaker": 0,
+     "speaker_confidence": 0.21795046,
+     "punctuated_word": "the"
+    },
+    {
+     "word": "hole",
+     "start": 22.367,
+     "end": 22.527,
+     "confidence": 0.91137695,
+     "speaker": 0,
+     "speaker_confidence": 0.21795046,
+     "punctuated_word": "hole."
+    }
+   ],
+   "speaker": 0,
+   "id": "cb51a336-cf60-4afc-a18d-99ff9d97f556"
+  }
+ ],
+ "duration_s": 22.75,
+ "word_count": 50,
+ "avg_confidence": 0.7866,
+ "speaker_count": 1,
+ "language": "en",
+ "prev_whisper_words": 61,
+ "harvested": "2026-08-01T20:14:40Z"
+}

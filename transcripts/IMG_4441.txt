@@ -1,0 +1,10 @@
+# Build session, evening 7/16 · clip 1
+
+Date: 2026-07-16
+Source video: IMG_4441.MOV
+Drive: https://drive.google.com/file/d/1mI7mUGlGGUrBTuFP0DKrfmvilrbHNN7_/view
+Duration: 00:00
+Transcribed: 2026-07-28 · Terri turtlePIT · faster-whisper (small, int8) · consent: assumed-2026-07-29
+
+---
+

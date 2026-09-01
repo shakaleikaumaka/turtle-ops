@@ -1,0 +1,730 @@
+{
+ "drive_id": "1jVeT7I1_auYctnxbYHcnmqp40AVTKvEm",
+ "slug": "IMG_4623",
+ "filename": "IMG_4623.MOV",
+ "model": "nova-3",
+ "status": "done",
+ "text": "Woah. We're clean. Look at that. Woo. That's a shower right there. Yes. It is. Alright. When, a bunch of computer nerds fail, you just bring in the experts like Jared, the machine. Let's go. That was good. Okay.",
+ "segments": [
+  {
+   "start": 0.48,
+   "end": 1.44,
+   "text": "Woah.",
+   "speaker": 0
+  },
+  {
+   "start": 1.44,
+   "end": 3.28,
+   "text": "We're clean.",
+   "speaker": 0
+  },
+  {
+   "start": 3.44,
+   "end": 5.12,
+   "text": "Look at that. Woo.",
+   "speaker": 0
+  },
+  {
+   "start": 5.76,
+   "end": 14.813,
+   "text": "That's a shower right there. Yes. It is. Alright. When, a bunch of computer nerds fail, you just bring in the experts like Jared, the machine. Let's go.",
+   "speaker": 0
+  },
+  {
+   "start": 15.613,
+   "end": 16.653,
+   "text": "That was good. Okay.",
+   "speaker": 0
+  }
+ ],
+ "words": [
+  {
+   "word": "Woah.",
+   "start": 0.48,
+   "end": 1.44,
+   "confidence": 0.9684,
+   "speaker": 0
+  },
+  {
+   "word": "We're",
+   "start": 1.44,
+   "end": 2.16,
+   "confidence": 0.8494,
+   "speaker": 0
+  },
+  {
+   "word": "clean.",
+   "start": 2.16,
+   "end": 3.28,
+   "confidence": 0.9995,
+   "speaker": 0
+  },
+  {
+   "word": "Look",
+   "start": 3.44,
+   "end": 4.0,
+   "confidence": 0.9497,
+   "speaker": 0
+  },
+  {
+   "word": "at",
+   "start": 4.0,
+   "end": 4.16,
+   "confidence": 1.0,
+   "speaker": 0
+  },
+  {
+   "word": "that.",
+   "start": 4.16,
+   "end": 4.48,
+   "confidence": 0.9995,
+   "speaker": 0
+  },
+  {
+   "word": "Woo.",
+   "start": 4.48,
+   "end": 5.12,
+   "confidence": 0.6653,
+   "speaker": 0
+  },
+  {
+   "word": "That's",
+   "start": 5.76,
+   "end": 6.24,
+   "confidence": 0.9995,
+   "speaker": 0
+  },
+  {
+   "word": "a",
+   "start": 6.24,
+   "end": 6.4,
+   "confidence": 1.0,
+   "speaker": 0
+  },
+  {
+   "word": "shower",
+   "start": 6.4,
+   "end": 6.8,
+   "confidence": 1.0,
+   "speaker": 0
+  },
+  {
+   "word": "right",
+   "start": 6.8,
+   "end": 7.12,
+   "confidence": 1.0,
+   "speaker": 0
+  },
+  {
+   "word": "there.",
+   "start": 7.12,
+   "end": 7.52,
+   "confidence": 1.0,
+   "speaker": 0
+  },
+  {
+   "word": "Yes.",
+   "start": 7.52,
+   "end": 7.68,
+   "confidence": 0.8896,
+   "speaker": 0
+  },
+  {
+   "word": "It",
+   "start": 7.68,
+   "end": 7.84,
+   "confidence": 0.9941,
+   "speaker": 0
+  },
+  {
+   "word": "is.",
+   "start": 7.84,
+   "end": 8.0,
+   "confidence": 1.0,
+   "speaker": 0
+  },
+  {
+   "word": "Alright.",
+   "start": 8.253,
+   "end": 8.893,
+   "confidence": 0.9995,
+   "speaker": 0
+  },
+  {
+   "word": "When,",
+   "start": 8.893,
+   "end": 9.373,
+   "confidence": 0.8352,
+   "speaker": 0
+  },
+  {
+   "word": "a",
+   "start": 9.533,
+   "end": 9.853,
+   "confidence": 0.998,
+   "speaker": 0
+  },
+  {
+   "word": "bunch",
+   "start": 9.853,
+   "end": 10.093,
+   "confidence": 1.0,
+   "speaker": 0
+  },
+  {
+   "word": "of",
+   "start": 10.093,
+   "end": 10.253,
+   "confidence": 1.0,
+   "speaker": 0
+  },
+  {
+   "word": "computer",
+   "start": 10.253,
+   "end": 10.573,
+   "confidence": 0.9971,
+   "speaker": 0
+  },
+  {
+   "word": "nerds",
+   "start": 10.573,
+   "end": 10.973,
+   "confidence": 0.9997,
+   "speaker": 0
+  },
+  {
+   "word": "fail,",
+   "start": 10.973,
+   "end": 11.373,
+   "confidence": 0.9941,
+   "speaker": 0
+  },
+  {
+   "word": "you",
+   "start": 11.373,
+   "end": 11.453,
+   "confidence": 1.0,
+   "speaker": 0
+  },
+  {
+   "word": "just",
+   "start": 11.453,
+   "end": 11.613,
+   "confidence": 1.0,
+   "speaker": 0
+  },
+  {
+   "word": "bring",
+   "start": 11.613,
+   "end": 11.773,
+   "confidence": 0.999,
+   "speaker": 0
+  },
+  {
+   "word": "in",
+   "start": 11.773,
+   "end": 11.933,
+   "confidence": 1.0,
+   "speaker": 0
+  },
+  {
+   "word": "the",
+   "start": 11.933,
+   "end": 12.093,
+   "confidence": 0.999,
+   "speaker": 0
+  },
+  {
+   "word": "experts",
+   "start": 12.093,
+   "end": 12.413,
+   "confidence": 1.0,
+   "speaker": 0
+  },
+  {
+   "word": "like",
+   "start": 12.413,
+   "end": 12.733,
+   "confidence": 0.8052,
+   "speaker": 0
+  },
+  {
+   "word": "Jared,",
+   "start": 12.733,
+   "end": 13.133,
+   "confidence": 0.7478,
+   "speaker": 0
+  },
+  {
+   "word": "the",
+   "start": 13.133,
+   "end": 13.213,
+   "confidence": 0.9961,
+   "speaker": 0
+  },
+  {
+   "word": "machine.",
+   "start": 13.213,
+   "end": 13.853,
+   "confidence": 0.9846,
+   "speaker": 0
+  },
+  {
+   "word": "Let's",
+   "start": 13.853,
+   "end": 14.253,
+   "confidence": 0.998,
+   "speaker": 0
+  },
+  {
+   "word": "go.",
+   "start": 14.253,
+   "end": 14.813,
+   "confidence": 0.999,
+   "speaker": 0
+  },
+  {
+   "word": "That",
+   "start": 15.613,
+   "end": 15.853,
+   "confidence": 0.397,
+   "speaker": 0
+  },
+  {
+   "word": "was",
+   "start": 15.853,
+   "end": 16.093,
+   "confidence": 0.9258,
+   "speaker": 0
+  },
+  {
+   "word": "good.",
+   "start": 16.093,
+   "end": 16.253,
+   "confidence": 0.8645,
+   "speaker": 0
+  },
+  {
+   "word": "Okay.",
+   "start": 16.253,
+   "end": 16.653,
+   "confidence": 0.5707,
+   "speaker": 0
+  }
+ ],
+ "utterances": [
+  {
+   "start": 0.48,
+   "end": 1.4399999,
+   "confidence": 0.9684245,
+   "channel": 0,
+   "transcript": "Woah.",
+   "words": [
+    {
+     "word": "woah",
+     "start": 0.48,
+     "end": 1.4399999,
+     "confidence": 0.9684245,
+     "speaker": 0,
+     "speaker_confidence": 0.071822405,
+     "punctuated_word": "Woah."
+    }
+   ],
+   "speaker": 0,
+   "id": "2c2b8b7c-af19-418e-89f7-157b8fd0e295"
+  },
+  {
+   "start": 1.4399999,
+   "end": 3.28,
+   "confidence": 0.9244385,
+   "channel": 0,
+   "transcript": "We're clean.",
+   "words": [
+    {
+     "word": "we're",
+     "start": 1.4399999,
+     "end": 2.1599998,
+     "confidence": 0.84936523,
+     "speaker": 0,
+     "speaker_confidence": 0.071822405,
+     "punctuated_word": "We're"
+    },
+    {
+     "word": "clean",
+     "start": 2.1599998,
+     "end": 3.28,
+     "confidence": 0.9995117,
+     "speaker": 0,
+     "speaker_confidence": 0.071822405,
+     "punctuated_word": "clean."
+    }
+   ],
+   "speaker": 0,
+   "id": "5d5be6fb-3aa4-4fdb-adcd-e4ebbe9f6b8c"
+  },
+  {
+   "start": 3.4399998,
+   "end": 5.12,
+   "confidence": 0.9036255,
+   "channel": 0,
+   "transcript": "Look at that. Woo.",
+   "words": [
+    {
+     "word": "look",
+     "start": 3.4399998,
+     "end": 4.0,
+     "confidence": 0.94970703,
+     "speaker": 0,
+     "speaker_confidence": 0.3747809,
+     "punctuated_word": "Look"
+    },
+    {
+     "word": "at",
+     "start": 4.0,
+     "end": 4.16,
+     "confidence": 1.0,
+     "speaker": 0,
+     "speaker_confidence": 0.3747809,
+     "punctuated_word": "at"
+    },
+    {
+     "word": "that",
+     "start": 4.16,
+     "end": 4.48,
+     "confidence": 0.9995117,
+     "speaker": 0,
+     "speaker_confidence": 0.3747809,
+     "punctuated_word": "that."
+    },
+    {
+     "word": "woo",
+     "start": 4.48,
+     "end": 5.12,
+     "confidence": 0.6652832,
+     "speaker": 0,
+     "speaker_confidence": 0.3747809,
+     "punctuated_word": "Woo."
+    }
+   ],
+   "speaker": 0,
+   "id": "e8a0b355-3938-4778-a8e6-dd056f7c7696"
+  },
+  {
+   "start": 5.7599998,
+   "end": 14.813,
+   "confidence": 0.9727057,
+   "channel": 0,
+   "transcript": "That's a shower right there. Yes. It is. Alright. When, a bunch of computer nerds fail, you just bring in the experts like Jared, the machine. Let's go.",
+   "words": [
+    {
+     "word": "that's",
+     "start": 5.7599998,
+     "end": 6.24,
+     "confidence": 0.9995117,
+     "speaker": 0,
+     "speaker_confidence": 0.3747809,
+     "punctuated_word": "That's"
+    },
+    {
+     "word": "a",
+     "start": 6.24,
+     "end": 6.3999996,
+     "confidence": 1.0,
+     "speaker": 0,
+     "speaker_confidence": 0.3747809,
+     "punctuated_word": "a"
+    },
+    {
+     "word": "shower",
+     "start": 6.3999996,
+     "end": 6.7999997,
+     "confidence": 1.0,
+     "speaker": 0,
+     "speaker_confidence": 0.3747809,
+     "punctuated_word": "shower"
+    },
+    {
+     "word": "right",
+     "start": 6.7999997,
+     "end": 7.12,
+     "confidence": 1.0,
+     "speaker": 0,
+     "speaker_confidence": 0.3747809,
+     "punctuated_word": "right"
+    },
+    {
+     "word": "there",
+     "start": 7.12,
+     "end": 7.52,
+     "confidence": 1.0,
+     "speaker": 0,
+     "speaker_confidence": 0.3747809,
+     "punctuated_word": "there."
+    },
+    {
+     "word": "yes",
+     "start": 7.52,
+     "end": 7.68,
+     "confidence": 0.88964844,
+     "speaker": 0,
+     "speaker_confidence": 0.07213247,
+     "punctuated_word": "Yes."
+    },
+    {
+     "word": "it",
+     "start": 7.68,
+     "end": 7.8399997,
+     "confidence": 0.9941406,
+     "speaker": 0,
+     "speaker_confidence": 0.07213247,
+     "punctuated_word": "It"
+    },
+    {
+     "word": "is",
+     "start": 7.8399997,
+     "end": 8.0,
+     "confidence": 1.0,
+     "speaker": 0,
+     "speaker_confidence": 0.07213247,
+     "punctuated_word": "is."
+    },
+    {
+     "word": "alright",
+     "start": 8.253,
+     "end": 8.893001,
+     "confidence": 0.9995117,
+     "speaker": 0,
+     "speaker_confidence": 0.43415368,
+     "punctuated_word": "Alright."
+    },
+    {
+     "word": "when",
+     "start": 8.893001,
+     "end": 9.373,
+     "confidence": 0.8352051,
+     "speaker": 0,
+     "speaker_confidence": 0.43415368,
+     "punctuated_word": "When,"
+    },
+    {
+     "word": "a",
+     "start": 9.533,
+     "end": 9.853001,
+     "confidence": 0.9980469,
+     "speaker": 0,
+     "speaker_confidence": 0.43415368,
+     "punctuated_word": "a"
+    },
+    {
+     "word": "bunch",
+     "start": 9.853001,
+     "end": 10.093,
+     "confidence": 1.0,
+     "speaker": 0,
+     "speaker_confidence": 0.43415368,
+     "punctuated_word": "bunch"
+    },
+    {
+     "word": "of",
+     "start": 10.093,
+     "end": 10.253,
+     "confidence": 1.0,
+     "speaker": 0,
+     "speaker_confidence": 0.43415368,
+     "punctuated_word": "of"
+    },
+    {
+     "word": "computer",
+     "start": 10.253,
+     "end": 10.573,
+     "confidence": 0.9970703,
+     "speaker": 0,
+     "speaker_confidence": 0.45679957,
+     "punctuated_word": "computer"
+    },
+    {
+     "word": "nerds",
+     "start": 10.573,
+     "end": 10.973001,
+     "confidence": 0.9996745,
+     "speaker": 0,
+     "speaker_confidence": 0.45679957,
+     "punctuated_word": "nerds"
+    },
+    {
+     "word": "fail",
+     "start": 10.973001,
+     "end": 11.373,
+     "confidence": 0.9941406,
+     "speaker": 0,
+     "speaker_confidence": 0.45679957,
+     "punctuated_word": "fail,"
+    },
+    {
+     "word": "you",
+     "start": 11.373,
+     "end": 11.453,
+     "confidence": 1.0,
+     "speaker": 0,
+     "speaker_confidence": 0.45679957,
+     "punctuated_word": "you"
+    },
+    {
+     "word": "just",
+     "start": 11.453,
+     "end": 11.613,
+     "confidence": 1.0,
+     "speaker": 0,
+     "speaker_confidence": 0.45679957,
+     "punctuated_word": "just"
+    },
+    {
+     "word": "bring",
+     "start": 11.613,
+     "end": 11.773001,
+     "confidence": 0.99902344,
+     "speaker": 0,
+     "speaker_confidence": 0.45679957,
+     "punctuated_word": "bring"
+    },
+    {
+     "word": "in",
+     "start": 11.773001,
+     "end": 11.933001,
+     "confidence": 1.0,
+     "speaker": 0,
+     "speaker_confidence": 0.45679957,
+     "punctuated_word": "in"
+    },
+    {
+     "word": "the",
+     "start": 11.933001,
+     "end": 12.093,
+     "confidence": 0.99902344,
+     "speaker": 0,
+     "speaker_confidence": 0.41978657,
+     "punctuated_word": "the"
+    },
+    {
+     "word": "experts",
+     "start": 12.093,
+     "end": 12.413,
+     "confidence": 1.0,
+     "speaker": 0,
+     "speaker_confidence": 0.41978657,
+     "punctuated_word": "experts"
+    },
+    {
+     "word": "like",
+     "start": 12.413,
+     "end": 12.733,
+     "confidence": 0.8051758,
+     "speaker": 0,
+     "speaker_confidence": 0.41978657,
+     "punctuated_word": "like"
+    },
+    {
+     "word": "jared",
+     "start": 12.733,
+     "end": 13.133,
+     "confidence": 0.74780273,
+     "speaker": 0,
+     "speaker_confidence": 0.41978657,
+     "punctuated_word": "Jared,"
+    },
+    {
+     "word": "the",
+     "start": 13.133,
+     "end": 13.213,
+     "confidence": 0.99609375,
+     "speaker": 0,
+     "speaker_confidence": 0.41978657,
+     "punctuated_word": "the"
+    },
+    {
+     "word": "machine",
+     "start": 13.213,
+     "end": 13.853,
+     "confidence": 0.98461914,
+     "speaker": 0,
+     "speaker_confidence": 0.41978657,
+     "punctuated_word": "machine."
+    },
+    {
+     "word": "let's",
+     "start": 13.853001,
+     "end": 14.253,
+     "confidence": 0.9980469,
+     "speaker": 0,
+     "speaker_confidence": 0.41978657,
+     "punctuated_word": "Let's"
+    },
+    {
+     "word": "go",
+     "start": 14.253,
+     "end": 14.813,
+     "confidence": 0.99902344,
+     "speaker": 0,
+     "speaker_confidence": 0.41978657,
+     "punctuated_word": "go."
+    }
+   ],
+   "speaker": 0,
+   "id": "29d32243-ad7d-4255-90f0-609497509626"
+  },
+  {
+   "start": 15.613,
+   "end": 16.653,
+   "confidence": 0.68948364,
+   "channel": 0,
+   "transcript": "That was good. Okay.",
+   "words": [
+    {
+     "word": "that",
+     "start": 15.613,
+     "end": 15.853001,
+     "confidence": 0.39697266,
+     "speaker": 0,
+     "speaker_confidence": 0.22044122,
+     "punctuated_word": "That"
+    },
+    {
+     "word": "was",
+     "start": 15.853001,
+     "end": 16.093,
+     "confidence": 0.92578125,
+     "speaker": 0,
+     "speaker_confidence": 0.22044122,
+     "punctuated_word": "was"
+    },
+    {
+     "word": "good",
+     "start": 16.093,
+     "end": 16.253,
+     "confidence": 0.86450195,
+     "speaker": 0,
+     "speaker_confidence": 0.22044122,
+     "punctuated_word": "good."
+    },
+    {
+     "word": "okay",
+     "start": 16.253,
+     "end": 16.653,
+     "confidence": 0.5706787,
+     "speaker": 0,
+     "speaker_confidence": 0.22044122,
+     "punctuated_word": "Okay."
+    }
+   ],
+   "speaker": 0,
+   "id": "042b59c5-40dd-4bf0-891f-ffd51c9a5c10"
+  }
+ ],
+ "duration_s": 19.55,
+ "word_count": 39,
+ "avg_confidence": 0.934,
+ "speaker_count": 1,
+ "language": "en",
+ "prev_whisper_words": 33,
+ "harvested": "2026-08-01T20:16:27Z"
+}

@@ -1,0 +1,455 @@
+{
+ "drive_id": "1X_kZXLDmqiOLxvla6vqUoWeK1q7y7o3z",
+ "slug": "IMG_4423_2",
+ "filename": "IMG_4423 2.MOV",
+ "model": "nova-3",
+ "status": "done",
+ "text": "Think we got an office a little bit. I'm glad because there's another new one. I will fix it. I think it's a good stuff.",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 4.88,
+   "text": "Think we got an office a little bit. I'm glad because there's another new one. I will fix it.",
+   "speaker": 0
+  },
+  {
+   "start": 5.12,
+   "end": 6.08,
+   "text": "I think it's a good stuff.",
+   "speaker": 0
+  }
+ ],
+ "words": [
+  {
+   "word": "Think",
+   "start": 0.0,
+   "end": 0.16,
+   "confidence": 0.1576,
+   "speaker": 0
+  },
+  {
+   "word": "we",
+   "start": 0.16,
+   "end": 0.32,
+   "confidence": 0.999,
+   "speaker": 0
+  },
+  {
+   "word": "got",
+   "start": 0.32,
+   "end": 0.48,
+   "confidence": 0.9561,
+   "speaker": 0
+  },
+  {
+   "word": "an",
+   "start": 0.48,
+   "end": 0.64,
+   "confidence": 0.4309,
+   "speaker": 0
+  },
+  {
+   "word": "office",
+   "start": 0.64,
+   "end": 0.88,
+   "confidence": 0.9541,
+   "speaker": 0
+  },
+  {
+   "word": "a",
+   "start": 0.88,
+   "end": 1.12,
+   "confidence": 0.9277,
+   "speaker": 0
+  },
+  {
+   "word": "little",
+   "start": 1.12,
+   "end": 1.28,
+   "confidence": 0.999,
+   "speaker": 0
+  },
+  {
+   "word": "bit.",
+   "start": 1.28,
+   "end": 1.76,
+   "confidence": 0.9597,
+   "speaker": 0
+  },
+  {
+   "word": "I'm",
+   "start": 2.08,
+   "end": 2.16,
+   "confidence": 0.4193,
+   "speaker": 0
+  },
+  {
+   "word": "glad",
+   "start": 2.16,
+   "end": 2.32,
+   "confidence": 0.9678,
+   "speaker": 0
+  },
+  {
+   "word": "because",
+   "start": 2.32,
+   "end": 2.56,
+   "confidence": 0.4387,
+   "speaker": 0
+  },
+  {
+   "word": "there's",
+   "start": 2.56,
+   "end": 2.8,
+   "confidence": 0.7388,
+   "speaker": 0
+  },
+  {
+   "word": "another",
+   "start": 2.8,
+   "end": 3.04,
+   "confidence": 0.52,
+   "speaker": 0
+  },
+  {
+   "word": "new",
+   "start": 3.04,
+   "end": 3.28,
+   "confidence": 0.9048,
+   "speaker": 0
+  },
+  {
+   "word": "one.",
+   "start": 3.28,
+   "end": 3.6,
+   "confidence": 0.9878,
+   "speaker": 0
+  },
+  {
+   "word": "I",
+   "start": 3.6,
+   "end": 3.84,
+   "confidence": 0.6484,
+   "speaker": 0
+  },
+  {
+   "word": "will",
+   "start": 3.84,
+   "end": 4.08,
+   "confidence": 0.5864,
+   "speaker": 0
+  },
+  {
+   "word": "fix",
+   "start": 4.08,
+   "end": 4.32,
+   "confidence": 0.8774,
+   "speaker": 0
+  },
+  {
+   "word": "it.",
+   "start": 4.32,
+   "end": 4.88,
+   "confidence": 0.9453,
+   "speaker": 0
+  },
+  {
+   "word": "I",
+   "start": 5.12,
+   "end": 5.36,
+   "confidence": 0.3582,
+   "speaker": 0
+  },
+  {
+   "word": "think",
+   "start": 5.36,
+   "end": 5.44,
+   "confidence": 0.9492,
+   "speaker": 0
+  },
+  {
+   "word": "it's",
+   "start": 5.44,
+   "end": 5.6,
+   "confidence": 0.6945,
+   "speaker": 0
+  },
+  {
+   "word": "a",
+   "start": 5.6,
+   "end": 5.76,
+   "confidence": 0.4758,
+   "speaker": 0
+  },
+  {
+   "word": "good",
+   "start": 5.76,
+   "end": 5.92,
+   "confidence": 0.2776,
+   "speaker": 0
+  },
+  {
+   "word": "stuff.",
+   "start": 5.92,
+   "end": 6.08,
+   "confidence": 0.5677,
+   "speaker": 0
+  }
+ ],
+ "utterances": [
+  {
+   "start": 0.0,
+   "end": 4.88,
+   "confidence": 0.7588919,
+   "channel": 0,
+   "transcript": "Think we got an office a little bit. I'm glad because there's another new one. I will fix it.",
+   "words": [
+    {
+     "word": "think",
+     "start": 0.0,
+     "end": 0.16,
+     "confidence": 0.15759277,
+     "speaker": 0,
+     "speaker_confidence": 0.29599786,
+     "punctuated_word": "Think"
+    },
+    {
+     "word": "we",
+     "start": 0.16,
+     "end": 0.32,
+     "confidence": 0.99902344,
+     "speaker": 0,
+     "speaker_confidence": 0.29599786,
+     "punctuated_word": "we"
+    },
+    {
+     "word": "got",
+     "start": 0.32,
+     "end": 0.48,
+     "confidence": 0.9560547,
+     "speaker": 0,
+     "speaker_confidence": 0.29599786,
+     "punctuated_word": "got"
+    },
+    {
+     "word": "an",
+     "start": 0.48,
+     "end": 0.64,
+     "confidence": 0.4309082,
+     "speaker": 0,
+     "speaker_confidence": 0.29599786,
+     "punctuated_word": "an"
+    },
+    {
+     "word": "office",
+     "start": 0.64,
+     "end": 0.88,
+     "confidence": 0.95410156,
+     "speaker": 0,
+     "speaker_confidence": 0.29599786,
+     "punctuated_word": "office"
+    },
+    {
+     "word": "a",
+     "start": 0.88,
+     "end": 1.12,
+     "confidence": 0.9277344,
+     "speaker": 0,
+     "speaker_confidence": 0.29599786,
+     "punctuated_word": "a"
+    },
+    {
+     "word": "little",
+     "start": 1.12,
+     "end": 1.28,
+     "confidence": 0.99902344,
+     "speaker": 0,
+     "speaker_confidence": 0.28104204,
+     "punctuated_word": "little"
+    },
+    {
+     "word": "bit",
+     "start": 1.28,
+     "end": 1.76,
+     "confidence": 0.9597168,
+     "speaker": 0,
+     "speaker_confidence": 0.28104204,
+     "punctuated_word": "bit."
+    },
+    {
+     "word": "i'm",
+     "start": 2.08,
+     "end": 2.1599998,
+     "confidence": 0.41931152,
+     "speaker": 0,
+     "speaker_confidence": 0.076580524,
+     "punctuated_word": "I'm"
+    },
+    {
+     "word": "glad",
+     "start": 2.1599998,
+     "end": 2.32,
+     "confidence": 0.96777344,
+     "speaker": 0,
+     "speaker_confidence": 0.076580524,
+     "punctuated_word": "glad"
+    },
+    {
+     "word": "because",
+     "start": 2.32,
+     "end": 2.56,
+     "confidence": 0.4387207,
+     "speaker": 0,
+     "speaker_confidence": 0.076580524,
+     "punctuated_word": "because"
+    },
+    {
+     "word": "there's",
+     "start": 2.56,
+     "end": 2.8,
+     "confidence": 0.73876953,
+     "speaker": 0,
+     "speaker_confidence": 0.076580524,
+     "punctuated_word": "there's"
+    },
+    {
+     "word": "another",
+     "start": 2.8,
+     "end": 3.04,
+     "confidence": 0.52001953,
+     "speaker": 0,
+     "speaker_confidence": 0.076580524,
+     "punctuated_word": "another"
+    },
+    {
+     "word": "new",
+     "start": 3.04,
+     "end": 3.28,
+     "confidence": 0.90478516,
+     "speaker": 0,
+     "speaker_confidence": 0.076580524,
+     "punctuated_word": "new"
+    },
+    {
+     "word": "one",
+     "start": 3.28,
+     "end": 3.6,
+     "confidence": 0.98779297,
+     "speaker": 0,
+     "speaker_confidence": 0.076580524,
+     "punctuated_word": "one."
+    },
+    {
+     "word": "i",
+     "start": 3.6,
+     "end": 3.84,
+     "confidence": 0.6484375,
+     "speaker": 0,
+     "speaker_confidence": 0.37085927,
+     "punctuated_word": "I"
+    },
+    {
+     "word": "will",
+     "start": 3.84,
+     "end": 4.08,
+     "confidence": 0.5864258,
+     "speaker": 0,
+     "speaker_confidence": 0.37085927,
+     "punctuated_word": "will"
+    },
+    {
+     "word": "fix",
+     "start": 4.08,
+     "end": 4.3199997,
+     "confidence": 0.8774414,
+     "speaker": 0,
+     "speaker_confidence": 0.29653805,
+     "punctuated_word": "fix"
+    },
+    {
+     "word": "it",
+     "start": 4.3199997,
+     "end": 4.88,
+     "confidence": 0.9453125,
+     "speaker": 0,
+     "speaker_confidence": 0.29653805,
+     "punctuated_word": "it."
+    }
+   ],
+   "speaker": 0,
+   "id": "f04bcccb-89fe-4402-a30e-957b37c64a77"
+  },
+  {
+   "start": 5.12,
+   "end": 6.08,
+   "confidence": 0.553833,
+   "channel": 0,
+   "transcript": "I think it's a good stuff.",
+   "words": [
+    {
+     "word": "i",
+     "start": 5.12,
+     "end": 5.3599997,
+     "confidence": 0.3581543,
+     "speaker": 0,
+     "speaker_confidence": 0.29653805,
+     "punctuated_word": "I"
+    },
+    {
+     "word": "think",
+     "start": 5.3599997,
+     "end": 5.44,
+     "confidence": 0.94921875,
+     "speaker": 0,
+     "speaker_confidence": 0.29653805,
+     "punctuated_word": "think"
+    },
+    {
+     "word": "it's",
+     "start": 5.44,
+     "end": 5.6,
+     "confidence": 0.694458,
+     "speaker": 0,
+     "speaker_confidence": 0.29653805,
+     "punctuated_word": "it's"
+    },
+    {
+     "word": "a",
+     "start": 5.6,
+     "end": 5.7599998,
+     "confidence": 0.47583008,
+     "speaker": 0,
+     "speaker_confidence": 0.29653805,
+     "punctuated_word": "a"
+    },
+    {
+     "word": "good",
+     "start": 5.7599998,
+     "end": 5.92,
+     "confidence": 0.2775879,
+     "speaker": 0,
+     "speaker_confidence": 0.3361274,
+     "punctuated_word": "good"
+    },
+    {
+     "word": "stuff",
+     "start": 5.92,
+     "end": 6.08,
+     "confidence": 0.567749,
+     "speaker": 0,
+     "speaker_confidence": 0.3361274,
+     "punctuated_word": "stuff."
+    }
+   ],
+   "speaker": 0,
+   "id": "59ba7557-2b65-4c9e-8225-6eea3371e43c"
+  }
+ ],
+ "duration_s": 6.95,
+ "word_count": 25,
+ "avg_confidence": 0.7097,
+ "speaker_count": 1,
+ "language": "en",
+ "prev_whisper_words": 11,
+ "harvested": "2026-08-01T20:14:04Z"
+}

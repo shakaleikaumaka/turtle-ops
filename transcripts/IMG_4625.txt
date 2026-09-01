@@ -1,0 +1,12 @@
+# 🔧 The machinified trailer — b-roll (speechless)
+
+Date: 2026-07-28
+Source video: IMG_4625.MOV
+Drive: https://drive.google.com/file/d/1geJzAkSqd_g2uKsP_D_qoUYq_GtfIqKL/view
+Duration: 00:28
+Transcribed: 2026-08-01 · PIT BULL × Deepgram nova-3 (word-level timestamps, diarized) · consent: explicit-2026-08-01 (camp consensus)
+
+
+---
+
+[no speech — music/ambient only; an earlier whisper pass hallucinated words here, debunked by nova-3 + cross-check, 2026-08-01]

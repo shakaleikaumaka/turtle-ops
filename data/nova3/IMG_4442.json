@@ -1,0 +1,137 @@
+{
+ "drive_id": "1nFTnX2hg4Sl-mJ-g-MOl-yTAzrjj7Enw",
+ "slug": "IMG_4442",
+ "filename": "IMG_4442.MOV",
+ "model": "nova-3",
+ "status": "done",
+ "text": "Is that right? Yes.",
+ "segments": [
+  {
+   "start": 0.72,
+   "end": 3.12,
+   "text": "Is",
+   "speaker": 0
+  },
+  {
+   "start": 3.12,
+   "end": 3.76,
+   "text": "that right?",
+   "speaker": 0
+  },
+  {
+   "start": 4.48,
+   "end": 5.04,
+   "text": "Yes.",
+   "speaker": 0
+  }
+ ],
+ "words": [
+  {
+   "word": "Is",
+   "start": 0.72,
+   "end": 3.12,
+   "confidence": 0.6978,
+   "speaker": 0
+  },
+  {
+   "word": "that",
+   "start": 3.12,
+   "end": 3.28,
+   "confidence": 0.999,
+   "speaker": 0
+  },
+  {
+   "word": "right?",
+   "start": 3.28,
+   "end": 3.76,
+   "confidence": 0.9937,
+   "speaker": 0
+  },
+  {
+   "word": "Yes.",
+   "start": 4.48,
+   "end": 5.04,
+   "confidence": 0.6705,
+   "speaker": 0
+  }
+ ],
+ "utterances": [
+  {
+   "start": 0.71999997,
+   "end": 3.12,
+   "confidence": 0.6977539,
+   "channel": 0,
+   "transcript": "Is",
+   "words": [
+    {
+     "word": "is",
+     "start": 0.71999997,
+     "end": 3.12,
+     "confidence": 0.6977539,
+     "speaker": 0,
+     "speaker_confidence": 1.0,
+     "punctuated_word": "Is"
+    }
+   ],
+   "speaker": 0,
+   "id": "aa949b5b-89ed-4340-810f-4f47d8704fc4"
+  },
+  {
+   "start": 3.12,
+   "end": 3.7599998,
+   "confidence": 0.9963379,
+   "channel": 0,
+   "transcript": "that right?",
+   "words": [
+    {
+     "word": "that",
+     "start": 3.12,
+     "end": 3.28,
+     "confidence": 0.99902344,
+     "speaker": 0,
+     "speaker_confidence": 1.0,
+     "punctuated_word": "that"
+    },
+    {
+     "word": "right",
+     "start": 3.28,
+     "end": 3.7599998,
+     "confidence": 0.99365234,
+     "speaker": 0,
+     "speaker_confidence": 1.0,
+     "punctuated_word": "right?"
+    }
+   ],
+   "speaker": 0,
+   "id": "44811bdf-b9f7-4d44-a84d-e37d67744c27"
+  },
+  {
+   "start": 4.48,
+   "end": 5.04,
+   "confidence": 0.6705322,
+   "channel": 0,
+   "transcript": "Yes.",
+   "words": [
+    {
+     "word": "yes",
+     "start": 4.48,
+     "end": 5.04,
+     "confidence": 0.6705322,
+     "speaker": 0,
+     "speaker_confidence": 1.0,
+     "punctuated_word": "Yes."
+    }
+   ],
+   "speaker": 0,
+   "id": "04fba482-c2f6-415d-853b-3769552460fe"
+  }
+ ],
+ "duration_s": 12.46,
+ "word_count": 4,
+ "avg_confidence": 0.8403,
+ "speaker_count": 1,
+ "language": "en",
+ "prev_whisper_words": 18,
+ "harvested": "2026-08-01T20:15:33Z",
+ "cross_check_note": "Old whisper's 18 words were noise-inflated. nova-3's 'Is that right? Yes.' (4 words, conf 0.84) matches Groq whisper cross-check ('Is that right?') — nova-3 count is the honest one."
+}

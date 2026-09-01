@@ -1,0 +1,10 @@
+# The Tool Maker session · the yard
+
+Date: 2026-07-15
+Source video: IMG_4427_2.MOV
+Drive: https://drive.google.com/file/d/1K2-lHwf6YNS_dw_QdQIHCUS3bRZZ_RCV/view
+Duration: 00:00
+Transcribed: 2026-07-28 · Terri turtlePIT · faster-whisper (small, int8) · consent: assumed-2026-07-29
+
+---
+

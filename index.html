@@ -241,6 +241,7 @@
     <h2 class="title" data-i18n="buildTitle">The Build</h2>
     <p class="lead" data-i18n="buildLead">Everything it takes to pop up a home in the desert. Each module becomes an open playbook.</p>
     <div class="cards">
+      <a href="party-picks.html" class="card" style="text-decoration:none; color:inherit; display:block;"><div class="icon">🎉</div><h3 data-i18n="partyT">Manu's Top Party Picks</h3><p data-i18n="partyP">Where the music is, night by night — 60 picks across the week with playa addresses. Curated by Manu from the flyers.</p><span class="status live" data-i18n="partyStatus">🟢 Tonight's picks →</span></a>
       <a href="kitchen.html" class="card" style="text-decoration:none; color:inherit; display:block;"><div class="icon">🍳</div><h3 data-i18n="kitchenT">Kitchen</h3><p data-i18n="kitchenP">Old trailer → full camp kitchen. Pre-cooked frozen boil-in-bag meals — reheat &amp; serve, not cook. Playbook + visual guide.</p><span class="status live" data-i18n="kitchenStatus">Playbook + visual guide →</span></a>
       <a href="turtle-truck.html" class="card" style="text-decoration:none; color:inherit; display:block;"><div class="icon">🚚</div><h3 data-i18n="truckT">The Turtle Truck</h3><p data-i18n="truckP">Jeremy's 1998 International 4700 box truck (DT466E turbo-diesel) → a turtle. Packed full for the Boulder → BRC haul.</p><span class="status live" data-i18n="truckStatus">🎨 Art concepts →</span></a>
       <a href="semi-packing.html" class="card" style="text-decoration:none; color:inherit; display:block;"><div class="icon">🚛</div><h3 data-i18n="semiT">Packing the Semi</h3><p data-i18n="semiP">The 51' northAmerican trailer, zone by zone — reverse build order, weight &amp; balance, Day-1 build box at the doors. Jeremy asked, Terri planned.</p><span class="status live" data-i18n="semiStatus">Load plan →</span></a>
@@ -249,7 +250,7 @@
       <div class="card"><div class="icon">🎙️</div><h3 data-i18n="podcastT">Podcast</h3><p data-i18n="podcastP">Capturing camp voices, stories, and the build. Culture, documented.</p><span class="status planned">Planned</span></div>
       <div class="card"><div class="icon">🔮</div><h3 data-i18n="oracleT">AI Oracle Tent</h3><p data-i18n="oracleP">Where code becomes canvas — an interactive AI experience gifted to passersby.</p><span class="status planned">Planned</span></div>
       <a href="dormitory-shade.html" class="card" style="text-decoration:none; color:inherit; display:block;"><div class="icon">🛏️</div><h3 data-i18n="dormT">Dormitory Shade</h3><p data-i18n="dormP">"The Himalayas" — 68'×122' off the semi's keder rail, ALPS/Himalayas design (Camp Contact lineage) with David's mods, in 12 illustrated steps. Top ship priority.</p><span class="status building" data-i18n="dormStatus">Building · Build guide →</span></a>
-      <a href="inventory.html" class="card" style="text-decoration:none; color:inherit; display:block;"><div class="icon">📦</div><h3 data-i18n="storageT">Storage + Inventory</h3><p data-i18n="storageP">Live inventory command center — 200+ items tracked, searchable, with procurement status.</p><span class="status live">Live →</span></a>
+      <a href="inventory.html" class="card" style="text-decoration:none; color:inherit; display:block;"><div class="icon">📦</div><h3 data-i18n="storageT">Turtle Bins</h3><p data-i18n="storageP">Every item, every bin, every exact spot — the living 26-bin inventory. Search anything, find where it lives.</p><span class="status live">Live →</span></a>
       <a href="map.html" class="card" style="text-decoration:none; color:inherit; display:block;"><div class="icon">🗺️</div><h3 data-i18n="mapT">Camp Map</h3><p data-i18n="mapP">The site plan — shade, kitchen, showers, water, oracle tents, with David-reviewed placement logic.</p><span class="status live" data-i18n="mapStatus">Live →</span></a>
       <a href="coffin-build.html" class="card" style="text-decoration:none; color:inherit; display:block;"><div class="icon">🥶</div><h3 data-i18n="coldboxT">Veggie Cold Box</h3><p data-i18n="coldboxP">David's coffin cold box — 12 illustrated build steps, cut list, and turtle crew. Built — pull-down test still to come!</p><span class="status building" data-i18n="coldboxStatus">Built · testing · Build guide →</span></a>
       <a href="dining-shade.html" class="card" style="text-decoration:none; color:inherit; display:block;"><div class="icon">🎪</div><h3 data-i18n="dshadeT">Dining Shade</h3><p data-i18n="dshadeP">The 75'×90' Aluminet wing off the semi trailer — keder rail, poles, flaps, in 10 illustrated steps.</p><span class="status live" data-i18n="dshadeStatus">Build guide →</span></a>
@@ -392,6 +393,8 @@ Move Slow &amp; Bite Things. Heart first, always. 🐢</pre>
 <button class="lb" onclick="otr('pt')">🇧🇷 Português</button>
 <button class="lb" onclick="otr('ja')">🇯🇵 日本語</button>
 <button class="lb" onclick="otr('de')">🇩🇪 Deutsch</button>
+<button class="lb" onclick="otr('he')">🇮🇱 עברית</button>
+<button class="lb" onclick="otr('it')">🇮🇹 Italiano</button>
 <div class="gt">+90 more ↓ <span id="google_translate_element"></span><br><span style="font-size:10px">music was our first language 🎵</span></div>
 </div>
 <style>
@@ -433,7 +436,7 @@ function otr(lang){
   /* GT widget not loaded (ad-blockers, slow connections) — proxy fallback */
   location.href=proxy;
 }
-function googleTranslateElementInit(){try{new google.translate.TranslateElement({pageLanguage:'en',includedLanguages:'haw,es,zh-CN,hi,ar,fr,pt,ru,ja,de,ko,it,vi,id,th,tr,pl,nl,sv,sw,uk',layout:google.translate.TranslateElement.InlineLayout.SIMPLE},'google_translate_element');}catch(e){}}
+function googleTranslateElementInit(){try{new google.translate.TranslateElement({pageLanguage:'en',includedLanguages:'haw,es,zh-CN,hi,ar,fr,pt,ru,ja,de,ko,it,he,iw,vi,id,th,tr,pl,nl,sv,sw,uk',layout:google.translate.TranslateElement.InlineLayout.SIMPLE},'google_translate_element');}catch(e){}}
 </script>
 <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 

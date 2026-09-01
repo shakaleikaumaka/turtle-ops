@@ -1,0 +1,627 @@
+{
+ "spec": "pit-digest/0.1",
+ "pit": "shellpit",
+ "camp": "Terrible Turtle Camp",
+ "author": "PIT GIRL",
+ "generated": "2026-07-28",
+ "consent": "explicit-2026-08-01 (camp consensus) \u2014 digests describe content; consent is a living door, opens both ways",
+ "domain_tags": [
+  "water",
+  "power",
+  "kitchen",
+  "build",
+  "shade",
+  "oracle",
+  "operations",
+  "food",
+  "health",
+  "unsorted"
+ ],
+ "videos": {
+  "IMG_4359_2": {
+   "title": "Seventy-Five of These",
+   "domain": "build",
+   "featured": false,
+   "duration_s": 22.6,
+   "recorded": "2026-07-14",
+   "summary": "Late-night hardware count at the workshop: 'We don't need them, bring them back \u2014 there's only 75 of these in there.' The armory begins as a pile of small parts."
+  },
+  "IMG_4417_2": {
+   "title": "We Almost Built a Fire",
+   "domain": "build",
+   "featured": true,
+   "duration_s": 20.4,
+   "recorded": "2026-07-15",
+   "summary": "Arrival at the Tool Maker's shop: Yovel and the crew tried cutting this wood with a grinder and it started smoking. Time for the expert cut."
+  },
+  "IMG_4418_2": {
+   "title": "Cut Right on the Line",
+   "domain": "build",
+   "featured": false,
+   "duration_s": 19.0,
+   "recorded": "2026-07-15",
+   "summary": "The Tool Maker teaches: set the saw, keep it true \u2014 'when you put it on there, it's going to cut right on the line.' A master class in nineteen seconds."
+  },
+  "IMG_4423_2": {
+   "title": "Take a Little Off",
+   "domain": "build",
+   "featured": false,
+   "duration_s": 6.8,
+   "recorded": "2026-07-15",
+   "summary": "Seven seconds of shop judgment: 'I think we gotta off this a little bit.' Measure twice, trim once."
+  },
+  "IMG_4428_2": {
+   "title": "Don't Touch It With Your Hands",
+   "domain": "build",
+   "featured": false,
+   "duration_s": 22.7,
+   "recorded": "2026-07-15",
+   "summary": "Blade check between cuts \u2014 'Let's see the blade\u2026 don't touch it with your hands. It might be alright, let's try it.' Shop safety, learned live."
+  },
+  "IMG_4429_2": {
+   "title": "Metal Saw Horses",
+   "domain": "build",
+   "featured": false,
+   "duration_s": 44.0,
+   "recorded": "2026-07-15",
+   "summary": "The blade meets the sawhorse: 'So it was kind of my fault but not exactly \u2014 we got to watch that these are metal saw horses.' A lesson kept on tape."
+  },
+  "IMG_4430_2": {
+   "title": "Between Cuts",
+   "domain": "build",
+   "featured": false,
+   "duration_s": 19.6,
+   "recorded": "2026-07-15",
+   "summary": "Saw noise and shop air \u2014 the whisper heard nothing worth words. The work does the talking."
+  },
+  "IMG_4431_2": {
+   "title": "Oh",
+   "domain": "build",
+   "featured": false,
+   "duration_s": 2.2,
+   "recorded": "2026-07-15",
+   "summary": "Two seconds, one syllable: 'Oh.' A reaction shot from the cutting session."
+  },
+  "IMG_4432_2": {
+   "title": "Cut That Podcast Now",
+   "domain": "build",
+   "featured": false,
+   "duration_s": 22.4,
+   "recorded": "2026-07-15",
+   "summary": "'Don't wait for inspiration \u2014 cut that podcast now.' \u2026 'He's the Tool Maker.' Shop philosophy, delivered between cuts."
+  },
+  "IMG_4433_2": {
+   "title": "Wish We'd Cleaned Up Ours",
+   "domain": "build",
+   "featured": false,
+   "duration_s": 66.3,
+   "recorded": "2026-07-15",
+   "summary": "Craftsmanship honesty, comparing their cut to the Tool Maker's: 'We kind of did a bad \u2014 wish we clean up the one that we did.'"
+  },
+  "IMG_4434_2": {
+   "title": "Pretty, But Not Tool Maker Smooth",
+   "domain": "build",
+   "featured": false,
+   "duration_s": 9.4,
+   "recorded": "2026-07-15",
+   "summary": "'It's definitely pretty, but not nearly as smooth as the Tool Maker['s].' The standard has been set."
+  },
+  "IMG_4435_2": {
+   "title": "Make It a Good One",
+   "domain": "build",
+   "featured": false,
+   "duration_s": 62.1,
+   "recorded": "2026-07-15",
+   "summary": "A minute of cutting-floor chatter \u2014 'I'm gonna make it a good one again' \u2014 pull it, move it back, clear the end. Persistence, mostly wordless."
+  },
+  "IMG_4439_2": {
+   "title": "2:35 AM at the Tool Maker's",
+   "domain": "build",
+   "featured": false,
+   "duration_s": 10.9,
+   "recorded": "2026-07-15",
+   "summary": "The session's last clip, timestamped deep in the night; no words captured. The shop goes quiet."
+  },
+  "IMG_4442": {
+   "title": "Water for the Veggie Cooler",
+   "domain": "kitchen",
+   "featured": false,
+   "duration_s": 12.4,
+   "recorded": "2026-07-16",
+   "summary": "Low-confidence audio: a greeting ('shalom'), then 'we got a water to the veggie kula' \u2014 likely a water run to the veggie cooler. [unclear] \u2014 verify before publishing."
+  },
+  "IMG_4443": {
+   "title": "Unverified Voices",
+   "domain": "unsorted",
+   "featured": false,
+   "duration_s": 8.7,
+   "recorded": "2026-07-16",
+   "summary": "Whisper heard Arabic at 0.36 confidence \u2014 almost certainly a mishearing. Content unverifiable; treat as camp ambiance until a human reviews the audio."
+  },
+  "IMG_4452": {
+   "title": "The Veggie Coffin Walls Go Up",
+   "domain": "kitchen",
+   "featured": true,
+   "duration_s": 414.8,
+   "recorded": "2026-07-17",
+   "summary": "The seven-minute feature: plywood cold-box assembly by the RV, the new window AC unboxed, and a hot-knife lesson from a boat-cover maker. Mostly hands, few words.",
+   "anchors": [
+    {
+     "ts": "[04:43]",
+     "note": "'Are we good, Shaka? The hot knife.' \u2014 the foam-cutting lesson begins"
+    },
+    {
+     "ts": "[06:46]",
+     "note": "'I make boat covers.' \u2014 where the hot-knife wisdom comes from"
+    }
+   ]
+  },
+  "IMG_4453": {
+   "title": "A Two-Second Breath",
+   "domain": "unsorted",
+   "featured": false,
+   "duration_s": 2.0,
+   "recorded": "2026-07-17",
+   "summary": "Two seconds, no words \u2014 a pocket moment right after the coffin feature."
+  },
+  "IMG_4460": {
+   "title": "Glued and Screwed",
+   "domain": "kitchen",
+   "featured": true,
+   "duration_s": 24.9,
+   "recorded": "2026-07-17",
+   "summary": "'We just got the floor, the walls \u2014 it's not perfect, but it's in there, and glued and screwed\u2026 We got the Tool Maker here. We're on the Phoenix Gulch. Let's go.'"
+  },
+  "IMG_4461": {
+   "title": "Where the Magic Happens",
+   "domain": "kitchen",
+   "featured": true,
+   "duration_s": 41.0,
+   "recorded": "2026-07-17",
+   "summary": "The kitchen trailer tour for Jade and the Tool Maker: e-track in, three tables, two-burner stoves plus a single, shelves behind \u2014 'this is where the magic happens.'"
+  },
+  "IMG_4623": {
+   "title": "The Shower Runs",
+   "domain": "water",
+   "featured": true,
+   "duration_s": 19.5,
+   "recorded": "2026-07-28",
+   "summary": "Water flowing at Phoenix Gulch, and the naming moment itself: 'When a bunch of computer nerds fail, you just bring in the experts like Jared the Machine.'"
+  },
+  "IMG_4624": {
+   "title": "The Trailer, Machinified",
+   "domain": "power",
+   "featured": true,
+   "duration_s": 118.7,
+   "recorded": "2026-07-28",
+   "summary": "The Machine's electrical walkthrough: transfer switch (panel/battery, generator kill), 16 outlets through the trailer, 30A both sides, USB/USB-C charge points.",
+   "anchors": [
+    {
+     "ts": "[00:30]",
+     "note": "'The machine turned the trailer into a machine.'"
+    },
+    {
+     "ts": "[01:23]",
+     "note": "16 outlets, 30 amps on both sides, USB and USB-C charging"
+    }
+   ]
+  },
+  "IMG_4625": {
+   "title": "The Machinified Trailer, Wordless",
+   "domain": "power",
+   "featured": false,
+   "duration_s": 28.2,
+   "recorded": "2026-07-28",
+   "summary": "Same 7/28 Gulch session, zero speech \u2014 likely b-roll of the machinified trailer and shower area. Visual support for the Machine window once frames are reviewed."
+  },
+  "IMG_4626": {
+   "title": "The Water Loop, End to End",
+   "domain": "water",
+   "featured": true,
+   "duration_s": 150.2,
+   "recorded": "2026-07-28",
+   "summary": "The Machine teaches the whole system: IBC coupler, thread tape, channel locks, cam-lock, transfer pump, kitchen, Jeremy's foot switch, float switches, sump, shower, greywater.",
+   "anchors": [
+    {
+     "ts": "[01:16]",
+     "note": "'Plug this in. You can hear the pump start.'"
+    },
+    {
+     "ts": "[01:34]",
+     "note": "Jeremy's handy-dandy foot switch, jumped into the gray water line"
+    },
+    {
+     "ts": "[02:16]",
+     "note": "'Really appreciate you, machine!' \u2014 and Victor becomes 'Victory!'"
+    }
+   ]
+  }
+ },
+ "meetings": {
+  "2026-04-22-shaka-jade": {
+   "title": "A Month of Labor for a Ticket",
+   "date": "2026-04-22",
+   "participants": [
+    "Shaka",
+    "Jade Clyne"
+   ],
+   "domains": [
+    "build",
+    "operations"
+   ],
+   "summary": "Shaka (from 4Seas, Chiang Mai) and Jade meet for the first time: a month of build-week labor, music, and teardown offered as a gift for a ticket, food, and a place to sleep.",
+   "digest": "Shaka, calling from Chiang Mai, pitches Jade a burn-veteran's bargain: a full month of build-week labor, instruments, and Open Source Orchestra energy \u2014 a gift, not a fee \u2014 for a ticket and camp care [13:17]. His credibility is three years of burns, including saving a flying dome cover in a whiteout [16:18], and the veteran's caution that 'the playa usually tends to humble you' [15:41]. Adds up to: the camp may have landed its build-week workhorse and music lead, pending Jeremy's sign-off.",
+   "anchors": [
+    "[13:17]",
+    "[15:41]",
+    "[16:18]"
+   ]
+  },
+  "2026-05-12-tarobot-intro": {
+   "title": "Hiring a Robot Fortune Teller",
+   "date": "2026-05-12",
+   "participants": [
+    "Jeremy Wood (tagged 'Zoom user', inferred)",
+    "Daniel Ritchie",
+    "Jade Clyne"
+   ],
+   "domains": [
+    "oracle",
+    "operations"
+   ],
+   "summary": "Jeremy and Jade pitch roboticist Daniel Ritchie on the camp's AI oracle tents; he demos his talking robot and delivers the key advice: don't trust Starlink \u2014 run local compute.",
+   "digest": "The oracle tent goes from robot-shopping to a real plan. Daniel demos his full-motion conversational robot, prices always-on AI at roughly $100/hour, then makes the pivotal call: playa connectivity will fail, so steer toward a local server running open-source models [06:58]. The concept stated plainly \u2014 AI-driven oracle tents as the camp's offering [00:27] \u2014 and Daniel warming to coming along as 'a tech roadie kind of thing' [18:20]. Adds up to: local-first AI, a possible robot collab, and a May 30 preview party.",
+   "anchors": [
+    "[00:27]",
+    "[06:58]",
+    "[18:20]"
+   ]
+  },
+  "2026-05-14-kitchen-trailer": {
+   "title": "Boil-in-Bag Dinners and a Piggyback Deal",
+   "date": "2026-05-14",
+   "participants": [
+    "Jeremy Wood ('Zoom user')",
+    "Jade Clyne",
+    "James Tramel",
+    "Dr Mark Earnhart",
+    "David ('Naked Heart')"
+   ],
+   "domains": [
+    "kitchen",
+    "food",
+    "operations"
+   ],
+   "summary": "Food expert James Tramel teaches his 250-person camp's system \u2014 premade boil-in-bag meals, one stock pot, almost no dishwashing \u2014 and lets the turtles piggyback on his July order.",
+   "digest": "James's camp abandoned scratch cooking for half-gallon boil-in-bag meals: one bag is five servings, shelf-stable 60 days, heated in boiling water [09:38]. He agrees to let the first-year camp piggyback on his order with on-playa pickup \u2014 what David calls 'the biggest gift here' [46:16]. Skip the $8k thermalizing oven; one big stock pot does the whole meal. Adds up to: a realistic low-labor dinner plan, plus the warning that matters most \u2014 'not infrastructure, it's members' [01:00:31].",
+   "anchors": [
+    "[09:38]",
+    "[46:16]",
+    "[01:00:31]"
+   ]
+  },
+  "2026-05-15-laurence": {
+   "title": "Drawing Borders Over a Water Bladder",
+   "date": "2026-05-15",
+   "participants": [
+    "Jeremy Wood ('Zoom user', inferred)",
+    "Laurence Ion",
+    "Jade Clyne"
+   ],
+   "domains": [
+    "water",
+    "kitchen",
+    "operations"
+   ],
+   "summary": "With side-by-side placement confirmed, the turtles and Laurence Ion's longevity camp negotiate what neighbors share: water yes, food no, showers separate \u2014 kitchens adjacent.",
+   "digest": "Neighbor diplomacy, playa style. Laurence proposes the two camps jointly buy a water bladder and share pumps and hoses [09:52]; food is explicitly off the table \u2014 'I'm not open to sharing food because we have healthy food' [16:59] \u2014 and each camp builds its own shower. The surprise consequence: share water and the kitchen trailer should park next to his kitchen [17:40]. Adds up to: a friendly framework with every real decision waiting on actual maps.",
+   "anchors": [
+    "[09:52]",
+    "[16:59]",
+    "[17:40]"
+   ]
+  },
+  "2026-05-21-david-food": {
+   "title": "Four Suppliers and the Influencer Warning",
+   "date": "2026-05-21",
+   "participants": [
+    "Jeremy Wood ('Zoom user')",
+    "Jade Clyne",
+    "Dr Mark Earnhart",
+    "David ('Naked Heart')"
+   ],
+   "domains": [
+    "food",
+    "operations",
+    "water"
+   ],
+   "summary": "David turns the food piggyback into a four-supplier system, sets hard deadlines, and delivers a culture warning: never let the word 'influencer' leave your lips at Burning Man.",
+   "digest": "The camp shifts from loosey-goosey to nuts-and-bolts. David lays out the whole food strategy in one line \u2014 'your four suppliers will be Costco, Chef Store, Bonanza and the premade meals' [14:44] \u2014 and debunks kitchen myths (eggs survive the burn unrefrigerated). The sharpest beat is cultural: 'You should never let the word influencer leave your lips' [21:18]. Adds up to: hard deadlines, a menu due in three weeks, and the real gap named \u2014 warm bodies [08:47].",
+   "anchors": [
+    "[08:47]",
+    "[14:44]",
+    "[21:18]"
+   ]
+  },
+  "2026-06-03-tarobot-daniel": {
+   "title": "Blank Canvas Robots, Council of Oracles",
+   "date": "2026-06-03",
+   "participants": [
+    "Jeremy Wood",
+    "Daniel Ritchie",
+    "(diarization failed: every tag reads 'Jade Clyne')"
+   ],
+   "domains": [
+    "oracle",
+    "power",
+    "operations"
+   ],
+   "summary": "At Daniel Ritchie's Denver demo space the oracle tents get their embodiment: cheap open-source desktop robots, hot-swappable backups, a 24/7 single-robot MVP, a stretch 'council of robots'.",
+   "digest": "Daniel demos a blank-canvas robot \u2014 eye-tracking, emotion-lit eyes, beamforming mics \u2014 and Jeremy commits to resilience over dazzle: one 24/7 single-robot oracle tent that survives total infrastructure failure [12:11]. Daniel's redundancy canon: 'backup robots that are just sitting in a box\u2026 unplug it, plug in the backup and you're immediately running' [28:59]. Adds up to: two proposals and a quality bar \u2014 the oracle must not feel like 'a random number generator' [57:27]. Speaker tags are all wrong in this file; quotes unattributable by tag.",
+   "anchors": [
+    "[12:11]",
+    "[28:59]",
+    "[57:27]"
+   ]
+  },
+  "2026-06-07-david-planning": {
+   "title": "You've Had the Signal for Three Months",
+   "date": "2026-06-07",
+   "participants": [
+    "Jeremy Wood",
+    "Jade Clyne",
+    "David ('Naked Heart')",
+    "(Yovel absent \u2014 note-taker on call)"
+   ],
+   "domains": [
+    "build",
+    "power",
+    "kitchen"
+   ],
+   "summary": "David's message: stop waiting on me \u2014 the shade parts were cleared to order months ago. He sets a weekly rhythm and specs the camp: power drops, IBC totes, fridges, stoves, tents.",
+   "digest": "The mentor draws the line: 'you've had the signal for me for three months' [13:29] \u2014 the blocker is the camp's own hesitation, and his available time is evaporating [07:41]. Around that spine he specs everything: two 70-amp drops, 10-gauge cords, food-safe IBC totes (beware the ones that held whiskey [33:41]), renter fridges, Backyard Pro stoves, trifold mattresses. Adds up to: an ordering green light, shared human-made documents, and homework before next week's call.",
+   "anchors": [
+    "[07:41]",
+    "[13:29]",
+    "[33:41]"
+   ]
+  },
+  "2026-06-11-cold-yogis-a": {
+   "title": "Neighbor Camps Trade Playa Wisdom",
+   "date": "2026-06-11",
+   "participants": [
+    "Jeremy Wood ('Zoom user', inferred)",
+    "Dustin (Cold Yogis)",
+    "'Let's Do Podcast' (possibly Yovel)",
+    "Rafa (Cold Yogis)",
+    "Jade Clyne"
+   ],
+   "domains": [
+    "water",
+    "operations",
+    "shade"
+   ],
+   "summary": "The turtles meet their neighbors, the Cold Yogis. Veteran Dustin converts every problem into an easy button: porta-potties, leapfrogging gray-water totes, maybe shared metered water.",
+   "digest": "Dustin, the playa veteran, hands over the survival playbook: skip pricey eco-toilets for locked porta-potties, and run two gray-water totes in leapfrog \u2014 fill one, pump the other [08:22] \u2014 because one full tote means your water supply is off. The biggest offer: shared metered fresh-water infrastructure, cost-split between camps [13:20]. Adds up to: a playbook, two open offers to mull, and a neighbor relationship sealed with 'you will survive' [02:30]. (Twin file -b is the same call with a different header time.)",
+   "anchors": [
+    "[02:30]",
+    "[08:22]",
+    "[13:20]"
+   ]
+  },
+  "2026-06-11-cold-yogis-b": {
+   "title": "Neighbor Camps Trade Playa Wisdom (duplicate file)",
+   "date": "2026-06-11",
+   "participants": [],
+   "domains": [],
+   "duplicate_of": "2026-06-11-cold-yogis-a",
+   "summary": "Byte-level duplicate of cold-yogis-a except the Meeting Date header (10:00 AM vs 4:00 PM) \u2014 same call, likely a timezone artifact. Digest lives on the -a entry."
+  },
+  "2026-06-19-coordination-1a": {
+   "title": "State of the Union, Camp Agent",
+   "date": "2026-06-19",
+   "participants": [
+    "Jeremy Wood ('Zoom user', inferred)",
+    "'Let's Do Podcast' (likely Yovel)",
+    "Shaka",
+    "Jade Clyne"
+   ],
+   "domains": [
+    "operations",
+    "build",
+    "water"
+   ],
+   "summary": "First internal coordination call: the camp map squeeze, one human per domain, and Shaka's signature idea \u2014 a giant runbook powering a camp agent that knows where every hammer is.",
+   "digest": "The camp's first full state of the union. The oversized shade forces building from the Cold Yogis border toward Fountain of Youth; meanwhile Jeremy's one-human-per-domain plan fuses with Shaka's proposal to 'build out our camp agent that just, like, knows everything' [26:08] \u2014 because without it, 'we could either end up with a hundred hammers, or everybody thought it was their hammer' [31:07]. Adds up to: every domain scoped, and an AI runbook committed as 'a really cool gift to give to the playa' [46:58].",
+   "anchors": [
+    "[26:08]",
+    "[31:07]",
+    "[46:58]"
+   ]
+  },
+  "2026-06-19-coordination-1b": {
+   "title": "State of the Union, Camp Agent (duplicate file)",
+   "date": "2026-06-19",
+   "participants": [],
+   "domains": [],
+   "duplicate_of": "2026-06-19-coordination-1a",
+   "summary": "Byte-level duplicate of coordination-1a except the Meeting Date header (3:01 PM vs 5:01 PM) \u2014 same call, likely a timezone artifact. Digest lives on the -1a entry."
+  },
+  "2026-06-26-coordination-2": {
+   "title": "This Could Be Our Shower",
+   "date": "2026-06-26",
+   "participants": [
+    "Jeremy Wood ('Zoom user', inferred)",
+    "Jade Clyne",
+    "Shaka ('Shaka Lei's iPhone')"
+   ],
+   "domains": [
+    "water",
+    "kitchen",
+    "operations"
+   ],
+   "summary": "Second coordination call: the shower breakthrough (two used IBC totes plus a propane camping hot-water unit), a hard shipping timeline, and menu math still unfinished.",
+   "digest": "The shower design is born live on the call: 'buying two used IBC totes, cutting the tops off, putting them together' with a propane instant-hot-water camping unit [18:16] \u2014 'I think this is. This could be our shower' [29:04]. Around it the deadline cascade locks in: parts ordered by Aug 1, kitchen trailer packed by ~Aug 10, driven out Aug 13\u201315. Adds up to: a concrete water strategy and a ship date, with the menu still unwritten. (And yes, someone asks the AI to buy a crate of tampons [04:11].)",
+   "anchors": [
+    "[04:11]",
+    "[18:16]",
+    "[29:04]"
+   ]
+  },
+  "2026-06-26-david-shade-kitchen": {
+   "title": "Talk About It, Then Execute",
+   "date": "2026-06-26",
+   "participants": [
+    "David ('Naked Heart')",
+    "Jeremy Wood ('Zoom user', inferred)",
+    "Jade Clyne",
+    "Yovel ('Let's Do Podcast', joins late)"
+   ],
+   "domains": [
+    "shade",
+    "kitchen",
+    "power"
+   ],
+   "summary": "David imposes drop-dead dates and purchasing discipline: 'We no longer have time to talk about anything ever over again. You have to talk about it. And then execute.'",
+   "digest": "The mentor converts goodwill into an execution machine \u2014 his rate rises to $400/hr July 1 and $500/hr Aug 1, and the thesis is blunt: 'we no longer have time to talk about anything ever over again' [24:02] \u2014 talk about it, then execute. The dates stack: trailer ~Aug 1, kitchen ready ~Aug 10, Yovel departs Aug 19, Reno Aug 21, gates Aug 24. Power is billed by peak amps, notebook in hand [46:38], and the Veggie Coffin gets its first full spec \u2014 4x8x3, a lid, an AC at each end [31:32]. Adds up to: a weekly-meeting machine where slipping a week triggers alarm.",
+   "anchors": [
+    "[24:02]",
+    "[31:32]",
+    "[46:38]"
+   ]
+  },
+  "2026-07-02-david-sync": {
+   "title": "Float Switches Are Magic",
+   "date": "2026-07-02",
+   "participants": [
+    "Jeremy Wood ('Zoom user')",
+    "David ('Naked Heart')",
+    "Jade Clyne",
+    "Yovel ('Let's Do Podcast')"
+   ],
+   "domains": [
+    "water",
+    "power",
+    "build"
+   ],
+   "summary": "The definitive shower download: two IBC totes per pod, no mortar tub, a riser in the bottom tote, float switches pumping to dryness \u2014 containment is the hardest part.",
+   "digest": "Six weeks out, David walks the master spreadsheet line by line. The shower pod hinges entirely on gray-water containment: skip the mortar tub, stand on a riser inside the bottom IBC, and 'get these float switches in your hands because they are magic' [01:30:51] \u2014 'how you do the containment on a shower is the hardest part of the whole project' [01:34:42]. Adds up to: a verified order list, a working water flow (IBC to pump to valved splitter), a 70-amp power budget to fill in, and David's allocation ethics [01:25:29].",
+   "anchors": [
+    "[01:25:29]",
+    "[01:30:51]",
+    "[01:34:42]"
+   ]
+  },
+  "2026-07-09-david-sync": {
+   "title": "Taps, Troughs, and a Thousand Miles",
+   "date": "2026-07-09",
+   "participants": [
+    "David ('Naked Heart')",
+    "Jeremy Wood",
+    "Jade Clyne",
+    "Yovel ('Let's Do Podcast')",
+    "Shaka ('Shaka Lei's iPhone')"
+   ],
+   "domains": [
+    "build",
+    "water",
+    "operations"
+   ],
+   "summary": "The gap is knowledge, not supplies: David explains what a tap even is before assigning keder-rail homework, Shaka pledges a musician's labor, the truck needs practice miles.",
+   "digest": "Parts are arriving; now they must become assemblies. David teaches tapping from zero so Yuval can hang 64 ft of keder rail 12 ft up the semi \u2014 the click moment: 'you are attaching the keter rail to the side of the semi trailer' [25:20]. Shaka disarms the tension: 'I'm playing music for the Ethereum conference this year. I'm not a mechanic, but I'm gonna work my ass off' [32:47]. The delivery-driver drama ('extorted me for money' [01:32:33]) stays unresolved. Adds up to: watch the videos, pick up foam and totes, build.",
+   "anchors": [
+    "[25:20]",
+    "[32:47]",
+    "[01:32:33]"
+   ]
+  },
+  "2026-07-16-david-sync": {
+   "title": "The Machine Meets the Mentor",
+   "date": "2026-07-16",
+   "participants": [
+    "Jade Clyne",
+    "David ('Naked Heart')",
+    "Jarrett Henson ('The Machine')",
+    "Keith ('The Tool Maker')",
+    "Jeremy Wood (tag drift \u2014 see flags)"
+   ],
+   "domains": [
+    "water",
+    "power",
+    "build"
+   ],
+   "summary": "Jarrett 'The Machine' Henson's first David sync: pump, power, keder rail, and float-switch downloads \u2014 and an instant mind-meld: 'I like how your brain works.'",
+   "digest": "The team felt lost because parts were gathered but never explained \u2014 so David delivers 'downloads' all meeting: braided hoses stay on the pump forever, 70-amp feeds terminate in mobile duplex panels, keder rail is cut to land on supports. Jarrett Henson, introduced as new build muscle [06:30], asks the master-electrician's-kid questions [27:57] until David lands it: 'the picture that's in your head is the one that's in my head\u2026 I'm going to lean on you a lot' [40:31]. Jarrett's answer: 100% of infrastructure done by end of next week [43:03]. Adds up to: the camp found its Machine.",
+   "anchors": [
+    "[06:30]",
+    "[40:31]",
+    "[43:03]"
+   ]
+  },
+  "2026-07-16-david-sync-JADE-NOTES": {
+   "title": "Jade's Notes: The Homework Ledger",
+   "date": "2026-07-16",
+   "participants": [
+    "(notes by Jade Clyne, re: the 7/16 David sync with Jarrett Henson, Jeremy, Keith)"
+   ],
+   "domains": [
+    "operations"
+   ],
+   "summary": "Jade's official notes from the 7/16 sync: every action item by owner \u2014 David, Jade, Jarrett, Jeremy \u2014 plus the full source list, from cam-lock fittings to trifold mattresses.",
+   "digest": "The same 7/16 download session, rendered as a ledger. Jade captures the meta-lesson: the team felt lost because parts arrived without assembly knowledge \u2014 David's 'downloads' are the missing manual. Every promise gets an owner: Jarrett owes keder cutting and stake welding, Jeremy owes float-switch weights and the RV balance, Jade owes the map fix and the master-list share, David owes the hydraulic shop name. Adds up to: the week the camp's homework became trackable. (Notes file \u2014 no timestamps to anchor.)",
+   "anchors": []
+  }
+ },
+ "pit_digest": "A village gets built. In the meetings, the mind: David's downloads turn gathered parts into systems \u2014 water, power, shade, cold chain \u2014 and The Machine arrives to accelerate. In the footage, the hands: the Tool Maker's clean cuts, the coffin glued and screwed, the trailer machinified, and finally the shower running. Between them, the armory: 277 items, each a decision made visible. Move slow, bite things.",
+ "machine_guidance": {
+  "window": "MACHINE GUIDANCE",
+  "canon_quote": "Just as the Admiral is a machine guiding me, Jarred is the Machine guiding our build.",
+  "canon_attribution": "Shaka, 2026-07-28 20:55 UTC",
+  "opener": "Every camp gets one: the human who shows up, and the machines start listening. Jarred 'The Machine' Henson \u2014 welding, keder rails, electrical \u2014 walked into Phoenix Gulch, and the build caught up with its dreams.",
+  "clips": [
+   {
+    "id": "IMG_4623",
+    "one_liner": "THE SHOWER RUNS \u2014 water flowing at last, and the naming itself: 'you just bring in the experts like Jared the machine.' Nineteen seconds of pure victory."
+   },
+   {
+    "id": "IMG_4624",
+    "one_liner": "THE TRAILER, MACHINIFIED \u2014 the electrical walkthrough: transfer switch (panel/battery, generator kill), 16 outlets, 30A both sides, USB/USB-C. 'The machine turned the trailer into a machine.'"
+   },
+   {
+    "id": "IMG_4626",
+    "one_liner": "THE WATER LOOP, END TO END \u2014 a complete lesson from IBC coupler to greywater tank: thread tape, channel locks, cam-lock, transfer pump, foot switch, float switches, sump. 'Really appreciate you, machine!'"
+   }
+  ],
+  "mind_of_the_machine": {
+   "source": "meeting-transcripts/2026-07-16-david-sync.md (Jarrett Henson's first David sync)",
+   "picks": [
+    {
+     "ts": "[27:57]",
+     "speaker": "Jarrett Henson",
+     "quote": "You gotta understand, I'm a master electrician's kid.",
+     "note": "Questioning the 70-amp feed terminating in 15-amp duplexes \u2014 the skeptic's credentials."
+    },
+    {
+     "ts": "[28:22]",
+     "speaker": "Jarrett Henson",
+     "quote": "It's starting to make my circuit board short circuit a little bit.",
+     "note": "The same challenge, with humor \u2014 the moment David decides to win him over."
+    },
+    {
+     "ts": "[40:31]",
+     "speaker": "David ('Naked Heart')",
+     "quote": "Jared, I like how your brain works, probably because it works like mine. The picture that's in your head is the one that's in my head \u2014 you're the first person I run across where that's true. So I'm going to lean on you a lot.",
+     "note": "The mind-meld, verbatim (lightly stitched from one continuous line)."
+    },
+    {
+     "ts": "[43:03]",
+     "speaker": "Jarrett Henson",
+     "quote": "We'll have 100% of the infrastructure stuff done by the end of next week.",
+     "note": "The Machine's promise \u2014 the semi ships early August."
+    }
+   ],
+   "attribution_flag": "Speaker diarization in this file drifts (several lines tagged 'Jarrett Henson' are other on-site speakers, incl. Keith and Jeremy). All four picks above sit in clean, context-confirmed stretches."
+  },
+  "consent": "explicit-2026-08-01 (camp consensus) \u2014 full folder cleared by camp consensus; every clip still carries a takedown path."
+ }
+}

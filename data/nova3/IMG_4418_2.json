@@ -1,0 +1,952 @@
+{
+ "drive_id": "1Yr6PTEB3_9c-hu-f7K8N26TCmCrkRjbu",
+ "slug": "IMG_4418_2",
+ "filename": "IMG_4418 2.MOV",
+ "model": "nova-3",
+ "status": "done",
+ "text": "When you put it on the it's gonna cut right on the line. You just put that right in there. That cut right on the line. So I'm gonna get a cut of clamps and then put them on those lines. And then this salt cut right where you want. Let me set this test.",
+ "segments": [
+  {
+   "start": 0.24,
+   "end": 5.36,
+   "text": "When you put it on the it's gonna cut right on the line. You just put that right in there.",
+   "speaker": 0
+  },
+  {
+   "start": 5.84,
+   "end": 10.0,
+   "text": "That cut right on the line. So I'm gonna get a cut of clamps and then put them on those lines.",
+   "speaker": 0
+  },
+  {
+   "start": 12.0,
+   "end": 14.8,
+   "text": "And then this salt cut right where you want. Let me set this test.",
+   "speaker": 0
+  }
+ ],
+ "words": [
+  {
+   "word": "When",
+   "start": 0.24,
+   "end": 0.48,
+   "confidence": 0.625,
+   "speaker": 0
+  },
+  {
+   "word": "you",
+   "start": 0.48,
+   "end": 0.64,
+   "confidence": 0.9893,
+   "speaker": 0
+  },
+  {
+   "word": "put",
+   "start": 0.64,
+   "end": 0.8,
+   "confidence": 0.9644,
+   "speaker": 0
+  },
+  {
+   "word": "it",
+   "start": 0.8,
+   "end": 0.96,
+   "confidence": 0.9751,
+   "speaker": 0
+  },
+  {
+   "word": "on",
+   "start": 0.96,
+   "end": 1.12,
+   "confidence": 0.9893,
+   "speaker": 0
+  },
+  {
+   "word": "the",
+   "start": 1.12,
+   "end": 1.28,
+   "confidence": 0.5293,
+   "speaker": 0
+  },
+  {
+   "word": "it's",
+   "start": 1.36,
+   "end": 1.6,
+   "confidence": 0.8149,
+   "speaker": 0
+  },
+  {
+   "word": "gonna",
+   "start": 1.6,
+   "end": 1.84,
+   "confidence": 0.9395,
+   "speaker": 0
+  },
+  {
+   "word": "cut",
+   "start": 1.84,
+   "end": 2.08,
+   "confidence": 0.9634,
+   "speaker": 0
+  },
+  {
+   "word": "right",
+   "start": 2.08,
+   "end": 2.32,
+   "confidence": 0.9844,
+   "speaker": 0
+  },
+  {
+   "word": "on",
+   "start": 2.32,
+   "end": 2.56,
+   "confidence": 0.9873,
+   "speaker": 0
+  },
+  {
+   "word": "the",
+   "start": 2.56,
+   "end": 2.72,
+   "confidence": 0.9854,
+   "speaker": 0
+  },
+  {
+   "word": "line.",
+   "start": 2.72,
+   "end": 3.36,
+   "confidence": 0.936,
+   "speaker": 0
+  },
+  {
+   "word": "You",
+   "start": 3.44,
+   "end": 3.76,
+   "confidence": 0.6167,
+   "speaker": 1
+  },
+  {
+   "word": "just",
+   "start": 3.76,
+   "end": 3.92,
+   "confidence": 0.1877,
+   "speaker": 1
+  },
+  {
+   "word": "put",
+   "start": 3.92,
+   "end": 4.16,
+   "confidence": 0.3518,
+   "speaker": 1
+  },
+  {
+   "word": "that",
+   "start": 4.16,
+   "end": 4.32,
+   "confidence": 0.8408,
+   "speaker": 1
+  },
+  {
+   "word": "right",
+   "start": 4.32,
+   "end": 4.56,
+   "confidence": 0.9951,
+   "speaker": 1
+  },
+  {
+   "word": "in",
+   "start": 4.56,
+   "end": 4.8,
+   "confidence": 0.9497,
+   "speaker": 1
+  },
+  {
+   "word": "there.",
+   "start": 4.8,
+   "end": 5.36,
+   "confidence": 0.6702,
+   "speaker": 1
+  },
+  {
+   "word": "That",
+   "start": 5.84,
+   "end": 6.16,
+   "confidence": 0.2942,
+   "speaker": 0
+  },
+  {
+   "word": "cut",
+   "start": 6.16,
+   "end": 6.4,
+   "confidence": 0.7524,
+   "speaker": 0
+  },
+  {
+   "word": "right",
+   "start": 6.4,
+   "end": 6.56,
+   "confidence": 0.9829,
+   "speaker": 0
+  },
+  {
+   "word": "on",
+   "start": 6.56,
+   "end": 6.72,
+   "confidence": 0.9072,
+   "speaker": 0
+  },
+  {
+   "word": "the",
+   "start": 6.72,
+   "end": 6.8,
+   "confidence": 0.4563,
+   "speaker": 0
+  },
+  {
+   "word": "line.",
+   "start": 6.8,
+   "end": 6.96,
+   "confidence": 0.9458,
+   "speaker": 0
+  },
+  {
+   "word": "So",
+   "start": 6.96,
+   "end": 7.04,
+   "confidence": 0.5884,
+   "speaker": 0
+  },
+  {
+   "word": "I'm",
+   "start": 7.04,
+   "end": 7.2,
+   "confidence": 0.9639,
+   "speaker": 0
+  },
+  {
+   "word": "gonna",
+   "start": 7.2,
+   "end": 7.28,
+   "confidence": 0.6484,
+   "speaker": 0
+  },
+  {
+   "word": "get",
+   "start": 7.28,
+   "end": 7.44,
+   "confidence": 0.7041,
+   "speaker": 0
+  },
+  {
+   "word": "a",
+   "start": 7.44,
+   "end": 7.52,
+   "confidence": 0.27,
+   "speaker": 0
+  },
+  {
+   "word": "cut",
+   "start": 7.52,
+   "end": 7.76,
+   "confidence": 0.2734,
+   "speaker": 0
+  },
+  {
+   "word": "of",
+   "start": 7.76,
+   "end": 7.84,
+   "confidence": 0.2224,
+   "speaker": 0
+  },
+  {
+   "word": "clamps",
+   "start": 7.84,
+   "end": 8.16,
+   "confidence": 0.5555,
+   "speaker": 0
+  },
+  {
+   "word": "and",
+   "start": 8.16,
+   "end": 8.32,
+   "confidence": 0.3679,
+   "speaker": 0
+  },
+  {
+   "word": "then",
+   "start": 8.32,
+   "end": 8.56,
+   "confidence": 0.8604,
+   "speaker": 0
+  },
+  {
+   "word": "put",
+   "start": 8.56,
+   "end": 8.72,
+   "confidence": 0.9819,
+   "speaker": 0
+  },
+  {
+   "word": "them",
+   "start": 8.72,
+   "end": 8.88,
+   "confidence": 0.9873,
+   "speaker": 0
+  },
+  {
+   "word": "on",
+   "start": 8.88,
+   "end": 9.04,
+   "confidence": 0.9951,
+   "speaker": 0
+  },
+  {
+   "word": "those",
+   "start": 9.04,
+   "end": 9.28,
+   "confidence": 0.9004,
+   "speaker": 0
+  },
+  {
+   "word": "lines.",
+   "start": 9.28,
+   "end": 10.0,
+   "confidence": 0.5703,
+   "speaker": 0
+  },
+  {
+   "word": "And",
+   "start": 12.0,
+   "end": 12.16,
+   "confidence": 0.854,
+   "speaker": 0
+  },
+  {
+   "word": "then",
+   "start": 12.16,
+   "end": 12.32,
+   "confidence": 0.792,
+   "speaker": 0
+  },
+  {
+   "word": "this",
+   "start": 12.32,
+   "end": 12.48,
+   "confidence": 0.9482,
+   "speaker": 0
+  },
+  {
+   "word": "salt",
+   "start": 12.48,
+   "end": 12.8,
+   "confidence": 0.3821,
+   "speaker": 0
+  },
+  {
+   "word": "cut",
+   "start": 12.8,
+   "end": 13.04,
+   "confidence": 0.8306,
+   "speaker": 0
+  },
+  {
+   "word": "right",
+   "start": 13.04,
+   "end": 13.28,
+   "confidence": 0.9688,
+   "speaker": 0
+  },
+  {
+   "word": "where",
+   "start": 13.28,
+   "end": 13.44,
+   "confidence": 0.1942,
+   "speaker": 0
+  },
+  {
+   "word": "you",
+   "start": 13.44,
+   "end": 13.52,
+   "confidence": 0.9644,
+   "speaker": 0
+  },
+  {
+   "word": "want.",
+   "start": 13.52,
+   "end": 13.84,
+   "confidence": 0.863,
+   "speaker": 0
+  },
+  {
+   "word": "Let",
+   "start": 13.84,
+   "end": 13.92,
+   "confidence": 0.5601,
+   "speaker": 1
+  },
+  {
+   "word": "me",
+   "start": 13.92,
+   "end": 14.08,
+   "confidence": 0.999,
+   "speaker": 1
+  },
+  {
+   "word": "set",
+   "start": 14.08,
+   "end": 14.24,
+   "confidence": 0.5068,
+   "speaker": 1
+  },
+  {
+   "word": "this",
+   "start": 14.24,
+   "end": 14.48,
+   "confidence": 0.9492,
+   "speaker": 1
+  },
+  {
+   "word": "test.",
+   "start": 14.48,
+   "end": 14.8,
+   "confidence": 0.6218,
+   "speaker": 1
+  }
+ ],
+ "utterances": [
+  {
+   "start": 0.24,
+   "end": 5.36,
+   "confidence": 0.8147583,
+   "channel": 0,
+   "transcript": "When you put it on the it's gonna cut right on the line. You just put that right in there.",
+   "words": [
+    {
+     "word": "when",
+     "start": 0.24,
+     "end": 0.48,
+     "confidence": 0.625,
+     "speaker": 0,
+     "speaker_confidence": 0.06081468,
+     "punctuated_word": "When"
+    },
+    {
+     "word": "you",
+     "start": 0.48,
+     "end": 0.64,
+     "confidence": 0.9892578,
+     "speaker": 0,
+     "speaker_confidence": 0.06081468,
+     "punctuated_word": "you"
+    },
+    {
+     "word": "put",
+     "start": 0.64,
+     "end": 0.79999995,
+     "confidence": 0.96435547,
+     "speaker": 0,
+     "speaker_confidence": 0.06081468,
+     "punctuated_word": "put"
+    },
+    {
+     "word": "it",
+     "start": 0.79999995,
+     "end": 0.96,
+     "confidence": 0.97509766,
+     "speaker": 0,
+     "speaker_confidence": 0.06081468,
+     "punctuated_word": "it"
+    },
+    {
+     "word": "on",
+     "start": 0.96,
+     "end": 1.12,
+     "confidence": 0.9892578,
+     "speaker": 0,
+     "speaker_confidence": 0.06081468,
+     "punctuated_word": "on"
+    },
+    {
+     "word": "the",
+     "start": 1.12,
+     "end": 1.28,
+     "confidence": 0.5292969,
+     "speaker": 0,
+     "speaker_confidence": 0.04485309,
+     "punctuated_word": "the"
+    },
+    {
+     "word": "it's",
+     "start": 1.36,
+     "end": 1.5999999,
+     "confidence": 0.8149414,
+     "speaker": 0,
+     "speaker_confidence": 0.04485309,
+     "punctuated_word": "it's"
+    },
+    {
+     "word": "gonna",
+     "start": 1.5999999,
+     "end": 1.8399999,
+     "confidence": 0.9394531,
+     "speaker": 0,
+     "speaker_confidence": 0.44319528,
+     "punctuated_word": "gonna"
+    },
+    {
+     "word": "cut",
+     "start": 1.8399999,
+     "end": 2.08,
+     "confidence": 0.9633789,
+     "speaker": 0,
+     "speaker_confidence": 0.44319528,
+     "punctuated_word": "cut"
+    },
+    {
+     "word": "right",
+     "start": 2.08,
+     "end": 2.32,
+     "confidence": 0.984375,
+     "speaker": 0,
+     "speaker_confidence": 0.44319528,
+     "punctuated_word": "right"
+    },
+    {
+     "word": "on",
+     "start": 2.32,
+     "end": 2.56,
+     "confidence": 0.9873047,
+     "speaker": 0,
+     "speaker_confidence": 0.44319528,
+     "punctuated_word": "on"
+    },
+    {
+     "word": "the",
+     "start": 2.56,
+     "end": 2.72,
+     "confidence": 0.98535156,
+     "speaker": 0,
+     "speaker_confidence": 0.44319528,
+     "punctuated_word": "the"
+    },
+    {
+     "word": "line",
+     "start": 2.72,
+     "end": 3.36,
+     "confidence": 0.93603516,
+     "speaker": 0,
+     "speaker_confidence": 0.44319528,
+     "punctuated_word": "line."
+    },
+    {
+     "word": "you",
+     "start": 3.4399998,
+     "end": 3.76,
+     "confidence": 0.6166992,
+     "speaker": 1,
+     "speaker_confidence": 1.0,
+     "punctuated_word": "You"
+    },
+    {
+     "word": "just",
+     "start": 3.76,
+     "end": 3.9199998,
+     "confidence": 0.18774414,
+     "speaker": 1,
+     "speaker_confidence": 1.0,
+     "punctuated_word": "just"
+    },
+    {
+     "word": "put",
+     "start": 3.9199998,
+     "end": 4.16,
+     "confidence": 0.35180664,
+     "speaker": 1,
+     "speaker_confidence": 1.0,
+     "punctuated_word": "put"
+    },
+    {
+     "word": "that",
+     "start": 4.16,
+     "end": 4.3199997,
+     "confidence": 0.8408203,
+     "speaker": 1,
+     "speaker_confidence": 1.0,
+     "punctuated_word": "that"
+    },
+    {
+     "word": "right",
+     "start": 4.3199997,
+     "end": 4.56,
+     "confidence": 0.9951172,
+     "speaker": 1,
+     "speaker_confidence": 1.0,
+     "punctuated_word": "right"
+    },
+    {
+     "word": "in",
+     "start": 4.56,
+     "end": 4.7999997,
+     "confidence": 0.94970703,
+     "speaker": 1,
+     "speaker_confidence": 1.0,
+     "punctuated_word": "in"
+    },
+    {
+     "word": "there",
+     "start": 4.7999997,
+     "end": 5.36,
+     "confidence": 0.670166,
+     "speaker": 1,
+     "speaker_confidence": 1.0,
+     "punctuated_word": "there."
+    }
+   ],
+   "speaker": 0,
+   "id": "96ba24cc-e446-4c6f-82e5-7f661b5212f7"
+  },
+  {
+   "start": 5.8399997,
+   "end": 9.999999,
+   "confidence": 0.67754257,
+   "channel": 0,
+   "transcript": "That cut right on the line. So I'm gonna get a cut of clamps and then put them on those lines.",
+   "words": [
+    {
+     "word": "that",
+     "start": 5.8399997,
+     "end": 6.16,
+     "confidence": 0.29418945,
+     "speaker": 0,
+     "speaker_confidence": 0.3675267,
+     "punctuated_word": "That"
+    },
+    {
+     "word": "cut",
+     "start": 6.16,
+     "end": 6.3999996,
+     "confidence": 0.7524414,
+     "speaker": 0,
+     "speaker_confidence": 0.3675267,
+     "punctuated_word": "cut"
+    },
+    {
+     "word": "right",
+     "start": 6.3999996,
+     "end": 6.56,
+     "confidence": 0.98291016,
+     "speaker": 0,
+     "speaker_confidence": 0.3675267,
+     "punctuated_word": "right"
+    },
+    {
+     "word": "on",
+     "start": 6.56,
+     "end": 6.72,
+     "confidence": 0.90722656,
+     "speaker": 0,
+     "speaker_confidence": 0.3675267,
+     "punctuated_word": "on"
+    },
+    {
+     "word": "the",
+     "start": 6.72,
+     "end": 6.7999997,
+     "confidence": 0.45629883,
+     "speaker": 0,
+     "speaker_confidence": 0.3675267,
+     "punctuated_word": "the"
+    },
+    {
+     "word": "line",
+     "start": 6.7999997,
+     "end": 6.96,
+     "confidence": 0.9458008,
+     "speaker": 0,
+     "speaker_confidence": 0.3675267,
+     "punctuated_word": "line."
+    },
+    {
+     "word": "so",
+     "start": 6.96,
+     "end": 7.04,
+     "confidence": 0.5883789,
+     "speaker": 0,
+     "speaker_confidence": 0.31960285,
+     "punctuated_word": "So"
+    },
+    {
+     "word": "i'm",
+     "start": 7.04,
+     "end": 7.2,
+     "confidence": 0.9638672,
+     "speaker": 0,
+     "speaker_confidence": 0.31960285,
+     "punctuated_word": "I'm"
+    },
+    {
+     "word": "gonna",
+     "start": 7.2,
+     "end": 7.2799997,
+     "confidence": 0.6484375,
+     "speaker": 0,
+     "speaker_confidence": 0.31960285,
+     "punctuated_word": "gonna"
+    },
+    {
+     "word": "get",
+     "start": 7.2799997,
+     "end": 7.44,
+     "confidence": 0.70410156,
+     "speaker": 0,
+     "speaker_confidence": 0.31960285,
+     "punctuated_word": "get"
+    },
+    {
+     "word": "a",
+     "start": 7.44,
+     "end": 7.52,
+     "confidence": 0.27001953,
+     "speaker": 0,
+     "speaker_confidence": 0.31960285,
+     "punctuated_word": "a"
+    },
+    {
+     "word": "cut",
+     "start": 7.52,
+     "end": 7.7599998,
+     "confidence": 0.2734375,
+     "speaker": 0,
+     "speaker_confidence": 0.31960285,
+     "punctuated_word": "cut"
+    },
+    {
+     "word": "of",
+     "start": 7.7599998,
+     "end": 7.8399997,
+     "confidence": 0.22241211,
+     "speaker": 0,
+     "speaker_confidence": 0.31960285,
+     "punctuated_word": "of"
+    },
+    {
+     "word": "clamps",
+     "start": 7.8399997,
+     "end": 8.16,
+     "confidence": 0.555542,
+     "speaker": 0,
+     "speaker_confidence": 0.31960285,
+     "punctuated_word": "clamps"
+    },
+    {
+     "word": "and",
+     "start": 8.16,
+     "end": 8.32,
+     "confidence": 0.36791992,
+     "speaker": 0,
+     "speaker_confidence": 0.4609421,
+     "punctuated_word": "and"
+    },
+    {
+     "word": "then",
+     "start": 8.32,
+     "end": 8.559999,
+     "confidence": 0.86035156,
+     "speaker": 0,
+     "speaker_confidence": 0.4609421,
+     "punctuated_word": "then"
+    },
+    {
+     "word": "put",
+     "start": 8.559999,
+     "end": 8.72,
+     "confidence": 0.9819336,
+     "speaker": 0,
+     "speaker_confidence": 0.4609421,
+     "punctuated_word": "put"
+    },
+    {
+     "word": "them",
+     "start": 8.72,
+     "end": 8.88,
+     "confidence": 0.9873047,
+     "speaker": 0,
+     "speaker_confidence": 0.4609421,
+     "punctuated_word": "them"
+    },
+    {
+     "word": "on",
+     "start": 8.88,
+     "end": 9.04,
+     "confidence": 0.9951172,
+     "speaker": 0,
+     "speaker_confidence": 0.4609421,
+     "punctuated_word": "on"
+    },
+    {
+     "word": "those",
+     "start": 9.04,
+     "end": 9.28,
+     "confidence": 0.9003906,
+     "speaker": 0,
+     "speaker_confidence": 0.4609421,
+     "punctuated_word": "those"
+    },
+    {
+     "word": "lines",
+     "start": 9.28,
+     "end": 9.999999,
+     "confidence": 0.5703125,
+     "speaker": 0,
+     "speaker_confidence": 0.4609421,
+     "punctuated_word": "lines."
+    }
+   ],
+   "speaker": 0,
+   "id": "83deff4d-6c45-4f86-8014-b3aeccda0b5c"
+  },
+  {
+   "start": 12.0,
+   "end": 14.799999,
+   "confidence": 0.7453003,
+   "channel": 0,
+   "transcript": "And then this salt cut right where you want. Let me set this test.",
+   "words": [
+    {
+     "word": "and",
+     "start": 12.0,
+     "end": 12.16,
+     "confidence": 0.8540039,
+     "speaker": 0,
+     "speaker_confidence": 0.38815296,
+     "punctuated_word": "And"
+    },
+    {
+     "word": "then",
+     "start": 12.16,
+     "end": 12.32,
+     "confidence": 0.7919922,
+     "speaker": 0,
+     "speaker_confidence": 0.38815296,
+     "punctuated_word": "then"
+    },
+    {
+     "word": "this",
+     "start": 12.32,
+     "end": 12.48,
+     "confidence": 0.9482422,
+     "speaker": 0,
+     "speaker_confidence": 0.38815296,
+     "punctuated_word": "this"
+    },
+    {
+     "word": "salt",
+     "start": 12.48,
+     "end": 12.799999,
+     "confidence": 0.38208008,
+     "speaker": 0,
+     "speaker_confidence": 0.38815296,
+     "punctuated_word": "salt"
+    },
+    {
+     "word": "cut",
+     "start": 12.799999,
+     "end": 13.04,
+     "confidence": 0.8305664,
+     "speaker": 0,
+     "speaker_confidence": 0.38815296,
+     "punctuated_word": "cut"
+    },
+    {
+     "word": "right",
+     "start": 13.04,
+     "end": 13.28,
+     "confidence": 0.96875,
+     "speaker": 0,
+     "speaker_confidence": 0.38815296,
+     "punctuated_word": "right"
+    },
+    {
+     "word": "where",
+     "start": 13.28,
+     "end": 13.44,
+     "confidence": 0.19421387,
+     "speaker": 0,
+     "speaker_confidence": 0.38815296,
+     "punctuated_word": "where"
+    },
+    {
+     "word": "you",
+     "start": 13.44,
+     "end": 13.5199995,
+     "confidence": 0.96435547,
+     "speaker": 0,
+     "speaker_confidence": 0.38815296,
+     "punctuated_word": "you"
+    },
+    {
+     "word": "want",
+     "start": 13.5199995,
+     "end": 13.84,
+     "confidence": 0.8630371,
+     "speaker": 0,
+     "speaker_confidence": 0.38815296,
+     "punctuated_word": "want."
+    },
+    {
+     "word": "let",
+     "start": 13.84,
+     "end": 13.92,
+     "confidence": 0.5600586,
+     "speaker": 1,
+     "speaker_confidence": 1.0,
+     "punctuated_word": "Let"
+    },
+    {
+     "word": "me",
+     "start": 13.92,
+     "end": 14.08,
+     "confidence": 0.99902344,
+     "speaker": 1,
+     "speaker_confidence": 1.0,
+     "punctuated_word": "me"
+    },
+    {
+     "word": "set",
+     "start": 14.08,
+     "end": 14.24,
+     "confidence": 0.50683594,
+     "speaker": 1,
+     "speaker_confidence": 1.0,
+     "punctuated_word": "set"
+    },
+    {
+     "word": "this",
+     "start": 14.24,
+     "end": 14.48,
+     "confidence": 0.94921875,
+     "speaker": 1,
+     "speaker_confidence": 1.0,
+     "punctuated_word": "this"
+    },
+    {
+     "word": "test",
+     "start": 14.48,
+     "end": 14.799999,
+     "confidence": 0.6218262,
+     "speaker": 1,
+     "speaker_confidence": 1.0,
+     "punctuated_word": "test."
+    }
+   ],
+   "speaker": 0,
+   "id": "205d4f87-48ae-421f-880d-4cb434a093f4"
+  }
+ ],
+ "duration_s": 19.08,
+ "word_count": 55,
+ "avg_confidence": 0.7447,
+ "speaker_count": 2,
+ "language": "en",
+ "prev_whisper_words": 61,
+ "harvested": "2026-08-01T20:14:30Z"
+}

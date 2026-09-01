@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Turtle Ops · Inventory 📦 | Terrible Turtle Camp</title>
-<meta name="description" content="Live inventory command center for Terrible Turtle Camp — the single source of truth for what we have, need, and where it's going.">
+<title>📦 Turtle Bins — every item, where it lives | Terrible Turtle Camp</title>
+<meta name="description" content="Turtle Bins — the living 26-bin inventory of Terrible Turtle Camp. Search any item, find its bin and its exact spot.">
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
   :root {
@@ -20,62 +20,62 @@
   .orb:nth-child(1){width:480px;height:480px;background:var(--tt-orange);top:-8%;left:-6%;}
   .orb:nth-child(2){width:400px;height:400px;background:var(--tt-amber);bottom:5%;right:-8%;}
   .container { position:relative; z-index:1; max-width:1100px; margin:0 auto; padding:20px; }
-
   .topbar { display:flex; justify-content:space-between; align-items:center; padding:14px 0; flex-wrap:wrap; gap:10px; }
   .back-link { color:var(--tt-coral); text-decoration:none; font-weight:600; font-size:0.95rem; }
   .back-link:hover { color:var(--tt-orange); }
-
-  .header { text-align:center; padding:30px 10px 20px; }
+  .header { text-align:center; padding:26px 10px 14px; }
   .header .turtle { font-size:2.4rem; }
   .header h1 { font-size:clamp(2rem,6vw,3rem); font-weight:700; text-transform:uppercase; letter-spacing:0.02em;
     background:linear-gradient(135deg,var(--cream) 20%,var(--tt-gold),var(--tt-orange)); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; }
-  .header p { color:var(--cream-dim); font-size:1.1rem; margin-top:6px; }
-  .source-note { font-size:0.82rem; color:var(--sand); margin-top:10px; }
+  .header p { color:var(--cream-dim); font-size:1.05rem; margin-top:6px; }
+  .source-note { font-size:0.82rem; color:var(--sand); margin-top:8px; }
 
-  /* STATS */
-  .stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:12px; margin:24px 0; }
-  .stat { background:var(--card); border:1px solid var(--border); border-radius:var(--radius); padding:18px; text-align:center; }
-  .stat .num { font-family:'JetBrains Mono',monospace; font-size:1.9rem; font-weight:700; }
-  .stat .num.green{color:var(--green);} .stat .num.amber{color:var(--tt-amber);} .stat .num.coral{color:var(--tt-coral);} .stat .num.cream{color:var(--cream);}
-  .stat .lbl { font-size:0.78rem; color:var(--sand); text-transform:uppercase; letter-spacing:0.08em; margin-top:4px; }
+  /* 🔍 THE SEARCH — the star of the show */
+  .search-wrap { position:sticky; top:10px; z-index:50; margin:18px 0 8px; }
+  .search-box { display:flex; align-items:center; gap:10px; background:var(--card-2); border:2px solid var(--tt-orange); border-radius:999px; padding:6px 8px 6px 20px; box-shadow:0 8px 30px rgba(235,88,51,0.25); }
+  .search-box .mag { font-size:1.3rem; }
+  .search-box input { flex:1; background:transparent; border:none; outline:none; color:var(--cream); font-family:inherit; font-size:1.15rem; font-weight:600; padding:10px 0; }
+  .search-box input::placeholder { color:var(--sand); font-weight:400; }
+  .search-box .clear { background:var(--border); border:none; color:var(--cream-dim); width:34px; height:34px; border-radius:50%; cursor:pointer; font-size:0.9rem; display:none; }
+  .search-box .clear:hover { background:var(--tt-red); color:#fff; }
+  .hint { text-align:center; color:var(--sand); font-size:0.85rem; margin-top:8px; }
+  mark { background:rgba(229,161,75,0.35); color:var(--tt-gold); border-radius:3px; padding:0 2px; }
 
-  /* PROGRESS */
-  .progress-wrap { background:var(--card); border:1px solid var(--border); border-radius:var(--radius); padding:20px; margin-bottom:24px; }
-  .progress-label { display:flex; justify-content:space-between; font-size:0.85rem; color:var(--cream-dim); margin-bottom:8px; }
-  .progress-bar { height:16px; border-radius:8px; overflow:hidden; display:flex; background:var(--night-2); }
-  .progress-bar .seg { height:100%; }
-  .seg.received{background:var(--green);} .seg.ordered{background:var(--tt-amber);} .seg.notbought{background:var(--tt-red);} .seg.flag{background:var(--sand);}
-  .legend { display:flex; gap:16px; flex-wrap:wrap; margin-top:10px; font-size:0.8rem; color:var(--cream-dim); }
-  .legend span { display:flex; align-items:center; gap:6px; }
-  .dot { width:9px; height:9px; border-radius:50%; }
+  /* RESULTS (search mode) */
+  #results { margin:14px 0 26px; display:none; }
+  .res-card { background:var(--card); border:1px solid var(--border); border-left:4px solid var(--tt-orange); border-radius:var(--radius); padding:14px 16px; margin-bottom:10px; display:flex; gap:14px; align-items:flex-start; }
+  .res-card:hover { background:var(--card-hover); }
+  .res-bin { font-family:'JetBrains Mono',monospace; background:var(--tt-orange); color:#fff; font-weight:700; border-radius:9px; padding:6px 10px; font-size:0.95rem; white-space:nowrap; }
+  .res-body { flex:1; }
+  .res-item { font-weight:700; color:var(--cream); font-size:1.05rem; }
+  .res-qty { color:var(--tt-amber); font-weight:600; margin-left:6px; }
+  .res-loc { color:var(--green); font-size:0.92rem; margin-top:3px; }
+  .res-note { color:var(--sand); font-size:0.88rem; margin-top:3px; font-style:italic; }
+  .res-bintitle { color:var(--cream-dim); font-size:0.85rem; margin-top:3px; }
+  .no-res { text-align:center; color:var(--sand); padding:30px; font-size:1.05rem; }
 
-  /* CONTROLS */
-  .controls { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:18px; }
-  .controls input, .controls select { padding:11px 14px; background:var(--card); border:1px solid var(--border); border-radius:var(--radius); color:var(--cream); font-family:inherit; font-size:0.95rem; }
-  .controls input { flex:1; min-width:180px; }
-  .controls input:focus, .controls select:focus { outline:none; border-color:var(--tt-orange); }
-
-  /* TABLE */
-  .table-wrap { overflow-x:auto; border-radius:var(--radius-lg); border:1px solid var(--border); }
-  table { width:100%; border-collapse:collapse; font-size:0.9rem; background:var(--card); }
-  th { background:var(--card-2); color:var(--tt-amber); font-weight:600; text-transform:uppercase; font-size:0.72rem; letter-spacing:0.05em; padding:12px 10px; text-align:left; position:sticky; top:0; cursor:pointer; white-space:nowrap; }
-  th:hover { color:var(--tt-orange); }
-  td { padding:11px 10px; border-top:1px solid var(--border); color:var(--cream-dim); vertical-align:top; }
-  tr:hover td { background:var(--card-hover); }
-  .item-name { color:var(--cream); font-weight:600; }
-  .badge { display:inline-block; padding:2px 9px; border-radius:7px; font-size:0.7rem; font-weight:600; text-transform:uppercase; letter-spacing:0.03em; white-space:nowrap; }
-  .b-received{background:rgba(105,219,124,0.15);color:var(--green);border:1px solid rgba(105,219,124,0.3);}
-  .b-ordered{background:rgba(219,152,64,0.15);color:var(--tt-amber);border:1px solid rgba(219,152,64,0.3);}
-  .b-notbought{background:rgba(204,39,46,0.15);color:var(--tt-coral);border:1px solid rgba(204,39,46,0.3);}
-  .b-flag{background:rgba(138,125,117,0.18);color:var(--sand);border:1px solid rgba(138,125,117,0.3);}
-  .b-domain{background:rgba(235,88,51,0.12);color:var(--tt-coral);border:1px solid rgba(235,88,51,0.25);}
-  .b-high{background:rgba(204,39,46,0.15);color:var(--tt-coral);}
-  .b-med{background:rgba(219,152,64,0.15);color:var(--tt-amber);}
-  .done-check { color:var(--green); font-weight:700; }
-  .count-line { color:var(--sand); font-size:0.85rem; margin:12px 2px; }
-  .footer { text-align:center; padding:40px 20px; color:var(--sand); font-size:0.9rem; }
+  /* BIN GRID (browse mode) */
+  .stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(120px,1fr)); gap:12px; margin:20px 0; }
+  .stat { background:var(--card); border:1px solid var(--border); border-radius:var(--radius); padding:16px; text-align:center; }
+  .stat .num { font-family:'JetBrains Mono',monospace; font-size:1.8rem; font-weight:700; color:var(--tt-gold); }
+  .stat .lbl { font-size:0.75rem; color:var(--sand); text-transform:uppercase; letter-spacing:0.08em; margin-top:4px; }
+  .bins { display:grid; grid-template-columns:repeat(auto-fill,minmax(320px,1fr)); gap:16px; margin-top:8px; }
+  .bin { background:var(--card); border:1px solid var(--border); border-radius:var(--radius-lg); padding:18px; }
+  .bin:hover { border-color:var(--tt-orange); }
+  .bin-head { display:flex; align-items:center; gap:10px; margin-bottom:6px; }
+  .bin-n { font-family:'JetBrains Mono',monospace; background:var(--card-2); border:1px solid var(--tt-amber); color:var(--tt-amber); font-weight:700; border-radius:8px; padding:4px 9px; font-size:0.9rem; }
+  .bin-title { font-weight:700; color:var(--cream); font-size:1.05rem; }
+  .bin-loc { color:var(--green); font-size:0.85rem; margin-bottom:10px; }
+  .bin ul { list-style:none; }
+  .bin li { padding:5px 0 5px 16px; border-top:1px solid var(--border); color:var(--cream-dim); font-size:0.92rem; position:relative; }
+  .bin li::before { content:'·'; position:absolute; left:4px; color:var(--tt-orange); font-weight:700; }
+  .bin li .q { color:var(--tt-amber); font-weight:600; }
+  .bin li .n { color:var(--sand); font-size:0.83rem; font-style:italic; display:block; }
+  .bin-src { margin-top:10px; font-size:0.75rem; color:var(--sand); }
+  .bin-quote { margin-top:4px; font-size:0.8rem; color:var(--cream-dim); font-style:italic; border-left:2px solid var(--tt-amber); padding-left:8px; }
+  .footer { text-align:center; padding:36px 20px; color:var(--sand); font-size:0.9rem; }
   .footer a { color:var(--tt-orange); text-decoration:none; }
-  @media (max-width:600px){ body{font-size:16px;} td .spec,td .notes{display:none;} }
+  @media (max-width:600px){ body{font-size:16px;} .bins{grid-template-columns:1fr;} }
 </style>
 <link rel="stylesheet" href="assets/turtle-cursor.css">
 </head>
@@ -84,148 +84,122 @@
 <div class="container">
 
   <div class="topbar">
-    <a href="./" class="back-link" id="backLink">← Back to Turtle Ops</a>
+    <a href="./" class="back-link">← Back to Turtle Ops</a>
+    <a href="kitchen.html" class="back-link">🍳 Kitchen Build →</a>
   </div>
 
   <div class="header">
     <div class="turtle">📦🐢</div>
-    <h1 id="h-title">Inventory Command Center</h1>
-    <p id="h-sub">The single source of truth — what we have, what we need, where it's going.</p>
-    <p class="source-note" id="h-src">Synced from the camp Procurement Dashboard</p>
+    <h1>Turtle Bins</h1>
+    <p>Every item, every bin, every exact spot — the living 26-bin inventory.</p>
+    <p class="source-note" id="srcNote">Narrated on playa · build week</p>
   </div>
 
-  <div class="stats" id="stats"></div>
-
-  <div class="progress-wrap">
-    <div class="progress-label"><span id="p-label">Procurement Progress</span><span id="p-pct"></span></div>
-    <div class="progress-bar" id="progressBar"></div>
-    <div class="legend" id="legend"></div>
+  <div class="search-wrap">
+    <div class="search-box">
+      <span class="mag">🔍</span>
+      <input type="text" id="q" placeholder="Find any item — where does it live?" autocomplete="off" oninput="onSearch()">
+      <button class="clear" id="clearBtn" onclick="clearSearch()" title="clear">✕</button>
+    </div>
+    <div class="hint">try <em>sponges</em> · <em>knives</em> · <em>toilet paper</em> · <em>trash bags</em> — answers with the bin + the exact spot 🐢</div>
   </div>
 
-  <div class="controls">
-    <input type="text" id="search" placeholder="🔍 Search items, specs, vendors…" oninput="render()">
-    <select id="domainFilter" onchange="render()"><option value="">All Domains</option></select>
-    <select id="procFilter" onchange="render()"><option value="">All Procurement</option></select>
-    <select id="priorityFilter" onchange="render()"><option value="">All Priorities</option></select>
+  <div id="results"></div>
+
+  <div id="browse">
+    <div class="stats" id="stats"></div>
+    <div class="bins" id="bins"></div>
   </div>
 
-  <div class="count-line" id="countLine"></div>
-
-  <div class="table-wrap">
-    <table>
-      <thead><tr id="theadRow"></tr></thead>
-      <tbody id="tbody"></tbody>
-    </table>
+  <div id="kitchen-updates" style="display:none;margin-top:18px;">
+    <h2 style="font-size:1rem;letter-spacing:.1em;color:var(--tt-amber);margin-bottom:10px;">👨‍🍳 KITCHEN CREW UPDATES — live from the TG kitchen chat</h2>
+    <div id="kitchen-updates-list"></div>
   </div>
 
   <div class="footer">
-    🐢 <strong>Turtle Ops · Inventory</strong> · <a href="./">Back to camp ops</a><br>
+    🐢 <strong>Turtle Bins</strong> · the camp's living inventory · <a href="./">Back to camp ops</a><br>
     <span style="color:var(--tt-amber);">Move Slow &amp; Bite Things.</span>
   </div>
 </div>
 
+<script src="data/turtle-bins.js"></script>
 <script>
-const T = {
-  en: { title:"Inventory Command Center", sub:"The single source of truth — what we have, what we need, where it's going.",
-    src:(n)=>`Synced from the camp Procurement Dashboard · ${n} items tracked`, back:"← Back to Turtle Ops",
-    pLabel:"Procurement Progress", countLine:(n,t)=>`Showing ${n} of ${t} items`,
-    cols:["✓","Item","Domain","Category","Qty","Procurement","Priority","Owner","Vendor","Spec / Notes"],
-    allDom:"All Domains", allProc:"All Procurement", allPri:"All Priorities", searchPh:"🔍 Search items, specs, vendors…" }
-};
-let DATA = [];
+const BINS = (typeof INVENTORY !== 'undefined' && INVENTORY.bins) ? INVENTORY.bins : [];
+const UPDATED = (typeof INVENTORY !== 'undefined' && INVENTORY.updated) ? INVENTORY.updated : '';
 
-function procClass(p){ p=(p||'').toLowerCase(); if(p.includes('received'))return'b-received'; if(p.includes('ordered'))return'b-ordered'; if(p.includes('not'))return'b-notbought'; if(p.includes('flag'))return'b-flag'; return''; }
-function priClass(p){ p=(p||'').toLowerCase(); if(p.includes('high'))return'b-high'; if(p.includes('med'))return'b-med'; return''; }
-
-function computeStats(){
-  const total = DATA.length;
-  const received = DATA.filter(r=>/received/i.test(r.procurement)).length;
-  const ordered = DATA.filter(r=>/ordered/i.test(r.procurement)).length;
-  const notbought = DATA.filter(r=>/not bought/i.test(r.procurement)).length;
-  const flag = DATA.filter(r=>/flag/i.test(r.procurement)).length;
-  const domains = new Set(DATA.map(r=>r.domain).filter(Boolean)).size;
-  return {total,received,ordered,notbought,flag,domains};
+function esc(s){ const d=document.createElement('div'); d.textContent=(s==null?'':String(s)); return d.innerHTML; }
+function qty(it){ return [it.qty, it.unit].filter(x=>x!==''&&x!=null).join(' '); }
+function hl(text, q){
+  const e = esc(text); if(!q) return e;
+  try { return e.replace(new RegExp('('+q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')','ig'), '<mark>$1</mark>'); } catch(_){ return e; }
 }
 
-function renderStatsAndProgress(){
-  const s = computeStats();
-  const statDefs = [['cream',s.total,'Items'],['green',s.received,'Received'],['amber',s.ordered,'Ordered'],['coral',s.notbought,'Not Bought'],['cream',s.domains,'Domains']];
-  document.getElementById('stats').innerHTML = statDefs.map(([c,n,l])=>`<div class="stat"><div class="num ${c}">${n}</div><div class="lbl">${l}</div></div>`).join('');
+document.getElementById('srcNote').textContent = 'Narrated on playa · updated ' + UPDATED + ' · source: the bin videos';
 
-  const tracked = s.received+s.ordered+s.notbought+s.flag || 1;
-  const pct = Math.round((s.received/tracked)*100);
-  document.getElementById('p-pct').textContent = pct+'% received';
-  document.getElementById('progressBar').innerHTML =
-    `<div class="seg received" style="width:${s.received/tracked*100}%"></div>`+
-    `<div class="seg ordered" style="width:${s.ordered/tracked*100}%"></div>`+
-    `<div class="seg notbought" style="width:${s.notbought/tracked*100}%"></div>`+
-    `<div class="seg flag" style="width:${s.flag/tracked*100}%"></div>`;
-  const lg = [['#69db7c','Received'],['#db9840','Ordered'],['#cc272e','Not Bought'],['#8a7d75','Flag']];
-  document.getElementById('legend').innerHTML = lg.map(([c,l])=>`<span><span class="dot" style="background:${c}"></span>${l}</span>`).join('');
+function renderStats(){
+  const totalItems = BINS.reduce((a,b)=>a+(b.items?b.items.length:0),0);
+  const located = BINS.filter(b=>b.location).length;
+  document.getElementById('stats').innerHTML = [
+    [BINS.length,'Bins'],[totalItems,'Items'],[located,'Spots mapped']
+  ].map(([n,l])=>`<div class="stat"><div class="num">${n}</div><div class="lbl">${l}</div></div>`).join('');
 }
 
-function populateFilters(){
-  const domains = [...new Set(DATA.map(r=>r.domain).filter(Boolean))].sort();
-  const procs = [...new Set(DATA.map(r=>r.procurement).filter(Boolean))].sort();
-  const pris = [...new Set(DATA.map(r=>r.priority).filter(Boolean))].sort();
-  const df=document.getElementById('domainFilter'), pf=document.getElementById('procFilter'), prf=document.getElementById('priorityFilter');
-  df.innerHTML = `<option value="">${T.en.allDom}</option>`+domains.map(d=>`<option>${d}</option>`).join('');
-  pf.innerHTML = `<option value="">${T.en.allProc}</option>`+procs.map(p=>`<option>${p}</option>`).join('');
-  prf.innerHTML = `<option value="">${T.en.allPri}</option>`+pris.map(p=>`<option>${p}</option>`).join('');
+function renderBins(){
+  document.getElementById('bins').innerHTML = BINS.map(b=>`
+    <div class="bin">
+      <div class="bin-head"><span class="bin-n">BIN ${b.n}</span><span class="bin-title">${esc(b.title||('Bin '+b.n))}</span></div>
+      ${b.location?`<div class="bin-loc">${esc(b.location)}</div>`:''}
+      <ul>${(b.items||[]).map(it=>`<li><span class="q">${esc(qty(it))}</span> ${esc(it.name)}${it.note?`<span class="n">${esc(it.note)}</span>`:''}</li>`).join('')}</ul>
+      ${b.source?`<div class="bin-src">${esc(b.source)}</div>`:''}
+      ${b.quote?`<div class="bin-quote">“${esc(b.quote)}”</div>`:''}
+    </div>`).join('');
 }
 
-function render(){
-  const q = document.getElementById('search').value.toLowerCase();
-  const dom = document.getElementById('domainFilter').value;
-  const proc = document.getElementById('procFilter').value;
-  const pri = document.getElementById('priorityFilter').value;
-  const filtered = DATA.filter(r=>{
-    if(dom && r.domain!==dom) return false;
-    if(proc && r.procurement!==proc) return false;
-    if(pri && r.priority!==pri) return false;
-    if(q){ const hay=(r.item+' '+r.spec+' '+r.notes+' '+r.vendor+' '+r.category+' '+r.domain).toLowerCase(); if(!hay.includes(q)) return false; }
-    return true;
+function onSearch(){
+  const q = document.getElementById('q').value.trim().toLowerCase();
+  document.getElementById('clearBtn').style.display = q ? 'block' : 'none';
+  const res = document.getElementById('results');
+  const browse = document.getElementById('browse');
+  if(!q){ res.style.display='none'; browse.style.display='block'; return; }
+  const hits = [];
+  BINS.forEach(b=>{
+    (b.items||[]).forEach(it=>{
+      const hay = (it.name+' '+(it.note||'')+' '+(b.title||'')+' '+(b.location||'')).toLowerCase();
+      if(hay.includes(q)) hits.push({b, it});
+    });
   });
-  document.getElementById('countLine').textContent = T.en.countLine(filtered.length, DATA.length);
-  const tb = document.getElementById('tbody');
-  tb.innerHTML = filtered.map(r=>{
-    const procTxt = r.procurement;
-    const specNote = [r.spec, r.notes].filter(Boolean).join(' · ');
-    return `<tr>
-      <td>${r.done?'<span class="done-check">✓</span>':''}</td>
-      <td class="item-name">${esc(r.item)}</td>
-      <td>${r.domain?`<span class="badge b-domain">${esc(r.domain)}</span>`:''}</td>
-      <td>${esc(r.category)}</td>
-      <td>${esc(r.qty)}</td>
-      <td>${r.procurement?`<span class="badge ${procClass(r.procurement)}">${esc(procTxt)}</span>`:''}</td>
-      <td>${r.priority?`<span class="badge ${priClass(r.priority)}">${esc(r.priority)}</span>`:''}</td>
-      <td>${esc(r.owner)}</td>
-      <td>${esc(r.vendor)}</td>
-      <td class="spec" style="max-width:340px;color:var(--sand);font-size:0.82rem;">${esc(specNote).slice(0,220)}</td>
-    </tr>`;
-  }).join('');
+  browse.style.display='none'; res.style.display='block';
+  if(!hits.length){ res.innerHTML = `<div class="no-res">No “${esc(q)}” in the bins yet — not narrated. Tell Terri 🐢 and it gets counted tonight.</div>`; return; }
+  res.innerHTML = `<div class="hint" style="margin-bottom:10px;">${hits.length} find${hits.length>1?'s':''} for “${esc(q)}” 👇</div>` + hits.map(({b,it})=>`
+    <div class="res-card">
+      <span class="res-bin">BIN ${b.n}</span>
+      <div class="res-body">
+        <div><span class="res-item">${hl(it.name,q)}</span><span class="res-qty">${esc(qty(it))}</span></div>
+        ${b.location?`<div class="res-loc">📍 ${hl(b.location,q)}</div>`:''}
+        <div class="res-bintitle">${hl(b.title||('Bin '+b.n),q)}</div>
+        ${it.note?`<div class="res-note">${hl(it.note,q)}</div>`:''}
+      </div>
+    </div>`).join('');
 }
 
-function renderHead(){ document.getElementById('theadRow').innerHTML = T.en.cols.map((c,i)=>`<th onclick="sortBy(${i})">${c}</th>`).join(''); }
-let sortCol=-1, sortAsc=true;
-const COLKEYS=['done','item','domain','category','qty','procurement','priority','owner','vendor','spec'];
-function sortBy(i){ const k=COLKEYS[i]; if(sortCol===i)sortAsc=!sortAsc; else {sortCol=i;sortAsc=true;} DATA.sort((a,b)=>{let x=(a[k]||'').toString(),y=(b[k]||'').toString(); return sortAsc?x.localeCompare(y):y.localeCompare(x);}); render(); }
+function clearSearch(){ document.getElementById('q').value=''; onSearch(); document.getElementById('q').focus(); }
 
-function esc(s){ const d=document.createElement('div'); d.textContent=s||''; return d.innerHTML; }
+// kitchen crew updates (live from TG kitchen chat)
+(function(){
+  const ups = (typeof INVENTORY !== 'undefined' && INVENTORY.kitchenUpdates) ? INVENTORY.kitchenUpdates : [];
+  if (!ups.length) return;
+  document.getElementById('kitchen-updates').style.display = 'block';
+  document.getElementById('kitchen-updates-list').innerHTML = ups.map(u=>`
+    <div class="res-card" style="margin-bottom:8px;">
+      <span class="res-bin">${esc(u.date)}</span>
+      <div class="res-body">
+        <div><span class="res-item">${esc(u.by)}</span></div>
+        <div class="res-note">${esc(u.text)}</div>
+      </div>
+    </div>`).join('');
+})();
 
-function applyLang(){
-  document.documentElement.setAttribute('lang', 'en');
-  document.getElementById('h-title').textContent = T.en.title;
-  document.getElementById('h-sub').textContent = T.en.sub;
-  document.getElementById('h-src').textContent = T.en.src(DATA.length);
-  document.getElementById('backLink').textContent = T.en.back;
-  document.getElementById('p-label').textContent = T.en.pLabel;
-  document.getElementById('search').placeholder = T.en.searchPh;
-  renderHead(); populateFilters(); renderStatsAndProgress(); render();
-}
-
-fetch('agent-kit/inventory-data.json').then(r=>r.json()).then(d=>{ DATA=d; applyLang(); })
-  .catch(e=>{ document.getElementById('tbody').innerHTML='<tr><td colspan="10">Could not load inventory data.</td></tr>'; });
+renderStats(); renderBins();
 </script>
 <script src="assets/turtle-cursor.js" defer></script>
 <script src="https://oso-flow-hytgh2qkur-ffieyo32.taur.link/widget.js" defer></script>

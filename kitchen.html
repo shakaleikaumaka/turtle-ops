@@ -63,7 +63,7 @@
 <body>
 <div class="container">
 
-  <nav class="topnav"><a href="./">← Back to Turtle Ops</a> · <a href="inventory.html">📦 Inventory</a></nav>
+  <nav class="topnav"><a href="./">← Back to Turtle Ops</a> · <a href="inventory.html">📦 Turtle Bins</a></nav>
 
   <header class="hero">
     <span class="icon">🍳</span>
@@ -196,11 +196,61 @@
     </div>
   </section>
 
+  <!-- 🐢🍳 CHEF MARCUS -->
+  <section>
+    <h2>8 · Meet the Chef — Marcus 🍳</h2>
+    <div class="panel">
+      <p><strong>Chef Marcus runs this kitchen.</strong> The cook line, the cold chain, the bins, the boards — if it's food, it's his call. He arrives <strong>Saturday 8/30</strong>, and everything on this page is his welcome packet.</p>
+      <p>Marcus is a <strong>full kitchen editor</strong> — anything he re-homes, re-counts, or re-organizes, the boards update to match <em>his</em> reality. He's the chef; the kitchen is his. If he tells you where something lives, that's the answer. 🐢💚</p>
+      <p style="color:var(--sand);font-size:0.9rem;"><em>Camp family: Marcus · Jeremy (ops) · Shaka (the bard) · Terri 🐢 (the turtle who never forgets). Radical Inclusion — every camper, every question, no gatekeeping.</em></p>
+    </div>
+  </section>
+
+  <!-- 🥫 FOOD INVENTORY -->
+  <section>
+    <h2 id="food">9 · Food Inventory 🥫</h2>
+    <div class="panel">
+      <p>Every food supply, sourced from the real receipts (WinCo 8/24 ×2 · Chef'Store 8/24 · Bonanza Produce 8/25) + the build-week meal plan. ❄️ = cooler-needed · 📦 = shelf/dry.</p>
+      <input type="text" id="foodQ" placeholder="🔍 find a food — bacon, eggs, coffee…" oninput="renderFood()" style="width:100%;padding:11px 14px;background:var(--card-2);border:1px solid var(--border);border-radius:10px;color:var(--cream);font-family:inherit;font-size:1rem;margin:6px 0 14px;">
+      <div id="foodGroups"></div>
+      <p style="color:var(--sand);font-size:0.82rem;margin-top:8px;" id="foodUpdated"></p>
+    </div>
+  </section>
+
+  <!-- 🧰 CHEF TOOLS -->
+  <section>
+    <h2 id="tools">10 · Chef Tools 🧰</h2>
+    <div class="panel">
+      <p>The master tools list — every knife, pan, and gadget, mapped to its bin. Updates flow from the bin narrations.</p>
+      <input type="text" id="toolQ" placeholder="🔍 find a tool — santoku, griddle, cast iron…" oninput="renderTools()" style="width:100%;padding:11px 14px;background:var(--card-2);border:1px solid var(--border);font-family:inherit;border-radius:10px;color:var(--cream);font-size:1rem;margin:6px 0 14px;">
+      <div id="toolGroups"></div>
+      <p style="color:var(--sand);font-size:0.82rem;margin-top:8px;" id="toolUpdated"></p>
+    </div>
+  </section>
+
+  <!-- 📋 KITCHEN INSTRUCTIONS -->
+  <section>
+    <h2>11 · Kitchen Instructions 📋</h2>
+    <div class="panel">
+      <p><strong>The daily rhythm, so any turtle can run a meal:</strong></p>
+      <ul>
+        <li><strong>Before anything:</strong> handwash station first (outside the trailer). Gloves on, hair back, apron if you've got one.</li>
+        <li><strong>Reheat, don't cook:</strong> big pot of water to a rolling boil on the Backyard Pro burner → drop the frozen boil-in-bag → 30–45 min → verify 165°F with the instant-read thermometer → serve.</li>
+        <li><strong>Propane discipline:</strong> one person owns the daily propane check. Burner off at the tank when service ends. Smell gas → kill the flame, ventilate, tell the kitchen lead.</li>
+        <li><strong>Cold chain is sacred:</strong> coolers stay closed unless you're taking something out. Ice check twice a day. Anything above 40°F for 2+ hours → it's done, gift it to the compost.</li>
+        <li><strong>Dishes (outside):</strong> scrape first (rubber scraper — saves water) → coarse pre-rinse → wash → rinse → 30-second sanitize → air dry. <strong>Greywater to the evap tank — nothing drains on playa, ever.</strong></li>
+        <li><strong>Dust + wind:</strong> food covers on everything during service. Bag trash immediately = no MOOP.</li>
+        <li><strong>Closing:</strong> wipe down, restock the line, note what we're low on for the morning run. Leave it better than you found it. 🐢</li>
+      </ul>
+      <div class="callout safety"><strong>When in doubt:</strong> ask Chef Marcus (kitchen) or Jeremy (ops). No question is too small — that's Radical Inclusion. 🔥</div>
+    </div>
+  </section>
+
   <!-- FORK IT -->
   <section>
-    <h2>8 · Fork This Kitchen</h2>
+    <h2>12 · Fork This Kitchen</h2>
     <div class="panel">
-      <p>This whole playbook is a gift. 🎁 The full 277-item procurement list — with vendors, specs, quantities, and live status — is in the <a href="inventory.html">Inventory Command Center</a>, and the raw data is at <a href="agent-kit/inventory-data.json"><code>agent-kit/inventory-data.json</code></a>.</p>
+      <p>This whole playbook is a gift. 🎁 The full 277-item procurement list — with vendors, specs, quantities, and live status — is in <a href="inventory.html">Turtle Bins 📦</a>, and the raw data is at <a href="agent-kit/inventory-data.json"><code>agent-kit/inventory-data.json</code></a>.</p>
       <p>To adapt for your camp: scale the cold chain to your headcount, redo the propane math for your burners, and keep the food-safety layer intact — it's the part that keeps everyone dancing instead of down. 🐢</p>
     </div>
   </section>
@@ -211,6 +261,43 @@
   </footer>
 
 </div>
+<script src="data/turtle-food.js"></script>
+<script src="data/turtle-chef.js"></script>
+<script>
+function esc(s){ const d=document.createElement('div'); d.textContent=(s==null?'':String(s)); return d.innerHTML; }
+
+/* 🥫 FOOD */
+const FOODG = (typeof FOOD!=='undefined'&&FOOD.groups)?FOOD.groups:[];
+document.getElementById('foodUpdated').textContent = 'Updated '+(FOOD.updated||'')+' · from the real receipts';
+function renderFood(){
+  const q=(document.getElementById('foodQ').value||'').trim().toLowerCase();
+  document.getElementById('foodGroups').innerHTML = FOODG.map(g=>{
+    const rows=(g.rows||[]).filter(r=>!q||(r.item+' '+(r.qty||'')+' '+(g.name||'')).toLowerCase().includes(q));
+    if(!rows.length)return'';
+    return `<div style="margin-bottom:16px;">
+      <div style="font-weight:700;color:var(--tt-amber);margin-bottom:6px;">${g.icon||''} ${esc(g.name)} <span style="color:var(--sand);font-weight:400;font-size:0.8rem;">· ${esc(g.store||'')}</span></div>
+      <ul style="list-style:none;">${rows.map(r=>`<li style="padding:4px 0 4px 14px;border-top:1px solid var(--border);position:relative;color:var(--cream-dim);font-size:0.92rem;"><span style="position:absolute;left:2px;color:var(--tt-orange);">·</span>${r.status||''} ${esc(r.item)} <span style="color:var(--tt-amber);font-weight:600;">${esc(r.qty||'')}</span></li>`).join('')}</ul>
+    </div>`;
+  }).join('') || '<p style="color:var(--sand);">No food matches — try another word. 🐢</p>';
+}
+
+/* 🧰 TOOLS */
+const TOOLG = (typeof TOOLS!=='undefined'&&TOOLS.groups)?TOOLS.groups:[];
+document.getElementById('toolUpdated').textContent = 'Updated '+(TOOLS.updated||'')+' · from the bin narrations';
+function renderTools(){
+  const q=(document.getElementById('toolQ').value||'').trim().toLowerCase();
+  document.getElementById('toolGroups').innerHTML = TOOLG.map(g=>{
+    const rows=(g.rows||[]).filter(r=>!q||(r.item+' '+(r.note||'')+' '+(g.name||'')).toLowerCase().includes(q));
+    if(!rows.length)return'';
+    return `<div style="margin-bottom:16px;">
+      <div style="font-weight:700;color:${g.color||'var(--tt-amber)'};margin-bottom:6px;">${g.icon||''} ${esc(g.name)}</div>
+      <ul style="list-style:none;">${rows.map(r=>`<li style="padding:4px 0 4px 14px;border-top:1px solid var(--border);position:relative;color:var(--cream-dim);font-size:0.92rem;"><span style="position:absolute;left:2px;color:var(--tt-orange);">·</span>${esc(r.item)}${r.note?` <span style="color:var(--sand);font-style:italic;">${esc(r.note)}</span>`:''}${r.bin?` <span style="color:var(--green);font-size:0.8rem;">· bin ${r.bin}</span>`:''}</li>`).join('')}</ul>
+    </div>`;
+  }).join('') || '<p style="color:var(--sand);">No tool matches — try another word. 🐢</p>';
+}
+
+renderFood(); renderTools();
+</script>
 <script src="assets/turtle-cursor.js" defer></script>
 <script src="https://oso-flow-hytgh2qkur-ffieyo32.taur.link/widget.js" defer></script>
 </body>

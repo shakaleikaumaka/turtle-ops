@@ -1,0 +1,19 @@
+{
+ "drive_id": "15JwfFk-YTE5gXOmSpBdIN6OV8VSin4mE",
+ "slug": "IMG_4430_2",
+ "filename": "IMG_4430 2.MOV",
+ "model": "nova-3",
+ "status": "done",
+ "text": "",
+ "segments": [],
+ "words": [],
+ "utterances": [],
+ "duration_s": 19.73,
+ "word_count": 0,
+ "avg_confidence": 0.0,
+ "speaker_count": 0,
+ "language": "en",
+ "prev_whisper_words": 3,
+ "harvested": "2026-08-01T20:14:54Z",
+ "cross_check_note": "nova-3 returned empty (verified en/multi/ja; multi detected lang=ja but no transcript). Loud audio present (peak ~0dB). Groq whisper cross-check heard 'Shaka la kala!' — possible faint exclamation OR whisper hallucination on noise. ⚑ uncertain, 3 independent nova-3 runs all empty."
+}

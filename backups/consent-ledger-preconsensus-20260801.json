@@ -1,0 +1,1230 @@
+{
+  "schema": "pit-consent-ledger/1",
+  "pit": "shellpit",
+  "policy": {
+    "canon_order": "shaka-2026-07-29",
+    "principle": "living door — assumed consent, instant takedown, explicit yeses collected person-by-person",
+    "takedown_sla_hours": 24,
+    "stewards": "the pit fam — via the Admiral & Terri",
+    "note": "Derived artifacts (frame stills, 64k mp3s, transcripts) are covered by their parent asset's entry. assumed != explicit — never launder one into the other. History is append-only."
+  },
+  "contact": "consent@publicinform.com",
+  "updated": "2026-07-29T13:35:00Z",
+  "counts": {
+    "assumed": 50,
+    "explicit": 0,
+    "revoked": 0,
+    "total": 50
+  },
+  "assets": [
+    {
+      "id": "1gRlmaTqhz1r3z26iDA-28FkPejous9t0",
+      "type": "video",
+      "path": "IMG_4359_2.MOV",
+      "consent": "assumed",
+      "stamped_at": "2026-07-29T13:35:00Z",
+      "order_ref": "shaka-2026-07-29",
+      "history": [
+        {
+          "from": null,
+          "to": "pending",
+          "at": "2026-07-28T21:00:00Z",
+          "by": "terri-export",
+          "note": "ingested into private workbench, nothing public"
+        },
+        {
+          "from": "pending",
+          "to": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "by": "shaka-order",
+          "note": "full deploy blessed: assume consent for all footage currently held; explicit yeses still collected person-by-person; instant revocation via consent@publicinform.com"
+        }
+      ]
+    },
+    {
+      "id": "1NfLGVRbPaD6nH22zY3Q3iF-L9jmXO5bQ",
+      "type": "video",
+      "path": "IMG_4417_2.MOV",
+      "consent": "assumed",
+      "stamped_at": "2026-07-29T13:35:00Z",
+      "order_ref": "shaka-2026-07-29",
+      "history": [
+        {
+          "from": null,
+          "to": "pending",
+          "at": "2026-07-28T21:00:00Z",
+          "by": "terri-export",
+          "note": "ingested into private workbench, nothing public"
+        },
+        {
+          "from": "pending",
+          "to": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "by": "shaka-order",
+          "note": "full deploy blessed: assume consent for all footage currently held; explicit yeses still collected person-by-person; instant revocation via consent@publicinform.com"
+        }
+      ]
+    },
+    {
+      "id": "1Yr6PTEB3_9c-hu-f7K8N26TCmCrkRjbu",
+      "type": "video",
+      "path": "IMG_4418_2.MOV",
+      "consent": "assumed",
+      "stamped_at": "2026-07-29T13:35:00Z",
+      "order_ref": "shaka-2026-07-29",
+      "history": [
+        {
+          "from": null,
+          "to": "pending",
+          "at": "2026-07-28T21:00:00Z",
+          "by": "terri-export",
+          "note": "ingested into private workbench, nothing public"
+        },
+        {
+          "from": "pending",
+          "to": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "by": "shaka-order",
+          "note": "full deploy blessed: assume consent for all footage currently held; explicit yeses still collected person-by-person; instant revocation via consent@publicinform.com"
+        }
+      ]
+    },
+    {
+      "id": "17AlZshNEatU6YQVfs-Isxuft3SbYV9e-",
+      "type": "video",
+      "path": "IMG_4420_2.MOV",
+      "consent": "assumed",
+      "stamped_at": "2026-07-29T13:35:00Z",
+      "order_ref": "shaka-2026-07-29",
+      "history": [
+        {
+          "from": null,
+          "to": "pending",
+          "at": "2026-07-28T21:00:00Z",
+          "by": "terri-export",
+          "note": "ingested into private workbench, nothing public"
+        },
+        {
+          "from": "pending",
+          "to": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "by": "shaka-order",
+          "note": "full deploy blessed: assume consent for all footage currently held; explicit yeses still collected person-by-person; instant revocation via consent@publicinform.com"
+        }
+      ]
+    },
+    {
+      "id": "1egqlxkIHXKhj1CERqEJAx21rHjjyu9vS",
+      "type": "video",
+      "path": "IMG_4422_2.MOV",
+      "consent": "assumed",
+      "stamped_at": "2026-07-29T13:35:00Z",
+      "order_ref": "shaka-2026-07-29",
+      "history": [
+        {
+          "from": null,
+          "to": "pending",
+          "at": "2026-07-28T21:00:00Z",
+          "by": "terri-export",
+          "note": "ingested into private workbench, nothing public"
+        },
+        {
+          "from": "pending",
+          "to": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "by": "shaka-order",
+          "note": "full deploy blessed: assume consent for all footage currently held; explicit yeses still collected person-by-person; instant revocation via consent@publicinform.com"
+        }
+      ]
+    },
+    {
+      "id": "1X_kZXLDmqiOLxvla6vqUoWeK1q7y7o3z",
+      "type": "video",
+      "path": "IMG_4423_2.MOV",
+      "consent": "assumed",
+      "stamped_at": "2026-07-29T13:35:00Z",
+      "order_ref": "shaka-2026-07-29",
+      "history": [
+        {
+          "from": null,
+          "to": "pending",
+          "at": "2026-07-28T21:00:00Z",
+          "by": "terri-export",
+          "note": "ingested into private workbench, nothing public"
+        },
+        {
+          "from": "pending",
+          "to": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "by": "shaka-order",
+          "note": "full deploy blessed: assume consent for all footage currently held; explicit yeses still collected person-by-person; instant revocation via consent@publicinform.com"
+        }
+      ]
+    },
+    {
+      "id": "12hHaZq3O8x-cH9Cx0ELwxizLw0_516u5",
+      "type": "video",
+      "path": "IMG_4425_2.MOV",
+      "consent": "assumed",
+      "stamped_at": "2026-07-29T13:35:00Z",
+      "order_ref": "shaka-2026-07-29",
+      "history": [
+        {
+          "from": null,
+          "to": "pending",
+          "at": "2026-07-28T21:00:00Z",
+          "by": "terri-export",
+          "note": "ingested into private workbench, nothing public"
+        },
+        {
+          "from": "pending",
+          "to": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "by": "shaka-order",
+          "note": "full deploy blessed: assume consent for all footage currently held; explicit yeses still collected person-by-person; instant revocation via consent@publicinform.com"
+        }
+      ]
+    },
+    {
+      "id": "1K2-lHwf6YNS_dw_QdQIHCUS3bRZZ_RCV",
+      "type": "video",
+      "path": "IMG_4427_2.MOV",
+      "consent": "assumed",
+      "stamped_at": "2026-07-29T13:35:00Z",
+      "order_ref": "shaka-2026-07-29",
+      "history": [
+        {
+          "from": null,
+          "to": "pending",
+          "at": "2026-07-28T21:00:00Z",
+          "by": "terri-export",
+          "note": "ingested into private workbench, nothing public"
+        },
+        {
+          "from": "pending",
+          "to": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "by": "shaka-order",
+          "note": "full deploy blessed: assume consent for all footage currently held; explicit yeses still collected person-by-person; instant revocation via consent@publicinform.com"
+        }
+      ]
+    },
+    {
+      "id": "1KbXTbaVAQaGFNKlapCNwuKfNBLn3xG8k",
+      "type": "video",
+      "path": "IMG_4428_2.MOV",
+      "consent": "assumed",
+      "stamped_at": "2026-07-29T13:35:00Z",
+      "order_ref": "shaka-2026-07-29",
+      "history": [
+        {
+          "from": null,
+          "to": "pending",
+          "at": "2026-07-28T21:00:00Z",
+          "by": "terri-export",
+          "note": "ingested into private workbench, nothing public"
+        },
+        {
+          "from": "pending",
+          "to": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "by": "shaka-order",
+          "note": "full deploy blessed: assume consent for all footage currently held; explicit yeses still collected person-by-person; instant revocation via consent@publicinform.com"
+        }
+      ]
+    },
+    {
+      "id": "1PSBB6IjNZOU7OWYslXNl5Hph2IMi6pPx",
+      "type": "video",
+      "path": "IMG_4429_2.MOV",
+      "consent": "assumed",
+      "stamped_at": "2026-07-29T13:35:00Z",
+      "order_ref": "shaka-2026-07-29",
+      "history": [
+        {
+          "from": null,
+          "to": "pending",
+          "at": "2026-07-28T21:00:00Z",
+          "by": "terri-export",
+          "note": "ingested into private workbench, nothing public"
+        },
+        {
+          "from": "pending",
+          "to": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "by": "shaka-order",
+          "note": "full deploy blessed: assume consent for all footage currently held; explicit yeses still collected person-by-person; instant revocation via consent@publicinform.com"
+        }
+      ]
+    },
+    {
+      "id": "15JwfFk-YTE5gXOmSpBdIN6OV8VSin4mE",
+      "type": "video",
+      "path": "IMG_4430_2.MOV",
+      "consent": "assumed",
+      "stamped_at": "2026-07-29T13:35:00Z",
+      "order_ref": "shaka-2026-07-29",
+      "history": [
+        {
+          "from": null,
+          "to": "pending",
+          "at": "2026-07-28T21:00:00Z",
+          "by": "terri-export",
+          "note": "ingested into private workbench, nothing public"
+        },
+        {
+          "from": "pending",
+          "to": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "by": "shaka-order",
+          "note": "full deploy blessed: assume consent for all footage currently held; explicit yeses still collected person-by-person; instant revocation via consent@publicinform.com"
+        }
+      ]
+    },
+    {
+      "id": "1EoEuhNbEAx5cfK9OXgBRybbOkny04p2Z",
+      "type": "video",
+      "path": "IMG_4431_2.MOV",
+      "consent": "assumed",
+      "stamped_at": "2026-07-29T13:35:00Z",
+      "order_ref": "shaka-2026-07-29",
+      "history": [
+        {
+          "from": null,
+          "to": "pending",
+          "at": "2026-07-28T21:00:00Z",
+          "by": "terri-export",
+          "note": "ingested into private workbench, nothing public"
+        },
+        {
+          "from": "pending",
+          "to": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "by": "shaka-order",
+          "note": "full deploy blessed: assume consent for all footage currently held; explicit yeses still collected person-by-person; instant revocation via consent@publicinform.com"
+        }
+      ]
+    },
+    {
+      "id": "1yWXn08HiHd5eelk8lp7dBQdgjssjZgl7",
+      "type": "video",
+      "path": "IMG_4432_2.MOV",
+      "consent": "assumed",
+      "stamped_at": "2026-07-29T13:35:00Z",
+      "order_ref": "shaka-2026-07-29",
+      "history": [
+        {
+          "from": null,
+          "to": "pending",
+          "at": "2026-07-28T21:00:00Z",
+          "by": "terri-export",
+          "note": "ingested into private workbench, nothing public"
+        },
+        {
+          "from": "pending",
+          "to": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "by": "shaka-order",
+          "note": "full deploy blessed: assume consent for all footage currently held; explicit yeses still collected person-by-person; instant revocation via consent@publicinform.com"
+        }
+      ]
+    },
+    {
+      "id": "1l5mYFoTJYQDGowHo1Y2Gxra5CRD2QQS7",
+      "type": "video",
+      "path": "IMG_4433_2.MOV",
+      "consent": "assumed",
+      "stamped_at": "2026-07-29T13:35:00Z",
+      "order_ref": "shaka-2026-07-29",
+      "history": [
+        {
+          "from": null,
+          "to": "pending",
+          "at": "2026-07-28T21:00:00Z",
+          "by": "terri-export",
+          "note": "ingested into private workbench, nothing public"
+        },
+        {
+          "from": "pending",
+          "to": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "by": "shaka-order",
+          "note": "full deploy blessed: assume consent for all footage currently held; explicit yeses still collected person-by-person; instant revocation via consent@publicinform.com"
+        }
+      ]
+    },
+    {
+      "id": "1KsiLBxlJqvvlG0KXJRG8muGNXqZuLAVP",
+      "type": "video",
+      "path": "IMG_4434_2.MOV",
+      "consent": "assumed",
+      "stamped_at": "2026-07-29T13:35:00Z",
+      "order_ref": "shaka-2026-07-29",
+      "history": [
+        {
+          "from": null,
+          "to": "pending",
+          "at": "2026-07-28T21:00:00Z",
+          "by": "terri-export",
+          "note": "ingested into private workbench, nothing public"
+        },
+        {
+          "from": "pending",
+          "to": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "by": "shaka-order",
+          "note": "full deploy blessed: assume consent for all footage currently held; explicit yeses still collected person-by-person; instant revocation via consent@publicinform.com"
+        }
+      ]
+    },
+    {
+      "id": "1r5Ur0KVcxaM8MwbFpIcasvF4o6II290O",
+      "type": "video",
+      "path": "IMG_4435_2.MOV",
+      "consent": "assumed",
+      "stamped_at": "2026-07-29T13:35:00Z",
+      "order_ref": "shaka-2026-07-29",
+      "history": [
+        {
+          "from": null,
+          "to": "pending",
+          "at": "2026-07-28T21:00:00Z",
+          "by": "terri-export",
+          "note": "ingested into private workbench, nothing public"
+        },
+        {
+          "from": "pending",
+          "to": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "by": "shaka-order",
+          "note": "full deploy blessed: assume consent for all footage currently held; explicit yeses still collected person-by-person; instant revocation via consent@publicinform.com"
+        }
+      ]
+    },
+    {
+      "id": "19Re2XtEoOouOI39wC2nwdVTm8gUOqSZn",
+      "type": "video",
+      "path": "IMG_4439_2.MOV",
+      "consent": "assumed",
+      "stamped_at": "2026-07-29T13:35:00Z",
+      "order_ref": "shaka-2026-07-29",
+      "history": [
+        {
+          "from": null,
+          "to": "pending",
+          "at": "2026-07-28T21:00:00Z",
+          "by": "terri-export",
+          "note": "ingested into private workbench, nothing public"
+        },
+        {
+          "from": "pending",
+          "to": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "by": "shaka-order",
+          "note": "full deploy blessed: assume consent for all footage currently held; explicit yeses still collected person-by-person; instant revocation via consent@publicinform.com"
+        }
+      ]
+    },
+    {
+      "id": "1mI7mUGlGGUrBTuFP0DKrfmvilrbHNN7_",
+      "type": "video",
+      "path": "IMG_4441.MOV",
+      "consent": "assumed",
+      "stamped_at": "2026-07-29T13:35:00Z",
+      "order_ref": "shaka-2026-07-29",
+      "history": [
+        {
+          "from": null,
+          "to": "pending",
+          "at": "2026-07-28T21:00:00Z",
+          "by": "terri-export",
+          "note": "ingested into private workbench, nothing public"
+        },
+        {
+          "from": "pending",
+          "to": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "by": "shaka-order",
+          "note": "full deploy blessed: assume consent for all footage currently held; explicit yeses still collected person-by-person; instant revocation via consent@publicinform.com"
+        }
+      ]
+    },
+    {
+      "id": "1nFTnX2hg4Sl-mJ-g-MOl-yTAzrjj7Enw",
+      "type": "video",
+      "path": "IMG_4442.MOV",
+      "consent": "assumed",
+      "stamped_at": "2026-07-29T13:35:00Z",
+      "order_ref": "shaka-2026-07-29",
+      "history": [
+        {
+          "from": null,
+          "to": "pending",
+          "at": "2026-07-28T21:00:00Z",
+          "by": "terri-export",
+          "note": "ingested into private workbench, nothing public"
+        },
+        {
+          "from": "pending",
+          "to": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "by": "shaka-order",
+          "note": "full deploy blessed: assume consent for all footage currently held; explicit yeses still collected person-by-person; instant revocation via consent@publicinform.com"
+        }
+      ]
+    },
+    {
+      "id": "1D5vWN90N5bJ7j07RF9yXAaM_poqusZse",
+      "type": "video",
+      "path": "IMG_4443.MOV",
+      "consent": "assumed",
+      "stamped_at": "2026-07-29T13:35:00Z",
+      "order_ref": "shaka-2026-07-29",
+      "history": [
+        {
+          "from": null,
+          "to": "pending",
+          "at": "2026-07-28T21:00:00Z",
+          "by": "terri-export",
+          "note": "ingested into private workbench, nothing public"
+        },
+        {
+          "from": "pending",
+          "to": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "by": "shaka-order",
+          "note": "full deploy blessed: assume consent for all footage currently held; explicit yeses still collected person-by-person; instant revocation via consent@publicinform.com"
+        }
+      ]
+    },
+    {
+      "id": "1Nlb-vkMtYPJmSVGA3V3S9EPtK_lu4S0t",
+      "type": "video",
+      "path": "IMG_4445.MOV",
+      "consent": "assumed",
+      "stamped_at": "2026-07-29T13:35:00Z",
+      "order_ref": "shaka-2026-07-29",
+      "history": [
+        {
+          "from": null,
+          "to": "pending",
+          "at": "2026-07-28T21:00:00Z",
+          "by": "terri-export",
+          "note": "ingested into private workbench, nothing public"
+        },
+        {
+          "from": "pending",
+          "to": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "by": "shaka-order",
+          "note": "full deploy blessed: assume consent for all footage currently held; explicit yeses still collected person-by-person; instant revocation via consent@publicinform.com"
+        }
+      ]
+    },
+    {
+      "id": "13ejTumOoTf8-lezt1TeIquyKiWcjZrLT",
+      "type": "video",
+      "path": "IMG_4447.MOV",
+      "consent": "assumed",
+      "stamped_at": "2026-07-29T13:35:00Z",
+      "order_ref": "shaka-2026-07-29",
+      "history": [
+        {
+          "from": null,
+          "to": "pending",
+          "at": "2026-07-28T21:00:00Z",
+          "by": "terri-export",
+          "note": "ingested into private workbench, nothing public"
+        },
+        {
+          "from": "pending",
+          "to": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "by": "shaka-order",
+          "note": "full deploy blessed: assume consent for all footage currently held; explicit yeses still collected person-by-person; instant revocation via consent@publicinform.com"
+        }
+      ]
+    },
+    {
+      "id": "1mgxrf9zoBM4E0AxlIOaDnJ0iFhX-P3lb",
+      "type": "video",
+      "path": "IMG_4451.MOV",
+      "consent": "assumed",
+      "stamped_at": "2026-07-29T13:35:00Z",
+      "order_ref": "shaka-2026-07-29",
+      "history": [
+        {
+          "from": null,
+          "to": "pending",
+          "at": "2026-07-28T21:00:00Z",
+          "by": "terri-export",
+          "note": "ingested into private workbench, nothing public"
+        },
+        {
+          "from": "pending",
+          "to": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "by": "shaka-order",
+          "note": "full deploy blessed: assume consent for all footage currently held; explicit yeses still collected person-by-person; instant revocation via consent@publicinform.com"
+        }
+      ]
+    },
+    {
+      "id": "1oF1uGpW8m-yZnA8_tA3M1TZg5DKdY8yZ",
+      "type": "video",
+      "path": "IMG_4452.MOV",
+      "consent": "assumed",
+      "stamped_at": "2026-07-29T13:35:00Z",
+      "order_ref": "shaka-2026-07-29",
+      "history": [
+        {
+          "from": null,
+          "to": "pending",
+          "at": "2026-07-28T21:00:00Z",
+          "by": "terri-export",
+          "note": "ingested into private workbench, nothing public"
+        },
+        {
+          "from": "pending",
+          "to": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "by": "shaka-order",
+          "note": "full deploy blessed: assume consent for all footage currently held; explicit yeses still collected person-by-person; instant revocation via consent@publicinform.com"
+        }
+      ]
+    },
+    {
+      "id": "1xXdIZs1theMAlBMsngvAPlJjLrHiEpxw",
+      "type": "video",
+      "path": "IMG_4453.MOV",
+      "consent": "assumed",
+      "stamped_at": "2026-07-29T13:35:00Z",
+      "order_ref": "shaka-2026-07-29",
+      "history": [
+        {
+          "from": null,
+          "to": "pending",
+          "at": "2026-07-28T21:00:00Z",
+          "by": "terri-export",
+          "note": "ingested into private workbench, nothing public"
+        },
+        {
+          "from": "pending",
+          "to": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "by": "shaka-order",
+          "note": "full deploy blessed: assume consent for all footage currently held; explicit yeses still collected person-by-person; instant revocation via consent@publicinform.com"
+        }
+      ]
+    },
+    {
+      "id": "1VHZA6xfTazKdC3Rzjl9MxAHCW_QQQg4w",
+      "type": "video",
+      "path": "IMG_4459.MOV",
+      "consent": "assumed",
+      "stamped_at": "2026-07-29T13:35:00Z",
+      "order_ref": "shaka-2026-07-29",
+      "history": [
+        {
+          "from": null,
+          "to": "pending",
+          "at": "2026-07-28T21:00:00Z",
+          "by": "terri-export",
+          "note": "ingested into private workbench, nothing public"
+        },
+        {
+          "from": "pending",
+          "to": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "by": "shaka-order",
+          "note": "full deploy blessed: assume consent for all footage currently held; explicit yeses still collected person-by-person; instant revocation via consent@publicinform.com"
+        }
+      ]
+    },
+    {
+      "id": "1uCwTDmS4mi7G1oDMxZiOBdasqyhlaicP",
+      "type": "video",
+      "path": "IMG_4460.MOV",
+      "consent": "assumed",
+      "stamped_at": "2026-07-29T13:35:00Z",
+      "order_ref": "shaka-2026-07-29",
+      "history": [
+        {
+          "from": null,
+          "to": "pending",
+          "at": "2026-07-28T21:00:00Z",
+          "by": "terri-export",
+          "note": "ingested into private workbench, nothing public"
+        },
+        {
+          "from": "pending",
+          "to": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "by": "shaka-order",
+          "note": "full deploy blessed: assume consent for all footage currently held; explicit yeses still collected person-by-person; instant revocation via consent@publicinform.com"
+        }
+      ]
+    },
+    {
+      "id": "1g7g8XifL36v7UpsOlZ1XZWLH6nlf0DKU",
+      "type": "video",
+      "path": "IMG_4461.MOV",
+      "consent": "assumed",
+      "stamped_at": "2026-07-29T13:35:00Z",
+      "order_ref": "shaka-2026-07-29",
+      "history": [
+        {
+          "from": null,
+          "to": "pending",
+          "at": "2026-07-28T21:00:00Z",
+          "by": "terri-export",
+          "note": "ingested into private workbench, nothing public"
+        },
+        {
+          "from": "pending",
+          "to": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "by": "shaka-order",
+          "note": "full deploy blessed: assume consent for all footage currently held; explicit yeses still collected person-by-person; instant revocation via consent@publicinform.com"
+        }
+      ]
+    },
+    {
+      "id": "1KP-UhgpLywyVM2EsLq9b0jaLZTOG0T03",
+      "type": "video",
+      "path": "IMG_4467.MOV",
+      "consent": "assumed",
+      "stamped_at": "2026-07-29T13:35:00Z",
+      "order_ref": "shaka-2026-07-29",
+      "history": [
+        {
+          "from": null,
+          "to": "pending",
+          "at": "2026-07-28T21:00:00Z",
+          "by": "terri-export",
+          "note": "ingested into private workbench, nothing public"
+        },
+        {
+          "from": "pending",
+          "to": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "by": "shaka-order",
+          "note": "full deploy blessed: assume consent for all footage currently held; explicit yeses still collected person-by-person; instant revocation via consent@publicinform.com"
+        }
+      ]
+    },
+    {
+      "id": "1-enyh-cwkltiezo2IOxd3fbgBocilAGv",
+      "type": "video",
+      "path": "IMG_4469.MOV",
+      "consent": "assumed",
+      "stamped_at": "2026-07-29T13:35:00Z",
+      "order_ref": "shaka-2026-07-29",
+      "history": [
+        {
+          "from": null,
+          "to": "pending",
+          "at": "2026-07-28T21:00:00Z",
+          "by": "terri-export",
+          "note": "ingested into private workbench, nothing public"
+        },
+        {
+          "from": "pending",
+          "to": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "by": "shaka-order",
+          "note": "full deploy blessed: assume consent for all footage currently held; explicit yeses still collected person-by-person; instant revocation via consent@publicinform.com"
+        }
+      ]
+    },
+    {
+      "id": "1z4jm8oxuXpC1YT11MKqFIXE_gPymDgmh",
+      "type": "video",
+      "path": "IMG_4471.MOV",
+      "consent": "assumed",
+      "stamped_at": "2026-07-29T13:35:00Z",
+      "order_ref": "shaka-2026-07-29",
+      "history": [
+        {
+          "from": null,
+          "to": "pending",
+          "at": "2026-07-28T21:00:00Z",
+          "by": "terri-export",
+          "note": "ingested into private workbench, nothing public"
+        },
+        {
+          "from": "pending",
+          "to": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "by": "shaka-order",
+          "note": "full deploy blessed: assume consent for all footage currently held; explicit yeses still collected person-by-person; instant revocation via consent@publicinform.com"
+        }
+      ]
+    },
+    {
+      "id": "1jVeT7I1_auYctnxbYHcnmqp40AVTKvEm",
+      "type": "video",
+      "path": "IMG_4623.MOV",
+      "consent": "assumed",
+      "stamped_at": "2026-07-29T13:35:00Z",
+      "order_ref": "shaka-2026-07-29",
+      "history": [
+        {
+          "from": null,
+          "to": "pending",
+          "at": "2026-07-28T21:00:00Z",
+          "by": "terri-export",
+          "note": "ingested into private workbench, nothing public"
+        },
+        {
+          "from": "pending",
+          "to": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "by": "shaka-order",
+          "note": "full deploy blessed: assume consent for all footage currently held; explicit yeses still collected person-by-person; instant revocation via consent@publicinform.com"
+        }
+      ]
+    },
+    {
+      "id": "1039Alr6GYvxjopaBR-CvOBdTFZY-kr2a",
+      "type": "video",
+      "path": "IMG_4624.MOV",
+      "consent": "assumed",
+      "stamped_at": "2026-07-29T13:35:00Z",
+      "order_ref": "shaka-2026-07-29",
+      "history": [
+        {
+          "from": null,
+          "to": "pending",
+          "at": "2026-07-28T21:00:00Z",
+          "by": "terri-export",
+          "note": "ingested into private workbench, nothing public"
+        },
+        {
+          "from": "pending",
+          "to": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "by": "shaka-order",
+          "note": "full deploy blessed: assume consent for all footage currently held; explicit yeses still collected person-by-person; instant revocation via consent@publicinform.com"
+        }
+      ]
+    },
+    {
+      "id": "1geJzAkSqd_g2uKsP_D_qoUYq_GtfIqKL",
+      "type": "video",
+      "path": "IMG_4625.MOV",
+      "consent": "assumed",
+      "stamped_at": "2026-07-29T13:35:00Z",
+      "order_ref": "shaka-2026-07-29",
+      "history": [
+        {
+          "from": null,
+          "to": "pending",
+          "at": "2026-07-28T21:00:00Z",
+          "by": "terri-export",
+          "note": "ingested into private workbench, nothing public"
+        },
+        {
+          "from": "pending",
+          "to": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "by": "shaka-order",
+          "note": "full deploy blessed: assume consent for all footage currently held; explicit yeses still collected person-by-person; instant revocation via consent@publicinform.com"
+        }
+      ]
+    },
+    {
+      "id": "1p0NQlbKC11AF6RyeR5XNJACFCFcE3Gfm",
+      "type": "video",
+      "path": "IMG_4626.MOV",
+      "consent": "assumed",
+      "stamped_at": "2026-07-29T13:35:00Z",
+      "order_ref": "shaka-2026-07-29",
+      "history": [
+        {
+          "from": null,
+          "to": "pending",
+          "at": "2026-07-28T21:00:00Z",
+          "by": "terri-export",
+          "note": "ingested into private workbench, nothing public"
+        },
+        {
+          "from": "pending",
+          "to": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "by": "shaka-order",
+          "note": "full deploy blessed: assume consent for all footage currently held; explicit yeses still collected person-by-person; instant revocation via consent@publicinform.com"
+        }
+      ]
+    },
+    {
+      "id": "IMG_4302_2",
+      "type": "photo",
+      "path": "IMG_4302_2.HEIC",
+      "consent": "assumed",
+      "stamped_at": "2026-07-29T13:35:00Z",
+      "order_ref": "shaka-2026-07-29",
+      "history": [
+        {
+          "from": null,
+          "to": "pending",
+          "at": "2026-07-28T21:00:00Z",
+          "by": "terri-export",
+          "note": "ingested into private workbench, nothing public"
+        },
+        {
+          "from": "pending",
+          "to": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "by": "shaka-order",
+          "note": "full deploy blessed: assume consent for all footage currently held; explicit yeses still collected person-by-person; instant revocation via consent@publicinform.com"
+        }
+      ]
+    },
+    {
+      "id": "IMG_4316_2",
+      "type": "photo",
+      "path": "IMG_4316_2.HEIC",
+      "consent": "assumed",
+      "stamped_at": "2026-07-29T13:35:00Z",
+      "order_ref": "shaka-2026-07-29",
+      "history": [
+        {
+          "from": null,
+          "to": "pending",
+          "at": "2026-07-28T21:00:00Z",
+          "by": "terri-export",
+          "note": "ingested into private workbench, nothing public"
+        },
+        {
+          "from": "pending",
+          "to": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "by": "shaka-order",
+          "note": "full deploy blessed: assume consent for all footage currently held; explicit yeses still collected person-by-person; instant revocation via consent@publicinform.com"
+        }
+      ]
+    },
+    {
+      "id": "IMG_4416_2",
+      "type": "photo",
+      "path": "IMG_4416_2.HEIC",
+      "consent": "assumed",
+      "stamped_at": "2026-07-29T13:35:00Z",
+      "order_ref": "shaka-2026-07-29",
+      "history": [
+        {
+          "from": null,
+          "to": "pending",
+          "at": "2026-07-28T21:00:00Z",
+          "by": "terri-export",
+          "note": "ingested into private workbench, nothing public"
+        },
+        {
+          "from": "pending",
+          "to": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "by": "shaka-order",
+          "note": "full deploy blessed: assume consent for all footage currently held; explicit yeses still collected person-by-person; instant revocation via consent@publicinform.com"
+        }
+      ]
+    },
+    {
+      "id": "IMG_4437_2",
+      "type": "photo",
+      "path": "IMG_4437_2.HEIC",
+      "consent": "assumed",
+      "stamped_at": "2026-07-29T13:35:00Z",
+      "order_ref": "shaka-2026-07-29",
+      "history": [
+        {
+          "from": null,
+          "to": "pending",
+          "at": "2026-07-28T21:00:00Z",
+          "by": "terri-export",
+          "note": "ingested into private workbench, nothing public"
+        },
+        {
+          "from": "pending",
+          "to": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "by": "shaka-order",
+          "note": "full deploy blessed: assume consent for all footage currently held; explicit yeses still collected person-by-person; instant revocation via consent@publicinform.com"
+        }
+      ]
+    },
+    {
+      "id": "IMG_4454",
+      "type": "photo",
+      "path": "IMG_4454.JPG",
+      "consent": "assumed",
+      "stamped_at": "2026-07-29T13:35:00Z",
+      "order_ref": "shaka-2026-07-29",
+      "history": [
+        {
+          "from": null,
+          "to": "pending",
+          "at": "2026-07-28T21:00:00Z",
+          "by": "terri-export",
+          "note": "ingested into private workbench, nothing public"
+        },
+        {
+          "from": "pending",
+          "to": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "by": "shaka-order",
+          "note": "full deploy blessed: assume consent for all footage currently held; explicit yeses still collected person-by-person; instant revocation via consent@publicinform.com"
+        }
+      ]
+    },
+    {
+      "id": "IMG_4455",
+      "type": "photo",
+      "path": "IMG_4455.JPG",
+      "consent": "assumed",
+      "stamped_at": "2026-07-29T13:35:00Z",
+      "order_ref": "shaka-2026-07-29",
+      "history": [
+        {
+          "from": null,
+          "to": "pending",
+          "at": "2026-07-28T21:00:00Z",
+          "by": "terri-export",
+          "note": "ingested into private workbench, nothing public"
+        },
+        {
+          "from": "pending",
+          "to": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "by": "shaka-order",
+          "note": "full deploy blessed: assume consent for all footage currently held; explicit yeses still collected person-by-person; instant revocation via consent@publicinform.com"
+        }
+      ]
+    },
+    {
+      "id": "IMG_4486",
+      "type": "photo",
+      "path": "IMG_4486.HEIC",
+      "consent": "assumed",
+      "stamped_at": "2026-07-29T13:35:00Z",
+      "order_ref": "shaka-2026-07-29",
+      "history": [
+        {
+          "from": null,
+          "to": "pending",
+          "at": "2026-07-28T21:00:00Z",
+          "by": "terri-export",
+          "note": "ingested into private workbench, nothing public"
+        },
+        {
+          "from": "pending",
+          "to": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "by": "shaka-order",
+          "note": "full deploy blessed: assume consent for all footage currently held; explicit yeses still collected person-by-person; instant revocation via consent@publicinform.com"
+        }
+      ]
+    },
+    {
+      "id": "IMG_4487",
+      "type": "photo",
+      "path": "IMG_4487.HEIC",
+      "consent": "assumed",
+      "stamped_at": "2026-07-29T13:35:00Z",
+      "order_ref": "shaka-2026-07-29",
+      "history": [
+        {
+          "from": null,
+          "to": "pending",
+          "at": "2026-07-28T21:00:00Z",
+          "by": "terri-export",
+          "note": "ingested into private workbench, nothing public"
+        },
+        {
+          "from": "pending",
+          "to": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "by": "shaka-order",
+          "note": "full deploy blessed: assume consent for all footage currently held; explicit yeses still collected person-by-person; instant revocation via consent@publicinform.com"
+        }
+      ]
+    },
+    {
+      "id": "IMG_4488",
+      "type": "photo",
+      "path": "IMG_4488.HEIC",
+      "consent": "assumed",
+      "stamped_at": "2026-07-29T13:35:00Z",
+      "order_ref": "shaka-2026-07-29",
+      "history": [
+        {
+          "from": null,
+          "to": "pending",
+          "at": "2026-07-28T21:00:00Z",
+          "by": "terri-export",
+          "note": "ingested into private workbench, nothing public"
+        },
+        {
+          "from": "pending",
+          "to": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "by": "shaka-order",
+          "note": "full deploy blessed: assume consent for all footage currently held; explicit yeses still collected person-by-person; instant revocation via consent@publicinform.com"
+        }
+      ]
+    },
+    {
+      "id": "IMG_4490",
+      "type": "photo",
+      "path": "IMG_4490.HEIC",
+      "consent": "assumed",
+      "stamped_at": "2026-07-29T13:35:00Z",
+      "order_ref": "shaka-2026-07-29",
+      "history": [
+        {
+          "from": null,
+          "to": "pending",
+          "at": "2026-07-28T21:00:00Z",
+          "by": "terri-export",
+          "note": "ingested into private workbench, nothing public"
+        },
+        {
+          "from": "pending",
+          "to": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "by": "shaka-order",
+          "note": "full deploy blessed: assume consent for all footage currently held; explicit yeses still collected person-by-person; instant revocation via consent@publicinform.com"
+        }
+      ]
+    },
+    {
+      "id": "IMG_4491",
+      "type": "photo",
+      "path": "IMG_4491.HEIC",
+      "consent": "assumed",
+      "stamped_at": "2026-07-29T13:35:00Z",
+      "order_ref": "shaka-2026-07-29",
+      "history": [
+        {
+          "from": null,
+          "to": "pending",
+          "at": "2026-07-28T21:00:00Z",
+          "by": "terri-export",
+          "note": "ingested into private workbench, nothing public"
+        },
+        {
+          "from": "pending",
+          "to": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "by": "shaka-order",
+          "note": "full deploy blessed: assume consent for all footage currently held; explicit yeses still collected person-by-person; instant revocation via consent@publicinform.com"
+        }
+      ]
+    },
+    {
+      "id": "IMG_4492",
+      "type": "photo",
+      "path": "IMG_4492.HEIC",
+      "consent": "assumed",
+      "stamped_at": "2026-07-29T13:35:00Z",
+      "order_ref": "shaka-2026-07-29",
+      "history": [
+        {
+          "from": null,
+          "to": "pending",
+          "at": "2026-07-28T21:00:00Z",
+          "by": "terri-export",
+          "note": "ingested into private workbench, nothing public"
+        },
+        {
+          "from": "pending",
+          "to": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "by": "shaka-order",
+          "note": "full deploy blessed: assume consent for all footage currently held; explicit yeses still collected person-by-person; instant revocation via consent@publicinform.com"
+        }
+      ]
+    },
+    {
+      "id": "IMG_4493",
+      "type": "photo",
+      "path": "IMG_4493.HEIC",
+      "consent": "assumed",
+      "stamped_at": "2026-07-29T13:35:00Z",
+      "order_ref": "shaka-2026-07-29",
+      "history": [
+        {
+          "from": null,
+          "to": "pending",
+          "at": "2026-07-28T21:00:00Z",
+          "by": "terri-export",
+          "note": "ingested into private workbench, nothing public"
+        },
+        {
+          "from": "pending",
+          "to": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "by": "shaka-order",
+          "note": "full deploy blessed: assume consent for all footage currently held; explicit yeses still collected person-by-person; instant revocation via consent@publicinform.com"
+        }
+      ]
+    },
+    {
+      "id": "IMG_4494",
+      "type": "photo",
+      "path": "IMG_4494.HEIC",
+      "consent": "assumed",
+      "stamped_at": "2026-07-29T13:35:00Z",
+      "order_ref": "shaka-2026-07-29",
+      "history": [
+        {
+          "from": null,
+          "to": "pending",
+          "at": "2026-07-28T21:00:00Z",
+          "by": "terri-export",
+          "note": "ingested into private workbench, nothing public"
+        },
+        {
+          "from": "pending",
+          "to": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "by": "shaka-order",
+          "note": "full deploy blessed: assume consent for all footage currently held; explicit yeses still collected person-by-person; instant revocation via consent@publicinform.com"
+        }
+      ]
+    },
+    {
+      "id": "IMG_4549",
+      "type": "photo",
+      "path": "IMG_4549.HEIC",
+      "consent": "assumed",
+      "stamped_at": "2026-07-29T13:35:00Z",
+      "order_ref": "shaka-2026-07-29",
+      "history": [
+        {
+          "from": null,
+          "to": "pending",
+          "at": "2026-07-28T21:00:00Z",
+          "by": "terri-export",
+          "note": "ingested into private workbench, nothing public"
+        },
+        {
+          "from": "pending",
+          "to": "assumed",
+          "at": "2026-07-29T13:35:00Z",
+          "by": "shaka-order",
+          "note": "full deploy blessed: assume consent for all footage currently held; explicit yeses still collected person-by-person; instant revocation via consent@publicinform.com"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "deploy-0001",
+      "type": "full-deploy",
+      "at": "2026-07-29T13:35:00Z",
+      "by": "shaka-order",
+      "note": "Shaka 2026-07-29: 'assume we have consent for all the footage we currently have, so we can go full deploy on content and transcripts with private repo to public.' 50 assets stamped pending->assumed; repo flipped public; consent@publicinform.com takedown lane live on every page."
+    }
+  ]
+}

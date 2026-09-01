@@ -1,0 +1,10 @@
+# Evening session 7/17 · clip 1
+
+Date: 2026-07-17
+Source video: IMG_4459.MOV
+Drive: https://drive.google.com/file/d/1VHZA6xfTazKdC3Rzjl9MxAHCW_QQQg4w/view
+Duration: 00:00
+Transcribed: 2026-07-28 · Terri turtlePIT · faster-whisper (small, int8) · consent: assumed-2026-07-29
+
+---
+

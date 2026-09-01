@@ -1,0 +1,1069 @@
+{
+ "drive_id": "1uCwTDmS4mi7G1oDMxZiOBdasqyhlaicP",
+ "slug": "IMG_4460",
+ "filename": "IMG_4460.MOV",
+ "model": "nova-3",
+ "status": "done",
+ "text": "Alright. So here's what we got so far. We just got the floor, the walls. It's not perfect, but it's in there and glued and screwed. So we'll put this one on the bottom corner, get another frame at the top, cut the frames up. We got the toolmaker here. We're on the Phoenix Gulch. Let's go.",
+ "segments": [
+  {
+   "start": 0.72,
+   "end": 1.68,
+   "text": "Alright.",
+   "speaker": 0
+  },
+  {
+   "start": 1.68,
+   "end": 5.2,
+   "text": "So here's what we got so far. We just got the floor, the walls.",
+   "speaker": 0
+  },
+  {
+   "start": 5.44,
+   "end": 8.48,
+   "text": "It's not perfect, but it's in there and",
+   "speaker": 1
+  },
+  {
+   "start": 9.84,
+   "end": 11.52,
+   "text": "glued and screwed.",
+   "speaker": 1
+  },
+  {
+   "start": 12.08,
+   "end": 14.72,
+   "text": "So we'll put this one on the bottom corner,",
+   "speaker": 1
+  },
+  {
+   "start": 15.195,
+   "end": 17.995,
+   "text": "get another frame at the top, cut the frames up.",
+   "speaker": 1
+  },
+  {
+   "start": 18.395,
+   "end": 21.995,
+   "text": "We got the toolmaker here. We're on the Phoenix Gulch.",
+   "speaker": 1
+  },
+  {
+   "start": 22.315,
+   "end": 22.955,
+   "text": "Let's go.",
+   "speaker": 1
+  }
+ ],
+ "words": [
+  {
+   "word": "Alright.",
+   "start": 0.72,
+   "end": 1.68,
+   "confidence": 0.8997,
+   "speaker": 0
+  },
+  {
+   "word": "So",
+   "start": 1.68,
+   "end": 1.84,
+   "confidence": 0.978,
+   "speaker": 0
+  },
+  {
+   "word": "here's",
+   "start": 1.84,
+   "end": 2.0,
+   "confidence": 0.7954,
+   "speaker": 0
+  },
+  {
+   "word": "what",
+   "start": 2.0,
+   "end": 2.16,
+   "confidence": 0.9971,
+   "speaker": 0
+  },
+  {
+   "word": "we",
+   "start": 2.16,
+   "end": 2.24,
+   "confidence": 1.0,
+   "speaker": 0
+  },
+  {
+   "word": "got",
+   "start": 2.24,
+   "end": 2.4,
+   "confidence": 0.998,
+   "speaker": 0
+  },
+  {
+   "word": "so",
+   "start": 2.4,
+   "end": 2.64,
+   "confidence": 1.0,
+   "speaker": 0
+  },
+  {
+   "word": "far.",
+   "start": 2.64,
+   "end": 2.96,
+   "confidence": 0.9995,
+   "speaker": 0
+  },
+  {
+   "word": "We",
+   "start": 2.96,
+   "end": 3.12,
+   "confidence": 1.0,
+   "speaker": 0
+  },
+  {
+   "word": "just",
+   "start": 3.12,
+   "end": 3.28,
+   "confidence": 1.0,
+   "speaker": 0
+  },
+  {
+   "word": "got",
+   "start": 3.28,
+   "end": 3.52,
+   "confidence": 0.999,
+   "speaker": 0
+  },
+  {
+   "word": "the",
+   "start": 3.52,
+   "end": 3.68,
+   "confidence": 0.9961,
+   "speaker": 1
+  },
+  {
+   "word": "floor,",
+   "start": 3.68,
+   "end": 4.24,
+   "confidence": 0.9966,
+   "speaker": 1
+  },
+  {
+   "word": "the",
+   "start": 4.24,
+   "end": 4.4,
+   "confidence": 1.0,
+   "speaker": 1
+  },
+  {
+   "word": "walls.",
+   "start": 4.4,
+   "end": 5.2,
+   "confidence": 0.9871,
+   "speaker": 1
+  },
+  {
+   "word": "It's",
+   "start": 5.44,
+   "end": 5.68,
+   "confidence": 0.9995,
+   "speaker": 1
+  },
+  {
+   "word": "not",
+   "start": 5.68,
+   "end": 5.92,
+   "confidence": 1.0,
+   "speaker": 1
+  },
+  {
+   "word": "perfect,",
+   "start": 5.92,
+   "end": 6.48,
+   "confidence": 0.9956,
+   "speaker": 1
+  },
+  {
+   "word": "but",
+   "start": 6.48,
+   "end": 6.64,
+   "confidence": 1.0,
+   "speaker": 1
+  },
+  {
+   "word": "it's",
+   "start": 6.64,
+   "end": 6.88,
+   "confidence": 1.0,
+   "speaker": 1
+  },
+  {
+   "word": "in",
+   "start": 6.88,
+   "end": 6.96,
+   "confidence": 1.0,
+   "speaker": 1
+  },
+  {
+   "word": "there",
+   "start": 6.96,
+   "end": 7.52,
+   "confidence": 1.0,
+   "speaker": 1
+  },
+  {
+   "word": "and",
+   "start": 7.76,
+   "end": 8.48,
+   "confidence": 0.8906,
+   "speaker": 1
+  },
+  {
+   "word": "glued",
+   "start": 9.84,
+   "end": 10.48,
+   "confidence": 0.9138,
+   "speaker": 1
+  },
+  {
+   "word": "and",
+   "start": 10.48,
+   "end": 10.8,
+   "confidence": 0.9961,
+   "speaker": 1
+  },
+  {
+   "word": "screwed.",
+   "start": 10.8,
+   "end": 11.52,
+   "confidence": 0.989,
+   "speaker": 1
+  },
+  {
+   "word": "So",
+   "start": 12.08,
+   "end": 12.48,
+   "confidence": 1.0,
+   "speaker": 1
+  },
+  {
+   "word": "we'll",
+   "start": 12.48,
+   "end": 12.88,
+   "confidence": 0.9995,
+   "speaker": 1
+  },
+  {
+   "word": "put",
+   "start": 12.88,
+   "end": 13.2,
+   "confidence": 1.0,
+   "speaker": 1
+  },
+  {
+   "word": "this",
+   "start": 13.2,
+   "end": 13.36,
+   "confidence": 1.0,
+   "speaker": 1
+  },
+  {
+   "word": "one",
+   "start": 13.36,
+   "end": 13.68,
+   "confidence": 1.0,
+   "speaker": 1
+  },
+  {
+   "word": "on",
+   "start": 13.68,
+   "end": 13.92,
+   "confidence": 1.0,
+   "speaker": 1
+  },
+  {
+   "word": "the",
+   "start": 13.92,
+   "end": 14.08,
+   "confidence": 1.0,
+   "speaker": 1
+  },
+  {
+   "word": "bottom",
+   "start": 14.08,
+   "end": 14.32,
+   "confidence": 1.0,
+   "speaker": 1
+  },
+  {
+   "word": "corner,",
+   "start": 14.32,
+   "end": 14.72,
+   "confidence": 0.9263,
+   "speaker": 1
+  },
+  {
+   "word": "get",
+   "start": 15.195,
+   "end": 15.435,
+   "confidence": 0.8882,
+   "speaker": 1
+  },
+  {
+   "word": "another",
+   "start": 15.435,
+   "end": 15.755,
+   "confidence": 0.9351,
+   "speaker": 1
+  },
+  {
+   "word": "frame",
+   "start": 15.755,
+   "end": 15.915,
+   "confidence": 0.9951,
+   "speaker": 1
+  },
+  {
+   "word": "at",
+   "start": 15.915,
+   "end": 16.075,
+   "confidence": 0.4539,
+   "speaker": 1
+  },
+  {
+   "word": "the",
+   "start": 16.075,
+   "end": 16.235,
+   "confidence": 0.5708,
+   "speaker": 1
+  },
+  {
+   "word": "top,",
+   "start": 16.235,
+   "end": 16.715,
+   "confidence": 0.9866,
+   "speaker": 1
+  },
+  {
+   "word": "cut",
+   "start": 16.715,
+   "end": 17.035,
+   "confidence": 1.0,
+   "speaker": 1
+  },
+  {
+   "word": "the",
+   "start": 17.035,
+   "end": 17.195,
+   "confidence": 1.0,
+   "speaker": 1
+  },
+  {
+   "word": "frames",
+   "start": 17.195,
+   "end": 17.435,
+   "confidence": 1.0,
+   "speaker": 1
+  },
+  {
+   "word": "up.",
+   "start": 17.435,
+   "end": 17.995,
+   "confidence": 0.9807,
+   "speaker": 1
+  },
+  {
+   "word": "We",
+   "start": 18.395,
+   "end": 18.635,
+   "confidence": 0.9863,
+   "speaker": 1
+  },
+  {
+   "word": "got",
+   "start": 18.635,
+   "end": 18.795,
+   "confidence": 0.9961,
+   "speaker": 1
+  },
+  {
+   "word": "the",
+   "start": 18.795,
+   "end": 18.955,
+   "confidence": 1.0,
+   "speaker": 1
+  },
+  {
+   "word": "toolmaker",
+   "start": 18.955,
+   "end": 19.515,
+   "confidence": 0.8765,
+   "speaker": 1
+  },
+  {
+   "word": "here.",
+   "start": 19.515,
+   "end": 20.075,
+   "confidence": 0.9875,
+   "speaker": 1
+  },
+  {
+   "word": "We're",
+   "start": 20.235,
+   "end": 20.635,
+   "confidence": 0.9697,
+   "speaker": 1
+  },
+  {
+   "word": "on",
+   "start": 20.635,
+   "end": 20.795,
+   "confidence": 0.9839,
+   "speaker": 1
+  },
+  {
+   "word": "the",
+   "start": 20.795,
+   "end": 20.875,
+   "confidence": 0.998,
+   "speaker": 1
+  },
+  {
+   "word": "Phoenix",
+   "start": 20.875,
+   "end": 21.195,
+   "confidence": 0.9072,
+   "speaker": 1
+  },
+  {
+   "word": "Gulch.",
+   "start": 21.195,
+   "end": 21.995,
+   "confidence": 0.8393,
+   "speaker": 1
+  },
+  {
+   "word": "Let's",
+   "start": 22.315,
+   "end": 22.715,
+   "confidence": 0.9995,
+   "speaker": 1
+  },
+  {
+   "word": "go.",
+   "start": 22.715,
+   "end": 22.955,
+   "confidence": 1.0,
+   "speaker": 1
+  }
+ ],
+ "utterances": [
+  {
+   "start": 0.71999997,
+   "end": 1.68,
+   "confidence": 0.8996582,
+   "channel": 0,
+   "transcript": "Alright.",
+   "words": [
+    {
+     "word": "alright",
+     "start": 0.71999997,
+     "end": 1.68,
+     "confidence": 0.8996582,
+     "speaker": 0,
+     "speaker_confidence": 1.0,
+     "punctuated_word": "Alright."
+    }
+   ],
+   "speaker": 0,
+   "id": "8b05572a-072c-4b95-b121-260d52c575f5"
+  },
+  {
+   "start": 1.68,
+   "end": 5.2000003,
+   "confidence": 0.9819161,
+   "channel": 0,
+   "transcript": "So here's what we got so far. We just got the floor, the walls.",
+   "words": [
+    {
+     "word": "so",
+     "start": 1.68,
+     "end": 1.8399999,
+     "confidence": 0.97802734,
+     "speaker": 0,
+     "speaker_confidence": 1.0,
+     "punctuated_word": "So"
+    },
+    {
+     "word": "here's",
+     "start": 1.8399999,
+     "end": 2.0,
+     "confidence": 0.79541016,
+     "speaker": 0,
+     "speaker_confidence": 1.0,
+     "punctuated_word": "here's"
+    },
+    {
+     "word": "what",
+     "start": 2.0,
+     "end": 2.1599998,
+     "confidence": 0.9970703,
+     "speaker": 0,
+     "speaker_confidence": 1.0,
+     "punctuated_word": "what"
+    },
+    {
+     "word": "we",
+     "start": 2.1599998,
+     "end": 2.24,
+     "confidence": 1.0,
+     "speaker": 0,
+     "speaker_confidence": 1.0,
+     "punctuated_word": "we"
+    },
+    {
+     "word": "got",
+     "start": 2.24,
+     "end": 2.3999999,
+     "confidence": 0.9980469,
+     "speaker": 0,
+     "speaker_confidence": 1.0,
+     "punctuated_word": "got"
+    },
+    {
+     "word": "so",
+     "start": 2.3999999,
+     "end": 2.6399999,
+     "confidence": 1.0,
+     "speaker": 0,
+     "speaker_confidence": 1.0,
+     "punctuated_word": "so"
+    },
+    {
+     "word": "far",
+     "start": 2.6399999,
+     "end": 2.96,
+     "confidence": 0.9995117,
+     "speaker": 0,
+     "speaker_confidence": 1.0,
+     "punctuated_word": "far."
+    },
+    {
+     "word": "we",
+     "start": 2.96,
+     "end": 3.12,
+     "confidence": 1.0,
+     "speaker": 0,
+     "speaker_confidence": 1.0,
+     "punctuated_word": "We"
+    },
+    {
+     "word": "just",
+     "start": 3.12,
+     "end": 3.28,
+     "confidence": 1.0,
+     "speaker": 0,
+     "speaker_confidence": 1.0,
+     "punctuated_word": "just"
+    },
+    {
+     "word": "got",
+     "start": 3.28,
+     "end": 3.52,
+     "confidence": 0.99902344,
+     "speaker": 0,
+     "speaker_confidence": 1.0,
+     "punctuated_word": "got"
+    },
+    {
+     "word": "the",
+     "start": 3.52,
+     "end": 3.6799998,
+     "confidence": 0.99609375,
+     "speaker": 1,
+     "speaker_confidence": 0.11438191,
+     "punctuated_word": "the"
+    },
+    {
+     "word": "floor",
+     "start": 3.6799998,
+     "end": 4.24,
+     "confidence": 0.99658203,
+     "speaker": 1,
+     "speaker_confidence": 0.11438191,
+     "punctuated_word": "floor,"
+    },
+    {
+     "word": "the",
+     "start": 4.24,
+     "end": 4.4,
+     "confidence": 1.0,
+     "speaker": 1,
+     "speaker_confidence": 0.11438191,
+     "punctuated_word": "the"
+    },
+    {
+     "word": "walls",
+     "start": 4.4,
+     "end": 5.2000003,
+     "confidence": 0.98706055,
+     "speaker": 1,
+     "speaker_confidence": 0.43137097,
+     "punctuated_word": "walls."
+    }
+   ],
+   "speaker": 0,
+   "id": "a501dc36-a581-4fc3-ac0d-509bf0c33d9c"
+  },
+  {
+   "start": 5.44,
+   "end": 8.48,
+   "confidence": 0.9857178,
+   "channel": 0,
+   "transcript": "It's not perfect, but it's in there and",
+   "words": [
+    {
+     "word": "it's",
+     "start": 5.44,
+     "end": 5.68,
+     "confidence": 0.9995117,
+     "speaker": 1,
+     "speaker_confidence": 0.43137097,
+     "punctuated_word": "It's"
+    },
+    {
+     "word": "not",
+     "start": 5.68,
+     "end": 5.92,
+     "confidence": 1.0,
+     "speaker": 1,
+     "speaker_confidence": 0.43137097,
+     "punctuated_word": "not"
+    },
+    {
+     "word": "perfect",
+     "start": 5.92,
+     "end": 6.48,
+     "confidence": 0.99560547,
+     "speaker": 1,
+     "speaker_confidence": 0.43137097,
+     "punctuated_word": "perfect,"
+    },
+    {
+     "word": "but",
+     "start": 6.48,
+     "end": 6.64,
+     "confidence": 1.0,
+     "speaker": 1,
+     "speaker_confidence": 0.43137097,
+     "punctuated_word": "but"
+    },
+    {
+     "word": "it's",
+     "start": 6.64,
+     "end": 6.8799996,
+     "confidence": 1.0,
+     "speaker": 1,
+     "speaker_confidence": 0.43137097,
+     "punctuated_word": "it's"
+    },
+    {
+     "word": "in",
+     "start": 6.8799996,
+     "end": 6.96,
+     "confidence": 1.0,
+     "speaker": 1,
+     "speaker_confidence": 0.43137097,
+     "punctuated_word": "in"
+    },
+    {
+     "word": "there",
+     "start": 6.96,
+     "end": 7.52,
+     "confidence": 1.0,
+     "speaker": 1,
+     "speaker_confidence": 0.43137097,
+     "punctuated_word": "there"
+    },
+    {
+     "word": "and",
+     "start": 7.7599998,
+     "end": 8.48,
+     "confidence": 0.890625,
+     "speaker": 1,
+     "speaker_confidence": 0.43137097,
+     "punctuated_word": "and"
+    }
+   ],
+   "speaker": 1,
+   "id": "f0645bf6-73db-4b22-847b-00c10d3eece1"
+  },
+  {
+   "start": 9.84,
+   "end": 11.5199995,
+   "confidence": 0.9663086,
+   "channel": 0,
+   "transcript": "glued and screwed.",
+   "words": [
+    {
+     "word": "glued",
+     "start": 9.84,
+     "end": 10.48,
+     "confidence": 0.91381836,
+     "speaker": 1,
+     "speaker_confidence": 0.5714398,
+     "punctuated_word": "glued"
+    },
+    {
+     "word": "and",
+     "start": 10.48,
+     "end": 10.8,
+     "confidence": 0.99609375,
+     "speaker": 1,
+     "speaker_confidence": 0.5714398,
+     "punctuated_word": "and"
+    },
+    {
+     "word": "screwed",
+     "start": 10.8,
+     "end": 11.5199995,
+     "confidence": 0.9890137,
+     "speaker": 1,
+     "speaker_confidence": 0.5714398,
+     "punctuated_word": "screwed."
+    }
+   ],
+   "speaker": 1,
+   "id": "21b10f07-89b1-40a4-a856-4ae9e0f71db9"
+  },
+  {
+   "start": 12.08,
+   "end": 14.719999,
+   "confidence": 0.99175346,
+   "channel": 0,
+   "transcript": "So we'll put this one on the bottom corner,",
+   "words": [
+    {
+     "word": "so",
+     "start": 12.08,
+     "end": 12.48,
+     "confidence": 1.0,
+     "speaker": 1,
+     "speaker_confidence": 0.5714398,
+     "punctuated_word": "So"
+    },
+    {
+     "word": "we'll",
+     "start": 12.48,
+     "end": 12.88,
+     "confidence": 0.9995117,
+     "speaker": 1,
+     "speaker_confidence": 0.5714398,
+     "punctuated_word": "we'll"
+    },
+    {
+     "word": "put",
+     "start": 12.88,
+     "end": 13.2,
+     "confidence": 1.0,
+     "speaker": 1,
+     "speaker_confidence": 0.5714398,
+     "punctuated_word": "put"
+    },
+    {
+     "word": "this",
+     "start": 13.2,
+     "end": 13.36,
+     "confidence": 1.0,
+     "speaker": 1,
+     "speaker_confidence": 0.5714398,
+     "punctuated_word": "this"
+    },
+    {
+     "word": "one",
+     "start": 13.36,
+     "end": 13.679999,
+     "confidence": 1.0,
+     "speaker": 1,
+     "speaker_confidence": 0.5714398,
+     "punctuated_word": "one"
+    },
+    {
+     "word": "on",
+     "start": 13.679999,
+     "end": 13.92,
+     "confidence": 1.0,
+     "speaker": 1,
+     "speaker_confidence": 0.5714398,
+     "punctuated_word": "on"
+    },
+    {
+     "word": "the",
+     "start": 13.92,
+     "end": 14.08,
+     "confidence": 1.0,
+     "speaker": 1,
+     "speaker_confidence": 0.5714398,
+     "punctuated_word": "the"
+    },
+    {
+     "word": "bottom",
+     "start": 14.08,
+     "end": 14.32,
+     "confidence": 1.0,
+     "speaker": 1,
+     "speaker_confidence": 0.5714398,
+     "punctuated_word": "bottom"
+    },
+    {
+     "word": "corner",
+     "start": 14.32,
+     "end": 14.719999,
+     "confidence": 0.92626953,
+     "speaker": 1,
+     "speaker_confidence": 0.5714398,
+     "punctuated_word": "corner,"
+    }
+   ],
+   "speaker": 1,
+   "id": "f3e282da-cbd2-497a-8a85-1b65ec01efee"
+  },
+  {
+   "start": 15.195,
+   "end": 17.994999,
+   "confidence": 0.88103026,
+   "channel": 0,
+   "transcript": "get another frame at the top, cut the frames up.",
+   "words": [
+    {
+     "word": "get",
+     "start": 15.195,
+     "end": 15.434999,
+     "confidence": 0.8881836,
+     "speaker": 1,
+     "speaker_confidence": 0.5714398,
+     "punctuated_word": "get"
+    },
+    {
+     "word": "another",
+     "start": 15.434999,
+     "end": 15.755,
+     "confidence": 0.9350586,
+     "speaker": 1,
+     "speaker_confidence": 0.5714398,
+     "punctuated_word": "another"
+    },
+    {
+     "word": "frame",
+     "start": 15.755,
+     "end": 15.915,
+     "confidence": 0.9951172,
+     "speaker": 1,
+     "speaker_confidence": 0.5714398,
+     "punctuated_word": "frame"
+    },
+    {
+     "word": "at",
+     "start": 15.915,
+     "end": 16.074999,
+     "confidence": 0.45385742,
+     "speaker": 1,
+     "speaker_confidence": 0.5714398,
+     "punctuated_word": "at"
+    },
+    {
+     "word": "the",
+     "start": 16.074999,
+     "end": 16.235,
+     "confidence": 0.5708008,
+     "speaker": 1,
+     "speaker_confidence": 0.41915214,
+     "punctuated_word": "the"
+    },
+    {
+     "word": "top",
+     "start": 16.235,
+     "end": 16.715,
+     "confidence": 0.98657227,
+     "speaker": 1,
+     "speaker_confidence": 0.41915214,
+     "punctuated_word": "top,"
+    },
+    {
+     "word": "cut",
+     "start": 16.715,
+     "end": 17.035,
+     "confidence": 1.0,
+     "speaker": 1,
+     "speaker_confidence": 0.41915214,
+     "punctuated_word": "cut"
+    },
+    {
+     "word": "the",
+     "start": 17.035,
+     "end": 17.195,
+     "confidence": 1.0,
+     "speaker": 1,
+     "speaker_confidence": 0.41915214,
+     "punctuated_word": "the"
+    },
+    {
+     "word": "frames",
+     "start": 17.195,
+     "end": 17.435,
+     "confidence": 1.0,
+     "speaker": 1,
+     "speaker_confidence": 0.41915214,
+     "punctuated_word": "frames"
+    },
+    {
+     "word": "up",
+     "start": 17.435,
+     "end": 17.994999,
+     "confidence": 0.9807129,
+     "speaker": 1,
+     "speaker_confidence": 0.41915214,
+     "punctuated_word": "up."
+    }
+   ],
+   "speaker": 1,
+   "id": "e7c764f2-b941-46f3-abe3-dda825a45329"
+  },
+  {
+   "start": 18.395,
+   "end": 21.994999,
+   "confidence": 0.9544617,
+   "channel": 0,
+   "transcript": "We got the toolmaker here. We're on the Phoenix Gulch.",
+   "words": [
+    {
+     "word": "we",
+     "start": 18.395,
+     "end": 18.635,
+     "confidence": 0.9863281,
+     "speaker": 1,
+     "speaker_confidence": 0.41915214,
+     "punctuated_word": "We"
+    },
+    {
+     "word": "got",
+     "start": 18.635,
+     "end": 18.795,
+     "confidence": 0.99609375,
+     "speaker": 1,
+     "speaker_confidence": 0.41915214,
+     "punctuated_word": "got"
+    },
+    {
+     "word": "the",
+     "start": 18.795,
+     "end": 18.955,
+     "confidence": 1.0,
+     "speaker": 1,
+     "speaker_confidence": 0.47428274,
+     "punctuated_word": "the"
+    },
+    {
+     "word": "toolmaker",
+     "start": 18.955,
+     "end": 19.515,
+     "confidence": 0.87646484,
+     "speaker": 1,
+     "speaker_confidence": 0.47428274,
+     "punctuated_word": "toolmaker"
+    },
+    {
+     "word": "here",
+     "start": 19.515,
+     "end": 20.074999,
+     "confidence": 0.9875488,
+     "speaker": 1,
+     "speaker_confidence": 0.47428274,
+     "punctuated_word": "here."
+    },
+    {
+     "word": "we're",
+     "start": 20.235,
+     "end": 20.635,
+     "confidence": 0.96972656,
+     "speaker": 1,
+     "speaker_confidence": 0.47428274,
+     "punctuated_word": "We're"
+    },
+    {
+     "word": "on",
+     "start": 20.635,
+     "end": 20.795,
+     "confidence": 0.9838867,
+     "speaker": 1,
+     "speaker_confidence": 0.47428274,
+     "punctuated_word": "on"
+    },
+    {
+     "word": "the",
+     "start": 20.795,
+     "end": 20.875,
+     "confidence": 0.9980469,
+     "speaker": 1,
+     "speaker_confidence": 0.40545374,
+     "punctuated_word": "the"
+    },
+    {
+     "word": "phoenix",
+     "start": 20.875,
+     "end": 21.195,
+     "confidence": 0.90722656,
+     "speaker": 1,
+     "speaker_confidence": 0.40545374,
+     "punctuated_word": "Phoenix"
+    },
+    {
+     "word": "gulch",
+     "start": 21.195,
+     "end": 21.994999,
+     "confidence": 0.83929443,
+     "speaker": 1,
+     "speaker_confidence": 0.40545374,
+     "punctuated_word": "Gulch."
+    }
+   ],
+   "speaker": 1,
+   "id": "a27aa8a2-a2dd-49a5-babc-7c094e68cffa"
+  },
+  {
+   "start": 22.314999,
+   "end": 22.955,
+   "confidence": 0.99975586,
+   "channel": 0,
+   "transcript": "Let's go.",
+   "words": [
+    {
+     "word": "let's",
+     "start": 22.314999,
+     "end": 22.715,
+     "confidence": 0.9995117,
+     "speaker": 1,
+     "speaker_confidence": 0.40545374,
+     "punctuated_word": "Let's"
+    },
+    {
+     "word": "go",
+     "start": 22.715,
+     "end": 22.955,
+     "confidence": 1.0,
+     "speaker": 1,
+     "speaker_confidence": 0.40545374,
+     "punctuated_word": "go."
+    }
+   ],
+   "speaker": 1,
+   "id": "0dbe1be2-f7ff-4a32-9f99-910b5816f67d"
+  }
+ ],
+ "duration_s": 24.95,
+ "word_count": 57,
+ "avg_confidence": 0.9598,
+ "speaker_count": 2,
+ "language": "en",
+ "prev_whisper_words": 58,
+ "harvested": "2026-08-01T20:16:15Z"
+}

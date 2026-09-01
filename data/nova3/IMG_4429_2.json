@@ -1,0 +1,550 @@
+{
+ "drive_id": "1PSBB6IjNZOU7OWYslXNl5Hph2IMi6pPx",
+ "slug": "IMG_4429_2",
+ "filename": "IMG_4429 2.MOV",
+ "model": "nova-3",
+ "status": "done",
+ "text": "I got here. I got just a little bit. Turn it on. So it was kind of my fault, but not exactly? Yeah. You always gotta watch that. These are metal sawhorses.",
+ "segments": [
+  {
+   "start": 0.32,
+   "end": 8.0,
+   "text": "I got here. I got just a little bit. Turn it on. So it was kind of my fault, but not exactly? Yeah. You always gotta watch that. These are metal sawhorses.",
+   "speaker": 0
+  }
+ ],
+ "words": [
+  {
+   "word": "I",
+   "start": 0.32,
+   "end": 0.4,
+   "confidence": 0.1748,
+   "speaker": 0
+  },
+  {
+   "word": "got",
+   "start": 0.4,
+   "end": 0.56,
+   "confidence": 0.3535,
+   "speaker": 0
+  },
+  {
+   "word": "here.",
+   "start": 0.56,
+   "end": 1.04,
+   "confidence": 0.6212,
+   "speaker": 0
+  },
+  {
+   "word": "I",
+   "start": 1.04,
+   "end": 1.36,
+   "confidence": 0.3057,
+   "speaker": 0
+  },
+  {
+   "word": "got",
+   "start": 1.36,
+   "end": 1.6,
+   "confidence": 0.751,
+   "speaker": 0
+  },
+  {
+   "word": "just",
+   "start": 1.6,
+   "end": 1.84,
+   "confidence": 0.895,
+   "speaker": 0
+  },
+  {
+   "word": "a",
+   "start": 1.84,
+   "end": 2.0,
+   "confidence": 0.998,
+   "speaker": 0
+  },
+  {
+   "word": "little",
+   "start": 2.0,
+   "end": 2.08,
+   "confidence": 1.0,
+   "speaker": 0
+  },
+  {
+   "word": "bit.",
+   "start": 2.08,
+   "end": 2.32,
+   "confidence": 0.8337,
+   "speaker": 0
+  },
+  {
+   "word": "Turn",
+   "start": 2.32,
+   "end": 2.48,
+   "confidence": 0.9839,
+   "speaker": 0
+  },
+  {
+   "word": "it",
+   "start": 2.48,
+   "end": 2.56,
+   "confidence": 0.605,
+   "speaker": 0
+  },
+  {
+   "word": "on.",
+   "start": 2.56,
+   "end": 2.8,
+   "confidence": 0.8918,
+   "speaker": 0
+  },
+  {
+   "word": "So",
+   "start": 2.8,
+   "end": 2.96,
+   "confidence": 0.7964,
+   "speaker": 0
+  },
+  {
+   "word": "it",
+   "start": 2.96,
+   "end": 3.2,
+   "confidence": 0.9971,
+   "speaker": 0
+  },
+  {
+   "word": "was",
+   "start": 3.2,
+   "end": 3.36,
+   "confidence": 0.998,
+   "speaker": 0
+  },
+  {
+   "word": "kind",
+   "start": 3.36,
+   "end": 3.6,
+   "confidence": 0.9893,
+   "speaker": 0
+  },
+  {
+   "word": "of",
+   "start": 3.6,
+   "end": 3.76,
+   "confidence": 0.999,
+   "speaker": 0
+  },
+  {
+   "word": "my",
+   "start": 3.76,
+   "end": 3.92,
+   "confidence": 0.999,
+   "speaker": 0
+  },
+  {
+   "word": "fault,",
+   "start": 3.92,
+   "end": 4.24,
+   "confidence": 0.939,
+   "speaker": 0
+  },
+  {
+   "word": "but",
+   "start": 4.24,
+   "end": 4.4,
+   "confidence": 1.0,
+   "speaker": 0
+  },
+  {
+   "word": "not",
+   "start": 4.4,
+   "end": 4.56,
+   "confidence": 0.999,
+   "speaker": 0
+  },
+  {
+   "word": "exactly?",
+   "start": 4.56,
+   "end": 5.2,
+   "confidence": 0.9165,
+   "speaker": 0
+  },
+  {
+   "word": "Yeah.",
+   "start": 5.2,
+   "end": 5.52,
+   "confidence": 0.9966,
+   "speaker": 0
+  },
+  {
+   "word": "You",
+   "start": 5.52,
+   "end": 5.76,
+   "confidence": 0.8535,
+   "speaker": 0
+  },
+  {
+   "word": "always",
+   "start": 5.76,
+   "end": 6.0,
+   "confidence": 0.8643,
+   "speaker": 0
+  },
+  {
+   "word": "gotta",
+   "start": 6.0,
+   "end": 6.24,
+   "confidence": 0.9717,
+   "speaker": 0
+  },
+  {
+   "word": "watch",
+   "start": 6.24,
+   "end": 6.48,
+   "confidence": 0.9971,
+   "speaker": 0
+  },
+  {
+   "word": "that.",
+   "start": 6.48,
+   "end": 6.64,
+   "confidence": 0.9468,
+   "speaker": 0
+  },
+  {
+   "word": "These",
+   "start": 6.64,
+   "end": 6.88,
+   "confidence": 0.8154,
+   "speaker": 0
+  },
+  {
+   "word": "are",
+   "start": 6.88,
+   "end": 7.04,
+   "confidence": 0.9941,
+   "speaker": 0
+  },
+  {
+   "word": "metal",
+   "start": 7.04,
+   "end": 7.28,
+   "confidence": 0.9932,
+   "speaker": 0
+  },
+  {
+   "word": "sawhorses.",
+   "start": 7.28,
+   "end": 8.0,
+   "confidence": 0.7123,
+   "speaker": 0
+  }
+ ],
+ "utterances": [
+  {
+   "start": 0.32,
+   "end": 8.0,
+   "confidence": 0.8497467,
+   "channel": 0,
+   "transcript": "I got here. I got just a little bit. Turn it on. So it was kind of my fault, but not exactly? Yeah. You always gotta watch that. These are metal sawhorses.",
+   "words": [
+    {
+     "word": "i",
+     "start": 0.32,
+     "end": 0.39999998,
+     "confidence": 0.17480469,
+     "speaker": 0,
+     "speaker_confidence": 0.2654603,
+     "punctuated_word": "I"
+    },
+    {
+     "word": "got",
+     "start": 0.39999998,
+     "end": 0.56,
+     "confidence": 0.35351562,
+     "speaker": 0,
+     "speaker_confidence": 0.2654603,
+     "punctuated_word": "got"
+    },
+    {
+     "word": "here",
+     "start": 0.56,
+     "end": 1.04,
+     "confidence": 0.6212158,
+     "speaker": 0,
+     "speaker_confidence": 0.2654603,
+     "punctuated_word": "here."
+    },
+    {
+     "word": "i",
+     "start": 1.04,
+     "end": 1.36,
+     "confidence": 0.30566406,
+     "speaker": 0,
+     "speaker_confidence": 0.2971713,
+     "punctuated_word": "I"
+    },
+    {
+     "word": "got",
+     "start": 1.36,
+     "end": 1.5999999,
+     "confidence": 0.75097656,
+     "speaker": 0,
+     "speaker_confidence": 0.2971713,
+     "punctuated_word": "got"
+    },
+    {
+     "word": "just",
+     "start": 1.5999999,
+     "end": 1.8399999,
+     "confidence": 0.89501953,
+     "speaker": 0,
+     "speaker_confidence": 0.2971713,
+     "punctuated_word": "just"
+    },
+    {
+     "word": "a",
+     "start": 1.8399999,
+     "end": 2.0,
+     "confidence": 0.9980469,
+     "speaker": 0,
+     "speaker_confidence": 0.2971713,
+     "punctuated_word": "a"
+    },
+    {
+     "word": "little",
+     "start": 2.0,
+     "end": 2.08,
+     "confidence": 1.0,
+     "speaker": 0,
+     "speaker_confidence": 0.2971713,
+     "punctuated_word": "little"
+    },
+    {
+     "word": "bit",
+     "start": 2.08,
+     "end": 2.32,
+     "confidence": 0.83374023,
+     "speaker": 0,
+     "speaker_confidence": 0.2971713,
+     "punctuated_word": "bit."
+    },
+    {
+     "word": "turn",
+     "start": 2.32,
+     "end": 2.48,
+     "confidence": 0.9838867,
+     "speaker": 0,
+     "speaker_confidence": 0.28506553,
+     "punctuated_word": "Turn"
+    },
+    {
+     "word": "it",
+     "start": 2.48,
+     "end": 2.56,
+     "confidence": 0.60498047,
+     "speaker": 0,
+     "speaker_confidence": 0.28506553,
+     "punctuated_word": "it"
+    },
+    {
+     "word": "on",
+     "start": 2.56,
+     "end": 2.8,
+     "confidence": 0.8918457,
+     "speaker": 0,
+     "speaker_confidence": 0.28506553,
+     "punctuated_word": "on."
+    },
+    {
+     "word": "so",
+     "start": 2.8,
+     "end": 2.96,
+     "confidence": 0.7963867,
+     "speaker": 0,
+     "speaker_confidence": 0.0,
+     "punctuated_word": "So"
+    },
+    {
+     "word": "it",
+     "start": 2.96,
+     "end": 3.1999998,
+     "confidence": 0.9970703,
+     "speaker": 0,
+     "speaker_confidence": 0.0,
+     "punctuated_word": "it"
+    },
+    {
+     "word": "was",
+     "start": 3.1999998,
+     "end": 3.36,
+     "confidence": 0.9980469,
+     "speaker": 0,
+     "speaker_confidence": 0.0,
+     "punctuated_word": "was"
+    },
+    {
+     "word": "kind",
+     "start": 3.36,
+     "end": 3.6,
+     "confidence": 0.9892578,
+     "speaker": 0,
+     "speaker_confidence": 0.0,
+     "punctuated_word": "kind"
+    },
+    {
+     "word": "of",
+     "start": 3.6,
+     "end": 3.76,
+     "confidence": 0.99902344,
+     "speaker": 0,
+     "speaker_confidence": 0.0,
+     "punctuated_word": "of"
+    },
+    {
+     "word": "my",
+     "start": 3.76,
+     "end": 3.9199998,
+     "confidence": 0.99902344,
+     "speaker": 0,
+     "speaker_confidence": 0.0,
+     "punctuated_word": "my"
+    },
+    {
+     "word": "fault",
+     "start": 3.9199998,
+     "end": 4.24,
+     "confidence": 0.93896484,
+     "speaker": 0,
+     "speaker_confidence": 0.0,
+     "punctuated_word": "fault,"
+    },
+    {
+     "word": "but",
+     "start": 4.24,
+     "end": 4.4,
+     "confidence": 1.0,
+     "speaker": 0,
+     "speaker_confidence": 0.0,
+     "punctuated_word": "but"
+    },
+    {
+     "word": "not",
+     "start": 4.4,
+     "end": 4.56,
+     "confidence": 0.99902344,
+     "speaker": 0,
+     "speaker_confidence": 0.0,
+     "punctuated_word": "not"
+    },
+    {
+     "word": "exactly",
+     "start": 4.56,
+     "end": 5.2,
+     "confidence": 0.9165039,
+     "speaker": 0,
+     "speaker_confidence": 0.0,
+     "punctuated_word": "exactly?"
+    },
+    {
+     "word": "yeah",
+     "start": 5.2,
+     "end": 5.52,
+     "confidence": 0.99658203,
+     "speaker": 0,
+     "speaker_confidence": 0.29975486,
+     "punctuated_word": "Yeah."
+    },
+    {
+     "word": "you",
+     "start": 5.52,
+     "end": 5.7599998,
+     "confidence": 0.8535156,
+     "speaker": 0,
+     "speaker_confidence": 0.29975486,
+     "punctuated_word": "You"
+    },
+    {
+     "word": "always",
+     "start": 5.7599998,
+     "end": 6.0,
+     "confidence": 0.8642578,
+     "speaker": 0,
+     "speaker_confidence": 0.29975486,
+     "punctuated_word": "always"
+    },
+    {
+     "word": "gotta",
+     "start": 6.0,
+     "end": 6.24,
+     "confidence": 0.9716797,
+     "speaker": 0,
+     "speaker_confidence": 0.29975486,
+     "punctuated_word": "gotta"
+    },
+    {
+     "word": "watch",
+     "start": 6.24,
+     "end": 6.48,
+     "confidence": 0.9970703,
+     "speaker": 0,
+     "speaker_confidence": 0.29975486,
+     "punctuated_word": "watch"
+    },
+    {
+     "word": "that",
+     "start": 6.48,
+     "end": 6.64,
+     "confidence": 0.94677734,
+     "speaker": 0,
+     "speaker_confidence": 0.29975486,
+     "punctuated_word": "that."
+    },
+    {
+     "word": "these",
+     "start": 6.64,
+     "end": 6.8799996,
+     "confidence": 0.8154297,
+     "speaker": 0,
+     "speaker_confidence": 0.3265471,
+     "punctuated_word": "These"
+    },
+    {
+     "word": "are",
+     "start": 6.8799996,
+     "end": 7.04,
+     "confidence": 0.9941406,
+     "speaker": 0,
+     "speaker_confidence": 0.3265471,
+     "punctuated_word": "are"
+    },
+    {
+     "word": "metal",
+     "start": 7.04,
+     "end": 7.2799997,
+     "confidence": 0.99316406,
+     "speaker": 0,
+     "speaker_confidence": 0.3265471,
+     "punctuated_word": "metal"
+    },
+    {
+     "word": "sawhorses",
+     "start": 7.2799997,
+     "end": 8.0,
+     "confidence": 0.7122803,
+     "speaker": 0,
+     "speaker_confidence": 0.3265471,
+     "punctuated_word": "sawhorses."
+    }
+   ],
+   "speaker": 0,
+   "id": "7342bd36-56c0-45c4-be3d-fefc1109b5f2"
+  }
+ ],
+ "duration_s": 44.06,
+ "word_count": 32,
+ "avg_confidence": 0.8497,
+ "speaker_count": 1,
+ "language": "en",
+ "prev_whisper_words": 21,
+ "harvested": "2026-08-01T20:14:50Z"
+}

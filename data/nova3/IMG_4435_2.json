@@ -1,0 +1,991 @@
+{
+ "drive_id": "1r5Ur0KVcxaM8MwbFpIcasvF4o6II290O",
+ "slug": "IMG_4435_2",
+ "filename": "IMG_4435 2.MOV",
+ "model": "nova-3",
+ "status": "done",
+ "text": "Wait. I told you my good boy again. Yeah. Mazel toe. Okay. That's why you got a guard on it. Okay? You need to kinda pull it. Let's move this back. No. I can't. Think I can. Well, I'm I'm clearly on. K. Just the end. Yeah. Just the end.",
+ "segments": [
+  {
+   "start": 0.08,
+   "end": 0.88,
+   "text": "Wait.",
+   "speaker": 0
+  },
+  {
+   "start": 2.48,
+   "end": 4.0,
+   "text": "I told you my good boy again.",
+   "speaker": 0
+  },
+  {
+   "start": 30.5,
+   "end": 32.66,
+   "text": "Yeah. Mazel toe. Okay.",
+   "speaker": 0
+  },
+  {
+   "start": 32.98,
+   "end": 35.3,
+   "text": "That's why you got a guard on it. Okay? You need to kinda pull it.",
+   "speaker": 0
+  },
+  {
+   "start": 46.425,
+   "end": 50.585,
+   "text": "Let's",
+   "speaker": 0
+  },
+  {
+   "start": 50.585,
+   "end": 51.705,
+   "text": "move this back.",
+   "speaker": 0
+  },
+  {
+   "start": 52.745,
+   "end": 53.785,
+   "text": "No. I can't.",
+   "speaker": 0
+  },
+  {
+   "start": 55.145,
+   "end": 58.105,
+   "text": "Think I can. Well, I'm I'm clearly on.",
+   "speaker": 0
+  },
+  {
+   "start": 58.345,
+   "end": 58.665,
+   "text": "K.",
+   "speaker": 0
+  },
+  {
+   "start": 60.577,
+   "end": 61.937,
+   "text": "Just the end. Yeah. Just the end.",
+   "speaker": 0
+  }
+ ],
+ "words": [
+  {
+   "word": "Wait.",
+   "start": 0.08,
+   "end": 0.88,
+   "confidence": 0.6052,
+   "speaker": 0
+  },
+  {
+   "word": "I",
+   "start": 2.48,
+   "end": 2.72,
+   "confidence": 0.1427,
+   "speaker": 0
+  },
+  {
+   "word": "told",
+   "start": 2.72,
+   "end": 2.96,
+   "confidence": 0.3777,
+   "speaker": 0
+  },
+  {
+   "word": "you",
+   "start": 2.96,
+   "end": 3.12,
+   "confidence": 0.324,
+   "speaker": 0
+  },
+  {
+   "word": "my",
+   "start": 3.12,
+   "end": 3.2,
+   "confidence": 0.3574,
+   "speaker": 0
+  },
+  {
+   "word": "good",
+   "start": 3.2,
+   "end": 3.44,
+   "confidence": 0.5884,
+   "speaker": 0
+  },
+  {
+   "word": "boy",
+   "start": 3.44,
+   "end": 3.6,
+   "confidence": 0.2729,
+   "speaker": 0
+  },
+  {
+   "word": "again.",
+   "start": 3.6,
+   "end": 4.0,
+   "confidence": 0.7213,
+   "speaker": 0
+  },
+  {
+   "word": "Yeah.",
+   "start": 30.5,
+   "end": 30.74,
+   "confidence": 0.7927,
+   "speaker": 0
+  },
+  {
+   "word": "Mazel",
+   "start": 30.74,
+   "end": 31.3,
+   "confidence": 0.6953,
+   "speaker": 0
+  },
+  {
+   "word": "toe.",
+   "start": 31.3,
+   "end": 31.94,
+   "confidence": 0.8752,
+   "speaker": 0
+  },
+  {
+   "word": "Okay.",
+   "start": 32.02,
+   "end": 32.66,
+   "confidence": 0.8435,
+   "speaker": 0
+  },
+  {
+   "word": "That's",
+   "start": 32.98,
+   "end": 33.3,
+   "confidence": 0.9976,
+   "speaker": 0
+  },
+  {
+   "word": "why",
+   "start": 33.3,
+   "end": 33.46,
+   "confidence": 0.9961,
+   "speaker": 0
+  },
+  {
+   "word": "you",
+   "start": 33.46,
+   "end": 33.62,
+   "confidence": 0.728,
+   "speaker": 0
+  },
+  {
+   "word": "got",
+   "start": 33.62,
+   "end": 33.7,
+   "confidence": 0.876,
+   "speaker": 0
+  },
+  {
+   "word": "a",
+   "start": 33.7,
+   "end": 33.86,
+   "confidence": 0.978,
+   "speaker": 0
+  },
+  {
+   "word": "guard",
+   "start": 33.86,
+   "end": 34.02,
+   "confidence": 0.875,
+   "speaker": 0
+  },
+  {
+   "word": "on",
+   "start": 34.02,
+   "end": 34.18,
+   "confidence": 0.9971,
+   "speaker": 0
+  },
+  {
+   "word": "it.",
+   "start": 34.18,
+   "end": 34.34,
+   "confidence": 0.7881,
+   "speaker": 0
+  },
+  {
+   "word": "Okay?",
+   "start": 34.34,
+   "end": 34.58,
+   "confidence": 0.6279,
+   "speaker": 0
+  },
+  {
+   "word": "You",
+   "start": 34.58,
+   "end": 34.66,
+   "confidence": 0.9893,
+   "speaker": 0
+  },
+  {
+   "word": "need",
+   "start": 34.66,
+   "end": 34.74,
+   "confidence": 0.998,
+   "speaker": 0
+  },
+  {
+   "word": "to",
+   "start": 34.74,
+   "end": 34.9,
+   "confidence": 0.998,
+   "speaker": 0
+  },
+  {
+   "word": "kinda",
+   "start": 34.9,
+   "end": 35.06,
+   "confidence": 0.9463,
+   "speaker": 0
+  },
+  {
+   "word": "pull",
+   "start": 35.06,
+   "end": 35.22,
+   "confidence": 0.9922,
+   "speaker": 0
+  },
+  {
+   "word": "it.",
+   "start": 35.22,
+   "end": 35.3,
+   "confidence": 0.3862,
+   "speaker": 0
+  },
+  {
+   "word": "Let's",
+   "start": 46.425,
+   "end": 50.585,
+   "confidence": 0.5389,
+   "speaker": 0
+  },
+  {
+   "word": "move",
+   "start": 50.585,
+   "end": 50.825,
+   "confidence": 0.9604,
+   "speaker": 0
+  },
+  {
+   "word": "this",
+   "start": 50.825,
+   "end": 51.065,
+   "confidence": 0.9941,
+   "speaker": 0
+  },
+  {
+   "word": "back.",
+   "start": 51.065,
+   "end": 51.705,
+   "confidence": 0.9792,
+   "speaker": 0
+  },
+  {
+   "word": "No.",
+   "start": 52.745,
+   "end": 53.065,
+   "confidence": 0.8184,
+   "speaker": 0
+  },
+  {
+   "word": "I",
+   "start": 53.065,
+   "end": 53.225,
+   "confidence": 0.2776,
+   "speaker": 0
+  },
+  {
+   "word": "can't.",
+   "start": 53.225,
+   "end": 53.785,
+   "confidence": 0.6138,
+   "speaker": 0
+  },
+  {
+   "word": "Think",
+   "start": 55.145,
+   "end": 55.385,
+   "confidence": 0.8745,
+   "speaker": 0
+  },
+  {
+   "word": "I",
+   "start": 55.385,
+   "end": 55.545,
+   "confidence": 0.8828,
+   "speaker": 0
+  },
+  {
+   "word": "can.",
+   "start": 55.545,
+   "end": 56.025,
+   "confidence": 0.3257,
+   "speaker": 0
+  },
+  {
+   "word": "Well,",
+   "start": 56.265,
+   "end": 56.665,
+   "confidence": 0.6295,
+   "speaker": 0
+  },
+  {
+   "word": "I'm",
+   "start": 56.665,
+   "end": 56.985,
+   "confidence": 0.7023,
+   "speaker": 0
+  },
+  {
+   "word": "I'm",
+   "start": 56.985,
+   "end": 57.065,
+   "confidence": 0.7881,
+   "speaker": 0
+  },
+  {
+   "word": "clearly",
+   "start": 57.065,
+   "end": 57.465,
+   "confidence": 0.5483,
+   "speaker": 0
+  },
+  {
+   "word": "on.",
+   "start": 57.465,
+   "end": 58.105,
+   "confidence": 0.5767,
+   "speaker": 0
+  },
+  {
+   "word": "K.",
+   "start": 58.345,
+   "end": 58.665,
+   "confidence": 0.8418,
+   "speaker": 0
+  },
+  {
+   "word": "Just",
+   "start": 60.577,
+   "end": 60.817,
+   "confidence": 0.9536,
+   "speaker": 0
+  },
+  {
+   "word": "the",
+   "start": 60.817,
+   "end": 61.057,
+   "confidence": 0.7617,
+   "speaker": 0
+  },
+  {
+   "word": "end.",
+   "start": 61.057,
+   "end": 61.297,
+   "confidence": 0.8538,
+   "speaker": 0
+  },
+  {
+   "word": "Yeah.",
+   "start": 61.297,
+   "end": 61.537,
+   "confidence": 0.9854,
+   "speaker": 0
+  },
+  {
+   "word": "Just",
+   "start": 61.537,
+   "end": 61.697,
+   "confidence": 0.9771,
+   "speaker": 0
+  },
+  {
+   "word": "the",
+   "start": 61.697,
+   "end": 61.777,
+   "confidence": 0.9863,
+   "speaker": 0
+  },
+  {
+   "word": "end.",
+   "start": 61.777,
+   "end": 61.937,
+   "confidence": 0.9604,
+   "speaker": 0
+  }
+ ],
+ "utterances": [
+  {
+   "start": 0.08,
+   "end": 0.88,
+   "confidence": 0.6052246,
+   "channel": 0,
+   "transcript": "Wait.",
+   "words": [
+    {
+     "word": "wait",
+     "start": 0.08,
+     "end": 0.88,
+     "confidence": 0.6052246,
+     "speaker": 0,
+     "speaker_confidence": 0.17321354,
+     "punctuated_word": "Wait."
+    }
+   ],
+   "speaker": 0,
+   "id": "60442377-9155-497a-ac69-7b7c8b9728bf"
+  },
+  {
+   "start": 2.48,
+   "end": 4.0,
+   "confidence": 0.39777485,
+   "channel": 0,
+   "transcript": "I told you my good boy again.",
+   "words": [
+    {
+     "word": "i",
+     "start": 2.48,
+     "end": 2.72,
+     "confidence": 0.1427002,
+     "speaker": 0,
+     "speaker_confidence": 0.17321354,
+     "punctuated_word": "I"
+    },
+    {
+     "word": "told",
+     "start": 2.72,
+     "end": 2.96,
+     "confidence": 0.37768555,
+     "speaker": 0,
+     "speaker_confidence": 0.1051904,
+     "punctuated_word": "told"
+    },
+    {
+     "word": "you",
+     "start": 2.96,
+     "end": 3.12,
+     "confidence": 0.3239746,
+     "speaker": 0,
+     "speaker_confidence": 0.1051904,
+     "punctuated_word": "you"
+    },
+    {
+     "word": "my",
+     "start": 3.12,
+     "end": 3.1999998,
+     "confidence": 0.35742188,
+     "speaker": 0,
+     "speaker_confidence": 0.1051904,
+     "punctuated_word": "my"
+    },
+    {
+     "word": "good",
+     "start": 3.1999998,
+     "end": 3.4399998,
+     "confidence": 0.5883789,
+     "speaker": 0,
+     "speaker_confidence": 0.1051904,
+     "punctuated_word": "good"
+    },
+    {
+     "word": "boy",
+     "start": 3.4399998,
+     "end": 3.6,
+     "confidence": 0.27294922,
+     "speaker": 0,
+     "speaker_confidence": 0.1051904,
+     "punctuated_word": "boy"
+    },
+    {
+     "word": "again",
+     "start": 3.6,
+     "end": 4.0,
+     "confidence": 0.7213135,
+     "speaker": 0,
+     "speaker_confidence": 0.1051904,
+     "punctuated_word": "again."
+    }
+   ],
+   "speaker": 0,
+   "id": "f894872d-f167-446f-a977-4d1ad40847f7"
+  },
+  {
+   "start": 30.5,
+   "end": 32.66,
+   "confidence": 0.8016968,
+   "channel": 0,
+   "transcript": "Yeah. Mazel toe. Okay.",
+   "words": [
+    {
+     "word": "yeah",
+     "start": 30.5,
+     "end": 30.74,
+     "confidence": 0.7927246,
+     "speaker": 0,
+     "speaker_confidence": 0.0,
+     "punctuated_word": "Yeah."
+    },
+    {
+     "word": "mazel",
+     "start": 30.74,
+     "end": 31.3,
+     "confidence": 0.6953125,
+     "speaker": 0,
+     "speaker_confidence": 0.0,
+     "punctuated_word": "Mazel"
+    },
+    {
+     "word": "toe",
+     "start": 31.3,
+     "end": 31.94,
+     "confidence": 0.87524414,
+     "speaker": 0,
+     "speaker_confidence": 0.0,
+     "punctuated_word": "toe."
+    },
+    {
+     "word": "okay",
+     "start": 32.02,
+     "end": 32.66,
+     "confidence": 0.84350586,
+     "speaker": 0,
+     "speaker_confidence": 0.51782894,
+     "punctuated_word": "Okay."
+    }
+   ],
+   "speaker": 0,
+   "id": "027e7d10-6816-4d99-b702-9bdb3603f060"
+  },
+  {
+   "start": 32.98,
+   "end": 35.3,
+   "confidence": 0.8782552,
+   "channel": 0,
+   "transcript": "That's why you got a guard on it. Okay? You need to kinda pull it.",
+   "words": [
+    {
+     "word": "that's",
+     "start": 32.98,
+     "end": 33.3,
+     "confidence": 0.9975586,
+     "speaker": 0,
+     "speaker_confidence": 0.51782894,
+     "punctuated_word": "That's"
+    },
+    {
+     "word": "why",
+     "start": 33.3,
+     "end": 33.46,
+     "confidence": 0.99609375,
+     "speaker": 0,
+     "speaker_confidence": 0.51782894,
+     "punctuated_word": "why"
+    },
+    {
+     "word": "you",
+     "start": 33.46,
+     "end": 33.62,
+     "confidence": 0.72802734,
+     "speaker": 0,
+     "speaker_confidence": 0.51782894,
+     "punctuated_word": "you"
+    },
+    {
+     "word": "got",
+     "start": 33.62,
+     "end": 33.7,
+     "confidence": 0.87597656,
+     "speaker": 0,
+     "speaker_confidence": 0.51782894,
+     "punctuated_word": "got"
+    },
+    {
+     "word": "a",
+     "start": 33.7,
+     "end": 33.86,
+     "confidence": 0.97802734,
+     "speaker": 0,
+     "speaker_confidence": 0.51782894,
+     "punctuated_word": "a"
+    },
+    {
+     "word": "guard",
+     "start": 33.86,
+     "end": 34.02,
+     "confidence": 0.875,
+     "speaker": 0,
+     "speaker_confidence": 0.51782894,
+     "punctuated_word": "guard"
+    },
+    {
+     "word": "on",
+     "start": 34.02,
+     "end": 34.18,
+     "confidence": 0.9970703,
+     "speaker": 0,
+     "speaker_confidence": 0.51782894,
+     "punctuated_word": "on"
+    },
+    {
+     "word": "it",
+     "start": 34.18,
+     "end": 34.34,
+     "confidence": 0.78808594,
+     "speaker": 0,
+     "speaker_confidence": 0.51782894,
+     "punctuated_word": "it."
+    },
+    {
+     "word": "okay",
+     "start": 34.34,
+     "end": 34.58,
+     "confidence": 0.6279297,
+     "speaker": 0,
+     "speaker_confidence": 0.46568847,
+     "punctuated_word": "Okay?"
+    },
+    {
+     "word": "you",
+     "start": 34.58,
+     "end": 34.66,
+     "confidence": 0.9892578,
+     "speaker": 0,
+     "speaker_confidence": 0.46568847,
+     "punctuated_word": "You"
+    },
+    {
+     "word": "need",
+     "start": 34.66,
+     "end": 34.739998,
+     "confidence": 0.9980469,
+     "speaker": 0,
+     "speaker_confidence": 0.46568847,
+     "punctuated_word": "need"
+    },
+    {
+     "word": "to",
+     "start": 34.739998,
+     "end": 34.9,
+     "confidence": 0.9980469,
+     "speaker": 0,
+     "speaker_confidence": 0.46568847,
+     "punctuated_word": "to"
+    },
+    {
+     "word": "kinda",
+     "start": 34.9,
+     "end": 35.06,
+     "confidence": 0.94628906,
+     "speaker": 0,
+     "speaker_confidence": 0.46568847,
+     "punctuated_word": "kinda"
+    },
+    {
+     "word": "pull",
+     "start": 35.06,
+     "end": 35.22,
+     "confidence": 0.9921875,
+     "speaker": 0,
+     "speaker_confidence": 0.46568847,
+     "punctuated_word": "pull"
+    },
+    {
+     "word": "it",
+     "start": 35.22,
+     "end": 35.3,
+     "confidence": 0.38623047,
+     "speaker": 0,
+     "speaker_confidence": 0.46568847,
+     "punctuated_word": "it."
+    }
+   ],
+   "speaker": 0,
+   "id": "6feb55bd-da06-4cfb-a6e3-35a8dcda9b8b"
+  },
+  {
+   "start": 46.425,
+   "end": 50.585,
+   "confidence": 0.5389099,
+   "channel": 0,
+   "transcript": "Let's",
+   "words": [
+    {
+     "word": "let's",
+     "start": 46.425,
+     "end": 50.585,
+     "confidence": 0.5389099,
+     "speaker": 0,
+     "speaker_confidence": 0.46158564,
+     "punctuated_word": "Let's"
+    }
+   ],
+   "speaker": 0,
+   "id": "dce410e2-a39f-4004-8a0e-aa0be1eb7052"
+  },
+  {
+   "start": 50.585,
+   "end": 51.704998,
+   "confidence": 0.977946,
+   "channel": 0,
+   "transcript": "move this back.",
+   "words": [
+    {
+     "word": "move",
+     "start": 50.585,
+     "end": 50.825,
+     "confidence": 0.9604492,
+     "speaker": 0,
+     "speaker_confidence": 0.46158564,
+     "punctuated_word": "move"
+    },
+    {
+     "word": "this",
+     "start": 50.825,
+     "end": 51.065,
+     "confidence": 0.9941406,
+     "speaker": 0,
+     "speaker_confidence": 0.46158564,
+     "punctuated_word": "this"
+    },
+    {
+     "word": "back",
+     "start": 51.065,
+     "end": 51.704998,
+     "confidence": 0.97924805,
+     "speaker": 0,
+     "speaker_confidence": 0.46158564,
+     "punctuated_word": "back."
+    }
+   ],
+   "speaker": 0,
+   "id": "94817dff-a300-4a7c-a0d1-339fb3dfbc31"
+  },
+  {
+   "start": 52.745,
+   "end": 53.785,
+   "confidence": 0.5699056,
+   "channel": 0,
+   "transcript": "No. I can't.",
+   "words": [
+    {
+     "word": "no",
+     "start": 52.745,
+     "end": 53.065,
+     "confidence": 0.8183594,
+     "speaker": 0,
+     "speaker_confidence": 0.28642392,
+     "punctuated_word": "No."
+    },
+    {
+     "word": "i",
+     "start": 53.065,
+     "end": 53.225,
+     "confidence": 0.2775879,
+     "speaker": 0,
+     "speaker_confidence": 0.28642392,
+     "punctuated_word": "I"
+    },
+    {
+     "word": "can't",
+     "start": 53.225,
+     "end": 53.785,
+     "confidence": 0.61376953,
+     "speaker": 0,
+     "speaker_confidence": 0.28642392,
+     "punctuated_word": "can't."
+    }
+   ],
+   "speaker": 0,
+   "id": "03601446-9267-4465-b5bb-9f649c29c835"
+  },
+  {
+   "start": 55.145,
+   "end": 58.105,
+   "confidence": 0.6659851,
+   "channel": 0,
+   "transcript": "Think I can. Well, I'm I'm clearly on.",
+   "words": [
+    {
+     "word": "think",
+     "start": 55.145,
+     "end": 55.385,
+     "confidence": 0.8745117,
+     "speaker": 0,
+     "speaker_confidence": 0.4002583,
+     "punctuated_word": "Think"
+    },
+    {
+     "word": "i",
+     "start": 55.385,
+     "end": 55.545,
+     "confidence": 0.8828125,
+     "speaker": 0,
+     "speaker_confidence": 0.4002583,
+     "punctuated_word": "I"
+    },
+    {
+     "word": "can",
+     "start": 55.545,
+     "end": 56.024998,
+     "confidence": 0.3256836,
+     "speaker": 0,
+     "speaker_confidence": 0.4002583,
+     "punctuated_word": "can."
+    },
+    {
+     "word": "well",
+     "start": 56.265,
+     "end": 56.665,
+     "confidence": 0.6295166,
+     "speaker": 0,
+     "speaker_confidence": 0.4002583,
+     "punctuated_word": "Well,"
+    },
+    {
+     "word": "i'm",
+     "start": 56.665,
+     "end": 56.985,
+     "confidence": 0.7022705,
+     "speaker": 0,
+     "speaker_confidence": 0.4002583,
+     "punctuated_word": "I'm"
+    },
+    {
+     "word": "i'm",
+     "start": 56.985,
+     "end": 57.065,
+     "confidence": 0.78808594,
+     "speaker": 0,
+     "speaker_confidence": 0.28285837,
+     "punctuated_word": "I'm"
+    },
+    {
+     "word": "clearly",
+     "start": 57.065,
+     "end": 57.465,
+     "confidence": 0.54833984,
+     "speaker": 0,
+     "speaker_confidence": 0.28285837,
+     "punctuated_word": "clearly"
+    },
+    {
+     "word": "on",
+     "start": 57.465,
+     "end": 58.105,
+     "confidence": 0.57666016,
+     "speaker": 0,
+     "speaker_confidence": 0.28285837,
+     "punctuated_word": "on."
+    }
+   ],
+   "speaker": 0,
+   "id": "f56dfedc-4e14-46fd-a7c5-60ee5644cfc1"
+  },
+  {
+   "start": 58.345,
+   "end": 58.665,
+   "confidence": 0.8417969,
+   "channel": 0,
+   "transcript": "K.",
+   "words": [
+    {
+     "word": "k",
+     "start": 58.345,
+     "end": 58.665,
+     "confidence": 0.8417969,
+     "speaker": 0,
+     "speaker_confidence": 0.053830266,
+     "punctuated_word": "K."
+    }
+   ],
+   "speaker": 0,
+   "id": "62f980f3-a394-4f68-b61a-1f9d15334cb4"
+  },
+  {
+   "start": 60.576935,
+   "end": 61.936935,
+   "confidence": 0.9254674,
+   "channel": 0,
+   "transcript": "Just the end. Yeah. Just the end.",
+   "words": [
+    {
+     "word": "just",
+     "start": 60.576935,
+     "end": 60.816936,
+     "confidence": 0.9536133,
+     "speaker": 0,
+     "speaker_confidence": 0.127163,
+     "punctuated_word": "Just"
+    },
+    {
+     "word": "the",
+     "start": 60.816936,
+     "end": 61.05694,
+     "confidence": 0.76171875,
+     "speaker": 0,
+     "speaker_confidence": 0.127163,
+     "punctuated_word": "the"
+    },
+    {
+     "word": "end",
+     "start": 61.05694,
+     "end": 61.296936,
+     "confidence": 0.85375977,
+     "speaker": 0,
+     "speaker_confidence": 0.127163,
+     "punctuated_word": "end."
+    },
+    {
+     "word": "yeah",
+     "start": 61.296936,
+     "end": 61.536938,
+     "confidence": 0.98535156,
+     "speaker": 0,
+     "speaker_confidence": 0.127163,
+     "punctuated_word": "Yeah."
+    },
+    {
+     "word": "just",
+     "start": 61.536938,
+     "end": 61.696938,
+     "confidence": 0.9770508,
+     "speaker": 0,
+     "speaker_confidence": 0.127163,
+     "punctuated_word": "Just"
+    },
+    {
+     "word": "the",
+     "start": 61.696938,
+     "end": 61.776936,
+     "confidence": 0.9863281,
+     "speaker": 0,
+     "speaker_confidence": 0.127163,
+     "punctuated_word": "the"
+    },
+    {
+     "word": "end",
+     "start": 61.776936,
+     "end": 61.936935,
+     "confidence": 0.9604492,
+     "speaker": 0,
+     "speaker_confidence": 0.127163,
+     "punctuated_word": "end."
+    }
+   ],
+   "speaker": 0,
+   "id": "3cc3129a-c7c6-476a-ad8f-2ac1997070c5"
+  }
+ ],
+ "duration_s": 62.17,
+ "word_count": 50,
+ "avg_confidence": 0.752,
+ "speaker_count": 1,
+ "language": "en",
+ "prev_whisper_words": 56,
+ "harvested": "2026-08-01T20:15:22Z"
+}

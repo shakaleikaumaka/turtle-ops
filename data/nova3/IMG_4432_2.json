@@ -1,0 +1,1005 @@
+{
+ "drive_id": "1yWXn08HiHd5eelk8lp7dBQdgjssjZgl7",
+ "slug": "IMG_4432_2",
+ "filename": "IMG_4432 2.MOV",
+ "model": "nova-3",
+ "status": "done",
+ "text": "Can I bring you a plate? Yeah. Why don't you do that? It'd be a lot easier. Okay. Thank you. What time do do that? For inspiration. Cut that podcast now. Alright. Toolmaker. He's the toolmaker. Yeah. Yeah. A little bit. I am a student. A little bit spoiler out there. That's okay.",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 1.52,
+   "text": "Can I bring you a plate?",
+   "speaker": 0
+  },
+  {
+   "start": 2.08,
+   "end": 4.32,
+   "text": "Yeah. Why don't you do that? It'd be a lot easier.",
+   "speaker": 0
+  },
+  {
+   "start": 4.56,
+   "end": 6.32,
+   "text": "Okay. Thank you.",
+   "speaker": 0
+  },
+  {
+   "start": 6.64,
+   "end": 8.64,
+   "text": "What time do do that? For inspiration.",
+   "speaker": 0
+  },
+  {
+   "start": 9.76,
+   "end": 11.12,
+   "text": "Cut that podcast",
+   "speaker": 0
+  },
+  {
+   "start": 11.12,
+   "end": 11.76,
+   "text": "now. Alright.",
+   "speaker": 0
+  },
+  {
+   "start": 15.091,
+   "end": 16.051,
+   "text": "Toolmaker.",
+   "speaker": 0
+  },
+  {
+   "start": 17.731,
+   "end": 22.531,
+   "text": "He's the toolmaker. Yeah. Yeah. A little bit. I am a student. A little bit spoiler out there. That's okay.",
+   "speaker": 0
+  }
+ ],
+ "words": [
+  {
+   "word": "Can",
+   "start": 0.0,
+   "end": 0.24,
+   "confidence": 0.3708,
+   "speaker": 0
+  },
+  {
+   "word": "I",
+   "start": 0.24,
+   "end": 0.4,
+   "confidence": 0.9961,
+   "speaker": 0
+  },
+  {
+   "word": "bring",
+   "start": 0.4,
+   "end": 0.72,
+   "confidence": 0.9727,
+   "speaker": 0
+  },
+  {
+   "word": "you",
+   "start": 0.72,
+   "end": 0.88,
+   "confidence": 0.8101,
+   "speaker": 0
+  },
+  {
+   "word": "a",
+   "start": 0.88,
+   "end": 1.12,
+   "confidence": 0.5742,
+   "speaker": 0
+  },
+  {
+   "word": "plate?",
+   "start": 1.12,
+   "end": 1.52,
+   "confidence": 0.6376,
+   "speaker": 0
+  },
+  {
+   "word": "Yeah.",
+   "start": 2.08,
+   "end": 2.4,
+   "confidence": 0.999,
+   "speaker": 0
+  },
+  {
+   "word": "Why",
+   "start": 2.4,
+   "end": 2.56,
+   "confidence": 0.9883,
+   "speaker": 0
+  },
+  {
+   "word": "don't",
+   "start": 2.56,
+   "end": 2.72,
+   "confidence": 0.9946,
+   "speaker": 0
+  },
+  {
+   "word": "you",
+   "start": 2.72,
+   "end": 2.8,
+   "confidence": 1.0,
+   "speaker": 0
+  },
+  {
+   "word": "do",
+   "start": 2.8,
+   "end": 2.96,
+   "confidence": 0.999,
+   "speaker": 0
+  },
+  {
+   "word": "that?",
+   "start": 2.96,
+   "end": 3.2,
+   "confidence": 0.9829,
+   "speaker": 0
+  },
+  {
+   "word": "It'd",
+   "start": 3.2,
+   "end": 3.36,
+   "confidence": 0.7495,
+   "speaker": 0
+  },
+  {
+   "word": "be",
+   "start": 3.36,
+   "end": 3.44,
+   "confidence": 0.999,
+   "speaker": 0
+  },
+  {
+   "word": "a",
+   "start": 3.44,
+   "end": 3.52,
+   "confidence": 0.9941,
+   "speaker": 0
+  },
+  {
+   "word": "lot",
+   "start": 3.52,
+   "end": 3.68,
+   "confidence": 1.0,
+   "speaker": 0
+  },
+  {
+   "word": "easier.",
+   "start": 3.68,
+   "end": 4.32,
+   "confidence": 0.999,
+   "speaker": 0
+  },
+  {
+   "word": "Okay.",
+   "start": 4.56,
+   "end": 5.28,
+   "confidence": 0.9961,
+   "speaker": 0
+  },
+  {
+   "word": "Thank",
+   "start": 5.28,
+   "end": 5.76,
+   "confidence": 1.0,
+   "speaker": 0
+  },
+  {
+   "word": "you.",
+   "start": 5.76,
+   "end": 6.32,
+   "confidence": 1.0,
+   "speaker": 0
+  },
+  {
+   "word": "What",
+   "start": 6.64,
+   "end": 6.88,
+   "confidence": 0.999,
+   "speaker": 0
+  },
+  {
+   "word": "time",
+   "start": 6.88,
+   "end": 7.04,
+   "confidence": 0.999,
+   "speaker": 0
+  },
+  {
+   "word": "do",
+   "start": 7.04,
+   "end": 7.12,
+   "confidence": 0.5298,
+   "speaker": 0
+  },
+  {
+   "word": "do",
+   "start": 7.12,
+   "end": 7.2,
+   "confidence": 0.2888,
+   "speaker": 0
+  },
+  {
+   "word": "that?",
+   "start": 7.2,
+   "end": 7.44,
+   "confidence": 0.5979,
+   "speaker": 0
+  },
+  {
+   "word": "For",
+   "start": 7.44,
+   "end": 7.76,
+   "confidence": 0.6562,
+   "speaker": 0
+  },
+  {
+   "word": "inspiration.",
+   "start": 7.76,
+   "end": 8.64,
+   "confidence": 0.9932,
+   "speaker": 0
+  },
+  {
+   "word": "Cut",
+   "start": 9.76,
+   "end": 10.08,
+   "confidence": 0.9893,
+   "speaker": 0
+  },
+  {
+   "word": "that",
+   "start": 10.08,
+   "end": 10.32,
+   "confidence": 1.0,
+   "speaker": 0
+  },
+  {
+   "word": "podcast",
+   "start": 10.32,
+   "end": 11.12,
+   "confidence": 0.9971,
+   "speaker": 0
+  },
+  {
+   "word": "now.",
+   "start": 11.12,
+   "end": 11.52,
+   "confidence": 0.9727,
+   "speaker": 0
+  },
+  {
+   "word": "Alright.",
+   "start": 11.52,
+   "end": 11.76,
+   "confidence": 0.9443,
+   "speaker": 0
+  },
+  {
+   "word": "Toolmaker.",
+   "start": 15.091,
+   "end": 16.051,
+   "confidence": 0.8892,
+   "speaker": 0
+  },
+  {
+   "word": "He's",
+   "start": 17.731,
+   "end": 18.131,
+   "confidence": 0.9966,
+   "speaker": 0
+  },
+  {
+   "word": "the",
+   "start": 18.131,
+   "end": 18.291,
+   "confidence": 1.0,
+   "speaker": 0
+  },
+  {
+   "word": "toolmaker.",
+   "start": 18.291,
+   "end": 19.011,
+   "confidence": 0.9954,
+   "speaker": 0
+  },
+  {
+   "word": "Yeah.",
+   "start": 19.011,
+   "end": 19.251,
+   "confidence": 0.9966,
+   "speaker": 0
+  },
+  {
+   "word": "Yeah.",
+   "start": 19.251,
+   "end": 19.571,
+   "confidence": 0.7115,
+   "speaker": 0
+  },
+  {
+   "word": "A",
+   "start": 19.571,
+   "end": 19.651,
+   "confidence": 0.9438,
+   "speaker": 0
+  },
+  {
+   "word": "little",
+   "start": 19.651,
+   "end": 19.731,
+   "confidence": 0.999,
+   "speaker": 0
+  },
+  {
+   "word": "bit.",
+   "start": 19.731,
+   "end": 19.971,
+   "confidence": 0.8938,
+   "speaker": 0
+  },
+  {
+   "word": "I",
+   "start": 19.971,
+   "end": 20.051,
+   "confidence": 0.9941,
+   "speaker": 0
+  },
+  {
+   "word": "am",
+   "start": 20.051,
+   "end": 20.211,
+   "confidence": 0.6318,
+   "speaker": 0
+  },
+  {
+   "word": "a",
+   "start": 20.211,
+   "end": 20.371,
+   "confidence": 0.9741,
+   "speaker": 0
+  },
+  {
+   "word": "student.",
+   "start": 20.371,
+   "end": 20.771,
+   "confidence": 0.968,
+   "speaker": 0
+  },
+  {
+   "word": "A",
+   "start": 20.771,
+   "end": 20.931,
+   "confidence": 0.6025,
+   "speaker": 0
+  },
+  {
+   "word": "little",
+   "start": 20.931,
+   "end": 21.091,
+   "confidence": 0.999,
+   "speaker": 0
+  },
+  {
+   "word": "bit",
+   "start": 21.091,
+   "end": 21.251,
+   "confidence": 0.9971,
+   "speaker": 0
+  },
+  {
+   "word": "spoiler",
+   "start": 21.251,
+   "end": 21.651,
+   "confidence": 0.577,
+   "speaker": 0
+  },
+  {
+   "word": "out",
+   "start": 21.651,
+   "end": 21.891,
+   "confidence": 0.2747,
+   "speaker": 0
+  },
+  {
+   "word": "there.",
+   "start": 21.891,
+   "end": 21.971,
+   "confidence": 0.9558,
+   "speaker": 0
+  },
+  {
+   "word": "That's",
+   "start": 21.971,
+   "end": 22.371,
+   "confidence": 0.9919,
+   "speaker": 0
+  },
+  {
+   "word": "okay.",
+   "start": 22.371,
+   "end": 22.531,
+   "confidence": 0.9951,
+   "speaker": 0
+  }
+ ],
+ "utterances": [
+  {
+   "start": 0.0,
+   "end": 1.52,
+   "confidence": 0.7269084,
+   "channel": 0,
+   "transcript": "Can I bring you a plate?",
+   "words": [
+    {
+     "word": "can",
+     "start": 0.0,
+     "end": 0.24,
+     "confidence": 0.3708496,
+     "speaker": 0,
+     "speaker_confidence": 0.05660945,
+     "punctuated_word": "Can"
+    },
+    {
+     "word": "i",
+     "start": 0.24,
+     "end": 0.39999998,
+     "confidence": 0.99609375,
+     "speaker": 0,
+     "speaker_confidence": 0.05660945,
+     "punctuated_word": "I"
+    },
+    {
+     "word": "bring",
+     "start": 0.39999998,
+     "end": 0.71999997,
+     "confidence": 0.97265625,
+     "speaker": 0,
+     "speaker_confidence": 0.05660945,
+     "punctuated_word": "bring"
+    },
+    {
+     "word": "you",
+     "start": 0.71999997,
+     "end": 0.88,
+     "confidence": 0.8100586,
+     "speaker": 0,
+     "speaker_confidence": 0.05660945,
+     "punctuated_word": "you"
+    },
+    {
+     "word": "a",
+     "start": 0.88,
+     "end": 1.12,
+     "confidence": 0.57421875,
+     "speaker": 0,
+     "speaker_confidence": 0.05660945,
+     "punctuated_word": "a"
+    },
+    {
+     "word": "plate",
+     "start": 1.12,
+     "end": 1.52,
+     "confidence": 0.63757324,
+     "speaker": 0,
+     "speaker_confidence": 0.05660945,
+     "punctuated_word": "plate?"
+    }
+   ],
+   "speaker": 0,
+   "id": "9d85998f-c847-464f-be40-9fc9cee6bf2a"
+  },
+  {
+   "start": 2.08,
+   "end": 4.32,
+   "confidence": 0.9732333,
+   "channel": 0,
+   "transcript": "Yeah. Why don't you do that? It'd be a lot easier.",
+   "words": [
+    {
+     "word": "yeah",
+     "start": 2.08,
+     "end": 2.3999999,
+     "confidence": 0.99902344,
+     "speaker": 0,
+     "speaker_confidence": 0.3067317,
+     "punctuated_word": "Yeah."
+    },
+    {
+     "word": "why",
+     "start": 2.3999999,
+     "end": 2.56,
+     "confidence": 0.98828125,
+     "speaker": 0,
+     "speaker_confidence": 0.3067317,
+     "punctuated_word": "Why"
+    },
+    {
+     "word": "don't",
+     "start": 2.56,
+     "end": 2.72,
+     "confidence": 0.9946289,
+     "speaker": 0,
+     "speaker_confidence": 0.3067317,
+     "punctuated_word": "don't"
+    },
+    {
+     "word": "you",
+     "start": 2.72,
+     "end": 2.8,
+     "confidence": 1.0,
+     "speaker": 0,
+     "speaker_confidence": 0.3067317,
+     "punctuated_word": "you"
+    },
+    {
+     "word": "do",
+     "start": 2.8,
+     "end": 2.96,
+     "confidence": 0.99902344,
+     "speaker": 0,
+     "speaker_confidence": 0.3067317,
+     "punctuated_word": "do"
+    },
+    {
+     "word": "that",
+     "start": 2.96,
+     "end": 3.1999998,
+     "confidence": 0.98291016,
+     "speaker": 0,
+     "speaker_confidence": 0.3067317,
+     "punctuated_word": "that?"
+    },
+    {
+     "word": "it'd",
+     "start": 3.1999998,
+     "end": 3.36,
+     "confidence": 0.7495117,
+     "speaker": 0,
+     "speaker_confidence": 0.3067317,
+     "punctuated_word": "It'd"
+    },
+    {
+     "word": "be",
+     "start": 3.36,
+     "end": 3.4399998,
+     "confidence": 0.99902344,
+     "speaker": 0,
+     "speaker_confidence": 0.3067317,
+     "punctuated_word": "be"
+    },
+    {
+     "word": "a",
+     "start": 3.4399998,
+     "end": 3.52,
+     "confidence": 0.9941406,
+     "speaker": 0,
+     "speaker_confidence": 0.3067317,
+     "punctuated_word": "a"
+    },
+    {
+     "word": "lot",
+     "start": 3.52,
+     "end": 3.6799998,
+     "confidence": 1.0,
+     "speaker": 0,
+     "speaker_confidence": 0.3067317,
+     "punctuated_word": "lot"
+    },
+    {
+     "word": "easier",
+     "start": 3.6799998,
+     "end": 4.32,
+     "confidence": 0.99902344,
+     "speaker": 0,
+     "speaker_confidence": 0.3067317,
+     "punctuated_word": "easier."
+    }
+   ],
+   "speaker": 0,
+   "id": "c441df21-e113-483f-ac00-c28e0374612f"
+  },
+  {
+   "start": 4.56,
+   "end": 6.32,
+   "confidence": 0.99869794,
+   "channel": 0,
+   "transcript": "Okay. Thank you.",
+   "words": [
+    {
+     "word": "okay",
+     "start": 4.56,
+     "end": 5.2799997,
+     "confidence": 0.99609375,
+     "speaker": 0,
+     "speaker_confidence": 0.37868702,
+     "punctuated_word": "Okay."
+    },
+    {
+     "word": "thank",
+     "start": 5.2799997,
+     "end": 5.7599998,
+     "confidence": 1.0,
+     "speaker": 0,
+     "speaker_confidence": 0.37868702,
+     "punctuated_word": "Thank"
+    },
+    {
+     "word": "you",
+     "start": 5.7599998,
+     "end": 6.32,
+     "confidence": 1.0,
+     "speaker": 0,
+     "speaker_confidence": 0.37868702,
+     "punctuated_word": "you."
+    }
+   ],
+   "speaker": 0,
+   "id": "69e982f2-f25b-42e5-99ca-8e020d686ec9"
+  },
+  {
+   "start": 6.64,
+   "end": 8.639999,
+   "confidence": 0.72342354,
+   "channel": 0,
+   "transcript": "What time do do that? For inspiration.",
+   "words": [
+    {
+     "word": "what",
+     "start": 6.64,
+     "end": 6.8799996,
+     "confidence": 0.99902344,
+     "speaker": 0,
+     "speaker_confidence": 0.37868702,
+     "punctuated_word": "What"
+    },
+    {
+     "word": "time",
+     "start": 6.8799996,
+     "end": 7.04,
+     "confidence": 0.99902344,
+     "speaker": 0,
+     "speaker_confidence": 0.37868702,
+     "punctuated_word": "time"
+    },
+    {
+     "word": "do",
+     "start": 7.04,
+     "end": 7.12,
+     "confidence": 0.52978516,
+     "speaker": 0,
+     "speaker_confidence": 0.37868702,
+     "punctuated_word": "do"
+    },
+    {
+     "word": "do",
+     "start": 7.12,
+     "end": 7.2,
+     "confidence": 0.28881836,
+     "speaker": 0,
+     "speaker_confidence": 0.0,
+     "punctuated_word": "do"
+    },
+    {
+     "word": "that",
+     "start": 7.2,
+     "end": 7.44,
+     "confidence": 0.5979004,
+     "speaker": 0,
+     "speaker_confidence": 0.0,
+     "punctuated_word": "that?"
+    },
+    {
+     "word": "for",
+     "start": 7.44,
+     "end": 7.7599998,
+     "confidence": 0.65625,
+     "speaker": 0,
+     "speaker_confidence": 0.2656052,
+     "punctuated_word": "For"
+    },
+    {
+     "word": "inspiration",
+     "start": 7.7599998,
+     "end": 8.639999,
+     "confidence": 0.99316406,
+     "speaker": 0,
+     "speaker_confidence": 0.2656052,
+     "punctuated_word": "inspiration."
+    }
+   ],
+   "speaker": 0,
+   "id": "5fe42891-507f-47f4-aae3-7cfa0643fe67"
+  },
+  {
+   "start": 9.76,
+   "end": 11.12,
+   "confidence": 0.9954427,
+   "channel": 0,
+   "transcript": "Cut that podcast",
+   "words": [
+    {
+     "word": "cut",
+     "start": 9.76,
+     "end": 10.08,
+     "confidence": 0.9892578,
+     "speaker": 0,
+     "speaker_confidence": 0.04262936,
+     "punctuated_word": "Cut"
+    },
+    {
+     "word": "that",
+     "start": 10.08,
+     "end": 10.32,
+     "confidence": 1.0,
+     "speaker": 0,
+     "speaker_confidence": 0.04262936,
+     "punctuated_word": "that"
+    },
+    {
+     "word": "podcast",
+     "start": 10.32,
+     "end": 11.12,
+     "confidence": 0.9970703,
+     "speaker": 0,
+     "speaker_confidence": 0.04262936,
+     "punctuated_word": "podcast"
+    }
+   ],
+   "speaker": 0,
+   "id": "039da77e-051f-4441-81b3-05286df6d424"
+  },
+  {
+   "start": 11.12,
+   "end": 11.759999,
+   "confidence": 0.9584961,
+   "channel": 0,
+   "transcript": "now. Alright.",
+   "words": [
+    {
+     "word": "now",
+     "start": 11.12,
+     "end": 11.5199995,
+     "confidence": 0.97265625,
+     "speaker": 0,
+     "speaker_confidence": 0.04262936,
+     "punctuated_word": "now."
+    },
+    {
+     "word": "alright",
+     "start": 11.5199995,
+     "end": 11.759999,
+     "confidence": 0.94433594,
+     "speaker": 0,
+     "speaker_confidence": 0.04262936,
+     "punctuated_word": "Alright."
+    }
+   ],
+   "speaker": 0,
+   "id": "6654acd0-4a2e-494e-b0ee-e490d220432a"
+  },
+  {
+   "start": 15.090938,
+   "end": 16.050938,
+   "confidence": 0.88916016,
+   "channel": 0,
+   "transcript": "Toolmaker.",
+   "words": [
+    {
+     "word": "toolmaker",
+     "start": 15.090938,
+     "end": 16.050938,
+     "confidence": 0.88916016,
+     "speaker": 0,
+     "speaker_confidence": 0.11218035,
+     "punctuated_word": "Toolmaker."
+    }
+   ],
+   "speaker": 0,
+   "id": "304d827e-305a-4513-bd85-2e3aa9625c3f"
+  },
+  {
+   "start": 17.730938,
+   "end": 22.530937,
+   "confidence": 0.87490636,
+   "channel": 0,
+   "transcript": "He's the toolmaker. Yeah. Yeah. A little bit. I am a student. A little bit spoiler out there. That's okay.",
+   "words": [
+    {
+     "word": "he's",
+     "start": 17.730938,
+     "end": 18.130938,
+     "confidence": 0.99658203,
+     "speaker": 0,
+     "speaker_confidence": 0.07431185,
+     "punctuated_word": "He's"
+    },
+    {
+     "word": "the",
+     "start": 18.130938,
+     "end": 18.290937,
+     "confidence": 1.0,
+     "speaker": 0,
+     "speaker_confidence": 0.07431185,
+     "punctuated_word": "the"
+    },
+    {
+     "word": "toolmaker",
+     "start": 18.290937,
+     "end": 19.010937,
+     "confidence": 0.9954427,
+     "speaker": 0,
+     "speaker_confidence": 0.07431185,
+     "punctuated_word": "toolmaker."
+    },
+    {
+     "word": "yeah",
+     "start": 19.010937,
+     "end": 19.250938,
+     "confidence": 0.99658203,
+     "speaker": 0,
+     "speaker_confidence": 0.07431185,
+     "punctuated_word": "Yeah."
+    },
+    {
+     "word": "yeah",
+     "start": 19.250938,
+     "end": 19.570938,
+     "confidence": 0.71154785,
+     "speaker": 0,
+     "speaker_confidence": 0.07431185,
+     "punctuated_word": "Yeah."
+    },
+    {
+     "word": "a",
+     "start": 19.570938,
+     "end": 19.650938,
+     "confidence": 0.94384766,
+     "speaker": 0,
+     "speaker_confidence": 0.07431185,
+     "punctuated_word": "A"
+    },
+    {
+     "word": "little",
+     "start": 19.650938,
+     "end": 19.730938,
+     "confidence": 0.99902344,
+     "speaker": 0,
+     "speaker_confidence": 0.07431185,
+     "punctuated_word": "little"
+    },
+    {
+     "word": "bit",
+     "start": 19.730938,
+     "end": 19.970938,
+     "confidence": 0.8937988,
+     "speaker": 0,
+     "speaker_confidence": 0.07431185,
+     "punctuated_word": "bit."
+    },
+    {
+     "word": "i",
+     "start": 19.970938,
+     "end": 20.050938,
+     "confidence": 0.9941406,
+     "speaker": 0,
+     "speaker_confidence": 0.37961167,
+     "punctuated_word": "I"
+    },
+    {
+     "word": "am",
+     "start": 20.050938,
+     "end": 20.210938,
+     "confidence": 0.63183594,
+     "speaker": 0,
+     "speaker_confidence": 0.37961167,
+     "punctuated_word": "am"
+    },
+    {
+     "word": "a",
+     "start": 20.210938,
+     "end": 20.370937,
+     "confidence": 0.9741211,
+     "speaker": 0,
+     "speaker_confidence": 0.37961167,
+     "punctuated_word": "a"
+    },
+    {
+     "word": "student",
+     "start": 20.370937,
+     "end": 20.770937,
+     "confidence": 0.9680176,
+     "speaker": 0,
+     "speaker_confidence": 0.37961167,
+     "punctuated_word": "student."
+    },
+    {
+     "word": "a",
+     "start": 20.770937,
+     "end": 20.930939,
+     "confidence": 0.60253906,
+     "speaker": 0,
+     "speaker_confidence": 0.37961167,
+     "punctuated_word": "A"
+    },
+    {
+     "word": "little",
+     "start": 20.930939,
+     "end": 21.090939,
+     "confidence": 0.99902344,
+     "speaker": 0,
+     "speaker_confidence": 0.37961167,
+     "punctuated_word": "little"
+    },
+    {
+     "word": "bit",
+     "start": 21.090939,
+     "end": 21.250938,
+     "confidence": 0.9970703,
+     "speaker": 0,
+     "speaker_confidence": 0.37961167,
+     "punctuated_word": "bit"
+    },
+    {
+     "word": "spoiler",
+     "start": 21.250938,
+     "end": 21.650938,
+     "confidence": 0.57702637,
+     "speaker": 0,
+     "speaker_confidence": 0.37961167,
+     "punctuated_word": "spoiler"
+    },
+    {
+     "word": "out",
+     "start": 21.650938,
+     "end": 21.890938,
+     "confidence": 0.2746582,
+     "speaker": 0,
+     "speaker_confidence": 0.37961167,
+     "punctuated_word": "out"
+    },
+    {
+     "word": "there",
+     "start": 21.890938,
+     "end": 21.970938,
+     "confidence": 0.95581055,
+     "speaker": 0,
+     "speaker_confidence": 0.37961167,
+     "punctuated_word": "there."
+    },
+    {
+     "word": "that's",
+     "start": 21.970938,
+     "end": 22.370937,
+     "confidence": 0.99194336,
+     "speaker": 0,
+     "speaker_confidence": 0.30259627,
+     "punctuated_word": "That's"
+    },
+    {
+     "word": "okay",
+     "start": 22.370937,
+     "end": 22.530937,
+     "confidence": 0.9951172,
+     "speaker": 0,
+     "speaker_confidence": 0.30259627,
+     "punctuated_word": "okay."
+    }
+   ],
+   "speaker": 0,
+   "id": "dfb2b610-a5d4-4ca6-8ff3-37e5258f335e"
+  }
+ ],
+ "duration_s": 22.54,
+ "word_count": 53,
+ "avg_confidence": 0.8758,
+ "speaker_count": 1,
+ "language": "en",
+ "prev_whisper_words": 20,
+ "harvested": "2026-08-01T20:15:02Z"
+}

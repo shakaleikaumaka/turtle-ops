@@ -1,0 +1,70 @@
+{
+ "drive_id": "1EoEuhNbEAx5cfK9OXgBRybbOkny04p2Z",
+ "slug": "IMG_4431_2",
+ "filename": "IMG_4431 2.MOV",
+ "model": "nova-3",
+ "status": "done",
+ "text": "Echo. Hello.",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 0.72,
+   "text": "Echo. Hello.",
+   "speaker": 0
+  }
+ ],
+ "words": [
+  {
+   "word": "Echo.",
+   "start": 0.0,
+   "end": 0.48,
+   "confidence": 0.6049,
+   "speaker": 0
+  },
+  {
+   "word": "Hello.",
+   "start": 0.48,
+   "end": 0.72,
+   "confidence": 0.6543,
+   "speaker": 0
+  }
+ ],
+ "utterances": [
+  {
+   "start": 0.0,
+   "end": 0.71999997,
+   "confidence": 0.62957764,
+   "channel": 0,
+   "transcript": "Echo. Hello.",
+   "words": [
+    {
+     "word": "echo",
+     "start": 0.0,
+     "end": 0.48,
+     "confidence": 0.6048584,
+     "speaker": 0,
+     "speaker_confidence": 1.0,
+     "punctuated_word": "Echo."
+    },
+    {
+     "word": "hello",
+     "start": 0.48,
+     "end": 0.71999997,
+     "confidence": 0.6542969,
+     "speaker": 0,
+     "speaker_confidence": 1.0,
+     "punctuated_word": "Hello."
+    }
+   ],
+   "speaker": 0,
+   "id": "95fcd0d6-9a19-4b1d-9010-df1839463f9f"
+  }
+ ],
+ "duration_s": 2.34,
+ "word_count": 2,
+ "avg_confidence": 0.6296,
+ "speaker_count": 1,
+ "language": "en",
+ "prev_whisper_words": 1,
+ "harvested": "2026-08-01T20:14:57Z"
+}
