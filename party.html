@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🎉 Manu's Top Party Picks — BM 2026 · theshellpit.com</title>
+<link rel="icon" href="assets/terrible-turtle.png">
+<style>
+  :root {
+    --bg: #0d0a08; --bg2: #171008; --card: #1d150c; --card-edge: #3a2712;
+    --orange: #ff7a1a; --orange-hot: #ff9d45; --yellow: #ffc93c; --ember: #ff4d00;
+    --bone: #f5ead9; --dim: #a08b74; --green: #7bc96f; --pink: #ff6fb7;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--bg); color: var(--bone); font-family: 'Trebuchet MS','Segoe UI',system-ui,sans-serif; min-height: 100vh; overflow-x: hidden; }
+  #embers { position: fixed; inset: 0; pointer-events: none; z-index: 0; }
+  .ember { position: absolute; border-radius: 50%; background: radial-gradient(circle, var(--yellow), var(--ember)); opacity: 0; animation: rise linear infinite; }
+  @keyframes rise { 0% { transform: translateY(105vh) scale(1); opacity: 0; } 10% { opacity: .8; } 90% { opacity: .4; } 100% { transform: translateY(-5vh) scale(.3); opacity: 0; } }
+  .wrap { position: relative; z-index: 1; max-width: 1000px; margin: 0 auto; padding: 24px 16px 80px; }
+  .back { display: inline-block; color: var(--dim); text-decoration: none; font-size: .85rem; margin-bottom: 8px; }
+  .back:hover { color: var(--orange-hot); }
+  header { text-align: center; padding: 12px 0 8px; }
+  h1 { font-size: clamp(1.7rem, 6vw, 2.8rem); letter-spacing: .08em; background: linear-gradient(180deg, var(--yellow), var(--orange) 60%, var(--ember)); -webkit-background-clip: text; background-clip: text; color: transparent; text-transform: uppercase; }
+  .sub { color: var(--dim); letter-spacing: .2em; text-transform: uppercase; font-size: .76rem; margin-top: 6px; }
+  .credit { display: inline-block; margin-top: 12px; padding: 6px 16px; border-radius: 999px; border: 1px solid var(--card-edge); background: var(--card); color: var(--pink); font-size: .82rem; }
+  .updated { color: var(--dim); font-size: .72rem; margin-top: 8px; }
+  .search { display: block; width: 100%; max-width: 420px; margin: 18px auto 0; padding: 11px 16px; border-radius: 999px; border: 1px solid var(--card-edge); background: var(--card); color: var(--bone); font-size: .95rem; outline: none; }
+  .search:focus { border-color: var(--orange); }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin: 18px 0 6px; }
+  .chip { border: 1px solid var(--card-edge); background: var(--card); color: var(--dim); border-radius: 999px; padding: 7px 14px; font-size: .8rem; cursor: pointer; transition: all .15s; user-select: none; }
+  .chip:hover { border-color: var(--orange); color: var(--bone); }
+  .chip.on { background: linear-gradient(160deg, var(--orange), var(--ember)); color: #1a0d00; border-color: var(--orange); font-weight: 700; }
+  .chip.today { border-color: var(--green); }
+  .day-h { margin: 30px 0 12px; font-size: 1.1rem; letter-spacing: .1em; text-transform: uppercase; color: var(--orange-hot); display: flex; align-items: center; gap: 10px; }
+  .day-h::after { content: ""; flex: 1; height: 1px; background: linear-gradient(90deg, var(--card-edge), transparent); }
+  .day-h .today-tag { font-size: .68rem; color: var(--green); border: 1px solid var(--green); border-radius: 999px; padding: 2px 10px; letter-spacing: .12em; }
+  .list { display: grid; gap: 10px; }
+  .pick { display: grid; grid-template-columns: 118px 1fr auto; gap: 14px; align-items: center; background: linear-gradient(165deg, var(--card), var(--bg2)); border: 1px solid var(--card-edge); border-radius: 14px; padding: 13px 16px; transition: transform .15s, border-color .15s; }
+  .pick:hover { transform: translateX(3px); border-color: var(--orange); }
+  .time { color: var(--yellow); font-weight: 800; font-size: .86rem; line-height: 1.35; }
+  .artist { font-weight: 700; font-size: .98rem; }
+  .camp { color: var(--dim); font-size: .82rem; margin-top: 2px; }
+  .by { color: #6f5c48; font-size: .68rem; margin-top: 3px; }
+  .where { background: #2c1f10; color: var(--orange-hot); border-radius: 10px; padding: 6px 12px; font-weight: 800; font-size: .88rem; white-space: nowrap; text-align: center; }
+  .where.deep { color: var(--pink); }
+  .none { color: var(--dim); font-style: italic; text-align: center; padding: 30px 0; }
+  /* highlight reel */
+  .reel { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; margin: 22px 0 4px; }
+  @media (max-width: 980px) { .reel { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 700px) { .reel { grid-template-columns: 1fr; } }
+  .panel.ideas h2 { color: var(--pink); }
+  .idea-title { font-weight: 800; font-size: .95rem; color: var(--bone); }
+  .idea-dream { color: var(--dim); font-size: .82rem; margin: 4px 0 8px; line-height: 1.45; }
+  .idea-needs { list-style: none; }
+  .idea-needs li { font-size: .78rem; color: var(--orange-hot); padding: 3px 0 3px 2px; }
+  .idea-needs li::before { content: "🔧 "; }
+  .idea-meta { margin-top: 8px; font-size: .68rem; color: #6f5c48; text-transform: uppercase; letter-spacing: .1em; }
+  .idea-status { color: var(--pink); border: 1px solid var(--pink); border-radius: 999px; padding: 1px 9px; margin-left: 6px; }
+  .idea-block { padding: 10px 0; border-bottom: 1px dashed #33251738; }
+  .idea-block:last-child { border-bottom: none; }
+  .idea-cta { margin-top: 10px; font-size: .74rem; color: var(--dim); font-style: italic; }
+  .panel { border-radius: 18px; padding: 16px 18px; border: 1px solid var(--card-edge); background: linear-gradient(165deg, #241407, var(--bg2)); }
+  .panel.now { border-color: #6e1f1f; box-shadow: 0 0 30px rgba(255,77,0,.12); }
+  .panel h2 { font-size: .95rem; letter-spacing: .16em; text-transform: uppercase; margin-bottom: 10px; display: flex; align-items: center; gap: 8px; }
+  .panel.now h2 { color: #ff5d5d; }
+  .panel.next h2 { color: var(--green); }
+  .dot { width: 10px; height: 10px; border-radius: 50%; background: #ff3b3b; animation: pulse 1.4s ease-in-out infinite; }
+  @keyframes pulse { 0%,100% { opacity: 1; transform: scale(1); } 50% { opacity: .35; transform: scale(.7); } }
+  .reel-item { display: flex; justify-content: space-between; gap: 10px; align-items: baseline; padding: 8px 0; border-bottom: 1px dashed #33251738; }
+  .reel-item:last-child { border-bottom: none; }
+  .reel-who { font-weight: 700; font-size: .93rem; }
+  .reel-camp { color: var(--dim); font-size: .78rem; }
+  .reel-where { background: #2c1f10; color: var(--orange-hot); border-radius: 8px; padding: 3px 10px; font-weight: 800; font-size: .8rem; white-space: nowrap; }
+  .reel-when { color: var(--yellow); font-size: .74rem; font-weight: 700; white-space: nowrap; }
+  .reel-empty { color: var(--dim); font-style: italic; font-size: .85rem; padding: 6px 0; }
+  @media (max-width: 560px) { .pick { grid-template-columns: 1fr; gap: 6px; } .where { justify-self: start; } }
+  footer { text-align: center; margin-top: 56px; color: #6f5c48; font-size: .76rem; line-height: 1.7; }
+  footer a { color: var(--dim); }
+</style>
+</head>
+<body>
+<div id="embers"></div>
+<div class="wrap">
+  <a class="back" href="index.html">← theshellpit.com</a>
+  <header>
+    <h1>🎉 Manu's Top Party Picks</h1>
+    <div class="sub">Burning Man 2026 · where the music is</div>
+    <div class="credit" id="credit"></div>
+    <div class="updated" id="updated"></div>
+    <input class="search" id="q" type="search" placeholder="🔍 artist, camp, address…">
+  </header>
+  <div class="reel">
+    <div class="panel now"><h2><span class="dot"></span> Right Now on Playa</h2><div id="now"></div></div>
+    <div class="panel next"><h2>⏭️ Up Next</h2><div id="next"></div></div>
+    <div class="panel ideas"><h2>💡 Party Ideas</h2><div id="ideas"></div><div class="idea-cta">got a party dream? tell Terri 🐢 or drop it in the camp chat — we make it real together</div></div>
+  </div>
+  <div class="chips" id="chips"></div>
+  <div id="out"></div>
+  <footer>
+    🐢 Terrible Turtle Camp · dance responsibly, hydrate religiously<br>
+    <a href="kitchen.html">kitchen</a> · <a href="inventory.html">turtle bins</a> · <a href="map.html">camp map</a>
+  </footer>
+</div>
+
+<script src="data/party-picks.js?v=20260901-1439"></script>
+<script>
+(function(){
+  const em = document.getElementById('embers');
+  for (let i=0;i<20;i++){ const e=document.createElement('div'); e.className='ember';
+    const s=2+Math.random()*4; e.style.width=e.style.height=s+'px'; e.style.left=Math.random()*100+'vw';
+    e.style.animationDuration=(7+Math.random()*10)+'s'; e.style.animationDelay=(Math.random()*12)+'s'; em.appendChild(e); }
+
+  document.getElementById('credit').textContent = PARTY.credit;
+  document.getElementById('updated').textContent = '🕐 updated ' + PARTY.updated;
+  const esc = s => String(s??'').replace(/[&<>"]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+  // figure out "today" on playa (Pacific time)
+  let todayLabel = null;
+  try {
+    const pt = new Date(new Date().toLocaleString('en-US', {timeZone:'America/Los_Angeles'}));
+    const wd = pt.toLocaleDateString('en-US',{weekday:'long', timeZone:'America/Los_Angeles'});
+    const md = pt.toLocaleDateString('en-US',{month:'short', day:'numeric'});
+    todayLabel = PARTY.days.find(d => d.startsWith(wd) && d.endsWith(md.replace(/ /g,' ')));
+    if (!todayLabel) todayLabel = PARTY.days.find(d => d.startsWith(wd));
+  } catch(e){}
+
+  let active = todayLabel || 'all';
+  let q = '';
+  const chipWrap = document.getElementById('chips');
+  function chips(){
+    const all = [{k:'all', t:'🌵 All days'}].concat(PARTY.days.map(d=>({k:d, t:d.replace(' · ',' ')})));
+    chipWrap.innerHTML = all.map(c=>`<span class="chip ${active===c.k?'on':''} ${c.k===todayLabel?'today':''}" data-k="${esc(c.k)}">${esc(c.t)}${c.k===todayLabel?' 🟢':''}</span>`).join('');
+  }
+  chipWrap.addEventListener('click', e=>{ const k=e.target.dataset.k; if(!k) return; active=k; chips(); render(); });
+  document.getElementById('q').addEventListener('input', e=>{ q=e.target.value.toLowerCase(); render(); });
+
+  function render(){
+    const days = active==='all' ? PARTY.days : [active];
+    let html = '';
+    for (const d of days){
+      const picks = PARTY.picks.filter(p => p.day===d && (!q || (p.artist+' '+p.camp+' '+p.where).toLowerCase().includes(q)));
+      if (!picks.length) continue;
+      html += `<div class="day-h">${esc(d)}${d===todayLabel?'<span class="today-tag">TODAY</span>':''}</div><div class="list">`;
+      html += picks.map(p=>`
+        <div class="pick">
+          <div class="time">${esc(p.time)}</div>
+          <div>
+            <div class="artist">${esc(p.artist)}</div>
+            <div class="camp">${esc(p.camp)}</div>
+            ${p.by?`<div class="by">📸 ${esc(p.by)}</div>`:''}
+          </div>
+          <div class="where ${/deep/i.test(p.where)?'deep':''}">${esc(p.where||'📍 ask around')}</div>
+        </div>`).join('');
+      html += '</div>';
+    }
+    document.getElementById('out').innerHTML = html || '<div class="none">nothing matches — the playa provides elsewhere tonight 🐢</div>';
+  }
+  chips(); render();
+
+  // ── HIGHLIGHT REEL: right now + up next (playa/Pacific time) ──
+  const DAY_DATES = { 'Monday · Aug 31':'2026-08-31','Tuesday · Sep 1':'2026-09-01','Wednesday · Sep 2':'2026-09-02','Thursday · Sep 3':'2026-09-03','Friday · Sep 4':'2026-09-04','Saturday · Sep 5':'2026-09-05','Sunday · Sep 6':'2026-09-06','Monday · Sep 7':'2026-09-07' };
+  function ptNow(){ return new Date(new Date().toLocaleString('en-US',{timeZone:'America/Los_Angeles'})); }
+  function parsePick(p){
+    const date = DAY_DATES[p.day]; if (!date) return null;
+    const times = (p.time.match(/\d{1,2}:\d{2}/g) || []);
+    if (!times.length) return null;
+    const [y,m,d] = date.split('-').map(Number);
+    const mk = (hhmm, addDays) => { const [h,mi] = hhmm.split(':').map(Number); const dt = new Date(y, m-1, d + (addDays||0), h, mi); return dt; };
+    const start = mk(times[0], 0);
+    let end;
+    if (times[1]) { end = mk(times[1], 0); if (end <= start) end = mk(times[1], 1); }
+    else { end = new Date(start.getTime() + 4*3600e3); } // open-ended ("from 20:00") → assume ~4h
+    return { ...p, start, end, openEnded: !times[1] };
+  }
+  const timeline = PARTY.picks.map(parsePick).filter(Boolean).sort((a,b)=>a.start-b.start);
+  function fmtIn(ms){ const m = Math.round(ms/60000); if (m < 60) return 'in ' + m + ' min'; const h = Math.floor(m/60); return 'in ' + h + 'h ' + (m%60) + 'm'; }
+  function fmtAt(dt){ return dt.toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'}).toLowerCase(); }
+  function row(p, when){ return `<div class="reel-item"><div><div class="reel-who">${esc(p.artist)}</div><div class="reel-camp">${esc(p.camp)}${when?` · <span class="reel-when">${when}</span>`:''}</div></div><div class="reel-where">${esc(p.where||'📍 ask around')}</div></div>`; }
+  function reel(){
+    const now = ptNow();
+    const live = timeline.filter(p => p.start <= now && now < p.end).sort((a,b)=>a.end-b.end);
+    const upcoming = timeline.filter(p => p.start > now).slice(0, 4);
+    document.getElementById('now').innerHTML = live.length
+      ? live.map(p => row(p, (p.openEnded?'from ':'til ') + fmtAt(p.openEnded?p.start:p.end))).join('')
+      : '<div class="reel-empty">quiet hour on the reel — check tonight\'s list below 🐢</div>';
+    document.getElementById('next').innerHTML = upcoming.length
+      ? upcoming.map(p => row(p, fmtIn(p.start - now) + ' · ' + fmtAt(p.start))).join('')
+      : '<div class="reel-empty">that\'s the week, turtles — see you in 2027 🔥</div>';
+  }
+  reel(); setInterval(reel, 60000);
+
+  // ── PARTY IDEAS — dreams the camp can make real ──
+  const ideas = PARTY.ideas || [];
+  document.getElementById('ideas').innerHTML = ideas.length
+    ? ideas.map(i => `<div class="idea-block">
+        <div class="idea-title">${esc(i.title)}</div>
+        <div class="idea-dream">${esc(i.dream)}</div>
+        <ul class="idea-needs">${(i.needs||[]).map(n=>`<li>${esc(n)}</li>`).join('')}</ul>
+        <div class="idea-meta">💭 ${esc(i.by)}<span class="idea-status">${esc(i.status)}</span></div>
+      </div>`).join('')
+    : '<div class="reel-empty">no dreams filed yet — be the first 💡</div>';
+})();
+</script>
+</body>
+</html>
