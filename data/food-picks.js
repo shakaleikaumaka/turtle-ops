@@ -2,7 +2,7 @@
 // FEED: official What Where When export (justin-klein.com playaevents exporter, data 08/27/2026)
 // + camp finds via Terri 🐢. camp.address = our placement; distances measured from there.
 const PARTY = {
- "updated": "2026-09-01 15:45 PT",
+ "updated": "2026-09-01 15:47 PT",
  "title": "Terri's Top Food Picks",
  "credit": "📖 Full official What Where When feed (playaevents export 08/27) + camp finds via Terri 🐢 · distances from 6:15 & E",
  "intro": "Where the best food on playa is — live now, up later. Anyone can add a find: tell Terri in any camp chat.",
@@ -12618,13 +12618,11 @@ const PARTY = {
    "status": "done"
   },
   {
-   "title": "🧀 Find the legendary midnight grilled cheese",
-   "dream": "Every burn has one camp flipping grilled cheese for the 2am wanderers. Scout it, pin it, share it.",
-   "needs": [
-    "First scout report — tell Terri where you found hot food"
-   ],
+   "title": "🧀 ✅ FOUND: the legendary grilled cheese (three of them!)",
+   "dream": "The book delivered: Moon Cheese (Late Night Grilled Cheese, 9pm) · Weird Steel (Grilled Cheese & Advice Palace, 9pm) · Stoop (6pm w/ cocktails & gin, 4:30 & E). Quest complete — go melt.",
+   "needs": [],
    "by": "Shaka",
-   "status": "scouting"
+   "status": "found"
   }
  ],
  "camp": {
