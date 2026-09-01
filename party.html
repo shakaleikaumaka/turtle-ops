@@ -181,7 +181,7 @@
     const live = timeline.filter(p => p.start <= now && now < p.end).sort((a,b)=>a.end-b.end);
     const upcoming = timeline.filter(p => p.start > now).slice(0, 4);
     document.getElementById('now').innerHTML = live.length
-      ? live.map(p => row(p, (p.openEnded?'from ':'til ') + fmtAt(p.openEnded?p.start:p.end))).join('')
+      ? live.map(p => row(p, p.openEnded ? ('from ' + fmtAt(p.start)) : (fmtAt(p.start) + ' → ' + fmtAt(p.end)))).join('')
       : '<div class="reel-empty">quiet hour on the reel — check tonight\'s list below 🐢</div>';
     document.getElementById('next').innerHTML = upcoming.length
       ? upcoming.map(p => row(p, fmtIn(p.start - now) + ' · ' + fmtAt(p.start))).join('')
