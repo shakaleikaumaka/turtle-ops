@@ -130,7 +130,7 @@
   </footer>
 </div>
 
-<script src="data/food-picks.js?v=20260901-1525"></script>
+<script src="data/food-picks.js?v=20260901-1545"></script>
 <script>
 (function(){
   const em = document.getElementById('embers');
@@ -266,7 +266,7 @@
   setInterval(syncData, 300000);
 
   // ── HIGHLIGHT REEL: right now + up next (playa/Pacific time) ──
-  const DAY_DATES = { 'Monday · Aug 31':'2026-08-31','Tuesday · Sep 1':'2026-09-01','Wednesday · Sep 2':'2026-09-02','Thursday · Sep 3':'2026-09-03','Friday · Sep 4':'2026-09-04','Saturday · Sep 5':'2026-09-05','Sunday · Sep 6':'2026-09-06','Monday · Sep 7':'2026-09-07' };
+  const DAY_DATES = { 'Sunday · Aug 30':'2026-08-30','Monday · Aug 31':'2026-08-31','Tuesday · Sep 1':'2026-09-01','Wednesday · Sep 2':'2026-09-02','Thursday · Sep 3':'2026-09-03','Friday · Sep 4':'2026-09-04','Saturday · Sep 5':'2026-09-05','Sunday · Sep 6':'2026-09-06','Monday · Sep 7':'2026-09-07' };
   function ptNow(){ return new Date(new Date().toLocaleString('en-US',{timeZone:'America/Los_Angeles'})); }
   function parsePick(p){
     const date = DAY_DATES[p.day]; if (!date) return null;
