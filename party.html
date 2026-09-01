@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>🎉 Manu's Top Party Picks — BM 2026 · theshellpit.com</title>
+<title>🐢🎉 Terri's Top Party Picks — BM 2026 · theshellpit.com</title>
 <link rel="icon" href="assets/terrible-turtle.png">
 <style>
   :root {
@@ -26,6 +26,16 @@
   .updated { color: var(--dim); font-size: .72rem; margin-top: 8px; }
   .search { display: block; width: 100%; max-width: 420px; margin: 18px auto 0; padding: 11px 16px; border-radius: 999px; border: 1px solid var(--card-edge); background: var(--card); color: var(--bone); font-size: .95rem; outline: none; }
   .search:focus { border-color: var(--orange); }
+  .curators { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin: 20px 0 0; }
+  .cur { border: 1px solid var(--card-edge); background: var(--card); color: var(--dim); border-radius: 14px; padding: 9px 18px; font-size: .88rem; font-weight: 700; cursor: pointer; transition: all .15s; user-select: none; }
+  .cur:hover { border-color: var(--orange); color: var(--bone); }
+  .cur.on { background: linear-gradient(160deg, var(--orange), var(--ember)); color: #1a0d00; border-color: var(--orange); }
+  .cur.add { border-style: dashed; font-weight: 400; font-style: italic; }
+  .cur-tag { text-align: center; color: var(--dim); font-size: .8rem; font-style: italic; margin-top: 10px; }
+  .mission { background: linear-gradient(165deg, var(--card), var(--bg2)); border: 1px solid var(--card-edge); border-left: 4px solid var(--green); border-radius: 16px; padding: 16px 18px; margin-bottom: 12px; }
+  .mission h3 { font-size: 1.02rem; margin-bottom: 6px; }
+  .mission p { color: var(--dim); font-size: .88rem; line-height: 1.5; }
+  .mission .idea-meta { margin-top: 8px; }
   .chips { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin: 18px 0 6px; }
   .chip { border: 1px solid var(--card-edge); background: var(--card); color: var(--dim); border-radius: 999px; padding: 7px 14px; font-size: .8rem; cursor: pointer; transition: all .15s; user-select: none; }
   .chip:hover { border-color: var(--orange); color: var(--bone); }
@@ -94,8 +104,8 @@
   <a class="back" href="index.html">← theshellpit.com</a>
   <header>
     <img class="turtle-logo" src="assets/terrible-turtle.png" alt="Terrible Turtle">
-    <h1>🎉 Manu's Top Party Picks</h1>
-    <div class="sub">Burning Man 2026 · where the music is</div>
+    <h1>🐢 Terri's Top Party Picks</h1>
+    <div class="sub">Burning Man 2026 · every party on playa · every party we make ourselves</div>
     <div class="credit" id="credit"></div>
     <div class="updated" id="updated"></div>
     <input class="search" id="q" type="search" placeholder="🔍 artist, camp, address…">
@@ -105,6 +115,8 @@
     <div class="panel next"><h2>⏭️ Up Next</h2><div id="next"></div></div>
     <div class="panel ideas"><h2>💡 Party Ideas</h2><div id="ideas"></div><div class="idea-cta">got a party dream? tell Terri 🐢 or drop it in the camp chat — we make it real together</div></div>
   </div>
+  <div class="curators" id="curators"></div>
+  <div class="cur-tag" id="curtag"></div>
   <div class="chips" id="chips"></div>
   <div id="out"></div>
   <footer>
@@ -195,7 +207,7 @@
       if (fresh && fresh.picks && fresh.updated !== PARTY.updated) {
         Object.assign(PARTY, fresh); timesCache.clear();
         document.getElementById('updated').textContent = '🕐 updated ' + PARTY.updated + ' · live-syncing';
-        chips(); render(); reel(); renderIdeas();
+        renderCurators(); dispatch(); reel(); renderIdeas();
       }
     } catch(e){}
   }
@@ -246,9 +258,37 @@
     : '<div class="reel-empty">no dreams filed yet — be the first 💡</div>';
   }
 
+  // ── CURATORS: selectable curated sections ──
+  let curator = 'manu';
+  function renderCurators(){
+    const cs = PARTY.curators || [{key:'manu',name:'Manu 🎻',tagline:'',kind:'timed'}];
+    document.getElementById('curators').innerHTML =
+      cs.map(c=>`<span class="cur ${curator===c.key?'on':''}" data-c="${esc(c.key)}">${esc(c.name)}</span>`).join('') +
+      `<span class="cur add">➕ yours — tell Terri 🐢</span>`;
+    const cur = cs.find(c=>c.key===curator) || cs[0];
+    document.getElementById('curtag').textContent = cur.tagline || '';
+  }
+  document.getElementById('curators').addEventListener('click', e=>{
+    const c = e.target.dataset.c; if(!c) return;
+    curator = c; renderCurators(); dispatch();
+  });
+  function dispatch(){
+    const cs = PARTY.curators || []; const cur = cs.find(c=>c.key===curator);
+    if (cur && cur.kind === 'missions'){
+      document.getElementById('chips').style.display = 'none';
+      const ms = (PARTY.missionPicks||[]).filter(m=>m.curator===curator);
+      document.getElementById('out').innerHTML = ms.length
+        ? ms.map(m=>`<div class="mission"><h3>${esc(m.title)}</h3><p>${esc(m.why)}</p><div class="idea-meta">🐢 join in<span class="idea-status">${esc(m.status)}</span></div></div>`).join('')
+        : '<div class="none">no picks filed yet — tell Terri 🐢</div>';
+    } else {
+      document.getElementById('chips').style.display = '';
+      chips(); render();
+    }
+  }
+
   // ── BOOT: first paint + live sync loops ──
-  chips(); render(); renderIdeas();
-  setInterval(render, 60000);
+  renderCurators(); dispatch(); renderIdeas();
+  setInterval(()=>{ dispatch(); }, 60000);
   setInterval(syncData, 300000);
 })();
 </script>
