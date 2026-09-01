@@ -4,9 +4,9 @@
 // camp.address: our placement (e.g. '7:30 & E') — all distances measured from here.
 // When the official BM API key lands (/shared/ttc/bm-api/KEY), food events auto-feed here.
 const PARTY = {
- "updated": "2026-09-01 15:24 PT",
+ "updated": "2026-09-01 15:36 PT",
  "title": "Terri's Top Food Picks",
- "credit": "🍕 Tell Terri 🐢 where the good food is — every find gets filed · official Burning Man events feed connecting soon",
+ "credit": "🍕 Feeding this board: the What Where When guide (photograph pages → Drive folder) + camp finds via Terri 🐢 + official BM API once the key lands",
  "intro": "Where the best food on playa is — live now, up later. Anyone can add a find: tell Terri in any camp chat.",
  "curators": [
   {
@@ -31,11 +31,21 @@ const PARTY = {
  "picks": [],
  "ideas": [
   {
+   "title": "📖 THE MISSION: photograph the What Where When guide",
+   "dream": "Everyone got the little WWW booklet at Greeters. Photograph the FOOD pages (or the whole thing) and drop the photos in the Turtle Build week Drive folder — the machine parses every page into this board: every pancake breakfast, grilled cheese, ramen night on playa, sorted by distance from 6:15 & E.",
+   "needs": [
+    "ONE copy of the What Where When guide from anyone in camp",
+    "Phone photos of the pages → Turtle Build week Drive folder",
+    "(machine does the rest — OCR, parse, distances, live board)"
+   ],
+   "by": "Shaka",
+   "status": "HUNT IS ON"
+  },
+  {
    "title": "🧀 Find the legendary midnight grilled cheese",
    "dream": "Every burn has one camp flipping grilled cheese for the 2am wanderers. Scout it, pin it, share it.",
    "needs": [
-    "First scout report — tell Terri where you found hot food",
-    "BM API key (requested — lands at the ʻohana inbox) → official food events auto-feed"
+    "First scout report — tell Terri where you found hot food"
    ],
    "by": "Shaka",
    "status": "scouting"
