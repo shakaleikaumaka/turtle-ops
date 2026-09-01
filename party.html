@@ -285,10 +285,15 @@
   function row(p, when){ return `<div class="reel-item"><div><div class="reel-who">${esc(p.artist)}</div><div class="reel-camp">${esc(p.camp)}${when?` · <span class="reel-when">${when}</span>`:''}</div>${distRow(p.where)}</div><div class="reel-where">${esc(p.where||'📍 ask around')}</div></div>`; }
   function reel(){
     const now = ptNow();
-    const live = timeline.filter(p => p.start <= now && now < p.end).sort((a,b)=>a.end-b.end);
+    let live = timeline.filter(p => p.start <= now && now < p.end);
+    live = (typeof campXY !== 'undefined' && campXY)
+      ? live.sort((a,b)=>{ const da=distInfo(a.where), db=distInfo(b.where); return ((da?da.ft:9e9)-(db?db.ft:9e9)) || (a.end-b.end); })
+      : live.sort((a,b)=>a.end-b.end);
+    const liveTotal = live.length; live = live.slice(0, 6);
     const upcoming = timeline.filter(p => p.start > now).slice(0, 4);
     document.getElementById('now').innerHTML = live.length
       ? live.map(p => row(p, p.openEnded ? ('from ' + fmtAt(p.start)) : (fmtAt(p.start) + ' → ' + fmtAt(p.end)))).join('')
+        + (liveTotal > 6 ? `<div class="reel-empty">…+ ${liveTotal-6} more live right now — full list below 🐢</div>` : '')
       : '<div class="reel-empty">quiet hour on the reel — check tonight\'s list below 🐢</div>';
     document.getElementById('next').innerHTML = upcoming.length
       ? upcoming.map(p => row(p, fmtIn(p.start - now) + ' · ' + fmtAt(p.start))).join('')
