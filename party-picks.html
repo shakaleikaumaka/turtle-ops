@@ -44,6 +44,16 @@
   .where { background: #2c1f10; color: var(--orange-hot); border-radius: 10px; padding: 6px 12px; font-weight: 800; font-size: .88rem; white-space: nowrap; text-align: center; }
   .where.deep { color: var(--pink); }
   .none { color: var(--dim); font-style: italic; text-align: center; padding: 30px 0; }
+  .turtle-logo { width: min(190px, 46vw); margin: 0 auto 4px; display: block; filter: drop-shadow(0 0 24px rgba(255,122,26,.45)); animation: glow 4s ease-in-out infinite alternate; }
+  @keyframes glow { from { filter: drop-shadow(0 0 14px rgba(255,122,26,.35)); } to { filter: drop-shadow(0 0 34px rgba(255,157,69,.65)); } }
+  /* live highlighter in the main list */
+  .pick.live-now { border-color: #ff3b3b; border-left: 5px solid #ff3b3b; background: linear-gradient(165deg, #2a130c, var(--bg2)); box-shadow: 0 0 22px rgba(255,59,59,.18); position: relative; }
+  .pick.live-now .artist { color: #ffd9d9; font-size: 1.04rem; }
+  .pick.live-now .time { color: #ff7b7b; }
+  .live-badge { display: inline-block; background: #ff3b3b; color: #1a0000; font-size: .62rem; font-weight: 900; letter-spacing: .12em; border-radius: 999px; padding: 2px 8px; margin-left: 8px; animation: pulse 1.4s ease-in-out infinite; vertical-align: middle; }
+  .pick.past { opacity: .38; }
+  .now-line { display: flex; align-items: center; gap: 10px; color: #ff5d5d; font-size: .72rem; font-weight: 800; letter-spacing: .18em; text-transform: uppercase; margin: 2px 0; }
+  .now-line::before, .now-line::after { content: ""; flex: 1; height: 2px; background: linear-gradient(90deg, transparent, #ff3b3b, transparent); box-shadow: 0 0 8px rgba(255,59,59,.6); }
   /* highlight reel */
   .reel { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; margin: 22px 0 4px; }
   @media (max-width: 980px) { .reel { grid-template-columns: 1fr 1fr; } }
@@ -83,6 +93,7 @@
 <div class="wrap">
   <a class="back" href="index.html">← theshellpit.com</a>
   <header>
+    <img class="turtle-logo" src="assets/terrible-turtle.png" alt="Terrible Turtle">
     <h1>🎉 Manu's Top Party Picks</h1>
     <div class="sub">Burning Man 2026 · where the music is</div>
     <div class="credit" id="credit"></div>
@@ -141,21 +152,54 @@
       const picks = PARTY.picks.filter(p => p.day===d && (!q || (p.artist+' '+p.camp+' '+p.where).toLowerCase().includes(q)));
       if (!picks.length) continue;
       html += `<div class="day-h">${esc(d)}${d===todayLabel?'<span class="today-tag">TODAY</span>':''}</div><div class="list">`;
-      html += picks.map(p=>`
-        <div class="pick">
-          <div class="time">${esc(p.time)}</div>
+      const nowT = ptNow(); let nowLinePlaced = false;
+      html += picks.map(p=>{
+        const t = pickTimes(p);
+        const isLive = t && t.start <= nowT && nowT < t.end;
+        const isPast = t && t.end <= nowT;
+        let pre = '';
+        if (!nowLinePlaced && d===todayLabel && t && t.start > nowT) { pre = nowLine(nowT); nowLinePlaced = true; }
+        return pre + `
+        <div class="pick ${isLive?'live-now':''} ${isPast?'past':''}">
+          <div class="time">${esc(p.time)}${isLive?'<span class="live-badge">● LIVE</span>':''}</div>
           <div>
             <div class="artist">${esc(p.artist)}</div>
             <div class="camp">${esc(p.camp)}</div>
             ${p.by?`<div class="by">📸 ${esc(p.by)}</div>`:''}
           </div>
           <div class="where ${/deep/i.test(p.where)?'deep':''}">${esc(p.where||'📍 ask around')}</div>
-        </div>`).join('');
+        </div>`;}).join('');
+      if (d===todayLabel && !nowLinePlaced) html += nowLine(nowT);
       html += '</div>';
     }
     document.getElementById('out').innerHTML = html || '<div class="none">nothing matches — the playa provides elsewhere tonight 🐢</div>';
   }
-  chips(); render();
+  // helpers shared by list + reel
+  const timesCache = new Map();
+  function pickTimes(p){
+    const k = p.day+'|'+p.time+'|'+p.artist;
+    if (timesCache.has(k)) return timesCache.get(k);
+    const parsed = parsePick(p); const v = parsed ? {start:parsed.start, end:parsed.end} : null;
+    timesCache.set(k, v); return v;
+  }
+  function nowLine(t){ return `<div class="now-line">🐢 right now · ${t.toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'}).toLowerCase()}</div>`; }
+
+  // (boot happens at the end of the script, after all definitions)
+  async function syncData(){
+    try {
+      const r = await fetch('data/party-picks.js?live=' + Date.now(), {cache:'no-store'});
+      if (!r.ok) return;
+      const txt = await r.text();
+      const body = txt.replace(/^\/\/.*$/gm,'').replace(/const PARTY *= */,'').trim().replace(/;$/,'');
+      const fresh = JSON.parse(body);
+      if (fresh && fresh.picks && fresh.updated !== PARTY.updated) {
+        Object.assign(PARTY, fresh); timesCache.clear();
+        document.getElementById('updated').textContent = '🕐 updated ' + PARTY.updated + ' · live-syncing';
+        chips(); render(); reel(); renderIdeas();
+      }
+    } catch(e){}
+  }
+  setInterval(syncData, 300000);
 
   // ── HIGHLIGHT REEL: right now + up next (playa/Pacific time) ──
   const DAY_DATES = { 'Monday · Aug 31':'2026-08-31','Tuesday · Sep 1':'2026-09-01','Wednesday · Sep 2':'2026-09-02','Thursday · Sep 3':'2026-09-03','Friday · Sep 4':'2026-09-04','Saturday · Sep 5':'2026-09-05','Sunday · Sep 6':'2026-09-06','Monday · Sep 7':'2026-09-07' };
@@ -190,6 +234,7 @@
   reel(); setInterval(reel, 60000);
 
   // ── PARTY IDEAS — dreams the camp can make real ──
+  function renderIdeas(){
   const ideas = PARTY.ideas || [];
   document.getElementById('ideas').innerHTML = ideas.length
     ? ideas.map(i => `<div class="idea-block">
@@ -199,6 +244,12 @@
         <div class="idea-meta">💭 ${esc(i.by)}<span class="idea-status">${esc(i.status)}</span></div>
       </div>`).join('')
     : '<div class="reel-empty">no dreams filed yet — be the first 💡</div>';
+  }
+
+  // ── BOOT: first paint + live sync loops ──
+  chips(); render(); renderIdeas();
+  setInterval(render, 60000);
+  setInterval(syncData, 300000);
 })();
 </script>
 </body>
