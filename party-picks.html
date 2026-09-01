@@ -234,7 +234,7 @@
   }
   (function(){ const el = document.getElementById('campbanner'); if (!el) return;
     el.innerHTML = campXY
-      ? `📍 distances measured from <b>${esc(PARTY.camp.label)}</b> at <b>${esc(PARTY.camp.address)}</b> — budget your ride before the drop`
+      ? `📍 distances measured from <b>${esc(PARTY.camp.label)}</b> at <b>${esc(PARTY.camp.address)}</b> — all times are PLAYA TIME (PT) — budget your ride before the drop`
       : `📍 distances light up when Terri knows our exact camp address — Shaka, what's our cross street? 🐢`; })();
 
   // helpers shared by list + reel
@@ -245,7 +245,7 @@
     const parsed = parsePick(p); const v = parsed ? {start:parsed.start, end:parsed.end} : null;
     timesCache.set(k, v); return v;
   }
-  function nowLine(t){ return `<div class="now-line">🐢 right now · ${t.toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'}).toLowerCase()}</div>`; }
+  function nowLine(t){ return `<div class="now-line">🐢 right now · ${t.toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'}).toLowerCase()} playa time</div>`; }
 
   // (boot happens at the end of the script, after all definitions)
   async function syncData(){
