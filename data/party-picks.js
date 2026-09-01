@@ -3,7 +3,7 @@
 // or start a curated section: tell Terri 🐢 in any camp chat.
 // Edit + bump updated; never rename const PARTY or its keys.
 const PARTY = {
- "updated": "2026-09-01 15:10 PT",
+ "updated": "2026-09-01 15:24 PT",
  "credit": "🎻 Founding music list curated by Manu Alzuru — Open Source Orchestra Node 004, riding with the turtles · every curator welcome",
  "ideas": [
   {
@@ -623,5 +623,9 @@ const PARTY = {
    "why": "Get the yurts solid before the next dust blow. Bring gloves and one good speaker.",
    "status": "recruiting"
   }
- ]
+ ],
+ "camp": {
+  "label": "Terrible Turtle Camp 🐢",
+  "address": "6:15 & E"
+ }
 };

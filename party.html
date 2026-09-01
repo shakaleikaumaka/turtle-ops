@@ -54,6 +54,10 @@
   .where { background: #2c1f10; color: var(--orange-hot); border-radius: 10px; padding: 6px 12px; font-weight: 800; font-size: .88rem; white-space: nowrap; text-align: center; }
   .where.deep { color: var(--pink); }
   .none { color: var(--dim); font-style: italic; text-align: center; padding: 30px 0; }
+  .dist { display: flex; gap: 10px; flex-wrap: wrap; font-size: .74rem; color: var(--green); margin-top: 4px; font-weight: 700; }
+  .dist span { background: #10190e; border-radius: 8px; padding: 2px 8px; }
+  .dist .mi { color: var(--yellow); background: #241c08; }
+  .camp-banner { text-align:center; margin: 14px auto 0; max-width: 560px; padding: 10px 16px; border: 1px dashed var(--card-edge); border-radius: 12px; color: var(--dim); font-size: .82rem; }
   .turtle-logo { width: min(190px, 46vw); margin: 0 auto 4px; display: block; filter: drop-shadow(0 0 24px rgba(255,122,26,.45)); animation: glow 4s ease-in-out infinite alternate; }
   @keyframes glow { from { filter: drop-shadow(0 0 14px rgba(255,122,26,.35)); } to { filter: drop-shadow(0 0 34px rgba(255,157,69,.65)); } }
   /* live highlighter in the main list */
@@ -115,6 +119,7 @@
     <div class="panel next"><h2>⏭️ Up Next</h2><div id="next"></div></div>
     <div class="panel ideas"><h2>💡 Party Ideas</h2><div id="ideas"></div><div class="idea-cta">got a party dream? tell Terri 🐢 or drop it in the camp chat — we make it real together</div></div>
   </div>
+  <div class="camp-banner" id="campbanner"></div>
   <div class="curators" id="curators"></div>
   <div class="cur-tag" id="curtag"></div>
   <div class="chips" id="chips"></div>
@@ -125,7 +130,7 @@
   </footer>
 </div>
 
-<script src="data/party-picks.js?v=20260901-1439"></script>
+<script src="data/party-picks.js?v=20260901-1525"></script>
 <script>
 (function(){
   const em = document.getElementById('embers');
@@ -185,6 +190,7 @@
           <div>
             <div class="artist">${esc(p.artist)}</div>
             <div class="camp">${esc(p.camp)}</div>
+            ${distRow(p.where)}
             ${p.by?`<div class="by">📸 ${esc(p.by)}</div>`:''}
           </div>
           <div class="where ${/deep/i.test(p.where)?'deep':''}">${esc(p.where||'📍 ask around')}</div>
@@ -194,6 +200,43 @@
     }
     document.getElementById('out').innerHTML = html || '<div class="none">nothing matches — the playa provides elsewhere tonight 🐢</div>';
   }
+  // ── BRC GEOMETRY: distance from OUR camp (approx city dimensions, marked ~) ──
+  function brcXY(addr){
+    if (!addr) return null;
+    const a = String(addr).toLowerCase();
+    const hm = a.match(/(\d{1,2})(?::(\d{2}))?/);
+    if (!hm) return null;
+    const hour = (+hm[1]) + (hm[2] ? (+hm[2])/60 : 0);
+    if (hour < 1 || hour > 12) return null;
+    let r = null;
+    if (/esplanade/.test(a)) r = 2500;
+    else {
+      const sm = a.match(/&\s*([a-k])[a-z]*/); // ring letter = first letter of street name (Iroko→I)
+      if (sm) r = 2500 + (sm[1].charCodeAt(0) - 96) * 250; // ~A=2750' … ~K=5250'
+    }
+    if (r === null) return null;
+    const th = hour * Math.PI/6; // 12:00 up, clockwise
+    return { x: r*Math.sin(th), y: r*Math.cos(th) };
+  }
+  const campXY = PARTY.camp && PARTY.camp.address ? brcXY(PARTY.camp.address) : null;
+  function distInfo(where){
+    if (!campXY) return null;
+    const p = brcXY(where); if (!p) return null;
+    const ft = Math.hypot(p.x - campXY.x, p.y - campXY.y);
+    const mi = (ft/5280).toFixed(1);
+    const w = Math.max(1, Math.ceil(ft/250)), bk = Math.max(1, Math.ceil(ft/700)), eb = Math.max(1, Math.ceil(ft/1000));
+    return { ft, mi, w, bk, eb };
+  }
+  function distRow(where){
+    const di = distInfo(where);
+    if (!di) return '';
+    return `<div class="dist"><span class="mi">~${di.mi} mi</span><span>🚶 ${di.w} min</span><span>🚲 ${di.bk} min</span><span>⚡🚲 ${di.eb} min</span></div>`;
+  }
+  (function(){ const el = document.getElementById('campbanner'); if (!el) return;
+    el.innerHTML = campXY
+      ? `📍 distances measured from <b>${esc(PARTY.camp.label)}</b> at <b>${esc(PARTY.camp.address)}</b> — budget your ride before the drop`
+      : `📍 distances light up when Terri knows our exact camp address — Shaka, what's our cross street? 🐢`; })();
+
   // helpers shared by list + reel
   const timesCache = new Map();
   function pickTimes(p){
@@ -239,7 +282,7 @@
   const timeline = PARTY.picks.map(parsePick).filter(Boolean).sort((a,b)=>a.start-b.start);
   function fmtIn(ms){ const m = Math.round(ms/60000); if (m < 60) return 'in ' + m + ' min'; const h = Math.floor(m/60); return 'in ' + h + 'h ' + (m%60) + 'm'; }
   function fmtAt(dt){ return dt.toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'}).toLowerCase(); }
-  function row(p, when){ return `<div class="reel-item"><div><div class="reel-who">${esc(p.artist)}</div><div class="reel-camp">${esc(p.camp)}${when?` · <span class="reel-when">${when}</span>`:''}</div></div><div class="reel-where">${esc(p.where||'📍 ask around')}</div></div>`; }
+  function row(p, when){ return `<div class="reel-item"><div><div class="reel-who">${esc(p.artist)}</div><div class="reel-camp">${esc(p.camp)}${when?` · <span class="reel-when">${when}</span>`:''}</div>${distRow(p.where)}</div><div class="reel-where">${esc(p.where||'📍 ask around')}</div></div>`; }
   function reel(){
     const now = ptNow();
     const live = timeline.filter(p => p.start <= now && now < p.end).sort((a,b)=>a.end-b.end);
