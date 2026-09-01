@@ -1,10 +1,28 @@
 // 🐢🥫 TURTLE FOOD — ALL FOOD SUPPLIES DATA
 // Sourced from receipts (WinCo 8/24 ×2, Chef'Store 8/24, Bonanza Produce 8/25) + meal plan.
 // Status key: ❄️ cooler-needed · 📦 shelf/dry · ⚠️ unassigned
-// Last updated: 2026-08-26 07:15 PT · build week, night 1 on playa
+// Last updated: 2026-09-01 13:30 PT · build week, night 1 on playa
 const FOOD = {
-  updated: "2026-08-26 07:15 PT",
+  updated: "2026-09-01 13:30 PT (veg delivery per Marcus)",
   groups: [
+    {
+      icon: "🌱", name: "Vegetarian & Vegan (Marcus pickup 9/1)", store: "delivered 9/1",
+      rows: [
+        { item: "Vegetable spring rolls ×3 boxes (3 serv ea)", qty: "9 serv", status: "❄️" },
+        { item: "Vegetable samosas ×3 boxes (3 serv ea)", qty: "9 serv", status: "❄️" },
+        { item: "Spanakopita ×5 boxes (4 serv ea)", qty: "20 serv", status: "❄️" },
+        { item: "Organic veggie burgers ×2 boxes", qty: "8 serv", status: "❄️" },
+        { item: "Vegan Italian sausage ×4", qty: "16 serv", status: "❄️" },
+        { item: "Korean beef bulgogi (vegan) ×4 boxes (3 serv ea)", qty: "12 serv", status: "❄️" },
+        { item: "Kimbap vegan tofu seaweed rolls ×4 (3 serv ea)", qty: "12 serv", status: "❄️" },
+        { item: "Vegan orange chicken ×4 (2 serv ea)", qty: "8 serv", status: "❄️" },
+        { item: "Organic sriracha tofu ×4 containers", qty: "4", status: "❄️" },
+        { item: "Organic teriyaki tofu ×4 containers", qty: "4", status: "❄️" },
+        { item: "Organic super-firm tofu ×4 containers", qty: "4", status: "❄️" },
+        { item: "Impossible beef ground ×4 containers", qty: "4", status: "❄️" },
+        { item: "Soyrizo ×1 pack + Tempeh 6-pack", qty: "1+6", status: "❄️" }
+      ]
+    },
     {
       icon: "🥩", name: "Proteins — Meat & Dairy", store: "WinCo 8/24",
       rows: [
