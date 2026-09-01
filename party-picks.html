@@ -151,28 +151,36 @@
   let q = '';
   const chipWrap = document.getElementById('chips');
   function chips(){
-    const all = [{k:'all', t:'🌵 All days'}].concat(PARTY.days.map(d=>({k:d, t:d.replace(' · ',' ')})));
+    const nowGate = ptNow();
+    const liveDays = PARTY.days.filter(d => PARTY.picks.some(p => { if (p.day!==d) return false; const t = pickTimes(p); return !t || t.end > nowGate; }));
+    if (active!=='all' && !liveDays.includes(active)) active = liveDays.includes(todayLabel) ? todayLabel : 'all';
+    const all = [{k:'all', t:'🌵 All days'}].concat(liveDays.map(d=>({k:d, t:d.replace(' · ',' ')})));
     chipWrap.innerHTML = all.map(c=>`<span class="chip ${active===c.k?'on':''} ${c.k===todayLabel?'today':''}" data-k="${esc(c.k)}">${esc(c.t)}${c.k===todayLabel?' 🟢':''}</span>`).join('');
   }
   chipWrap.addEventListener('click', e=>{ const k=e.target.dataset.k; if(!k) return; active=k; chips(); render(); });
   document.getElementById('q').addEventListener('input', e=>{ q=e.target.value.toLowerCase(); render(); });
 
   function render(){
+    const nowGate = ptNow();
     const days = active==='all' ? PARTY.days : [active];
     let html = '';
     for (const d of days){
-      const picks = PARTY.picks.filter(p => p.day===d && (!q || (p.artist+' '+p.camp+' '+p.where).toLowerCase().includes(q)));
+      const picks = PARTY.picks.filter(p => {
+        if (p.day!==d) return false;
+        if (q && !(p.artist+' '+p.camp+' '+p.where).toLowerCase().includes(q)) return false;
+        const t = pickTimes(p);
+        return !t || t.end > nowGate; // 🐢 finished parties leave the list (full record stays in the data)
+      });
       if (!picks.length) continue;
       html += `<div class="day-h">${esc(d)}${d===todayLabel?'<span class="today-tag">TODAY</span>':''}</div><div class="list">`;
       const nowT = ptNow(); let nowLinePlaced = false;
       html += picks.map(p=>{
         const t = pickTimes(p);
         const isLive = t && t.start <= nowT && nowT < t.end;
-        const isPast = t && t.end <= nowT;
         let pre = '';
         if (!nowLinePlaced && d===todayLabel && t && t.start > nowT) { pre = nowLine(nowT); nowLinePlaced = true; }
         return pre + `
-        <div class="pick ${isLive?'live-now':''} ${isPast?'past':''}">
+        <div class="pick ${isLive?'live-now':''}">
           <div class="time">${esc(p.time)}${isLive?'<span class="live-badge">● LIVE</span>':''}</div>
           <div>
             <div class="artist">${esc(p.artist)}</div>
