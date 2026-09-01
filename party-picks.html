@@ -45,8 +45,20 @@
   .where.deep { color: var(--pink); }
   .none { color: var(--dim); font-style: italic; text-align: center; padding: 30px 0; }
   /* highlight reel */
-  .reel { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin: 22px 0 4px; }
+  .reel { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; margin: 22px 0 4px; }
+  @media (max-width: 980px) { .reel { grid-template-columns: 1fr 1fr; } }
   @media (max-width: 700px) { .reel { grid-template-columns: 1fr; } }
+  .panel.ideas h2 { color: var(--pink); }
+  .idea-title { font-weight: 800; font-size: .95rem; color: var(--bone); }
+  .idea-dream { color: var(--dim); font-size: .82rem; margin: 4px 0 8px; line-height: 1.45; }
+  .idea-needs { list-style: none; }
+  .idea-needs li { font-size: .78rem; color: var(--orange-hot); padding: 3px 0 3px 2px; }
+  .idea-needs li::before { content: "🔧 "; }
+  .idea-meta { margin-top: 8px; font-size: .68rem; color: #6f5c48; text-transform: uppercase; letter-spacing: .1em; }
+  .idea-status { color: var(--pink); border: 1px solid var(--pink); border-radius: 999px; padding: 1px 9px; margin-left: 6px; }
+  .idea-block { padding: 10px 0; border-bottom: 1px dashed #33251738; }
+  .idea-block:last-child { border-bottom: none; }
+  .idea-cta { margin-top: 10px; font-size: .74rem; color: var(--dim); font-style: italic; }
   .panel { border-radius: 18px; padding: 16px 18px; border: 1px solid var(--card-edge); background: linear-gradient(165deg, #241407, var(--bg2)); }
   .panel.now { border-color: #6e1f1f; box-shadow: 0 0 30px rgba(255,77,0,.12); }
   .panel h2 { font-size: .95rem; letter-spacing: .16em; text-transform: uppercase; margin-bottom: 10px; display: flex; align-items: center; gap: 8px; }
@@ -80,6 +92,7 @@
   <div class="reel">
     <div class="panel now"><h2><span class="dot"></span> Right Now on Playa</h2><div id="now"></div></div>
     <div class="panel next"><h2>⏭️ Up Next</h2><div id="next"></div></div>
+    <div class="panel ideas"><h2>💡 Party Ideas</h2><div id="ideas"></div><div class="idea-cta">got a party dream? tell Terri 🐢 or drop it in the camp chat — we make it real together</div></div>
   </div>
   <div class="chips" id="chips"></div>
   <div id="out"></div>
@@ -175,6 +188,17 @@
       : '<div class="reel-empty">that\'s the week, turtles — see you in 2027 🔥</div>';
   }
   reel(); setInterval(reel, 60000);
+
+  // ── PARTY IDEAS — dreams the camp can make real ──
+  const ideas = PARTY.ideas || [];
+  document.getElementById('ideas').innerHTML = ideas.length
+    ? ideas.map(i => `<div class="idea-block">
+        <div class="idea-title">${esc(i.title)}</div>
+        <div class="idea-dream">${esc(i.dream)}</div>
+        <ul class="idea-needs">${(i.needs||[]).map(n=>`<li>${esc(n)}</li>`).join('')}</ul>
+        <div class="idea-meta">💭 ${esc(i.by)}<span class="idea-status">${esc(i.status)}</span></div>
+      </div>`).join('')
+    : '<div class="reel-empty">no dreams filed yet — be the first 💡</div>';
 })();
 </script>
 </body>

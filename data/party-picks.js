@@ -2,8 +2,17 @@
 // Source: party flyers collected by Manu · converted from burning_man_2026_pretty_schedule.csv
 // Edit + bump updated; never rename const PARTY or its keys.
 const PARTY = {
- "updated": "2026-09-01 13:46 PT",
+ "updated": "2026-09-01 14:17 PT",
  "credit": "Curated by Manu Alzuru 🎉 — Open Source Orchestra Node 004, riding with the turtles · from party flyers posted to camp",
+ "ideas": [
+  {
+   "title": "Sunrise renegade set at The Man",
+   "dream": "Roll out in the dark, sound facing the Man, drop the first beat as the sun cracks the mountains. The camp's gift to the dawn.",
+   "needs": ["Collab with an art car (sound + vibe)", "Transportation for the sound rig", "Power — batteries or quiet gen", "DJ lineup (Manu curates?)", "Sunrise scout: time + spot"],
+   "by": "Shaka",
+   "status": "plotting"
+  }
+ ],
  "days": [
   "Monday · Aug 31",
   "Tuesday · Sep 1",
