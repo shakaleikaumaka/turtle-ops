@@ -81,7 +81,7 @@ nav .brand{
    "Move Slow & Bite Things — the turtle bites where you click"        */
 @media (pointer:fine){
   html,body,a,button,.card,.wtab,.chip,input,[role="button"]{
-    cursor:url(assets/shellpit-turtle-cursor.png) 18 1, auto;
+    cursor:url(shellpit-turtle-cursor.png) 18 1, auto;
   }
 }
 
