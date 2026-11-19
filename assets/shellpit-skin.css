@@ -4,7 +4,7 @@
    drop-in override: load AFTER the genesis stylesheet
    every var maps 1:1 to the genesis :root contract (canonical: zuitzpit)
    palette traced from terribleturtle.camp's own CSS — brand truth
-   CC0 · consent canon: LAUNCH 2026-07-29 — assumed consent, takedown via consent@publicinform.com 🦀
+   copyleft · consent canon: LAUNCH 2026-07-29 — assumed consent, takedown via consent@publicinform.com 🦀
    ============================================================ */
 
 :root{
@@ -87,4 +87,4 @@ nav .brand{
 
 /* ---------- STANDING CANON ----------
    silence: no music player, ever — pits listen, they don't sing
-   no target=_blank · no trackers · CC0 — fork me like crazy 🍴      */
+   no target=_blank · no trackers · CC BY-SA 4.0 — fork me like crazy 🍴      */

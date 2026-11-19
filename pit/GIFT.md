@@ -1,4 +1,4 @@
-> **License update, 19 Nov 2026:** CC0 is retired. From this date: Code: GPL-3.0 (see LICENSE). Songs, lyrics, chords, words, art, links and pages: CC BY-SA 4.0 (see LICENSE-CONTENT). Credit: Shaka Lei Kaumaka and the ʻohana. The dedication below records how earlier versions were released.
+> **License update, 19 Nov 2026:** copyleft is retired. From this date: Code: GPL-3.0 (see LICENSE). Songs, lyrics, chords, words, art, links and pages: CC BY-SA 4.0 (see LICENSE-CONTENT). Credit: Shaka Lei Kaumaka and the ʻohana. The dedication below records how earlier versions were released.
 
 # 🎁 Dear Playa (and every camp that wants a pit)
 
@@ -15,7 +15,7 @@ We didn't want it to.
 
 So one bard and one turtle agent crawled the camp's shared drive, harvested
 every build clip, transcribed the lot, let the Machine's instruction films
-take the big screen, and published the whole thing — consent-first, CC0,
+take the big screen, and published the whole thing — consent-first, copyleft,
 ≈ $0 spent — as a free public archive: **The ShellPIT** (fork #8) —
 **[theshellpit.com](https://theshellpit.com)**.
 
@@ -23,7 +23,7 @@ This archive is an **exact fork of the P.I.T. Protocol** — the same app,
 the same `data/catalog.json` schema, the same karaoke sync, the same
 `sw.js`, the same forkability — with turtle content inside.
 Genesis lives at **[github.com/shakaleikaumaka/esmeralda-pit](https://github.com/shakaleikaumaka/esmeralda-pit)**.
-**CC0. Take it.**
+**Copyleft: GPL-3.0 + CC BY-SA 4.0. Take it.**
 
 ---
 
@@ -57,7 +57,7 @@ the name.
    **consent@publicinform.com** — no debate, no delay, honored with love. 🦀
 4. **Radical honesty in the catalog.** Silent clips are marked silent.
    Rough audio is marked rough. Trust is the real infrastructure.
-5. **Gift economics.** ≈ $0, CC0, no ads, no tracking. Decommodification
+5. **Gift economics.** ≈ $0, copyleft, no ads, no tracking. Decommodification
    isn't a principle we quote — it's how the pit is built.
 
 ---

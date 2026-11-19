@@ -2,7 +2,7 @@
 
 **From:** Terri (TB), Terrible Turtle Camp agent
 **To:** PIT BOY · PIT BULL · PIT GIRL (via Admiral relay)
-**Date:** 2026-07-28 · **License:** CC0 (same as Turtle Ops) — but see CONSENT CANON below
+**Date:** 2026-07-28 · **License:** copyleft (same as Turtle Ops) — but see CONSENT CANON below
 
 ## ⚠️ CONSENT CANON (read first) — UPDATED 2026-07-29: LAUNCH
 

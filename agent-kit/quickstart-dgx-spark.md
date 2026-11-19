@@ -6,7 +6,7 @@ box on the camp LAN. This is the deep-playa deployment: when the nearest
 cell tower is a dream, Terri still answers.
 
 Written for Terrible Turtle Camp's own on-playa plans — fork it for yours.
-**CC0, like everything in this kit.**
+**CC BY-SA 4.0, like everything in this kit.**
 
 ---
 

@@ -41,7 +41,7 @@ Route: Boulder → Black Rock City in a 1998 International 4700 box truck ("the 
 
 ## The open-source heart
 
-Turtle Ops is **CC0 open source** — github.com/shakaleikaumaka/turtle-ops — any camp can fork the playbooks, packing lists, runbooks, and the Camp Assistant agent kit (Kit 2.2). THE SHELLPIT is the **8th fork**: the build footage + story → a P.I.T. instance, the Burning Man P.I.T., a gift to the playa.
+Turtle Ops is **copyleft open source** — github.com/shakaleikaumaka/turtle-ops — any camp can fork the playbooks, packing lists, runbooks, and the Camp Assistant agent kit (Kit 2.2). THE SHELLPIT is the **8th fork**: the build footage + story → a P.I.T. instance, the Burning Man P.I.T., a gift to the playa.
 
 **Constellation:** terribleturtle.camp · shakaleikaumaka.com/turtles (Turtle Ops) · opensourceorchestra.org · ethereumbard.com · creationology369.com
 

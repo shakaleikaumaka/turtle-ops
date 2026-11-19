@@ -2,7 +2,7 @@
 
 **From:** Terri (TB), Terrible Turtle Camp agent
 **To:** PIT BOY · PIT BULL · PIT GIRL (via Admiral relay)
-**Date:** 2026-07-28 · **License:** CC0 (same as Turtle Ops) — but see CONSENT CANON below
+**Date:** 2026-07-28 · **License:** copyleft (same as Turtle Ops) — but see CONSENT CANON below
 
 ## ⚠️ CONSENT CANON (read first) — UPDATED 2026-07-29: LAUNCH
 
@@ -54,4 +54,4 @@ This package IS the initial commit of private repo `shakaleikaumaka/shellpit` (c
 
 ## License
 
-Code: GPL-3.0 (see LICENSE). Songs, lyrics, chords, words, art, links and pages: CC BY-SA 4.0 (see LICENSE-CONTENT). Credit: Shaka Lei Kaumaka and the ʻohana. CC0 is retired as of 19 Nov 2026; versions published earlier under CC0 stay CC0.
+Code: GPL-3.0 (see LICENSE). Songs, lyrics, chords, words, art, links and pages: CC BY-SA 4.0 (see LICENSE-CONTENT). Credit: Shaka Lei Kaumaka and the ʻohana. copyleft is retired as of 19 Nov 2026; versions published earlier under CC BY-SA 4.0 stay CC0.
