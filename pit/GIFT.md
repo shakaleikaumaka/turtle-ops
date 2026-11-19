@@ -1,3 +1,5 @@
+> **License update, 19 Nov 2026:** CC0 is retired. From this date: Code: GPL-3.0 (see LICENSE). Songs, lyrics, chords, words, art, links and pages: CC BY-SA 4.0 (see LICENSE-CONTENT). Credit: Shaka Lei Kaumaka and the ʻohana. The dedication below records how earlier versions were released.
+
 # 🎁 Dear Playa (and every camp that wants a pit)
 
 You gave us a home in the dust. We give you back its memory.
